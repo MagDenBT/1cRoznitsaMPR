@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62850ab0-e3b1-44f8-97df-c767b3574872" thisNode="e0fe9369-f6e6-40ad-8503-8ddb0e44882f">
+  <producedTypes>
+    <objectType typeId="72352708-932d-4646-bcb5-22f4d5ff532d" valueTypeId="11c582f2-578b-4434-bead-a4a071f3574d"/>
+    <refType typeId="036f4767-b565-4f1a-bfa5-72b89acbb112" valueTypeId="803b2566-2557-47c5-bcea-2d1b8295e78b"/>
+    <selectionType typeId="437fed98-9c47-4cf9-84f7-e9aea9826dde" valueTypeId="a3595112-d87a-4f04-94a7-6d454521a3a7"/>
+    <listType typeId="f4750205-c1ff-4b48-9c8f-a77c520b5eb8" valueTypeId="e8be1b23-1c1a-4221-96d6-7acd2d3cf76d"/>
+    <managerType typeId="0dff220c-7ef6-4687-a3dc-122bc77bac05" valueTypeId="dede983f-7aee-447f-9973-c6ff391a4bd7"/>
+  </producedTypes>
+  <name>ОбменРозницаУправлениеПредприятием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление производственным предприятием, редакция 1.3</value>
+  </synonym>
+  <comment>Синхронизация данных между конфигурациями &quot;Розница&quot;, редакция 2.1 и &quot;Управление производственным предприятием&quot;, редакция 1.3</comment>
+  <inputByString>ExchangePlan.ОбменРозницаУправлениеПредприятием.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменРозницаУправлениеПредприятием.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование узла плана обмена</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код узла плана обмена</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Синхронизация данных конфигураций &quot;Розница&quot;, ред. 2.1 и &quot;Управление производственным предприятием&quot;, ред. 1.3</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Синхронизация данных с &quot;Управление производственным предприятием&quot;, редакция 1.3</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет настройки синхронизации данных с конфигурацией &quot;Управление производственным предприятием&quot;, ред. 1.3: отбор данных, участвующих в синхронизации, а также некоторые параметры управления синхронизацией.</value>
+  </explanation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.ОтчетОРозничныхПродажах</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПрименениеЦенНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НаборыДополнительныхРеквизитовИСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДолжностиОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыАлкогольнойПродукции</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФИОФизЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыЦен</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РасходныйКассовыйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КомплектующиеНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьСоответствиеНоменклатурыЕГАИС</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПересортицаТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УдалитьСоответствиеОрганизацийЕГАИС</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОплатаОтПокупателяПлатежнойКартой</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РеализацияТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторОрганизацийЕГАИС</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыОплатЧекаККМ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПриходныйОрдерНаТовары</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЛицензииПоставщиковАлкогольнойПродукции</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторАлкогольнойПродукцииЕГАИС</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.БазовыеЕдиницыИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВозвратТоваровПоставщику</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтраныМира</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ЗаказНаПеремещение</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТоварныеГруппы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КассыККМ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СписаниеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПеремещениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторБанков</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОтветственныеЛицаОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Магазины</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СборкаТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РасходныйОрдерНаТовары</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УпаковкиНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ХарактеристикиНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.Штрихкоды</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ТипыШтрихкодов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВозвратТоваровОтПокупателя</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПриходныйКассовыйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Кассы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.БанковскиеСчета</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОприходованиеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ТТНВходящаяЕГАИС</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменРозницаУправлениеПредприятием.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="8c1f26f4-f7a8-442d-8df2-e014b3e3ff0d">
+    <name>ДатаНачалаВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала выгрузки документов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, начиная с которой изменения в документах отправляются в другую программу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2762e897-783c-4e46-b67c-827050537c88">
+    <name>ИспользоватьОтборПоОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по организациям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по организациям</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fa5dce7-2b78-4ea0-9ef5-f8b770b7aef3">
+    <name>ИспользоватьОтборПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по складам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования отбора выгружаемых данных по магазинам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fd098ed-fcc0-48aa-a1c5-7086a51c4a49">
+    <name>РегистрироватьИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать изменения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости регистрации изменений данных на узле</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e52db8cc-f35e-49a7-a8bd-18de0bb16cf5">
+    <name>РежимВыгрузкиПриНеобходимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки при необходимости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Управляет режимом выгрузки объектов обмена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПриНеобходимости</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b6f95dfd-efe1-4167-9d56-4bf96f3f6e75">
+    <producedTypes>
+      <objectType typeId="1eb8f074-a571-40b8-acb3-40a27cc79f74" valueTypeId="b054c9de-3e25-4370-93f4-0a7d14152e11"/>
+      <rowType typeId="595f41de-7d4a-4b00-923d-6317d11ddcff" valueTypeId="e8269a29-563d-4c16-8915-b9a2ecd9b919"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2585890b-4393-41b6-b4d5-2974893ce7a0">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Организация по которой производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="672ea4c3-947b-428d-a114-557de12eea5a">
+    <producedTypes>
+      <objectType typeId="3903d0c9-e8fe-4b27-8f15-2458a56dcc71" valueTypeId="687e67ed-e9a3-4077-b8bd-f985671bc134"/>
+      <rowType typeId="96834ced-d989-4b7e-b59a-bc3241799d94" valueTypeId="4d780c89-e574-4f12-bbe5-8c21d0abca94"/>
+    </producedTypes>
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a1356be7-7883-4af7-96de-fda89c34ba64">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Магазины</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Магазин-отправитель по которому производится выгрузка данных</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d360b5d7-1fa1-4201-a131-f153105d4f51">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b468212a-3ad1-4f8b-9c3b-1474b64ca317">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="862b79f7-69fb-4fb0-bbac-fbb52576bbf6">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="be4f0afc-8e45-4c26-95c6-890b21332585">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена с &quot;Управление торговлей&quot; 10.3</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0a66a63f-4496-4b06-a5a6-40adff10a30b">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="03e3854a-920d-4996-bfe2-f294ee2d5691">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

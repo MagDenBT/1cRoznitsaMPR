@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf6024d9-ffc6-488a-91f7-3822a06d2b0e">
+  <producedTypes>
+    <refType typeId="2d6603a8-267d-49df-bedb-ca1139970c8f" valueTypeId="275aa059-f0b6-4cdc-89ef-67712cf55440"/>
+    <listType typeId="f4d00496-af91-49f8-aee0-e11959ba0f38" valueTypeId="d2a10c61-a4c0-4eee-8d1e-095bfae17974"/>
+    <managerType typeId="3e5f04db-ea14-47c3-8b8b-bfb0c59df01f" valueTypeId="ee5208a9-b438-4f9d-b111-49ee4355a5f1"/>
+  </producedTypes>
+  <name>ds_РежимыОбъединенияСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы объединения скидок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b44b77bc-2955-4d90-ab5b-bd4ec5237322">
+    <name>НеНачислятьНаСуммуДругихСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не начислять на сумму других скидок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5d01588-a385-4d91-bcb9-2fbfd72eb8ee">
+    <name>НеНачислятьНаТоварыСоСкидкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не начислять на товары со скидкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79005b04-fe6c-4c05-9407-59deebf14721">
+    <name>НачислятьНаВсе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять на все</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

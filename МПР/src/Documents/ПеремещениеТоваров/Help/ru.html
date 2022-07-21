@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html;charset=utf-8" http-equiv="content-type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 11.00.10570.1001"></meta></head><body>
+<h2 style="font-size: 15.679999351501465px; color: rgb(31, 78, 121);">Перемещение товаров</h2>
+<p>Для оформления перемещения товаров внутри магазина, между магазинами и передачи товаров между организациями создается документ <b>Перемещение
+товаров</b>.</p>
+<p>С помощью данного документа можно отражать следующие комбинации перемещений:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>между разными магазинами в рамках одной организации;<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>между разными магазинами в рамках различных организаций;<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>внутри магазина по одной организации между разными складами;<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>внутри магазина между складами различных организаций;<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>внутри магазина по одному складу между разными организациями.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>При совместной работе с конфигурацией «Управление торговлей» поддерживается основной сценарий централизованного снабжения товарами магазинов сети из распределительного центра. Поступление товаров в магазин оформляется с помощью
+документов <b>Перемещение товаров</b>, которые оформляются в управляющей системе и мигрируют в конфигурацию «Розница». Помимо этого, сценария, в процессе реализации товаров периодически может возникать потребность в перераспределении товаров между магазинами. В этом случае
+менеджер центрального офиса или магазина на основании проведенного анализа продаж и остатков оформляет документы перемещения товаров из одного магазина в другой.</p>
+<p><b><font color="#0070c0" face="Verdana">Список документов</font></b><span class="apple-converted-space"><font color="black" face="Verdana"> </font></span><font color="black" face="Verdana">перемещение можно
+открыть по ссылке<span class="apple-converted-space"> </span><b>Закупки - Снабжение - Перемещения товаров</b>.
+Для удобства работы Пользователь может отфильтровать список документов по магазину отправителю/получателю, складу отправителю/получателю выбрав нужные
+значения в соответствующих полях шапки списка. С помощью сервиса<span class="apple-converted-space"> </span><b>Расширенный поиск (Alt+F)</b>, который запускается из командной панели списка,
+Пользователь может выбрать нужные документы, задавая поиск по значениям различных реквизитов</font></p><font color="black" face="Verdana">
+</font>
+<p><font color="black" face="Verdana"><b><font color="#0070c0" face="Verdana">Новый документ</font></b> может быть создан на основании документов<span class="apple-converted-space"> </span><a href="v8mnghelp://help/topics/v8config/v8cfgHelp/mdobject/ida9091c52-4f8b-4162-9c32-6de179af3615/Document.%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%D0%9D%D0%B0%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5/Help"><b>Заказ на перемещение</b></a><span class="apple-converted-space"> и <b>Перемещение товаров</b> </span>или
+непосредственно с помощью кнопки<span class="apple-converted-space"> </span><b>Создать</b><span class="apple-converted-space"> </span>в
+командной панели списка документов перемещения товаров.</font><font size="2"> </font></p>
+<p></p>
+<p><a href="#Заполнение_документа_Перемещение_товаров">Заполнение документа Перемещение товаров</a></p>
+<p><a href="#Добав_тов_в_табличную_частьПеремТоваров">Добавление товаров в табличную часть</a></p>
+<p><a href="#Редак_данных_в_строке_таб_частиПеремТова">Редактирование данных в строке табличной части</a></p>
+<p><a href="#Сервисы_заполнения_цен_товаровПеремТовар">Сервисы заполнения цен товаров</a></p>
+<p><a href="#Документы_на_основании_ПеремещенияТоваро">Документы, которые можно создать на основании документа Перемещение товаров</a></p>
+<p><a href="#Печатные_формы_документаПеремещенТоваров">Печатные формы документа Перемещение товаров</a></p>
+<h2 style="COLOR: #1f4e79"><a name="Заполнение_документа_Перемещение_товаров"></a>Заполнение документа Перемещение товаров</h2>
+<p>Если документ Перемещение товаров создается на основании другого документа, то реквизиты шапки документа и товарные строки заполняются из документа-основания, и формируется информационная ссылка на документ-основание.
+Если основанием является документ Перемещение товаров, то данные отправителя будут заполнены данными получателя из этого документа.</p>
+<p>При непосредственном создании нового документа Перемещение товаров нужно заполнить поля шапки документа: Магазин отправитель, Склад отправитель, Организация отправитель, Магазин получатель, Склад получатель и Организация получатель.
+Если справочник содержит единственный элемент, то он будет подставлен по умолчанию. В документе предусмотрено автозаполнение этих реквизитов по следующим правилам:</p>
+<p>Магазин:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>из последних настроенных пользователем отборов в форме списка документов (с чем пользователь работает в данный момент);<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>из данных текущего магазина (где сейчас работает пользователь).</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>Склад:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>из настроек пользователя по умолчанию (с чем пользователь работает чаще всего в данной базе узла);<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>из магазина (для отправителя – склад продаж, для получателя – склад поступления).</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>Организация:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>из склада.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>Комиссионная торговля.</p>
+<p>1. На вкладке "Дополнительно" заполняют реквизиты "Контрагент" и "Договор" того комитента, чей товар хотят переместить на другой склад.</p>
+<p>2. Документ делает движения по регистру накопления "Товары организаций" с заполнением измерений "Поставщик" и "Договор"</p>
+<h2 style="COLOR: #1f4e79"><a name="Добав_тов_в_табличную_частьПеремТоваров"></a>Добавление товаров в табличную часть</h2>
+<p>Товары в табличную часть документа можно добавить следующими способами:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>с помощью кнопки Добавить новый элемент командной панели табличной части документа;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>с помощью сервиса <a href="v8mnghelp://help/topics/v8config/v8cfgHelp/mdobject/ida9091c52-4f8b-4162-9c32-6de179af3615/DataProcessor.%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2/Help">Подобрать товары</a>;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>по штрихкоду. Чтобы добавить товар по штриховому коду, нужно перейти в табличную часть и считать штриховой код сканером.
+Кроме того, можно нажать кнопку Поиск по штрихкоду в командной панели или горячую клавишу F7 и ввести символы штрихкода вручную или с помощью сканера в открывшемся окне.
+Если данный штрихкод зарегистрирован в системе, то соответствующий ему товар будет добавлен в табличную часть. В противном случае в правой части формы появится сообщение об ошибке.
+Если товар с таким штрихкодом уже введен в табличную часть, то строка с данным товаром будет выделена, а количество увеличится на 1;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>по коду марки. Чтобы добавить маркируемый товар нужно считать его код 2-d сканером в табличную часть документа или форму проверки и подбора маркируемой продукции,
+вызываемой нажатием кнопки Марки. В данную форму коды можно добавить, загрузив их из внешнего файла, ТСД или заполнив по заказам на эмиссию. Если данный код зарегистрирован в системе, то соответствующий ему товар будет добавлен в табличную часть.
+В противном случае появится окно уточнения данных, в котором нужно выбрать соответствующий товар.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<h2 style="COLOR: #1f4e79"><a name="Редак_данных_в_строке_таб_частиПеремТова"></a>Редактирование данных в строке табличной части</h2>
+<p>В каждой товарной строке заполняются данные в следующих полях:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Характеристика номенклатуры - можно выбрать из списка характеристик данной номенклатуры;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Количество - количество поступивших единиц и упаковок. Серии номенклатуры можно заполнить только в случаях, когда Магазин отправитель отличается от Магазина получателя;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Единица измерения - по умолчанию указывается основная единица измерения, но может быть выбрана любая упаковка данной номенклатуры;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Цена - может быть заполнена при помощи сервиса заполнения цен и при необходимости изменена вручную;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Сумма - рассчитывается на основании введенных данных.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<h2 style="COLOR: #1f4e79"><a name="Сервисы_заполнения_цен_товаровПеремТовар"></a>Сервисы заполнения цен товаров</h2>
+<p>Цены в строках документа можно ввести вручную или воспользоваться сервисами заполнения Цены в командной панели табличной части документа:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Заполнить цены по розничным ценам - цены перемещения будут установлены по розничным ценам магазина-отправителя во всех строках таблицы;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Заполнить цены по виду цен - цены перемещения будут установлены по выбранному пользователем виду цен, например, специальные трансфертные цены для перемещения между магазинами, для всех строк таблицы.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<h2 style="COLOR: #1f4e79"><a name="Документы_на_основании_ПеремещенияТоваро"></a>Документы, которые можно создать на основании документа Перемещение товаров</h2>
+<p>На основании документа Перемещение товаров можно создать следующие документы:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Акт о расхождениях при приемке товаров;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Передача товаров;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Чек ЕГАИС (регистрация выбытия);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Товарно-транспортная накладная ЕГАИС (исходящая);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Установка цен номенклатуры;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Перемещение товаров.</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>Реквизиты создаваемых документов заполняются из выбранного пользователем в качестве основания документа Перемещение товаров.</p>
+<p>Если Организация отправитель  отличается от Организации получателя (происходит автопроверка по ИНН), то в нижнем левом углу документа появляется
+ссылка для создания документа <b>Счет-фактура выданный</b>.</p>
+<p>После сохранения документа <b>Счет-фактура выданный</b> в нижнем левом углу Перемещения товаров отразится ссылка на этот документ в формате «№ от Дата документа».
+Правее появится новая ссылка для создания документа <b>Счет-фактура полученный</b>, которая аналогичным образом будет преобразована в ссылку на документ после его сохранения.</p>
+<h2 style="COLOR: #1f4e79"><a name="Печатные_формы_документаПеремещенТоваров"></a>Печатные формы документа Перемещение товаров</h2>
+<p>Для документа предусмотрены следующие печатные формы, доступные в выпадающем списке Печать:</p>
+<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>1-Т (Товарно-транспортная накладная);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>М-11 (Требование-накладная);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>М-15 (Накладная на отпуск материалов);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>М-4 (Приходный ордер);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Накладная на перемещение;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Накладная на перемещение (по розничным ценам и ценам поступления);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Накладная на перемещение (по розничным ценам);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Опись номенклатуры (список товаров без указания цен и сумм);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Счет-фактура;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>ТОРГ-12 (Товарная накладная);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>ТОРГ-13 (Накладная на внутреннее перемещение);
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>Транспортная накладная;
+<br><span style="font-family: Wingdings; font-size: x-small; text-indent: -24px;">§ </span>УПД (Универсальный передаточный документ).</blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><br></blockquote>
+<p>Кроме того, можно распечатать Этикетки и Ценники.</p>
+<p></p></body></html>

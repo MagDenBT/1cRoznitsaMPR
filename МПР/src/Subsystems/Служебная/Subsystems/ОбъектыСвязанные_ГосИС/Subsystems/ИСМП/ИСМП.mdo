@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e42fa34f-39b6-4a99-9b98-ef6030f34d2a">
+  <name>ИСМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИСМП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЭлектронноеВзаимодействиеМОТПРТ</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТ</content>
+  <content>CommonModule.ИнтеграцияИСРТ</content>
+  <content>CommonModule.ИнтеграцияИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияИСМПРТКлиентСервер</content>
+  <content>CommonModule.СобытияФормИСРТ</content>
+  <content>CommonModule.СобытияФормИСРТКлиент</content>
+  <content>CommonModule.ШтрихкодированиеИСРТ</content>
+  <content>CommonModule.ШтрихкодированиеИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияИСМПРТ</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииИСМПРТ</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииИСМПРТКлиент</content>
+  <content>CommonModule.РасчетСтатусовОформленияИСРТ</content>
+  <content>CommonModule.ПечатьЭтикетокИСМПРТ</content>
+  <content>CommonForm.ФормаВыбораВидовПродукцииГосИС</content>
+  <content>CommonModule.СобытияФормИСМПРТКлиент</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииИСМПРТВызовСервера</content>
+  <content>Constant.УдалитьВестиУчетМаркировкиОбувнойПродукции</content>
+  <content>Constant.УдалитьВестиУчетМаркировкиТабачнойПродукции</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ОбъектыСвязанные_ГосИС</parentSubsystem>
+</mdclass:Subsystem>

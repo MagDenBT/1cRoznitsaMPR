@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0f0c9b9-0413-4e3e-8b6d-b1219be3652e">
+  <name>ФормаРабочегоМестаКассира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма рабочего места кассира</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

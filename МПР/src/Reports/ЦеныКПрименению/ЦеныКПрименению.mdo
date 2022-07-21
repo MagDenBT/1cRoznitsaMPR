@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2680eab9-66db-41f3-b3cf-27eac5ef6304">
+  <producedTypes>
+    <objectType typeId="f63fd800-2c3f-420b-87e0-7fcbdd988229" valueTypeId="125f8372-781e-482b-8ec7-eabba264609e"/>
+    <managerType typeId="3dddc969-39a4-4621-8454-e21413c32b16" valueTypeId="9f4fc4be-5c8c-44ed-9cf4-89e0a76949cf"/>
+  </producedTypes>
+  <name>ЦеныКПрименению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены к применению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЦеныКПрименению.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="bb67292a-7b13-4e4b-9e2a-655e34ce0986">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e4a1a2ab-9774-4953-b452-73f9797b0901">
+    <name>ОсновнаяСхемаКомпоновкиДанныхАссортимент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных ассортимент</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

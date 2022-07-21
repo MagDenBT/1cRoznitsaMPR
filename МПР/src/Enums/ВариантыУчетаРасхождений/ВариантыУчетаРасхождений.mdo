@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2aaf04f-a822-41ec-b7a1-05d358b2c7c7">
+  <producedTypes>
+    <refType typeId="dcf85f7d-dd82-47a8-8688-a0bcea6c5644" valueTypeId="bf232848-0e3a-40f6-8fcb-54da183ce3c8"/>
+    <listType typeId="8a95b01b-aa18-44bf-a81a-d8f15328f77e" valueTypeId="baad5018-6ccf-4be8-9569-d4795259ff04"/>
+    <managerType typeId="2c6a445b-ce50-43f3-91d1-35b72d7b2ee1" valueTypeId="186d086f-5ddf-4d83-8937-ef52942369e1"/>
+  </producedTypes>
+  <name>ВариантыУчетаРасхождений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты учета расхождений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2214c9c6-61cf-45d4-9d6f-e8a1ba3e2dda">
+    <name>ЗаСчетПеревозчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>За счет перевозчика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="984780a9-1da0-4100-b10d-8f12e8204170">
+    <name>НаСкладеОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе отправителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee08b668-6578-44e3-980e-a67837f56c78">
+    <name>НаСкладеПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>На складе получателя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

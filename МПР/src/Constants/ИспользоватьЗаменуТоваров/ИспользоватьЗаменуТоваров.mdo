@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0302e5bc-c880-4502-8851-c12de9b1c8b9">
+  <producedTypes>
+    <managerType typeId="62bb56cd-6c52-4098-bf5b-318f413ef5d4" valueTypeId="1746c9ff-4d23-4804-8609-4f22a0c157b8"/>
+    <valueManagerType typeId="8a956ec9-ba8e-4875-9cee-e902807c71ed" valueTypeId="1b7a8b5d-7698-430d-a8fd-ff998b15efa8"/>
+    <valueKeyType typeId="04ee61c3-0c46-4fa0-8736-4fd840871123" valueTypeId="443a43e6-2e54-4770-8355-b741ddbe2f85"/>
+  </producedTypes>
+  <name>ИспользоватьЗаменуТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать замену товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="140ac13d-16da-4230-9ce7-6ce776b87dd1">
+  <name>ИспользоватьСервисЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис лояльности</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервисЛояльности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.СостояниеБонусовСервисЛояльности</content>
+  <content>Subsystem.СервисЛояльности</content>
+  <content>InformationRegister.БонусныеБаллыКСписанию</content>
+</mdclass:FunctionalOption>

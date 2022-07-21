@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5a1087-4a1a-49e5-b6cb-1625efdf0741">
+  <producedTypes>
+    <selectionType typeId="7e993144-650f-4dfa-80f3-01c6b0f4d403" valueTypeId="513cec6c-b46a-4d57-976f-75efc3d68fb9"/>
+    <listType typeId="aea21f9f-767f-4d8a-9910-65b8072482d4" valueTypeId="957c5a2f-b07f-4379-b631-499626a8423f"/>
+    <managerType typeId="5a6b9bfc-15f2-4676-b58d-ace8850ed4a2" valueTypeId="888e7d5d-7de2-4430-80ad-45a3c45b3658"/>
+    <recordSetType typeId="1715678a-0715-4b55-a67e-d691b757b2b9" valueTypeId="ed1fc8d5-fb23-4727-8b37-67ad0f50ef99"/>
+    <recordKeyType typeId="7f787f25-b88d-4396-8b2b-0e87498916ea" valueTypeId="b58bffa2-281e-4fa3-8504-5985cac669fd"/>
+    <recordType typeId="3079833e-e772-4076-a341-a4617aa9b7db" valueTypeId="db9152df-25b4-4e93-a6d7-bbc6aefa54cb"/>
+    <recordManagerType typeId="36e4877d-a23b-4051-80dc-653d97fde475" valueTypeId="7fde76c9-0924-42c0-a7e5-75e6d92a5e31"/>
+  </producedTypes>
+  <name>ПлощадьТорговогоПространства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадь торгового пространства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d81c25a5-5d29-46e6-857e-9c7bdce168b7">
+    <name>ПлощадьВыкладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь выкладки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7856fd6c-3486-4988-83b7-8c6dbf1606ac">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="52ecddae-42e1-40c7-85f3-48983b865c68">
+    <name>ТоварнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТоварныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

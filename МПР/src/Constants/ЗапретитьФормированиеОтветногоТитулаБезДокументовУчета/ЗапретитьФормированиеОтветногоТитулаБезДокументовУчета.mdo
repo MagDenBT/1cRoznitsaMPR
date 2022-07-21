@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74d2f6b4-4893-4c8f-bad4-eb7daa4506b9">
+  <producedTypes>
+    <managerType typeId="f3c88e45-dd67-459f-a933-8166b7002fdd" valueTypeId="5fac9e8a-48c8-427e-a9ed-3274bf620d49"/>
+    <valueManagerType typeId="50a09b84-54ef-40c8-a547-6c8cd0b22c72" valueTypeId="ce22d69b-becf-4520-8b67-e2949e77debc"/>
+    <valueKeyType typeId="1fe7ebef-c151-45b0-9e42-b7de0c1a453b" valueTypeId="42378d23-2d35-4fce-984c-920aaaa37c79"/>
+  </producedTypes>
+  <name>ЗапретитьФормированиеОтветногоТитулаБезДокументовУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить формирование ответного титула без документов учета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

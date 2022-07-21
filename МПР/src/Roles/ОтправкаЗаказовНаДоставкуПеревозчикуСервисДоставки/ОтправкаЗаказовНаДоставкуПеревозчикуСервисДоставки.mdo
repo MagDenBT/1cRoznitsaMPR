@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52a8ebb6-2d98-4162-9940-35ec382cce5d">
+  <name>ОтправкаЗаказовНаДоставкуПеревозчикуСервисДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка заказов на доставку перевозчику</value>
+  </synonym>
+</mdclass:Role>

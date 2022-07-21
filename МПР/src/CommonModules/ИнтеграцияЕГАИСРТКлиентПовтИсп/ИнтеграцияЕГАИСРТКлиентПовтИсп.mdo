@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb902ef7-c924-4942-8497-0942d261bf32">
+  <name>ИнтеграцияЕГАИСРТКлиентПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГАИС клиент повт исп</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

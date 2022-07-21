@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="364225a6-c987-4fef-9c99-0b0ca0c8532a">
+  <producedTypes>
+    <refType typeId="eafd4fa9-17db-4bab-81f0-d4bd13ef07b9" valueTypeId="a685f49a-4f87-4a92-8d9d-fe7253f715f3"/>
+    <listType typeId="6f0bf1a5-6b21-4e21-8a24-fbe254ff95a3" valueTypeId="985eebf1-1c0b-493e-9e7d-55e64786be3e"/>
+    <managerType typeId="73db2631-0f4b-4d34-b4ba-f44c6a40abb4" valueTypeId="3f9bbe68-4bec-4617-a48d-9cd016a8c642"/>
+  </producedTypes>
+  <name>ds_СтатусыИнтернетЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы интернет-заказов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0356f3ee-4a29-4ca0-b4d9-a4dc5c64b750">
+    <name>ВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db8bc5c7-d683-42c3-a364-a7f9dded202c">
+    <name>Выдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35a1a7e4-9757-422a-902f-1a38d9bbecd2">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66a70a32-cd8f-4626-bbf1-5b8052512cc3">
+    <name>Собран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собран</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

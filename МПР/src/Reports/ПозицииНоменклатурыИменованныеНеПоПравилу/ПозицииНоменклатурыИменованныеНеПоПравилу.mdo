@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9444955-2858-4f26-8a78-e35121b48468">
+  <producedTypes>
+    <objectType typeId="5a731cb3-c6b0-451e-b038-e80a02cae623" valueTypeId="81b96f46-2b15-4393-a20f-bdf3ee83f7f1"/>
+    <managerType typeId="ad4ef9c9-8dd4-4425-ad8d-75579d012327" valueTypeId="b0b2de25-19ba-41b3-9ded-c3e73cc5f7f6"/>
+  </producedTypes>
+  <name>ПозицииНоменклатурыИменованныеНеПоПравилу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позиции номенклатуры, именованные не по правилу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПозицииНоменклатурыИменованныеНеПоПравилу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="5064bf79-e620-4e7c-af1a-864d7177c1b1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

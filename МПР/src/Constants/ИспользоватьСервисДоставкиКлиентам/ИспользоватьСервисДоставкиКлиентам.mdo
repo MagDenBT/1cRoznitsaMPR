@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="866d5470-c724-4830-9c99-e5fad10d5d1b">
+  <producedTypes>
+    <managerType typeId="9ea3d0d6-0a32-4cd7-8af6-33dea9807e64" valueTypeId="bf793130-9fc4-4c6d-9f17-4e8f1c2d4e80"/>
+    <valueManagerType typeId="b47fa604-a628-4d14-9b09-d6cb459b4bc7" valueTypeId="27684a38-00fd-4f39-8fcb-402814a90d1d"/>
+    <valueKeyType typeId="a4a80a0c-2e96-48d2-85b5-292ee1aaad7e" valueTypeId="35df0883-a418-4abc-a5e0-ff7ae7f3178e"/>
+  </producedTypes>
+  <name>ИспользоватьСервисДоставкиКлиентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис 1С:Доставка для организации доставки клиентам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

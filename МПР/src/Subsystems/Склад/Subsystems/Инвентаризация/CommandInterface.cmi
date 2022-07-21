@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonForm.ФормаВыбораДляПечатиПереоценки.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПриказНаПроведениеИнвентаризацииТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПересчетТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ОрдерНаОтражениеРезультатовПересчетовТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПересортицаТоваров.StandardCommand.OpenList</commands>
+      <commands>Enum.СтатусыПересчетовТоваров.StandardCommand.OpenList</commands>
+      <commands>Enum.СтатусыПриказовНаПроведениеИнвентаризацийТоваров.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3bbea1c-f999-40e7-ac03-42769ed4240f">
+  <name>ЛогированиеДействийКассираВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование действий кассира в РМК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.СтатистикаПоДействиямКассировВРМК</content>
+  <content>Report.ЖурналЛогированияДействийКассираВРМК</content>
+  <content>CommonModule.ЛогированиеДействийКассира</content>
+  <content>InformationRegister.ЛогДействийКассираВРМК</content>
+  <content>InformationRegister.НастройкиЛогированияПоВидамДействийКассираВРМК</content>
+  <content>Constant.ИспользоватьЛогированиеДействийКассираВРМК</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

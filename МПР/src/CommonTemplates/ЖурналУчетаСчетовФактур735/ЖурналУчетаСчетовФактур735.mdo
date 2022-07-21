@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2b5b8f3-6b19-4ce1-94fa-768fa7639171">
+  <name>ЖурналУчетаСчетовФактур735</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал учета счетов-фактур по Постановлению № 1137 (в редакции постановления Правительства Российской Федерации от 30 июля 2014 г. № 735)</value>
+  </synonym>
+</mdclass:CommonTemplate>

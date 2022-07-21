@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0e14a79-e1d3-494a-b237-0f7009343edd">
+  <name>ТехнологияСервисаВМоделиСервисаРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технология сервиса в модели сервиса РТ</value>
+  </synonym>
+  <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.ИнформационныйЦентр</content>
+  <content>Subsystem.АдминистрированиеСервиса</content>
+</mdclass:FunctionalOption>

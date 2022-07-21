@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd67b9fd-b220-4e99-bb51-92889991968c">
+  <producedTypes>
+    <objectType typeId="912c9f18-88cc-4214-a642-667b2676abc5" valueTypeId="3ef56a7f-0fdf-418d-ac0e-f848b440fa79"/>
+    <managerType typeId="392c0a3d-040c-4e59-9204-dc7d287620f3" valueTypeId="6510ae48-7272-4ed2-b12c-509b024431c7"/>
+  </producedTypes>
+  <name>СтатистикаПоДействиямКассировВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по действиям кассиров в РМК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаПоДействиямКассировВРМК.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="00b755a4-b930-44fa-8758-0d567849b8aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

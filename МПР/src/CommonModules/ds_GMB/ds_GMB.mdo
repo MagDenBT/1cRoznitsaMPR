@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0171e33-f84a-4a90-a3f4-a60b5b76f65f">
+  <name>ds_GMB</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ds) GMB</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

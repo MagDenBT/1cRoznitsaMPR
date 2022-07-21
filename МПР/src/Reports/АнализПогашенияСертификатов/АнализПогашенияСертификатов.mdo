@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6a182ce-5278-4642-b1e5-2871d47a6b1d">
+  <producedTypes>
+    <objectType typeId="ed686b3c-84ac-45f2-893c-fffccf74dd8a" valueTypeId="c091e9be-59fc-4628-b4c4-909c19b639fb"/>
+    <managerType typeId="d2120639-ddaa-493e-8c1c-694f5c6d12d0" valueTypeId="4c130fb8-6575-4f06-b624-7cdcfda4aeb0"/>
+  </producedTypes>
+  <name>АнализПогашенияСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ погашения сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализПогашенияСертификатов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="98cd2a79-99d3-4a1f-9069-f3c7de4a6a3d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

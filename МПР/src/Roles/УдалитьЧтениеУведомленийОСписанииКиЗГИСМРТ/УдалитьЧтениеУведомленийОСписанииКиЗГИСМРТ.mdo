@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09da601c-298e-4669-b7c8-4ec7137b9ff8">
+  <name>УдалитьЧтениеУведомленийОСписанииКиЗГИСМРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Чтение уведомлений о списании КиЗ ГИСМ РТ</value>
+  </synonym>
+</mdclass:Role>

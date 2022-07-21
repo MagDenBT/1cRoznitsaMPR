@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95c18772-a2ad-47bf-82ea-04d357fc9902">
+  <name>ПФ_MXL_ОписьНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПФ MXL Опись номенклатуры</value>
+  </synonym>
+</mdclass:CommonTemplate>

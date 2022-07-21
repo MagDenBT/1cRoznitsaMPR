@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c49cbcd6-ac4d-47aa-b4a3-75be7c21d252">
+  <name>БизнесСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Бизнес-сеть</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.БизнесСеть</content>
+  <content>DataProcessor.ТорговыеПредложения</content>
+  <content>CommonCommand.ВходящиеДокументыБизнесСеть</content>
+  <content>CommonCommand.ТорговыеПредложенияБизнесСеть</content>
+  <content>CommonCommand.ИсходящиеДокументыБизнесСетьРТ</content>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4c6d51b-2eb6-4b43-b6c4-eca25bacec0e">
+  <name>ds_МПР</name>
+  <synonym>
+    <key>ru</key>
+    <value>МПР</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExchangePlan.ds_ОбменДаннымиСТСД</content>
+  <content>ExchangePlan.ds_ОбменСОфисом</content>
+  <content>Catalog.ds_ВидыКатегорийНоменклатуры</content>
+  <content>Catalog.ds_КатегорииНоменклатуры</content>
+  <content>CommonModule.ds_ОбщегоНазначенияКлиент</content>
+  <content>CommonModule.ds_ОбщегоНазначенияВызовСервера</content>
+  <content>CommonModule.ds_ОбменСОфисом</content>
+  <content>EventSubscription.ds_ОбменСОфисомРегистрацияСправочника</content>
+  <content>EventSubscription.ds_ОбменСОфисомРегистрацияРегистра</content>
+  <content>EventSubscription.ds_ПоступлениеТоваровОбработкаПроведения</content>
+  <content>ScheduledJob.ds_ОбменСОфисом</content>
+  <content>WebService.ds_ExchangeTSD</content>
+  <content>WebService.ds_API</content>
+  <content>IntegrationService.ds_СервисОфиса</content>
+  <content>IntegrationService.ds_СервисМагазина</content>
+  <content>Constant.ds_АдресИзображенийТоваров</content>
+  <content>Document.ds_АктПриемкиТоваров</content>
+  <content>Document.ds_УстановкаКатегорийНоменклатуры</content>
+  <content>Enum.ds_ВидыОперацийУстановкаКатегорийНоменклатуры</content>
+  <content>InformationRegister.ds_КатегорииНоменклатурыПлан</content>
+  <content>Constant.ds_РазрешитьРаботуHeado</content>
+  <content>InformationRegister.ds_НаценкиНоменклатуры</content>
+  <content>InformationRegister.ds_ДанныеЗаполненияКассовыхДокументов</content>
+  <content>Constant.ds_ИнтервалАвтосохраненияАктаПриемки</content>
+  <content>InformationRegister.ds_СверкаДанныхСОфисом</content>
+  <content>Catalog.ds_НастройкиUDS</content>
+  <content>Enum.ds_ЗоныПересчетаТоваров</content>
+  <content>Enum.ds_ИсточникиЗаполненияПечатныхФормКассовыхДокументов</content>
+  <content>Enum.ds_РежимыОбъединенияСкидок</content>
+  <content>Enum.ds_СтатусыИнтернетЗаказов</content>
+  <content>InformationRegister.ds_РезультатыОбменаДаннымиСОфисом</content>
+  <content>HTTPService.ds_API</content>
+  <content>Catalog.ds_ДенежныеЗнаки</content>
+  <content>Document.ds_СверкаДенежныхСредств</content>
+  <content>Enum.ds_ВидыДенежныхЗнаков</content>
+  <content>Catalog.ds_НастройкиGMB</content>
+</mdclass:Subsystem>

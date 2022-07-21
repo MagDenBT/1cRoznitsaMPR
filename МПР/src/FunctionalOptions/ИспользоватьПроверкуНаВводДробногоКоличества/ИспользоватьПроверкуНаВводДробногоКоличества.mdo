@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87ae9369-7cb9-4cee-8a6e-50d02386c42b">
+  <name>ИспользоватьПроверкуНаВводДробногоКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проверку на ввод дробного количества</value>
+  </synonym>
+  <location>Constant.ИспользоватьПроверкуНаВводДробногоКоличества</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

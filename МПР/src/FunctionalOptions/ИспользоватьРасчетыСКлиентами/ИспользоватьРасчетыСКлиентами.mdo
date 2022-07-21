@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24402036-403b-44ed-b239-f213b02c86c4">
+  <name>ИспользоватьРасчетыСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать расчеты с клиентами</value>
+  </synonym>
+  <location>Constant.ИспользоватьРасчетыСКлиентами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЧекККМ.Attribute.ОперацияСДенежнымиСредствами</content>
+  <content>Document.ПриходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.ПризнакСпособаРасчета</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.ПризнакСпособаРасчета</content>
+  <content>Document.ВводОстатковРасчетовСКлиентами</content>
+  <content>Document.ОплатаОтПокупателяПлатежнойКартой.TabularSection.РасшифровкаПлатежа.Attribute.ПризнакСпособаРасчета</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.РасчетыСКлиентами</content>
+  <content>Report.РасчетыСКлиентами</content>
+  <content>Document.РегистрацияБезналичнойОплаты.TabularSection.РасшифровкаПлатежа.Attribute.ПризнакСпособаРасчета</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="507c1a0c-9333-4f52-badd-66ae1b6487ef">
+  <name>ОбменСУРМКЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с УРМК зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СерийныеНомера</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Магазины</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>CatalogObject.СерииНоменклатуры</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>CatalogObject.ИнформационныеКарты</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменСУРМКПередУдалением</handler>
+</mdclass:EventSubscription>

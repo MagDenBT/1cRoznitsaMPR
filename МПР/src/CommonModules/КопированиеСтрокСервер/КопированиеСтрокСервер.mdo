@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5aa400d-f58c-443b-b6be-22b68ffdb4c5">
+  <name>КопированиеСтрокСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование строк сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8f4b7c3-20fb-4268-9727-4fac4a763fd2">
+  <producedTypes>
+    <objectType typeId="6e0e6aa2-0968-45ce-802a-a631ba58db24" valueTypeId="02310725-451e-443f-a724-94146e130025"/>
+    <managerType typeId="d7458545-a361-40a0-9f25-e5b8d940b1fc" valueTypeId="bd97a58f-fd07-46aa-9d29-277302e4dab0"/>
+  </producedTypes>
+  <name>СверткаИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свертка информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СверткаИнформационнойБазы.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="999fd1c9-a1c7-4be2-bfdc-341fbea5af7a">
+    <name>ДатаСверткиИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата свертки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16ba5609-f056-4f19-8d04-f9c0255aa59f">
+    <name>СписокСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список справочников</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4586c04d-aee4-4487-9c99-fef0efd0cf4c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8b9adcb-3def-4dff-9499-dd4aa0dac2c0">
+    <name>ФормаНастройкаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройка отбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d59ae37-a07d-43de-8757-215535fcbe68">
+    <name>УдалениеНеиспользуемыхЭлементовСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление неиспользуемых элементов справочников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d986c877-8915-4d11-b3a8-9e32133c3168">
+    <name>СверткаИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свертка информационной базы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

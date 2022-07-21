@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416183ca-f231-4252-af11-f712d8ca6cbe">
+  <name>ВестиСведенияДляДекларацийПоАлкогольнойПродукцииРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести сведения для деклараций по алкогольной продукции РТ</value>
+  </synonym>
+  <location>Constant.ВестиСведенияДляДекларацийПоАлкогольнойПродукции</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ТТНИсходящаяЕГАИС</content>
+  <content>InformationRegister.УдалитьСоответствиеНоменклатурыЕГАИС</content>
+  <content>DataProcessor.СопоставлениеНоменклатурыЕГАИСРТ</content>
+  <content>DataProcessor.СопоставлениеОрганизацийЕГАИСРТ</content>
+  <content>Document.УдалитьВскрытиеТарыЕГАИС</content>
+  <content>Enum.СтатусыОбработкиВскрытияТарыЕГАИС</content>
+  <content>Catalog.ЛицензииПоставщиковАлкогольнойПродукции</content>
+  <content>Catalog.Контрагенты.Command.КлассификаторОрганизацийЕГАИС</content>
+  <content>Catalog.Организации.Command.КлассификаторОрганизацийЕГАИС</content>
+  <content>CommonCommand.АктыПостановкиНаБалансЕГАИС</content>
+  <content>CommonCommand.АктыСписанияЕГАИС</content>
+  <content>CommonCommand.ВозвратыИзРегистра2ЕГАИС</content>
+  <content>CommonCommand.ВскрытияТарыЕГАИС</content>
+  <content>CommonCommand.ОстаткиЕГАИС</content>
+  <content>CommonCommand.ПередачиВРегистр2ЕГАИС</content>
+  <content>CommonCommand.ТТНВходящиеЕГАИС</content>
+  <content>CommonCommand.ТТНИсходящиеЕГАИС</content>
+  <content>Catalog.ШтрихкодыУпаковокТоваров</content>
+  <content>CommonCommand.ПанельОбменСЕГАИСРазделНСИ</content>
+  <content>Report.НезаполненныеРеквизитыЕГАИС</content>
+  <content>Report.РасхожденияРеквизитовЕГАИС</content>
+  <content>Catalog.Номенклатура.Command.СопоставленнаяАлкогольнаяПродукция</content>
+</mdclass:FunctionalOption>

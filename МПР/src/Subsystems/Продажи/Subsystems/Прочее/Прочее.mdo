@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28002cf8-0638-4685-ac25-8032647cb558">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РеализацияТоваров</content>
+  <content>Document.ВозвратТоваровОтПокупателя</content>
+  <content>Document.ЗаменаДисконтныхКарт</content>
+  <content>CommonModule.ПодборТоваровКлиентСервер</content>
+  <content>CommonModule.ПодборТоваровВызовСервера</content>
+  <content>Role.ДобавлениеИзменениеВозвратовТоваровОтПокупателей</content>
+  <content>Role.ДобавлениеИзменениеРеализацииТоваров</content>
+  <content>Role.ИспользованиеОбработкиВозвратТоваровОтРозничногоПокупателя</content>
+  <content>Role.ПодсистемаПродажиПрочее</content>
+  <content>Role.ЧтениеВозвратовТоваровОтПокупателей</content>
+  <content>Role.ЧтениеРеализацийТоваров</content>
+  <content>CommonPicture.РасходТовара</content>
+  <content>CommonModule.ПодключаемоеОборудованиеOfflineВызовСервера</content>
+  <content>CommonModule.ПодключаемоеОборудованиеOfflineКлиент</content>
+  <content>CommonModule.ОбменДаннымиПодключаемоеОборудованиеOfflineСобытия</content>
+  <content>DataProcessor.ПанельОбменГИСМ</content>
+  <content>Document.ВводОстатковРасчетовСКлиентами</content>
+  <content>Document.ЧекКоррекции</content>
+  <content>DataProcessor.СозданиеЧековКоррекции</content>
+  <content>CommonModule.УчетНДС</content>
+  <content>CommonModule.ПодборТоваровКлиент</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

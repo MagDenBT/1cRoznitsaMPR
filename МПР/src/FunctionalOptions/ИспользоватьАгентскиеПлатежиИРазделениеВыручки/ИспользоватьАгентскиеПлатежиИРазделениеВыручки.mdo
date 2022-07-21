@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa07fa63-44c3-4f69-9fcd-2a32bfa423c9">
+  <name>ИспользоватьАгентскиеПлатежиИРазделениеВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать агентские платежи и разделение выручки</value>
+  </synonym>
+  <location>Constant.ИспользоватьАгентскиеПлатежиИРазделениеВыручки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>AccumulationRegister.ДенежныеСредстваНаличные.Dimension.ДоговорКонтрагента</content>
+  <content>Document.ВводНачальныхОстатковУзла.TabularSection.ДенежныеСредстваККМ.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВводНачальныхОстатковУзла.TabularSection.ДенежныеСредстваНаличные.Attribute.ДоговорКонтрагента</content>
+  <content>AccumulationRegister.ДенежныеСредстваККМ.Dimension.ДоговорКонтрагента</content>
+  <content>Catalog.Номенклатура.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ЧекККМ.TabularSection.Оплата.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.ОплатаНаличнымиАгентскихПлатежей</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.ОплатаПлатежнымиКартами.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.ОплатаБанковскимиКредитами.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВыемкаДенежныхСредствИзКассыККМ.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВнесениеДенежныхСредствВКассуККМ.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВводОстатковДенежныхСредств.Attribute.ДоговорКонтрагента</content>
+  <content>Enum.ТипыДоговоровПлатежныхАгентов</content>
+  <content>Report.ОстаткиИДвиженияДенежныхСредствПоВидамВыручки</content>
+  <content>Report.ОстаткиИДвиженияДенежныхСредствВКассахККМПоВидамВыручки</content>
+  <content>Catalog.НастройкиРаспределенияВыручкиПоСекциямФР.TabularSection.СоответствиеДоговоровПлатежныхАгентовСекциям</content>
+  <content>Document.ОплатаОтПокупателяПлатежнойКартой.TabularSection.РасшифровкаПлатежа.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.ДоговорКонтрагента</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.АгентскиеУслуги</content>
+  <content>Document.КассоваяКнига.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ОплатаОтПокупателяПлатежнойКартой.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РеализацияТоваров.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РегистрацияБезналичнойОплаты.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ЧекККМ.Attribute.ДоговорКонтрагента</content>
+  <content>InformationRegister.ПроцентыВознагражденияПоДоговорам</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РеализацияТоваров.TabularSection.Товары.Attribute.ДоговорКонтрагента</content>
+  <content>Document.РеализацияТоваров.TabularSection.Товары.Attribute.КлючСвязиУслугаАгента</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.КлючСвязиУслугаАгента</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.КлючСвязиУслугаАгента</content>
+  <content>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.ДоговорКонтрагента</content>
+  <content>DataProcessor.РМКУправляемыйРежим.TabularSection.Товары.Attribute.КлючСвязиУслугаАгента</content>
+  <content>DataProcessor.РМКУправляемыйРежим.TabularSection.Товары.Attribute.ДоговорКонтрагента</content>
+  <content>Document.ВозвратТоваровОтПокупателя.TabularSection.Товары.Attribute.ДоговорКонтрагента</content>
+</mdclass:FunctionalOption>

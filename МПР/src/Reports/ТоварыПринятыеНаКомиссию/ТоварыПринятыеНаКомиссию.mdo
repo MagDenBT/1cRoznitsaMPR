@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d82853c-7ee6-4416-ac14-62a94efc4bd4">
+  <producedTypes>
+    <objectType typeId="573b41f4-9b63-43c7-a080-135cb2388f34" valueTypeId="6f834bb6-7488-4a53-831f-7e6ae887255f"/>
+    <managerType typeId="51c736a6-bd3a-4378-8fd4-df113deeed0b" valueTypeId="43d7e239-e887-4839-836d-e2b4427e814e"/>
+  </producedTypes>
+  <name>ТоварыПринятыеНаКомиссию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары, принятые на комиссию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТоварыПринятыеНаКомиссию.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="98be296f-28aa-4103-9525-a3b671274ee0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

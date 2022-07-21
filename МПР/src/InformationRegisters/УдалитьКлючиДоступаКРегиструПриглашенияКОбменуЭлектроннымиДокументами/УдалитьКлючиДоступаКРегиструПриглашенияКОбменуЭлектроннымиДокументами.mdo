@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1449ada4-3350-4d5d-88c2-11e2dd930aaa">
+  <producedTypes>
+    <selectionType typeId="a14231f0-dd21-48cc-8c6c-3fcbdcb1802e" valueTypeId="393dbd53-e424-4161-8efb-417a16261bfb"/>
+    <listType typeId="111daf35-f121-432a-b76a-2c6777b86b0a" valueTypeId="f81bda23-6323-41c4-9404-75bfc5e30d70"/>
+    <managerType typeId="83a622a1-f72b-477e-9901-f1185a86dfd9" valueTypeId="de91fe11-081d-45b8-aba4-0ce1de2ae0bb"/>
+    <recordSetType typeId="dda2f693-7387-42d9-b950-142898baf54d" valueTypeId="2c53673a-4b96-4a2a-8cfd-ab5c7b30aa45"/>
+    <recordKeyType typeId="c2ff5108-8c02-467a-bddc-20e1204e6553" valueTypeId="636881a0-8343-434c-b16c-83d3619348df"/>
+    <recordType typeId="6bdd7e3e-acdd-48bc-99e9-c63bd63fec7a" valueTypeId="34c9b0e2-7379-4a3f-9fe3-b81114a5b156"/>
+    <recordManagerType typeId="9e2db274-128d-45c3-92b2-1368582b32a3" valueTypeId="cd4970b4-8cc9-4324-9314-7c8a50f9580c"/>
+  </producedTypes>
+  <name>УдалитьКлючиДоступаКРегиструПриглашенияКОбменуЭлектроннымиДокументами</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Ключи доступа к регистру Приглашения к обмену электронными документами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УдалитьКлючиДоступаКРегиструПриглашенияКОбменуЭлектроннымиДокументами.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УдалитьКлючиДоступаКРегиструПриглашенияКОбменуЭлектроннымиДокументами.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ключ доступа к регистру Приглашения к обмену электронными документами</value>
+  </recordPresentation>
+  <resources uuid="b17e61b8-6e36-4a6b-ace9-b53841911616">
+    <name>КлючДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа записей регистра с одинаковым доступом</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3c28d923-010b-4baa-9b50-4e5ea8634ad5">
+    <name>ВариантДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант доступа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бит 0 -  ключ доступа для внешних пользователей.
+Биты 1-5 - количество полей в соединении.
+Биты 6-9 - набор полей в соединении.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="35821942-133a-44ca-b1eb-173cfd17225a">
+    <name>Поле1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле 1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Поле, соответствующее первому полю регистра, от которого зависит ограничение доступа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5b6e3255-de2a-49b3-bc18-3440c9492d84">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c21629a0-9f4c-4499-9580-acac3a755f2c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

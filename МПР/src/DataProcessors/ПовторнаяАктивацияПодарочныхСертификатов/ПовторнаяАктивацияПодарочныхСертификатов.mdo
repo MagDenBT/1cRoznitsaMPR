@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1e53e53-afc1-4e2f-a24a-78ce2c11ce65">
+  <producedTypes>
+    <objectType typeId="1ba74d7d-4838-46ac-b5d9-bd80dc4951e5" valueTypeId="bfb946ee-f5e2-4132-8864-f8f9d0bcbaa2"/>
+    <managerType typeId="e4166041-6543-4f0f-a63c-b4dadc6ca7fb" valueTypeId="f891fc16-404d-4374-833c-667464f63623"/>
+  </producedTypes>
+  <name>ПовторнаяАктивацияПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Повторная активация подарочных сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПовторнаяАктивацияПодарочныхСертификатов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="11b13e8e-b055-49f5-b09e-ea23d14969be">
+    <producedTypes>
+      <objectType typeId="21a565f7-71de-4648-9d7b-999e5459b101" valueTypeId="0dbfe9b9-97d2-425c-a9c2-cc88da66faf6"/>
+      <rowType typeId="948b866a-73e8-4f32-8e26-4f8c2d2e2b91" valueTypeId="cc2410a1-9ca4-44c6-aeb8-018eb7c993da"/>
+    </producedTypes>
+    <name>Сертификаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификаты</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5915f332-e9b2-44da-ba9a-e091d9213d80">
+      <name>Сертификат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сертификат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подарочный сертификат, номер которого подлежит повторной активации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6942d6fa-ced5-439b-a2ad-887235eea915">
+      <name>НомерСертификата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер сертификата</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерийныеНомера</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер сертификата, который подлежит повторной активации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>DataProcessor.ПовторнаяАктивацияПодарочныхСертификатов.TabularSection.Сертификаты.Attribute.Сертификат</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ae9a4108-c83b-430e-8e4f-56ad8daf62f9">
+      <name>Активирован</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активирован</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный признак выполненной активации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:BooleanValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ad6af7df-310b-46a2-8f0b-44ab1a08d31e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

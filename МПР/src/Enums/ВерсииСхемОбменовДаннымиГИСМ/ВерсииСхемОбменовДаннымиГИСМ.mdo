@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be2ecf4b-367d-40e4-b63b-09872b8a9322">
+  <producedTypes>
+    <refType typeId="92d7e231-30c5-4065-83c1-b6a3dff96f7a" valueTypeId="359e71d0-8184-4116-b973-f3e2a0a512f5"/>
+    <listType typeId="7fda3bac-220a-4c2b-895d-8de57e94f609" valueTypeId="96b1f140-d20a-465d-8259-c63496a31ffa"/>
+    <managerType typeId="ebda6248-bee4-4b7b-9af4-135f977770fb" valueTypeId="7476fd8b-6772-4c25-8f0b-737cf95205dd"/>
+  </producedTypes>
+  <name>ВерсииСхемОбменовДаннымиГИСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии схем обменов данными ГИСМ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6673b9b-f68d-49d6-9e7a-50baed30b3d9">
+    <name>Версия2_32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.32</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="380f9f90-6213-4ac1-9f75-eced8592693b">
+    <name>Версия2_40</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 2.40</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

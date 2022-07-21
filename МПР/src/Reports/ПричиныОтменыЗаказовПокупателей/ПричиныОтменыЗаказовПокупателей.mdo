@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b08c16c-7def-41b5-b7d6-3b2b27fbf21a">
+  <producedTypes>
+    <objectType typeId="f01b6d28-20fe-4266-8975-f7714be8413f" valueTypeId="363901de-d565-4854-a50f-596ce219c36c"/>
+    <managerType typeId="002e508e-fc55-4223-aa3d-84dbff67971b" valueTypeId="bcb68a5d-5dba-46e4-a70f-e4b2ffd056ae"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаказовПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отмены заказов покупателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПричиныОтменыЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="d29975b9-543f-494c-9ae4-9095c35c465d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba71a8bb-0e93-4753-828e-3ff2521ec89d">
+  <producedTypes>
+    <refType typeId="73fee97b-b895-4ad5-98dd-fb7564747135" valueTypeId="fafd5b01-159c-469a-b432-111de5f08883"/>
+    <listType typeId="0d6d253f-5e37-4a76-b487-dd9873a46356" valueTypeId="e7e204be-0926-4e27-aa97-0035c8f30997"/>
+    <managerType typeId="bc36012d-05e4-4142-add1-cdf1bfeca2cc" valueTypeId="8f4bdbe1-b07d-4ae6-a2e5-c306f61587ee"/>
+  </producedTypes>
+  <name>СпособПримененияСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ применения скидки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17ecfaff-c49e-4cb2-8347-55b8e36b4c01">
+    <name>ПрименитьВМоментРасчетаСкидокНаценок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применить в момент расчета скидок(наценок)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a2d65c2-ee83-43de-8515-53fa7040fabf">
+    <name>НачислитьБонусныеБаллы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислить бонусные баллы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

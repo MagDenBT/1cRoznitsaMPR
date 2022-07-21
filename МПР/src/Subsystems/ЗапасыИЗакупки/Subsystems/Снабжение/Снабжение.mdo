@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63146cd8-49cd-4609-9d5b-f629cdc54691">
+  <name>Снабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.ЗаказНаПеремещение</content>
+  <content>Document.ПередачаТоваровМеждуОрганизациями</content>
+  <content>Report.ПередачиТоваровМеждуОрганизациями</content>
+  <content>Report.ВедомостьПоТоварамОрганизаций</content>
+  <content>Report.ПродажиОстаткиТовараВДняхТорговли</content>
+  <content>Report.ПроверкаАктуальностиСтатусовЗаказов</content>
+  <content>ScheduledJob.ЗакрытиеЗаказовНаПеремещение</content>
+  <content>CommonCommand.ЗаказыПокупателей</content>
+  <content>Role.ДобавлениеИзменениеЗаказовНаПеремещение</content>
+  <content>Role.ДобавлениеИзменениеПередачТоваровМеждуОрганизациями</content>
+  <content>Role.ДобавлениеИзменениеПеремещенийТоваров</content>
+  <content>Role.ЧтениеЗаказовНаПеремещение</content>
+  <content>Role.ЧтениеОрдеровНаПеремещениеТоваров</content>
+  <content>Role.ЧтениеПередачТоваровМеждуОрганизациями</content>
+  <content>Role.ЧтениеПеремещенийТоваров</content>
+  <content>Role.ЧтениеТоварыКПоступлениюРеализации</content>
+  <content>CommonPicture.ПриходТовара</content>
+  <content>CommonPicture.РасходТовара</content>
+  <content>Document.АктОРасхожденияхПриПриемкеТоваров</content>
+  <content>AccumulationRegister.РасхожденияПриПриемке</content>
+  <content>Report.РасхожденияПриПриемкеТоваров</content>
+  <content>Role.ДобавлениеИзменениеАктовОРасхожденияхПриПриемкеТоваров</content>
+  <content>Role.ЧтениеАктовОРасхожденияхПриПриемкеТоваров</content>
+  <content>Constant.ИспользоватьОрдерНаПеремещениеТоваров</content>
+  <content>FunctionalOption.ИспользоватьПодборЗаказовПоставщику</content>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

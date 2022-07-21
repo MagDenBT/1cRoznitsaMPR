@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca555fa8-1dd2-43a5-bf6f-d60873ea9417">
+  <name>ПФ_MXL_СчетФактура283</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПФ MXL Счет фактура-283</value>
+  </synonym>
+  <comment>Cчет-фактура согласно постановлению №283 от 11.05.2006 г.</comment>
+</mdclass:CommonTemplate>

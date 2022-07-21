@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04838fe2-a309-4ef7-b443-f6edbeadcd6a">
+  <producedTypes>
+    <containerType typeId="de399213-b876-498e-8b59-2f6e0ff5e022" valueTypeId="c9c1215c-9df6-4f0f-b18e-ac100b3b9452"/>
+  </producedTypes>
+  <name>ds_ИсточникЗаполненияПечатныхФормКассовыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник заполнения печатных форм кассовых документов</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ds_ИсточникиЗаполненияПечатныхФормКассовыхДокументов</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

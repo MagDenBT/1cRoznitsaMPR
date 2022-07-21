@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20686725-fcc3-434c-b71b-58d8ba211c5a">
+  <name>ИспользуемыеПланыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используемые планы обмена</value>
+  </synonym>
+  <comment>Массив имен планов обмена, которые используются для регистрации изменений</comment>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

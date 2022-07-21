@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="004f0691-193a-4f8f-b149-4da3dcf90f33">
+  <producedTypes>
+    <selectionType typeId="3559d950-b07a-4d7b-af99-2358a17ced72" valueTypeId="47a5f86f-de87-4f74-9eec-86c929831d7a"/>
+    <listType typeId="25c3b3b4-507f-42e5-b6d8-f5986d922afc" valueTypeId="ba2fe29d-edbf-4daa-9565-1a3833463cb4"/>
+    <managerType typeId="7d486d84-0fcf-4124-8430-b6c54bc4afd5" valueTypeId="96c78fa3-f366-4517-bdb4-358c0a09f1fa"/>
+    <recordSetType typeId="4af578dd-f4f1-4575-a781-97265739b964" valueTypeId="e9aaf384-6f56-41b8-b301-aa0286dc4a13"/>
+    <recordKeyType typeId="265c84e9-4989-40e4-a158-27560bc422e9" valueTypeId="cb824d1a-4773-4e4a-beb8-fa268e2f5fcb"/>
+    <recordType typeId="4610e1bb-0399-4b42-9ede-ea5b10d26520" valueTypeId="b3304097-56ac-4474-983d-c55eed8155a1"/>
+    <recordManagerType typeId="e23acad6-a8e7-4b23-b225-89dac6fc8207" valueTypeId="fe9393d0-ae88-4ae1-86b8-59eb7c66fa43"/>
+  </producedTypes>
+  <name>НоменклатураКПереименованию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура к переименованию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ead2acf8-fa77-40d8-ad5e-7371abd9e8ae">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1936148a-2ec7-417d-aaee-29b44748220c">
+  <name>РаботаСНоменклатуройРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с номенклатурой РТ</value>
+  </synonym>
+  <content>CommonModule.РаботаСНоменклатуройРТ</content>
+  <content>CommonModule.РаботаСНоменклатуройРТКлиент</content>
+  <content>Enum.РеквизитыСопоставленияНоменклатурыБизнесСеть</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36ce41a3-85f9-449d-8c01-8c67bb15c214">
+  <name>ИспользоватьМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать машиночитаемые доверенности</value>
+  </synonym>
+  <location>Constant.ИспользоватьМЧД</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.АдресСервераМЧД</content>
+</mdclass:FunctionalOption>

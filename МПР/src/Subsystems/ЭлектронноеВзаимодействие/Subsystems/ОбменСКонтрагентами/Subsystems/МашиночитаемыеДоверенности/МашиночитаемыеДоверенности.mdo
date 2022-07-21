@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce08f14d-aa15-45c2-b561-69646d182a7a">
+  <name>МашиночитаемыеДоверенности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машиночитаемые доверенности</value>
+  </synonym>
+  <content>CommonModule.МашиночитаемыеДоверенностиВызовСервера</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиКлиент</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиКлиентСервер</content>
+  <content>CommonModule.МашиночитаемыеДоверенности</content>
+  <content>Catalog.МашиночитаемыеДоверенностиОрганизаций</content>
+  <content>Catalog.МашиночитаемыеДоверенностиКонтрагентов</content>
+  <content>Enum.СтатусыМашиночитаемойДоверенности</content>
+  <content>InformationRegister.МашиночитаемыеДоверенностиЭД</content>
+  <content>Constant.ИспользоватьМЧД</content>
+  <content>FunctionalOption.ИспользоватьМЧД</content>
+  <content>InformationRegister.РезультатыПроверкиМЧДОператором</content>
+  <content>CommonTemplate.КарточкаМЧД</content>
+  <content>Role.ЧтениеМашиночитаемыхДоверенностей</content>
+  <content>Role.ДобавлениеИзменениеМашиночитаемыхДоверенностей</content>
+  <content>Constant.АдресСервераМЧД</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиПовтИсп</content>
+  <content>CommonForm.АдресСервераМЧД</content>
+  <content>Constant.РежимТестированияМЧД</content>
+  <content>StyleItem.ЦветТекстаУспешнаяПроверкаМЧД</content>
+  <content>StyleItem.ЦветТекстаНеУдачнаяПроверкаМЧД</content>
+  <content>CommonPicture.Лого1С</content>
+  <content>Enum.СубъектыДоверенности</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.ОбменСКонтрагентами</parentSubsystem>
+</mdclass:Subsystem>

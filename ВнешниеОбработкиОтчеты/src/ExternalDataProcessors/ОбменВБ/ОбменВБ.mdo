@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f0a4001-2d23-4fcd-97a7-2ab9824e3360">
+  <producedTypes>
+    <objectType typeId="470921df-7e08-4e1f-b5f8-0ca4af18e9f5" valueTypeId="52023cb9-dab2-4159-8664-d0fa189b08a6"/>
+  </producedTypes>
+  <name>ОбменВБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ВБ</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3810c4c1-8568-469c-9924-56e98c186246"/>
+  <defaultForm>ExternalDataProcessor.ОбменВБ.Form.Форма</defaultForm>
+  <attributes uuid="9244b343-039e-4bbf-bb1c-bd5b0fe18195">
+    <name>АдресСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b3003db3-bef7-40a8-93ed-58acbece7d3f">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3fe950dd-a2e9-4283-82c0-71934769682b">
+    <name>КонтрагентДляПривязкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент для привязки товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bc70c63-ef27-4f69-81a4-562c17a96d51">
+    <name>НеУчитыватьПоследнийСимволАртикулаWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать последний символ артикула WB</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Не учитывать последний символ артикула с WB</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="6e55e9c4-1912-4825-b139-203e28c2df08">
+    <producedTypes>
+      <objectType typeId="0b15ebf8-1380-4b1b-bd44-003bcc689e40" valueTypeId="fbcb1709-7679-4b02-86b0-701cc66abfd7"/>
+      <rowType typeId="9cda267e-c406-4100-9a0b-cd04797f5e65" valueTypeId="dd2eb097-c040-4fbe-a0f8-fa025445e438"/>
+    </producedTypes>
+    <name>СопоставлениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление номенклатуры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ecf53a82-eb74-467f-af3a-b00226375cc9">
+      <name>Артикул1с</name>
+      <synonym>
+        <key>ru</key>
+        <value>Артикул</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bbddd52a-4e5a-46a5-9ed4-e08cb35ca712">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a8c4bf9a-e685-4fbf-8a9e-e72ac45b2633">
+      <name>НаименованиеWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="69f833b7-9364-4048-84f9-f21da300d44c">
+      <name>АртикулWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Артикул WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8368d948-117d-4500-90fe-57c019435d1a">
+      <name>ШтрихкодWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3d91e95d-a628-4d27-b7ff-1a5b1b67a13e">
+      <name>БрендWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Бренд WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="dcbe2d87-f64c-4512-b8df-58157dde66aa">
+      <name>КатегорияWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0cd87eb1-f244-4b6d-871b-bb8968ef1b55">
+      <name>Привязано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Привязано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="86053397-cb6c-4dd2-ab5c-6edbbda04e73">
+      <name>IDНоменклатурыWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDНоменклатуры WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="af0bf9b6-4305-481b-9b21-2684a560c0f3">
+    <producedTypes>
+      <objectType typeId="2870ee4a-575b-45ee-ac19-1e06b671b219" valueTypeId="e3150a1e-9495-468d-9ae0-8f28bf4dc48b"/>
+      <rowType typeId="90905622-c6a3-4e1d-b8aa-c5d8f0b1841a" valueTypeId="f6665374-1c60-4df8-a4c9-ced0d1ac1107"/>
+    </producedTypes>
+    <name>ЗаказыWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы WB</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <forms uuid="847142b0-3f01-49fb-8cd4-73ec28dec252">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

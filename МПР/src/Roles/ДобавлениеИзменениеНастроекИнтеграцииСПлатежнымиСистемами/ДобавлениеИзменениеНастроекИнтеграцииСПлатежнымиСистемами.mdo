@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d136e031-d0f8-4d4d-81bc-5d15a7b6a29d">
+  <name>ДобавлениеИзменениеНастроекИнтеграцииСПлатежнымиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек интеграции с платежными системами</value>
+  </synonym>
+</mdclass:Role>

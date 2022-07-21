@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b90077d8-52c1-437f-992d-b09d11b5e4bd">
+  <name>ПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить дату запрета изменения перед записью набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.СебестоимостьНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ДействующиеПравилаРасчетаПремий</types>
+    <types>AccumulationRegisterRecordSet.ПродажиПоДисконтнымКартам</types>
+    <types>AccumulationRegisterRecordSet.ПродажиПоПлатежнымКартам</types>
+    <types>AccumulationRegisterRecordSet.Продажи</types>
+    <types>AccumulationRegisterRecordSet.ФактическоеРабочееВремяСотрудников</types>
+    <types>InformationRegisterRecordSet.КвотыАссортимента</types>
+    <types>AccumulationRegisterRecordSet.ОстаткиАлкогольнойПродукцииЕГАИС</types>
+    <types>AccumulationRegisterRecordSet.ДенежныеСредстваКПоступлениюНаличные</types>
+    <types>InformationRegisterRecordSet.РегистрацияЗаменыКартПокупателей</types>
+    <types>AccumulationRegisterRecordSet.ЗаказыТоваров</types>
+    <types>AccumulationRegisterRecordSet.ТоварыКОформлениюОтчетовКомитенту</types>
+    <types>AccumulationRegisterRecordSet.ТоварыНаСкладах</types>
+    <types>InformationRegisterRecordSet.Ассортимент</types>
+    <types>AccumulationRegisterRecordSet.ТоварыОрганизаций</types>
+    <types>AccumulationRegisterRecordSet.ТоварыКОформлениюИзлишковНедостач</types>
+    <types>AccumulationRegisterRecordSet.СебестоимостьПоставкиТоваров</types>
+    <types>AccumulationRegisterRecordSet.РасхожденияПриПриемке</types>
+    <types>AccumulationRegisterRecordSet.ДенежныеСредстваБезналичные</types>
+    <types>AccumulationRegisterRecordSet.РасчетыСКлиентами</types>
+    <types>AccumulationRegisterRecordSet.ДенежныеСредстваНаличные</types>
+    <types>InformationRegisterRecordSet.ДвиженияСерийныхНомеров</types>
+    <types>InformationRegisterRecordSet.ЦеныНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ПланируемоеРабочееВремяСотрудников</types>
+    <types>InformationRegisterRecordSet.ДействиеСкидокНаценок</types>
+    <types>AccumulationRegisterRecordSet.ДенежныеСредстваККМ</types>
+    <types>AccumulationRegisterRecordSet.ТоварыКОтгрузке</types>
+    <types>AccumulationRegisterRecordSet.ПремииПоЛичнымПродажам</types>
+    <types>AccumulationRegisterRecordSet.ТоварыКПоступлению</types>
+    <types>AccumulationRegisterRecordSet.ДвиженияСерийТоваров</types>
+    <types>AccumulationRegisterRecordSet.ДенежныеСредстваКВыплате</types>
+    <types>AccumulationRegisterRecordSet.Посетители</types>
+    <types>AccumulationRegisterRecordSet.РасчетыСПоставщиками</types>
+    <types>AccumulationRegisterRecordSet.ЗакупкиТоваров</types>
+    <types>AccumulationRegisterRecordSet.ЗаказыПокупателей</types>
+    <types>InformationRegisterRecordSet.ДействующиеЦеныНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</handler>
+</mdclass:EventSubscription>

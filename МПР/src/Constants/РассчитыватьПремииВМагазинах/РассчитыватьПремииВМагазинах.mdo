@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc63ed09-b294-41bc-8eca-904644c83bba">
+  <producedTypes>
+    <managerType typeId="620bedf4-25c1-4bef-a28c-8fd4ba7ac518" valueTypeId="73d10a7a-445f-4a49-b02f-fd0755524fe6"/>
+    <valueManagerType typeId="8f713870-3bb0-497d-bcf4-a8bef9779aec" valueTypeId="a2a91a97-1f99-4b52-94c0-dbcbbb8ec204"/>
+    <valueKeyType typeId="20ded276-9bd1-5e93-919d-d682651a7acb" valueTypeId="41e6199c-5e70-5e3d-be20-5b30b96f2166"/>
+  </producedTypes>
+  <name>РассчитыватьПремииВМагазинах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчитывать премии в магазинах</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Рассчитывать премии в магазинах</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

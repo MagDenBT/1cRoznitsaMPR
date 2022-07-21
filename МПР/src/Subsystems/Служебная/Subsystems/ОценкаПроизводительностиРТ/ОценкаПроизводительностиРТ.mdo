@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d90300e-0044-4132-933f-bc5293411261">
+  <name>ОценкаПроизводительностиРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка производительности РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ОценкаПроизводительностиРТВызовСервера</content>
+  <content>CommonModule.ОценкаПроизводительностиРТКлиент</content>
+  <content>InformationRegister.НастройкиКлючевыхОпераций</content>
+  <content>EventSubscription.ВыполнитьЗамерОценкиПроизводительностиСправочников</content>
+  <content>EventSubscription.ЗавершитьВыполнениеЗамераОценкиПроизводительностиСправочников</content>
+  <content>EventSubscription.ЗавершитьВыполнениеЗамераОценкиПроизводительностиДокументов</content>
+  <content>EventSubscription.ВыполнитьЗамерОценкиПроизводительностиДокументов</content>
+  <content>CommonModule.ОценкаПроизводительностиРТ</content>
+  <parentSubsystem>Subsystem.Служебная</parentSubsystem>
+</mdclass:Subsystem>

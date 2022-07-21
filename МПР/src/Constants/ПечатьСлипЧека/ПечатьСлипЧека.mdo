@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dffe98d-0376-48fa-af84-ef8d8314627b">
+  <producedTypes>
+    <managerType typeId="0995d786-2e0c-42ff-9874-357a8ca890e7" valueTypeId="12519bf4-4603-4d79-b908-96a3f88d379c"/>
+    <valueManagerType typeId="6b79d72d-c8d3-4359-9d26-cc62dcd9c69d" valueTypeId="8c9a1101-5f42-4d9d-9363-809cebb5078c"/>
+    <valueKeyType typeId="b2a74e7f-56f0-4195-beda-1acbf2e70af9" valueTypeId="6c87b140-b373-47a1-b09c-77317851930a"/>
+  </producedTypes>
+  <name>ПечатьСлипЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать слип чека</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

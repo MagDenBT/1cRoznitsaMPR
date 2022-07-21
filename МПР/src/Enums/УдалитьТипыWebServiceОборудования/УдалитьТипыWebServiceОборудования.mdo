@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f461125-9d21-480d-a2a5-bc88aa898641">
+  <producedTypes>
+    <refType typeId="3199c841-7c51-444f-8c84-aed615baca13" valueTypeId="5a443177-01d5-4859-8fb7-a02bebe39165"/>
+    <listType typeId="e3edb543-7ea4-45a5-90bf-90acf8149200" valueTypeId="a55949bd-9dd7-47e8-a39d-dffbda3a0d73"/>
+    <managerType typeId="0ac9028e-c9cc-470d-936f-36080a753653" valueTypeId="f01d915c-1259-4a98-9778-2a807bd6c843"/>
+  </producedTypes>
+  <name>УдалитьТипыWebServiceОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить типы web service оборудования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6332499b-03e0-4350-b271-95f93f5ddf55">
+    <name>МобильнаяКасса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильная касса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbb9b3df-ab6f-49c1-86aa-b4f8b982941f">
+    <name>ПроверкаЦенников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка ценников</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8b9a519-db76-400a-88f2-3f0021d00561">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделФинансы</picture>
+  </picture>
+  <content>Constant.ИспользоватьОплатуБанковскимиКредитами</content>
+  <content>Constant.ИспользоватьОплатуПлатежнымиКартами</content>
+  <content>CommonCommand.ОтчетыПоФинансам</content>
+  <content>CommonCommand.ДополнительныеОбработкиФинансы</content>
+  <content>CommonCommand.ДополнительныеОтчетыФинансы</content>
+  <content>DataProcessor.ПомощникЗачетаОплат</content>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>DataProcessor.ПодборДокументовВзаимозачета</content>
+  <content>DataProcessor.ПодборНеоплаченныхДокументов</content>
+  <content>CommonModule.ФинансыКлиент</content>
+  <content>FunctionalOption.ИспользоватьУчетСебестоимости</content>
+  <content>CommonForm.СведенияОВзаимозачете</content>
+  <content>Constant.ДатаНачалаПримененияПостановления1137</content>
+  <content>CommonTemplate.ПФ_MXL_ПриходныйКассовыйОрдер</content>
+  <content>CommonTemplate.ПФ_MXL_РасходныйКассовыйОрдер</content>
+  <content>CommonModule.ПечатьФискальныхЧеков</content>
+  <content>CommonModule.ФинансыСервер</content>
+  <content>CommonModule.ЭквайрингВызовСервера</content>
+  <content>Role.ДобавлениеИзменениеОплатОтПокупателяПлатежнойКартой</content>
+  <content>Role.ОтчетыИОбработкиКассираОперационнойКассы</content>
+  <content>Role.ПодсистемаФинансы</content>
+  <content>CommonPicture.ПодсистемаФинансы</content>
+  <content>DataProcessor.ЗакрытиеКассовойСмены</content>
+  <content>CommonForm.ОткрытиеКассовойСмены</content>
+  <content>CommonPicture.РазделФинансы</content>
+  <content>Report.РасчетыСКлиентами</content>
+  <subsystems>ДенежныеСредства</subsystems>
+  <subsystems>ПланированиеИКонтрольДС</subsystems>
+  <subsystems>ПодарочныеСертификаты</subsystems>
+  <subsystems>ПоступлениеОплаты</subsystems>
+</mdclass:Subsystem>

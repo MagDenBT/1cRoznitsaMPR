@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce23b3fc-2098-4c01-a788-87f2602bd6ae">
+  <producedTypes>
+    <selectionType typeId="cb8c8e9e-3f57-4874-ad6f-7cf85fd136d2" valueTypeId="60b20a88-be06-4c62-a474-d10313004aad"/>
+    <listType typeId="9df01dfd-8803-45bd-8a5a-5b2dd87d3985" valueTypeId="769cd860-0522-4561-821e-8fb887cfd8c8"/>
+    <managerType typeId="0e6174c3-bf97-4735-b299-afb7fb1404dc" valueTypeId="f0d33a29-5cd6-4e72-93a8-761a832ec29b"/>
+    <recordSetType typeId="f0d1c09c-35a8-4fe7-8985-f55b9f02b500" valueTypeId="924f6493-3973-478a-9119-c10cc2940a25"/>
+    <recordKeyType typeId="cbebec1d-ebf0-4f2b-bd3a-e169bba2b8d5" valueTypeId="5b4d1529-ee78-42db-9105-8dd2c83c601a"/>
+    <recordType typeId="cebcc29e-ae84-4078-93e0-619b5dea2824" valueTypeId="cfa7338b-40b7-4597-b877-8cbe0e196564"/>
+    <recordManagerType typeId="78a7afe0-6d69-402c-80f0-ff4ed2415e69" valueTypeId="00e6448d-23d1-4c5b-b03b-a1a08b98733e"/>
+  </producedTypes>
+  <name>КассыККМИнтернетМагазинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы ККМ интернет-магазинов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9fc6bbea-9a53-413c-88fb-5c6da396dd46">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КассыККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8fba51e0-20fb-4e0f-a078-dadc5f5e531c">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменССайтом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

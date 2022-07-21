@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9a0b60c-b01e-4dba-b976-130a62eec686">
+  <producedTypes>
+    <refType typeId="97b8774f-98c5-48c8-a3b9-b15d6f53c718" valueTypeId="4cd8e831-d0c6-4623-b9d0-9db6a8f046a6"/>
+    <listType typeId="0a5f8e9e-1763-438e-a3f3-27a17ae589c3" valueTypeId="7083b884-f5e9-4c2c-bbc3-cf8d4e940dec"/>
+    <managerType typeId="2e8aa96b-c711-4ec7-a95a-01b4eefdfea8" valueTypeId="cbe77f26-2985-454c-8759-4df1765596f4"/>
+  </producedTypes>
+  <name>ds_ИсточникиЗаполненияПечатныхФормКассовыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники заполнения печатных форм кассовых документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fba089bc-f531-4f8f-ae90-32260c9d96c9">
+    <name>КассирВДокументе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир в документе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="107e5807-a9fa-41b6-9937-c406a26d6c0c">
+    <name>НомерСумки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сумки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f405ebc6-1692-459f-bb9f-c355a409fc61">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f4416f6-fe12-46b7-8a00-184ce7f409dc">
+    <name>ПлатежнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежная ведомость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e14f307-1967-4581-90f1-e2d762924632">
+    <name>РуководительОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель организации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

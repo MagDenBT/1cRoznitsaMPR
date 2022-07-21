@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd9d66c0-9b40-42d0-a46a-8a9c4f82d8fa">
+  <producedTypes>
+    <objectType typeId="779dd128-b472-4410-9da8-7fb5c7d459e8" valueTypeId="8ff24dc0-4f7d-4dad-8e51-8e1284ac7e7b"/>
+    <managerType typeId="d7627678-7d09-4aa9-9372-5421c225c124" valueTypeId="73f3fd94-4731-4881-8733-f6f9f84352f3"/>
+  </producedTypes>
+  <name>ВыручкаНаКвадратныйМетрТорговойПлощади</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выручка на квадратный метр торговой площади</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВыручкаНаКвадратныйМетрТорговойПлощади.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1a4fe8f3-d79e-485a-8072-12f347892db1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

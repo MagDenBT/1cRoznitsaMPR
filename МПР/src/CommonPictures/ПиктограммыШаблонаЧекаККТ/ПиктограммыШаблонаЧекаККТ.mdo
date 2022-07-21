@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="384a0c19-fed4-4a29-9f03-4ac5de3daa88">
+  <name>ПиктограммыШаблонаЧекаККТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограммы шаблона чека ККТ</value>
+  </synonym>
+</mdclass:CommonPicture>

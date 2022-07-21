@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d91680-e12b-4151-aa9e-e30143420408">
+  <name>ИнтеграцияЕГАИСРТПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГАИСРТПовт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f812d52-7e65-41ef-852c-cd3c1d7e2453">
+  <name>ИнтеграцияГИСМРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ГИСМ РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МаркировкаТоваровГИСМРТ</content>
+  <content>CommonModule.МаркировкаТоваровГИСМРТКлиент</content>
+  <content>8be07c43-199d-4400-9e44-9e4e21736b45</content>
+  <content>CommonModule.ИнтеграцияГИСМРТ</content>
+  <content>CommonModule.ИнтеграцияГИСМРТКлиент</content>
+  <content>CommonModule.МаркировкаТоваровГИСМКлиентСерверРТ</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ВозвратТоваровОтПокупателя</content>
+  <content>Document.ВозвратТоваровПоставщику</content>
+  <content>Document.ОтчетОРозничныхПродажах</content>
+  <content>Document.СписаниеТоваров</content>
+  <content>Document.РеализацияТоваров</content>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>Catalog.КлассификаторТНВЭД</content>
+  <content>DefinedType.ВидМехаГИСМ</content>
+  <content>Enum.ВерсииСхемОбменовДаннымиГИСМ</content>
+  <content>Enum.ВидыКонтрольныхИндентификационныхЗнаковГИСМ</content>
+  <content>CommonPicture.ВниманиеКрасный</content>
+  <content>CommonPicture.ВыполненоУспешно</content>
+  <content>CommonPicture.СтрелкаВнизЗеленая</content>
+  <content>CommonPicture.СтрелкаВправоЗеленая</content>
+</mdclass:Subsystem>

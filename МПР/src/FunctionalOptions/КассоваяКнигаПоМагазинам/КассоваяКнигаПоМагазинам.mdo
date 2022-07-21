@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39e1e028-08ca-466e-94a7-897073455d14">
+  <name>КассоваяКнигаПоМагазинам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовая книга по магазинам</value>
+  </synonym>
+  <location>Constant.КассоваяКнигаПоМагазинам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.КассоваяКнига.Attribute.Магазин</content>
+</mdclass:FunctionalOption>

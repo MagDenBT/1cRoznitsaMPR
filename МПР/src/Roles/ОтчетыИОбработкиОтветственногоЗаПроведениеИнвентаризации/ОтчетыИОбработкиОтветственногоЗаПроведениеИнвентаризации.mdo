@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dfb5c29-01d7-4899-a89c-f9a446b30288">
+  <name>ОтчетыИОбработкиОтветственногоЗаПроведениеИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты и обработки ответственного за проведение инвентаризации</value>
+  </synonym>
+</mdclass:Role>

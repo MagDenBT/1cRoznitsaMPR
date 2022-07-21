@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8002de4f-61ac-4463-b775-00db9afe3ee3">
+  <name>БазовыеКлассификаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые классификаторы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Enum.СтавкиНДС</content>
+  <content>Enum.ЮрФизЛицо</content>
+  <content>CommonPicture.АдреснаяКнига</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

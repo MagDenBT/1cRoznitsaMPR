@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d450aa23-d4a0-4657-8a05-16f960b5c7cd">
+  <name>ИспользоватьПравилаИменованияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать правила именования номенклатуры</value>
+  </synonym>
+  <location>Constant.ИспользоватьПравилаИменованияНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПравилаИменованияНоменклатуры</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.ПравилоИменования</content>
+  <content>Catalog.ВидыНоменклатуры.Attribute.ЗапретитьРедактированиеНаименования</content>
+  <content>DataProcessor.РаботаСПравиламиИменованияНоменклатуры.Command.ПереименованиеПозицийНоменклатуры</content>
+  <content>Report.ПозицииНоменклатурыИменованныеНеПоПравилу</content>
+  <content>InformationRegister.НоменклатураКПереименованию</content>
+</mdclass:FunctionalOption>

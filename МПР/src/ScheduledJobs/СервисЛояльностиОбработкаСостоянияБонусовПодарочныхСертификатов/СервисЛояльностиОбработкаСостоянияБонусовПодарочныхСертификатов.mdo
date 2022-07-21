@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9ae77d2-2f6d-44bb-b124-48c1ff56f31b">
+  <name>СервисЛояльностиОбработкаСостоянияБонусовПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка состояния бонусов</value>
+  </synonym>
+  <methodName>CommonModule.СервисЛояльности.ОбработкаСостоянияБонусовИПодарочныхСертификатов</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

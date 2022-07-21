@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98c9760b-b234-4619-89b4-25375f30e33e">
+  <name>ПрефиксацияПриУстановкеНовогоНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация при установке нового номера</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЕжедневныйОтчет</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.ЧекЕГАИСВозврат</types>
+    <types>DocumentObject.ВводОстатковПоНакопительнымСкидкам</types>
+    <types>DocumentObject.УстановкаКвотАссортимента</types>
+    <types>DocumentObject.КорректировкаРегистров</types>
+    <types>DocumentObject.ВводНачальныхОстатковУзла</types>
+    <types>DocumentObject.ds_УстановкаКатегорийНоменклатуры</types>
+    <types>DocumentObject.ЧекЕГАИС</types>
+    <types>DocumentObject.УстановкаПлощадиВыкладки</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ЗаменаДисконтныхКарт</types>
+    <types>DocumentObject.ВводОстатковРасчетовСПоставщиками</types>
+    <types>DocumentObject.УстановкаСебестоимости</types>
+    <types>DocumentObject.ИзменениеАссортимента</types>
+    <types>DocumentObject.ds_СверкаДенежныхСредств</types>
+    <types>DocumentObject.ds_АктПриемкиТоваров</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>DocumentObject.ТабельУчетаРабочегоВремени</types>
+    <types>DocumentObject.ВводОстатковДенежныхСредств</types>
+    <types>DocumentObject.РегистрацияПодсчетаПосетителей</types>
+    <types>DocumentObject.МаркетинговаяАкция</types>
+    <types>DocumentObject.ПрименениеЦенНоменклатуры</types>
+    <types>DocumentObject.ОтчетКомитентуОСписании</types>
+    <types>DocumentObject.ОтчетКомитентуОПродажах</types>
+    <types>DocumentObject.ПоложениеОПремировании</types>
+    <types>DocumentObject.РасчетПремийПоЛичнымПродажам</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

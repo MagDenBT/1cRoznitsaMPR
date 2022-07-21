@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7046f854-a4b4-4d2b-987d-3d9b06f37755">
+  <producedTypes>
+    <managerType typeId="d24d712d-82f7-43df-ace4-0f5f50f45b47" valueTypeId="535f67bc-3c16-4611-b8fe-6aee5ecd1174"/>
+    <valueManagerType typeId="6174fddb-eec5-4fbf-baf1-39d17ce36bee" valueTypeId="c0cd21a6-9a8a-44c3-b9b7-74fe47d6841e"/>
+    <valueKeyType typeId="2ba8091e-7935-4a7f-becb-9cd477b6cf1b" valueTypeId="8458e05c-d656-4d3e-ac66-4aa6a5438dc8"/>
+  </producedTypes>
+  <name>ИспользоватьУпрощенныйАлгоритмПоискаПоШтрихкоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать упрощенный алгоритм поиска по штрихкоду</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

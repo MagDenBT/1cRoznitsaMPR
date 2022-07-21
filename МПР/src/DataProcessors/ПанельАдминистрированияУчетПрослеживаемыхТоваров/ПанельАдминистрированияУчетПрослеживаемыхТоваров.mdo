@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="640de827-77cf-4fb3-91ac-951ff1e3eb60">
+  <producedTypes>
+    <objectType typeId="b631af5b-aa2c-4607-9607-484895b069b6" valueTypeId="cd68b973-1ebc-4a80-bb04-abdccbf245e4"/>
+    <managerType typeId="d0be3ffb-08ff-4937-a7dd-209179c5d43b" valueTypeId="b3e79261-9ee1-4e70-8a55-c929cb5d9f2f"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияУчетПрослеживаемыхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет товаров РНПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияУчетПрослеживаемыхТоваров.Form.УчетРНПТ</defaultForm>
+  <forms uuid="2eb7b0ff-0b4d-4d2d-ad01-9d0285aeb310">
+    <name>УчетРНПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет товаров РНПТ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="371ec648-f476-41d2-94f9-6f00b4a85d73">
+    <name>ПанельАдминистрированияУчетПрослеживаемыхИмпортныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет товаров РНПТ</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

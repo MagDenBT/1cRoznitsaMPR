@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="406c3107-2108-4199-8eac-82f7f243a694">
+  <producedTypes>
+    <refType typeId="03efed20-c32e-4585-b7f7-ed2f18ed3fc1" valueTypeId="9a53e5b3-74c4-4fde-958d-6d2e2373e3e3"/>
+    <listType typeId="baf002e3-36d0-4d3d-a678-1441e0d760f0" valueTypeId="891765b8-ca00-4965-aff6-e7fd35c09f52"/>
+    <managerType typeId="f98a7653-a7a4-4225-a51a-4268e9044e40" valueTypeId="227556ad-7c4f-48e1-aa12-a887e3b556f1"/>
+  </producedTypes>
+  <name>ОперацииКассовойОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции кассовой отчетности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0742ff4d-fb29-4459-a366-6875b26fd246">
+    <name>ПоступлениеОтПродажиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>02</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8bfd994-0f93-4b77-b6c7-0ffbb6220c0b">
+    <name>ПоступленияОтРеализацииУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>11</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efee7122-1eb3-4a81-a735-e0a88a16018a">
+    <name>ПоступленияОтНалогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>12</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4164bdc9-3e19-4008-9e43-d093bfb0c579">
+    <name>ПоступленияВЦеляхПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>13</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4de927e5-4d3d-43b8-a489-1495fb0768b3">
+    <name>ПоступленияЗаймовИВПогашениеКредитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>14</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2af68ca5-76f5-44eb-b5ad-18a53a8998b8">
+    <name>ПоступленияОтОперацийСНедвижимостью</name>
+    <synonym>
+      <key>ru</key>
+      <value>15</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82751b73-c676-4b04-8540-5f7fe2628970">
+    <name>ПоступленияНаСчетаПоВкладамФизическихЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>16</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfa6bf63-9763-44ac-9194-a43ba7c78fad">
+    <name>ПоступленияОтОрганизацийФедеральногоАгенстваСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>17</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="297be8bb-202d-4646-9224-fb58687e7b1b">
+    <name>ПоступленияНаСчетаИндивидуальныхПредпринимателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>19</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20d6415a-2fa3-4f39-a652-eda66346e830">
+    <name>ПоступленияОтОперацийСГосударственнымиИДругимиЦеннымиБумагами</name>
+    <synonym>
+      <key>ru</key>
+      <value>20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="194744b5-922d-4e9c-a20b-c03ebf1f6d47">
+    <name>ПоступленияОтОперацийСВекселями</name>
+    <synonym>
+      <key>ru</key>
+      <value>21</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d97d7a0-77ca-4dd5-bca0-08a7062b0b78">
+    <name>ПоступленияОтОперацийИгорногоБизнеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>22</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39abe384-0a8a-4222-8064-293c7c863bc7">
+    <name>ПоступленияОтПродажиФизическимиЛицамиИностраннойВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>30</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79af0d10-d814-4d22-94b9-91a63a47f72b">
+    <name>ПоступленияНаБанковскиеСчетаФизическихЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>31</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a1b4505-f405-45a6-ae7d-785c8f765807">
+    <name>ПрочиеПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>32</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07702a68-2595-4c40-9d41-fafceed19dc2">
+    <name>ПоступлениеНаличныхДенегИзБанкоматов</name>
+    <synonym>
+      <key>ru</key>
+      <value>33</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dddd138a-ccf4-4499-bf29-e49b7ed50d69">
+    <name>ОстатокВКассеНаНачалоОтчетногоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>35</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="825683a1-99a1-4441-9b82-5239c466eae8">
+    <name>ПоступленияНаличныхДенегИзОборотнойКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>37</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f74f947b-e976-4f37-bd33-0de6b57c49b0">
+    <name>ПоступлениеНаличныхДенегВКассуИзДругойОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>39</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

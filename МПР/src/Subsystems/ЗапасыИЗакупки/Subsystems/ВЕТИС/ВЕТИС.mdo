@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4931f75-d4a5-43a8-8ea4-a30f928251a3">
+  <name>ВЕТИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВЕТИС</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельОбменВЕТИС</content>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

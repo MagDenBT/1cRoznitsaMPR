@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77bc3090-24f5-4c8d-a6aa-8beb350f1573">
+  <name>ИспользоватьКомиссионнуюТорговлю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать комиссионную торговлю</value>
+  </synonym>
+  <location>Constant.ИспользоватьКомиссионнуюТорговлю</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетКомитентуОПродажах</content>
+  <content>Document.ОтчетКомитентуОСписании</content>
+  <content>Enum.СпособыРасчетаКомиссионногоВознаграждения</content>
+  <content>DocumentJournal.ОтчетыКомитенту</content>
+  <content>Enum.ПриоритетыРеализацииТоваров</content>
+  <content>Subsystem.ЗапасыИЗакупки.Subsystem.КомиссионнаяТорговля</content>
+  <content>Report.ТоварыПринятыеНаКомиссию</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.Поставщик</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.Договор</content>
+  <content>Document.ВводНачальныхОстатковУзла.TabularSection.ТоварыОрганизаций.Attribute.Контрагент</content>
+  <content>Document.ВводНачальныхОстатковУзла.TabularSection.ТоварыОрганизаций.Attribute.Договор</content>
+  <content>Document.ОприходованиеТоваров.Attribute.Контрагент</content>
+  <content>Document.ОприходованиеТоваров.Attribute.Договор</content>
+  <content>Document.ПоступлениеТоваров.Attribute.Договор</content>
+  <content>Document.ЗаказПоставщику.Attribute.Договор</content>
+  <content>Document.ВозвратТоваровПоставщику.Attribute.Договор</content>
+  <content>AccumulationRegister.ТоварыКОформлениюОтчетовКомитенту</content>
+  <content>AccumulationRegister.ТоварыОрганизаций.Dimension.Договор</content>
+  <content>AccumulationRegister.ТоварыОрганизаций.Dimension.Поставщик</content>
+</mdclass:FunctionalOption>

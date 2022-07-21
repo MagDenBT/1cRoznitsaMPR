@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c4560de-c861-4ef8-8245-e1c143d5f727">
+  <name>ОбменССайтамиРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтами РТ</value>
+  </synonym>
+  <content>FunctionalOption.ИспользоватьОбменССайтомРТ</content>
+  <content>CommonModule.ОбменССайтомРТ</content>
+  <content>CommonModule.ОбменССайтомРТКлиент</content>
+  <content>CommonModule.ОбменССайтомРТВызовСервера</content>
+  <content>Enum.СпособыИдентификацииКонтрагентов</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

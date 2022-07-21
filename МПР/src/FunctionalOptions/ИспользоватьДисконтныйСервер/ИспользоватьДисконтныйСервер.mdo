@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1eef5bd-c832-407c-ad74-66febbd0943e">
+  <name>ИспользоватьДисконтныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дисконтный сервер</value>
+  </synonym>
+  <location>Constant.ИспользоватьДисконтныйСервер</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ПротоколПередачиДокументовДисконтномуСерверу</content>
+  <content>InformationRegister.ПротоколПередачиДокументовДисконтномуСерверу.Command.ПротоколПередачиДокументаДисконтномуСерверу</content>
+</mdclass:FunctionalOption>

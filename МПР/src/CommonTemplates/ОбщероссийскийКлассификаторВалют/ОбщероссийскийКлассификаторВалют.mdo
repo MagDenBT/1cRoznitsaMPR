@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af0ed4fb-85a3-4ed8-a111-1c39ad82a8df">
+  <name>ОбщероссийскийКлассификаторВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общероссийский классификатор валют</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

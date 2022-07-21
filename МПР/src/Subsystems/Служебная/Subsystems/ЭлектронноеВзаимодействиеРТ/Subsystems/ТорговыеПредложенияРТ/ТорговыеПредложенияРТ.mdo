@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6304cd30-f3fe-4567-968a-14be88e9d3fa">
+  <name>ТорговыеПредложенияРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые предложения РТ</value>
+  </synonym>
+  <content>CommonModule.ТорговыеПредложенияРТ</content>
+  <content>CommonCommand.ИсходящиеДокументыБизнесСетьРТ</content>
+  <content>CommonModule.ТорговыеПредложенияРТКлиент</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

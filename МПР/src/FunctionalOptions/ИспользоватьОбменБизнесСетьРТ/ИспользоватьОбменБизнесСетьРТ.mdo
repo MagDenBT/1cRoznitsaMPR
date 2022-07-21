@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00bf71f1-8a1b-4bc8-bfbc-bacf5b95e011">
+  <name>ИспользоватьОбменБизнесСетьРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен электронными документами через 1С:Бизнес-сеть</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбменБизнесСеть</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.БизнесСеть.Command.ОткрытьПрофильУчастника</content>
+  <content>InformationRegister.ПользователиБизнесСеть</content>
+  <content>InformationRegister.ОрганизацииБизнесСеть</content>
+  <content>CommonCommand.УдалитьСервисныеКомандыБизнесСеть</content>
+  <content>CommonCommand.ВходящиеДокументыБизнесСеть</content>
+  <content>InformationRegister.УдалитьСоответствиеНоменклатурыБизнесСеть</content>
+  <content>InformationRegister.УдалитьСоответствиеЗначенийРеквизитовБизнесСеть</content>
+  <content>InformationRegister.УдалитьСоответствиеРеквизитовБизнесСеть</content>
+  <content>InformationRegister.СостоянияСинхронизацииТорговыеПредложения</content>
+  <content>DataProcessor.ТорговыеПредложения</content>
+  <content>CommonCommand.ПубликацияТорговыхПредложений</content>
+  <content>CommonCommand.ТорговыеПредложенияБизнесСеть</content>
+  <content>Subsystem.ЗапасыИЗакупки.Subsystem.БизнесСеть</content>
+</mdclass:FunctionalOption>

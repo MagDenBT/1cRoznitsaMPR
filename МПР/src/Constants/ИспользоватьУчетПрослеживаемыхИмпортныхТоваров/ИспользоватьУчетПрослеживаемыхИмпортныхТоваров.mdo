@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf20b238-6b46-4364-8c1e-19354553c31a">
+  <producedTypes>
+    <managerType typeId="10bbf577-a7a9-4fd9-8b09-0f5a0e7f8dde" valueTypeId="69d00ecc-c200-4971-ab4d-02df7595308f"/>
+    <valueManagerType typeId="ce2e7f92-50b6-4ce2-b461-796f7bdc313b" valueTypeId="423c6735-f45e-4668-bded-b67abe415dda"/>
+    <valueKeyType typeId="54e0095f-df0d-49c5-8320-801fce3650ca" valueTypeId="dd1e147b-d310-48a1-ad5a-6ca8f560df6f"/>
+  </producedTypes>
+  <name>ИспользоватьУчетПрослеживаемыхИмпортныхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет прослеживаемых импортных товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

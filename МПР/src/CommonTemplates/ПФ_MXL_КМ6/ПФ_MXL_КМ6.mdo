@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fbce789-3c5a-4f16-a86e-9f6f3f231d51">
+  <name>ПФ_MXL_КМ6</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПФ MXL КМ-6</value>
+  </synonym>
+  <comment>КМ-6</comment>
+</mdclass:CommonTemplate>

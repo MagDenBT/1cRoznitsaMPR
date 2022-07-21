@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fdb3992-8fb7-4333-81f4-a8728587d124">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</content>
+  <content>CommonCommand.ДополнительныеОбработкиНормативноСправочнаяИнформация</content>
+  <content>CommonCommand.ДополнительныеОтчетыНормативноСправочнаяИнформация</content>
+  <content>ChartOfCharacteristicTypes.ТипыШтрихкодов</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Enum.ВидыОбъектовКонтактнойИнформации</content>
+  <content>Role.ДобавлениеИзменениеШтрихкодов</content>
+  <content>Role.НастройкаНормативноСправочнойИнформации</content>
+  <content>Role.ПодсистемаНормативноСправочнаяИнформация</content>
+  <content>Role.ЧтениеНормативноСправочнойИнформации</content>
+  <content>CommonPicture.РазделНормативноСправочнаяИнформация</content>
+  <content>Catalog.Контрагенты</content>
+  <content>InformationRegister.Штрихкоды</content>
+  <content>CommonCommand.ОтчетыПоНСИ</content>
+  <content>CommonModule.ШтрихкодированиеНоменклатурыКлиентСервер</content>
+  <content>Constant.АвтоматическиГенерироватьSKU</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>CommonModule.ШтрихкодированиеРТ</content>
+  <content>CommonModule.ШтрихкодированиеРТКлиентСервер</content>
+  <subsystems>БазовыеКлассификаторы</subsystems>
+  <subsystems>ЕГАИС</subsystems>
+  <subsystems>Номенклатура</subsystems>
+  <subsystems>Предприятие</subsystems>
+  <subsystems>ФизическиеЛица</subsystems>
+</mdclass:Subsystem>

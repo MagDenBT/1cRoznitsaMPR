@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64564795-6003-48c7-a104-c552fc8adf08">
+  <name>ds_НоменклатураПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Номенклатура</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ПодпискиНаСобытия.НоменклатураПередЗаписью</handler>
+</mdclass:EventSubscription>

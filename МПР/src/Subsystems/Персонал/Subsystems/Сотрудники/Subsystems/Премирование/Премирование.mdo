@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d200766-aa5c-4783-aa91-49bb8f99cefa">
+  <name>Премирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоложениеОПремировании</content>
+  <content>Document.РасчетПремийПоЛичнымПродажам</content>
+  <content>Catalog.УсловияНачисленияПремийПоЛичнымПродажам</content>
+  <content>Catalog.ПравилаРасчетаПремий</content>
+  <content>Report.ПремииПоЛичнымПродажам</content>
+  <content>Report.ДействующиеПравилаРасчетаПремий</content>
+  <content>Report.АнализПравилРасчетаПремий</content>
+  <content>InformationRegister.ДействующиеПравилаРасчетаПремий</content>
+  <content>AccumulationRegister.ПремииПоЛичнымПродажам</content>
+  <content>Role.ДобавлениеИзменениеРасчетПремийПоЛичнымПродажам</content>
+  <content>Role.ДобавлениеИзменениеПравилаРасчетаПремий</content>
+  <content>Role.ДобавлениеИзменениеПоложениеОПремировании</content>
+  <content>Role.ЧтениеПоложениеОПремировании</content>
+  <content>Role.ЧтениеПравилаРасчетаПремий</content>
+  <content>Role.ЧтениеРасчетПремийПоЛичнымПродажам</content>
+  <content>Enum.ВариантыСовместногоРасчетаПремий</content>
+  <content>Enum.СпособыРасчетаПремий</content>
+  <content>Enum.УсловияНачисленияПремийПоЛичнымПродажам</content>
+  <content>Constant.РассчитыватьПремииВМагазинах</content>
+  <parentSubsystem>Subsystem.Персонал.Subsystem.Сотрудники</parentSubsystem>
+</mdclass:Subsystem>

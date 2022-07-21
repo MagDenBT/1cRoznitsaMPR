@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bce381a-2da0-4885-ad1c-d6efcb18dbce">
+  <producedTypes>
+    <objectType typeId="16bef80c-c779-4148-886c-bb8e617b7004" valueTypeId="f28ed26e-ad2b-463a-ab6d-a36bb3ba930a"/>
+    <managerType typeId="bbc524e1-de61-4da7-bf2b-97e282700b90" valueTypeId="f92e63ac-26b4-4f67-ac96-0a69e6a997e1"/>
+  </producedTypes>
+  <name>ПопыткиПродажПревышающихОстаток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Попытки продаж, превышающих остаток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПопыткиПродажПревышающихОстаток.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="f2e26e07-ef23-4a7c-a0ce-b42a1d426ae1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

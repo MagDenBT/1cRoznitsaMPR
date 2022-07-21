@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df2ac59a-3264-4259-b6e3-36bae0130a0f">
+  <producedTypes>
+    <managerType typeId="0fe30204-3a1c-4ee4-8b35-3fd2bc41df92" valueTypeId="11bc7277-0218-46ed-9f38-eae2becff07d"/>
+    <valueManagerType typeId="f919f511-0cd8-44d9-9cac-a04cdb0ea40d" valueTypeId="d63a6f52-98c1-42ca-a63b-c0c23fc53d47"/>
+    <valueKeyType typeId="97b31b02-299d-5c45-8083-d21f706749f2" valueTypeId="34be0014-338a-574c-915b-c0d9e2bf499f"/>
+  </producedTypes>
+  <name>ПараметрыСверткиИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры свертки ИБ</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

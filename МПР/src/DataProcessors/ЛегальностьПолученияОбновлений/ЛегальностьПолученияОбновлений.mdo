@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab3b271c-a676-4e2e-8f1c-acf80a64f6e8">
+  <producedTypes>
+    <objectType typeId="a4480d53-fcce-447f-88ce-5de022bb520e" valueTypeId="51f62d77-3b3d-42fc-be72-41e9b167f3a4"/>
+    <managerType typeId="6f486493-a3f1-46ce-9e12-7a04c1329a61" valueTypeId="dbde7ae5-a1e0-4b90-8881-c6ac0c26a6b9"/>
+  </producedTypes>
+  <name>ЛегальностьПолученияОбновлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Легальность получения обновлений</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЛегальностьПолученияОбновлений.Form.ПроверкаЛегальностиПолученияОбновления</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="caba898f-3283-4436-9323-40ff46168314">
+    <name>ПроверкаЛегальностиПолученияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка легальности получения обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="29034f3e-d2eb-44e0-ac85-f2ffaf14eb90">
+    <name>УсловияРаспространенияОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия распространения обновлений</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

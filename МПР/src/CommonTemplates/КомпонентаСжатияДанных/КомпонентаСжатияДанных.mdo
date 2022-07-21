@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd5cb960-2541-4aa8-adb4-7bbcfc15bd76">
+  <name>КомпонентаСжатияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компонента сжатия данных</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

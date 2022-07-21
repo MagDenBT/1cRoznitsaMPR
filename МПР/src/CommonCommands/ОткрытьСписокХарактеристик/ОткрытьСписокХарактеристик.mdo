@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5dd0ef3-226a-4085-8d0a-989b0daeecf0">
+  <name>ОткрытьСписокХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Харктеристики</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ВидыНоменклатуры</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

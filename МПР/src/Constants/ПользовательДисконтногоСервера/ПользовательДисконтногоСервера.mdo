@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42d894a2-7d47-4727-a604-c20b39297b4f">
+  <producedTypes>
+    <managerType typeId="2e6f0ef9-6b54-4ccc-80ea-7e16dac4b9ce" valueTypeId="ee4c678c-db63-4d0e-b3a7-7a77f12a42d3"/>
+    <valueManagerType typeId="c1baf5fa-5109-46f8-adec-703f2e043cfe" valueTypeId="a7fc7041-ce0a-4075-a8cc-8412141e1341"/>
+    <valueKeyType typeId="6a9a57a8-47f8-5196-ba4c-728f92f9afa9" valueTypeId="de5fd0e3-249c-5d13-a2d2-3f49999d3b6e"/>
+  </producedTypes>
+  <name>ПользовательДисконтногоСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь дисконтного сервера</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

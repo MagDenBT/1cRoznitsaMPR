@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1df371c9-7d3a-4ded-a403-1e440c839f06">
+  <name>ЭлектронныеСертификатыНСПКРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные сертификаты НСПКРТ</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e329eee-0279-43c7-ac2a-8fbc40238d76">
+  <producedTypes>
+    <refType typeId="f8157fc4-b20a-4867-9bae-39de8fbd573c" valueTypeId="1a5eca93-240a-48d6-829c-f9157ed9f39d"/>
+    <listType typeId="1d7c0920-8ea4-4ff9-9435-67167c0e4088" valueTypeId="c0a6e6ba-d937-4084-a6e5-5f135e355f89"/>
+    <managerType typeId="47ef7317-04ec-4ab4-80d0-699995c2f4ed" valueTypeId="f2378df5-efcb-45f9-829f-c0e61ca48a24"/>
+  </producedTypes>
+  <name>УчетНДСУКомитента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет НДС у комитента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c38b1b8a-7973-4255-9b08-1d517f679989">
+    <name>ВыделятьНДСЗаКомиссионныеТоварыПриПечатиЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="481db1e8-0a1c-43f0-a2e4-1a717566561c">
+    <name>НеВыделятьНДСЗаКомиссионныеТоварыПриПечатиЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выделять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

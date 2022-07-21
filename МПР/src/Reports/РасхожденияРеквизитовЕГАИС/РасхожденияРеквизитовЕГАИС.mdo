@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07b44d61-0fce-461c-a11e-7bd90c4025af">
+  <producedTypes>
+    <objectType typeId="29501fbe-613b-44b9-932f-4b03a03caffe" valueTypeId="1a123008-1c47-4570-a838-37d8eb6c6c58"/>
+    <managerType typeId="0230410c-3b02-469f-8e47-3d0c8298b018" valueTypeId="41603e27-ac50-4131-adc6-ecb7ad7170b0"/>
+  </producedTypes>
+  <name>РасхожденияРеквизитовЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расхождения реквизитов ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасхожденияРеквизитовЕГАИС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="995c7ae3-8727-4a50-aa9f-dee138cb1b5c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

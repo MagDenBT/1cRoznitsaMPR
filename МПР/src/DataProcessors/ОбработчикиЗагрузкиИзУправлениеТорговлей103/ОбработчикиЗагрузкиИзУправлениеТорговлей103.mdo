@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af42c54d-8b46-45d7-8edc-39af2cabff62">
+  <producedTypes>
+    <objectType typeId="b5614261-08e4-4b44-ba00-8c2927c8cd0d" valueTypeId="102ac94f-c7b3-44fc-9e36-914b2742663a"/>
+    <managerType typeId="e9788813-1356-421b-b4bc-132a9edee69a" valueTypeId="f2241d86-092f-4d51-9e47-61eec72e42d7"/>
+  </producedTypes>
+  <name>ОбработчикиЗагрузкиИзУправлениеТорговлей103</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики загрузки из &quot;Управление торговлей, ред. 10.3&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

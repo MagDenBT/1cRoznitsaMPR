@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fd56c61-0d69-489a-b368-4d15d877cbb8">
+  <producedTypes>
+    <objectType typeId="58dab4d1-3e88-48e9-9739-33f44c8acffd" valueTypeId="4be65413-86e5-4fad-82ed-58028d284d36"/>
+    <managerType typeId="d16c813a-0244-47f8-83e5-0b568014248b" valueTypeId="0d2a768c-c1e8-4165-83de-e74a51ae31d5"/>
+  </producedTypes>
+  <name>ОстаткиИДвиженияДенежныхСредствВКассахККМПоВидамВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки и движения денежных средств в кассах ККМ по видам выручки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиИДвиженияДенежныхСредствВКассахККМПоВидамВыручки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="0e1c8e23-5f85-4afd-83c6-111ea36f584d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01f7160c-e86a-40c2-9b64-40f5e66268f6">
+  <name>ИспользоватьОрдернуюСхему</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ордерную схему</value>
+  </synonym>
+  <location>Constant.ИспользоватьОрдернуюСхему</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Магазины.Attribute.ИспользоватьОрдернуюСхемуПриОтгрузке</content>
+  <content>Catalog.Магазины.Attribute.ИспользоватьОрдернуюСхемуПриОтраженииИзлишковНедостач</content>
+  <content>Catalog.Магазины.Attribute.ИспользоватьОрдернуюСхемуПриПеремещении</content>
+  <content>Catalog.Магазины.Attribute.ИспользоватьОрдернуюСхемуПриПоступлении</content>
+  <content>Document.ОрдерНаОтражениеИзлишковТоваров</content>
+  <content>Document.ОрдерНаОтражениеНедостачТоваров</content>
+  <content>Document.ОрдерНаОтражениеРезультатовПересчетовТоваров</content>
+  <content>Document.ПриходныйОрдерНаТовары</content>
+  <content>Document.РасходныйОрдерНаТовары</content>
+  <content>Report.ТоварыКОтгрузке</content>
+  <content>Report.ТоварыКПриемке</content>
+  <content>DocumentJournal.СкладскиеОрдераНаИзлишкиНедостачи</content>
+  <content>Report.ОтклоненияПриПеремещенииТоваров</content>
+  <content>DataProcessor.ПомощникПриемкиОтгрузки</content>
+  <content>DataProcessor.ПомощникПриемкиОтгрузки.Command.ВыполнитьОтгрузку</content>
+  <content>DataProcessor.ПомощникПриемкиОтгрузки.Command.ВыполнитьПриемку</content>
+</mdclass:FunctionalOption>

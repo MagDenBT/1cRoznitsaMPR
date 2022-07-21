@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd4824f6-cff8-4b5d-8fc8-d563b7d84bfe">
+  <name>ВыполнятьЗамерыПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнять замеры производительности</value>
+  </synonym>
+  <location>Constant.ВыполнятьЗамерыПроизводительности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.СтатистикаКлючевыхОпераций</content>
+</mdclass:FunctionalOption>

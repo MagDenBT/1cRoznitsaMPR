@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4143ce5-4c7b-42a8-88ee-5aeeee551c4a">
+  <name>ИспользоватьОбменЭДРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен ЭДРТ</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбменЭД</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ЗапасыИЗакупки.Subsystem.ЭДО</content>
+  <content>Catalog.Контрагенты.Attribute.УчастникЭДО</content>
+  <content>InformationRegister.НоменклатураПоставщиков.Dimension.Идентификатор</content>
+</mdclass:FunctionalOption>

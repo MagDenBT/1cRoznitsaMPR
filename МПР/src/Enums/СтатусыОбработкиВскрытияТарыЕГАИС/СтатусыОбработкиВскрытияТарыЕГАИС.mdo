@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a7cd8d-8ae7-470c-95a2-0fd72d23188c">
+  <producedTypes>
+    <refType typeId="a8123e66-08cd-4fef-8241-7dc3d64fea4f" valueTypeId="7a46bd34-b3a8-4680-a1f4-5f94c040955b"/>
+    <listType typeId="f0721bc8-df86-4fe4-9dd9-88bb50cc4cbf" valueTypeId="aba40e0b-274e-4f6c-890a-cf6d58a50d13"/>
+    <managerType typeId="ed02f3b7-b182-4c01-80a5-3e9900cc5106" valueTypeId="c8c15fa8-e082-4ed5-ad78-439095cc328e"/>
+  </producedTypes>
+  <name>СтатусыОбработкиВскрытияТарыЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки вскрытия тары ЕГАИС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f15cae2-3e9b-4e31-9c74-212fa3353ba0">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="034f2284-4604-45f6-90a5-14a74f9a2248">
+    <name>ПереданВЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передан в ЕГАИС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

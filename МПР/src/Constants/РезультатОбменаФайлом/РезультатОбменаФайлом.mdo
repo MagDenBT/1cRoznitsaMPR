@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efbcb485-073f-4108-b508-173fd64e8861">
+  <producedTypes>
+    <managerType typeId="2f62dba7-c3cf-4c61-a756-1c76d4b441cc" valueTypeId="1221542c-9975-411b-8fe5-0dc2653ff0d0"/>
+    <valueManagerType typeId="d1ef5bc9-87fd-483f-bcaf-961752fb0d16" valueTypeId="b64366f6-4cda-4dc7-b15b-98f1bb1795fc"/>
+    <valueKeyType typeId="3e03f7a7-78de-46ed-b9ba-62879e73fe1f" valueTypeId="fdea37b9-cc7b-404b-80de-2a3e3b7303f7"/>
+  </producedTypes>
+  <name>РезультатОбменаФайлом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат обмена файлом</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

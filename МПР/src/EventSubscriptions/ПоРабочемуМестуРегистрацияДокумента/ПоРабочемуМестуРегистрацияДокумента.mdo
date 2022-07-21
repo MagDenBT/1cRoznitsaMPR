@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cd6a644-51c6-4ee8-bfea-52a6867ff8c4">
+  <name>ПоРабочемуМестуРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>По рабочему месту регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ТТНВходящаяЕГАИС</types>
+    <types>DocumentObject.ВыемкаДенежныхСредствИзКассыККМ</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ЗаменаДисконтныхКарт</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.АктСписанияЕГАИС</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РегистрацияБезналичнойОплаты</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.МаркетинговаяАкция</types>
+    <types>DocumentObject.СписаниеПроданныхПодарочныхСертификатов</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ВнесениеДенежныхСредствВКассуККМ</types>
+    <types>DocumentObject.ЧекКоррекции</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменДаннымиПоРабочемуМестуПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

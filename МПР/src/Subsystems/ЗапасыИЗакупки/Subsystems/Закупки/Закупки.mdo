@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fccae55d-bca8-4b5d-a6fe-c5d33dc00aac">
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВозвратТоваровПоставщику</content>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>DataProcessor.РаспределениеТоваровПоХарактеристикам</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Report.ВедомостьПоЗаказамТоваров</content>
+  <content>Report.АнализПотребностиВПоставках</content>
+  <content>FunctionalOption.ИспользоватьЗаявкиНаРасходованиеДС</content>
+  <content>Report.ВедомостьПоПоступлениямТоваров</content>
+  <content>AccumulationRegister.ЗакупкиТоваров</content>
+  <content>CommonModule.ЗакупкиКлиент</content>
+  <content>CommonModule.ЗакупкиСервер</content>
+  <content>CommonCommand.ЗаказыПокупателей</content>
+  <content>CommonModule.ЗакупкиВызовСервера</content>
+  <content>Role.ДобавлениеИзменениеПоступленийТоваровВозвратовПоставщику</content>
+  <content>Role.ДобавлениеИзменениеПоступленийТоваровВозвратовТоваровПоставщикам</content>
+  <content>Role.ДобавлениеИзменениеТоварыКПоступлениюРеализации</content>
+  <content>Role.ЧтениеПоступленийТоваровВозвратовТоваровПоставщикам</content>
+  <content>CommonPicture.ПриходТовара</content>
+  <content>Document.ТТНВходящаяЕГАИС</content>
+  <content>Document.ТТНИсходящаяЕГАИС</content>
+  <content>DataProcessor.ПанельОбменГИСМ</content>
+  <content>Role.ДобавлениеИзменениеВариантовРаспределения</content>
+  <content>Role.ЧтениеВариантовРаспределения</content>
+  <content>CommonPicture.ЗаполнитьФактПоПлану</content>
+  <content>CommonPicture.ОтборРасхождений</content>
+  <content>CommonPicture.РаспределитьПоСкладам</content>
+  <content>CommonPicture.СобратьСоСкладов</content>
+  <content>Document.ЗапросКоммерческихПредложенийПоставщиков</content>
+  <content>Document.КоммерческоеПредложениеПоставщика</content>
+  <content>Constant.ИспользоватьПодборЗаказовПоставщику</content>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

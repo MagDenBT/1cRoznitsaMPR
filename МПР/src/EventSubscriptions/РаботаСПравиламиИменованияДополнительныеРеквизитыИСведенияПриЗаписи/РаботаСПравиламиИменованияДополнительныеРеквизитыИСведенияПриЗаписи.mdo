@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4dc524-28be-4238-89fe-084365d10537">
+  <name>РаботаСПравиламиИменованияДополнительныеРеквизитыИСведенияПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с правилами именования дополнительные реквизиты и сведения при записи</value>
+  </synonym>
+  <source>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСПравиламиИменования.ДополнительныеРеквизитыИСведенияПередЗаписью</handler>
+</mdclass:EventSubscription>

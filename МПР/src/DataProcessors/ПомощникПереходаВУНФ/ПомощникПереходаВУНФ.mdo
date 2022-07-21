@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3df1116-f11f-416a-bbb3-b0b99e051649">
+  <producedTypes>
+    <objectType typeId="0d57bae0-8231-4f96-907a-0010c6cf55bf" valueTypeId="c85b6cdc-38fb-47ba-a065-65ece96d52c6"/>
+    <managerType typeId="fa913644-1ce9-45c4-b920-99364d0f6ac4" valueTypeId="4041979e-d66c-4564-98dc-c234e7b2412c"/>
+  </producedTypes>
+  <name>ПомощникПереходаВУНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник перехода в УНФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникПереходаВУНФ.Form.Форма</defaultForm>
+  <forms uuid="064a7bd7-e299-4620-8ad5-79fb3ec55de0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e1e6484e-5bbc-4627-a289-64c43981edbe">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="7f26374c-04a0-45a3-a671-5846bbc0bf14">
+    <name>ПереходВУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход в УНФ</value>
+    </synonym>
+    <group>CommandGroup.НовостиСервис</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

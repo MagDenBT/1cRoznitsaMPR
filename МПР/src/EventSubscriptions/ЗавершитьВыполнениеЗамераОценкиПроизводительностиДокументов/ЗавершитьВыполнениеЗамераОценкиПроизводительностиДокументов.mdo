@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a73ab8-4189-4af9-8629-fb9f6ae73f85">
+  <name>ЗавершитьВыполнениеЗамераОценкиПроизводительностиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Завершить выполнение замера оценки производительности документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОценкаПроизводительностиРТ.ЗавершитьВыполнениеЗамераОценкиПроизводительностиДокументовПриЗаписи</handler>
+</mdclass:EventSubscription>

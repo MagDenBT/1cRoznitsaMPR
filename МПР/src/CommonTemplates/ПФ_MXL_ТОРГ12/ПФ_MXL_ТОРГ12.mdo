@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae491ec-bbfe-444f-b770-6224e716779f">
+  <name>ПФ_MXL_ТОРГ12</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПФ MXL ТОРГ-12</value>
+  </synonym>
+  <comment>ТОРГ-12</comment>
+</mdclass:CommonTemplate>

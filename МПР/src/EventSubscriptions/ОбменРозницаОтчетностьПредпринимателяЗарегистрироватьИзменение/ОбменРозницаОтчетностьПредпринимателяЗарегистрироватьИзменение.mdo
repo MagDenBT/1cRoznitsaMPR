@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f598823-a46c-4b0d-a9d8-658d1214b89f">
+  <name>ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен розница отчетность предпринимателя зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьИзменение</handler>
+</mdclass:EventSubscription>

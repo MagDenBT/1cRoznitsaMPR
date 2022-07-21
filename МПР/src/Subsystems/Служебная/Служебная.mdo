@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4a3a3e4-d710-4098-acd4-b9566f203ace">
+  <name>Служебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебная</value>
+  </synonym>
+  <comment>Подсистема для объединения служебных объектов</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>БазоваяФункциональностьРТ</subsystems>
+  <subsystems>ОбъектыСвязанные_БИП</subsystems>
+  <subsystems>ОбъектыСвязанные_БПО</subsystems>
+  <subsystems>ОбъектыСвязанные_БСП</subsystems>
+  <subsystems>ОбъектыСвязанные_БТС</subsystems>
+  <subsystems>ОбъектыСвязанные_ВЕТИС</subsystems>
+  <subsystems>ОбъектыСвязанные_ГосИС</subsystems>
+  <subsystems>ОбъектыСвязанные_ЕГАИС</subsystems>
+  <subsystems>ОбъектыСвязанные_ИПП</subsystems>
+  <subsystems>ОбъектыСвязанные_УправлениеМП</subsystems>
+  <subsystems>ОценкаПроизводительностиРТ</subsystems>
+  <subsystems>ЭлектронноеВзаимодействиеРТ</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e922ef52-395d-4f1d-a57d-7735002ce84d">
+  <producedTypes>
+    <selectionType typeId="4e0af51c-810e-4cb7-8a52-8ad6bef03b7c" valueTypeId="e23eb474-f70c-48a3-8c88-581cd4b6cb01"/>
+    <listType typeId="3af7c48c-0b07-4170-a455-8ae6254dbac4" valueTypeId="11c51468-b06a-4ac6-8aca-cd4caf01e550"/>
+    <managerType typeId="49bcd803-91d4-4540-bf62-680cd7037406" valueTypeId="a7ad7fad-105a-48c4-a3ff-ae38ffe710e7"/>
+    <recordSetType typeId="3ab693b2-4fa8-403f-9e81-8a7d4408d8a5" valueTypeId="c712531a-7f5f-4d42-8b2b-2f6161c7b463"/>
+    <recordKeyType typeId="57e68f7e-19c1-424a-8eb2-c46bcc89b083" valueTypeId="2f0472b1-580d-499d-9341-871dd1b4dc20"/>
+    <recordType typeId="a1e5cb02-65d3-412a-bd2d-8f3a16db8541" valueTypeId="8e1cb153-b5dd-4ad8-8f5c-2dc7c2a3d63c"/>
+    <recordManagerType typeId="59047a9b-9ef9-4969-9aff-1cbaaf6ae286" valueTypeId="e6d19535-5c38-438a-b69b-f2ab4db171e5"/>
+  </producedTypes>
+  <name>ПротоколПередачиДокументовДисконтномуСерверу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протокол передачи документов дисконтному серверу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПротоколПередачиДокументовДисконтномуСерверу.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e4f27f93-a90a-4650-82a5-e00886b4653f">
+    <name>ДатаПоследнейВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней выгрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата последней успешной операции по передаче документа дисконтному серверу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="2bc63ead-dd05-4d56-9fc5-b1d76e1d5050">
+    <name>ДисконтнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеКарты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дисконтная карта документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d2fbb7f3-ad95-47c4-a774-8b5197bf6a53">
+    <name>ДокументПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ продажи</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваров</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ, переданный или подлежащий передаче дисконтному серверу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0a992d4c-7045-43ce-97d9-9556543bb084">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="17b9edd4-f4a6-4b3c-ab34-a45abf8f5aa4">
+    <name>ПротоколПередачиДокументаДисконтномуСерверу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол передачи документа дисконтному серверу</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>DocumentRef.РеализацияТоваров</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

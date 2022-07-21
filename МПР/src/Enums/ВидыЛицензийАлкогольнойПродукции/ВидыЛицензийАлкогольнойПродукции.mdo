@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fc680c6-f678-44ad-bbb0-61b13f8c9a59">
+  <producedTypes>
+    <refType typeId="911f6c32-bc3e-4982-b98f-c0f272fc32d6" valueTypeId="4735999f-97b7-4ebc-ab8f-98b4b44f5dc1"/>
+    <listType typeId="468d8629-a776-46ae-acca-da71df6d133b" valueTypeId="a2f8fba4-6add-4423-bff6-627019e372f8"/>
+    <managerType typeId="d0aa95ad-9c34-4aa9-abf2-c53f8970ce7d" valueTypeId="116b5202-6719-4e5b-9829-ad30de5f8aa1"/>
+  </producedTypes>
+  <name>ВидыЛицензийАлкогольнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды лицензий алкогольной (спиртосодержащей) продукции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee18bcbc-5366-491a-abc4-ef77f06e6391">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво или пивной напиток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="994c10c6-969a-449d-bcd0-53a42738d31f">
+    <name>АлкогольнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алкогольная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f777ea3-0d23-49d5-b9e2-416a426503e9">
+    <name>СпиртосодержащаяПищеваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спиртосодержащая пищевая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5689925f-06ce-4024-b98c-502407d3030d">
+    <name>СпиртосодержащаяНеПищеваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спиртосодержащая непищевая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7d556e1-bc16-49a3-bd04-240ec7c4e11f">
+    <name>Спирт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спирт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

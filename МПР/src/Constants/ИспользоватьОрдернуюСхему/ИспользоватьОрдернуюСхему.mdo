@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0318cbed-d4cc-400c-9c72-362cfd1c63fa">
+  <producedTypes>
+    <managerType typeId="2245e8af-8e0b-4527-95c4-8157a37e97b7" valueTypeId="377e6555-8977-4d7c-b7b9-201c485393dc"/>
+    <valueManagerType typeId="8c230476-e0af-4b00-bc6d-abe245b80471" valueTypeId="fe71e01b-15c7-45dd-bd32-83ebca0cde10"/>
+    <valueKeyType typeId="921b3302-12fe-566f-9c87-d4d79fd381af" valueTypeId="74e6b7dd-1bb4-53a2-af9e-8fe461c6bcf9"/>
+  </producedTypes>
+  <name>ИспользоватьОрдернуюСхему</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ордерную схему</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

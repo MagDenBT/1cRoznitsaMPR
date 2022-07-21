@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="959abf6d-5d1f-41a3-83cc-218b0a99cd5a">
+  <name>СервисДоставкиКлиентамПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис доставки клиентам при записи</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ИспользоватьСервисДоставкиКлиентам</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СервисДоставкиРТ.СервисДоставкиКлиентамПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bd4d869-a18e-492b-acc1-8c9fd3e1fa4f">
+  <producedTypes>
+    <objectType typeId="d25ebef0-4d81-4782-ac61-c95fe0db9e4d" valueTypeId="34fb0eee-8767-4742-b039-487bb4d59c1f"/>
+    <managerType typeId="265e38ee-8d90-434d-b724-38a3d1519924" valueTypeId="53652ec5-1f49-493b-8220-ad1d2e706b08"/>
+  </producedTypes>
+  <name>СопоставлениеНоменклатурыЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление номенклатуры ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СопоставлениеНоменклатурыЕГАИСРТ.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="b2a7f7b9-6d39-4aea-982c-8fb3a74ca016">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4dc199d4-dde3-4d41-83d6-7a0083817080">
+    <name>ФормаСозданияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aaaa641c-54de-4393-aab8-237be18306f7">
+    <name>ФормаСопоставленияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сопоставления номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

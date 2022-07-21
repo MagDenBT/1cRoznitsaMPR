@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10400112-7ebd-42bb-b4bb-edb841e8cce9">
+  <producedTypes>
+    <refType typeId="2427f7dd-4d55-488c-9236-8e38172845fb" valueTypeId="afc6bf37-83fc-4b0d-bcd6-c3548ad21523"/>
+    <listType typeId="2d0d1cc6-3ae5-4736-aa65-348d48bccbd8" valueTypeId="b123ea83-37ee-4482-8f10-b69326f41d45"/>
+    <managerType typeId="308de2da-3677-4710-8454-71fa1057da99" valueTypeId="db5d9e7e-cd45-4384-82e9-1421b953bd42"/>
+  </producedTypes>
+  <name>ВариантыСовместногоРасчетаПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты совместного расчета премий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7d5e1643-98be-4b64-8053-7cb8fdc0a441">
+    <name>Сложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87ebf681-6c49-4e3e-85a4-9aff95d0ce96">
+    <name>Минимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимум</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88c0eaa1-008d-4980-903f-ae862aa5f5fc">
+    <name>Максимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимум</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

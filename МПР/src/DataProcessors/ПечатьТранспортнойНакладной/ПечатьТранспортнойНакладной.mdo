@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4179c923-94c8-4cae-bcc5-8dea54fc8248">
+  <producedTypes>
+    <objectType typeId="b3a36cc1-2f16-4ed2-9428-70dfc12fa751" valueTypeId="09cc9a19-2bca-43d4-8fe8-ce2cda53a274"/>
+    <managerType typeId="59cfa1b6-8916-40d0-bad4-188897d54d55" valueTypeId="51621739-f9fa-4455-bd41-1e2d5be09e2b"/>
+  </producedTypes>
+  <name>ПечатьТранспортнойНакладной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать транспортной накладной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="eb0374cf-8ffe-4602-a7a9-497dc7153607">
+    <name>ПФ_MXL_ТранспортнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Транспортная накладная</value>
+    </synonym>
+    <comment>Транспортная накладная</comment>
+  </templates>
+  <templates uuid="8cb883bb-cf72-4513-beda-ea70e5ac02e0">
+    <name>ПФ_MXL_ТранспортнаяНакладная1208</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Транспортная накладная 1208</value>
+    </synonym>
+    <comment>Транспортная накладная</comment>
+  </templates>
+  <templates uuid="29cee46c-6d81-4132-8f92-d2929210fc4a">
+    <name>ПФ_MXL_ТранспортнаяНакладная2200</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная накладная по Постановлению № 2200</value>
+    </synonym>
+  </templates>
+  <templates uuid="3fbd4e5f-c7ac-482c-8999-67237d896ebb">
+    <name>ПФ_MXL_ТранспортнаяНакладная2116</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная накладная по Постановлению № 2116¶</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

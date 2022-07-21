@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7365f33-8255-4152-bb13-4f20e5bf5f81">
+  <producedTypes>
+    <managerType typeId="ca4e52ed-a546-46e9-b165-e9fa61981061" valueTypeId="0926ba9a-d991-4d34-8991-e3c60ea5e39f"/>
+    <valueManagerType typeId="b3fcca6c-3fe9-4f58-a92e-a5fbaa661df7" valueTypeId="fd450e65-5eed-414a-87bd-6b13f2ee9305"/>
+    <valueKeyType typeId="04e3e736-e2f5-5614-a4f1-782404c6cf43" valueTypeId="1c6d29eb-efa7-5505-b67a-39b3a538f563"/>
+  </producedTypes>
+  <name>ПериодОбновленияПоставляемойНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период обновления поставляемой номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

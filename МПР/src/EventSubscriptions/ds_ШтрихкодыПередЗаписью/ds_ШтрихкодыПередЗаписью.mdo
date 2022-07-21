@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dcbfd81-668c-41fd-a779-e7c3e213f003">
+  <name>ds_ШтрихкодыПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды перед записью</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.Штрихкоды</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ПодпискиНаСобытия.ШтрихкодыПередЗаписью</handler>
+</mdclass:EventSubscription>

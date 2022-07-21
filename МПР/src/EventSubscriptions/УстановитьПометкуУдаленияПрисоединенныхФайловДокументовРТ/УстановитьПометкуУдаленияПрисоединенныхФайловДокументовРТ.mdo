@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5211b93-698a-4d1b-8633-c2d3058e52d5">
+  <name>УстановитьПометкуУдаленияПрисоединенныхФайловДокументовРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов РТ</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОтгрузкаТоваровИСМП</types>
+    <types>DocumentObject.УведомлениеОПоступленииМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.УведомлениеОбИмпортеМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.ВыводИзОборотаИСМП</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.МаркировкаТоваровИСМП</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ПриемкаТоваровИСМП</types>
+    <types>DocumentObject.ВозвратВОборотИСМП</types>
+    <types>DocumentObject.УведомлениеОСписанииКиЗГИСМ</types>
+    <types>DocumentObject.ПеремаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.ПеремаркировкаТоваровИСМП</types>
+    <types>DocumentObject.ЗаказНаЭмиссиюКодовМаркировкиСУЗ</types>
+    <types>DocumentObject.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.МаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.ЗаявкаНаВыпускКиЗГИСМ</types>
+    <types>DocumentObject.СписаниеКодовМаркировкиИСМП</types>
+    <types>DocumentObject.УведомлениеОВвозеМаркированныхТоваровИзЕАЭСГИСМ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

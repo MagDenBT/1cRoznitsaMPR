@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2223638f-e493-4898-a9ba-4f31a1b037be">
+  <producedTypes>
+    <managerType typeId="0136a322-62d5-444c-b650-483743490613" valueTypeId="8d4ee605-75f9-45f7-92e4-51d41455a624"/>
+    <valueManagerType typeId="8b83f232-633c-4e88-9266-681db56b6b1d" valueTypeId="09d0faf7-4bee-4b9c-8eb3-22f138c5d242"/>
+    <valueKeyType typeId="cc763517-68f5-4597-af29-720f75062b3b" valueTypeId="b6ceced7-20c7-4861-bb53-bc0acb963139"/>
+  </producedTypes>
+  <name>ds_РазрешитьРаботуHeado</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить работу Heado</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

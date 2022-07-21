@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd39a450-a29b-48b0-a9f3-45ea7d7e25e7">
+  <name>ЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГАИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.АктПостановкиНаБалансЕГАИС</content>
+  <content>Document.АктСписанияЕГАИС</content>
+  <content>Document.ВозвратИзРегистра2ЕГАИС</content>
+  <content>Document.УдалитьВскрытиеТарыЕГАИС</content>
+  <content>Document.ПередачаВРегистр2ЕГАИС</content>
+  <content>Document.ОстаткиЕГАИС</content>
+  <content>DataProcessor.ПанельОбменЕГАИС</content>
+  <content>CommonCommand.ОстаткиЕГАИС</content>
+  <content>CommonCommand.АктыПостановкиНаБалансЕГАИС</content>
+  <content>CommonCommand.АктыСписанияЕГАИС</content>
+  <content>CommonCommand.ПередачиВРегистр2ЕГАИС</content>
+  <content>CommonCommand.ВозвратыИзРегистра2ЕГАИС</content>
+  <content>CommonCommand.ВскрытияТарыЕГАИС</content>
+  <parentSubsystem>Subsystem.Склад</parentSubsystem>
+</mdclass:Subsystem>

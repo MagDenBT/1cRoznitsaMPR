@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c887331d-4f1f-496e-9cc3-3cd7d0ec9b30">
+  <name>ИспользоватьАссортимент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ассортимент</value>
+  </synonym>
+  <location>Constant.ИспользоватьАссортимент</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Маркетинг.Subsystem.Ассортимент</content>
+  <content>Report.ВедомостьПоОстаткамТоваровЗапрещенныхКПродаже</content>
+  <content>CommonCommand.Ассортимент</content>
+  <content>Document.ИзменениеАссортимента</content>
+  <content>Catalog.ФорматыМагазинов</content>
+  <content>InformationRegister.Ассортимент</content>
+  <content>DataProcessor.ПомощникНачалаУправленияАссортиментом</content>
+  <content>Report.ДанныеАссортиментаНоменклатуры</content>
+  <content>Report.НаполненностьАссортимента</content>
+  <content>Catalog.Магазины.Attribute.КонтролироватьАссортиментВЗаказеПокупателя</content>
+  <content>Catalog.Магазины.Attribute.ФорматМагазина</content>
+  <content>Catalog.Магазины.Attribute.КонтролироватьАссортимент</content>
+</mdclass:FunctionalOption>

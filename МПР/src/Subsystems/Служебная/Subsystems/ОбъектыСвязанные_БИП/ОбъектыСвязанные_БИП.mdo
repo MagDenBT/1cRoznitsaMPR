@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97bd989e-3409-4f33-b2d9-623a4d3c4098">
+  <name>ОбъектыСвязанные_БИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты связанные (БИП)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРТСервер</content>
+  <content>Role.ДобавлениеИзменениеНастроекИнтеграцииСПлатежнымиСистемами</content>
+  <content>Role.ЧтениеНастроекИнтеграцииСПлатежнымиСистемами</content>
+  <content>InformationRegister.СоответствиеНастроекИнтеграции</content>
+  <content>CommonModule.СПАРКРискиКлиентСерверРТ</content>
+  <content>CommonModule.СПАРКРискиРТ</content>
+  <content>CommonModule.РаботаСКонтрагентамиРТ</content>
+  <content>CommonModule.РаботаСКонтрагентамиКлиентСерверРТ</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРТКлиент</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРТКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРТВызовСервера</content>
+  <content>CommonModule.ПолучениеОбновленийПрограммыРТ</content>
+  <parentSubsystem>Subsystem.Служебная</parentSubsystem>
+</mdclass:Subsystem>

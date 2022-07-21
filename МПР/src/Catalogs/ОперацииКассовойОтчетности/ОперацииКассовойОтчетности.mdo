@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0319ba58-dfe3-4683-90f1-3057c0f72fdd">
+  <producedTypes>
+    <objectType typeId="7339ff0b-b572-4cba-b011-cb78b976c4a5" valueTypeId="20435f5f-7bc8-4a31-9f45-e8597c144d57"/>
+    <refType typeId="dd1558e4-e73e-4abe-9a2b-b9e39b841be6" valueTypeId="79340d5a-e23d-49d6-8bf8-9a2a26186828"/>
+    <selectionType typeId="0c805bc4-2ad6-4e3b-a155-97ac1b89467f" valueTypeId="c7ae0658-80b1-4af3-a170-00f067585f96"/>
+    <listType typeId="2550c0f8-cbcb-4b44-a73d-61e39067f9aa" valueTypeId="9d012b65-28d2-4216-a04d-d40ebf136035"/>
+    <managerType typeId="03301d42-1f92-48c9-9fc3-6edc4727a796" valueTypeId="a580b294-eaf6-43e9-bfd5-e8e7661bebe4"/>
+  </producedTypes>
+  <name>ОперацииКассовойОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции кассовой отчетности</value>
+  </synonym>
+  <inputByString>Catalog.ОперацииКассовойОтчетности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОперацииКассовойОтчетности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Операции кассовой отчетности</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Служебный справочник для хранения списка операций кассовой отчетности.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8e488ec8-3e62-445a-9856-d28cdd7ed554">
+      <name>ОстатокВКассеНаНачалоОтчетногоМесяца</name>
+      <description>Остаток в кассе на начало отчетного месяца</description>
+      <code xsi:type="core:StringValue">
+        <value>35</value>
+      </code>
+    </items>
+    <items id="d0249f04-df57-468e-98ff-e31319c3fec0">
+      <name>ПоступлениеНаличныхДенегИзБанкоматов</name>
+      <description>Поступление наличных денег из банкоматов</description>
+      <code xsi:type="core:StringValue">
+        <value>33</value>
+      </code>
+    </items>
+    <items id="3a311317-ca8c-4503-bd52-1dc90e07b117">
+      <name>ПоступлениеНаличныхДенегВКассуИзДругойОрганизации</name>
+      <description>Поступление наличных денег из другой организации</description>
+      <code xsi:type="core:StringValue">
+        <value>39</value>
+      </code>
+    </items>
+    <items id="b2f7fce7-b245-47dc-956b-01a14295454c">
+      <name>ПоступлениеОтПродажиТоваров</name>
+      <description>Поступление от продажи товаров</description>
+      <code xsi:type="core:StringValue">
+        <value>02</value>
+      </code>
+    </items>
+    <items id="500eaad8-93b3-4342-9f03-344b2f5cc110">
+      <name>ПоступленияВЦеляхПеревода</name>
+      <description>Поступления в целях перевода</description>
+      <code xsi:type="core:StringValue">
+        <value>13</value>
+      </code>
+    </items>
+    <items id="f8a4677b-8093-4ed0-9c54-5aae3a3d4e1b">
+      <name>ПоступленияЗаймовИВПогашениеКредитов</name>
+      <description>Поступления займов ИВПогашение кредитов</description>
+      <code xsi:type="core:StringValue">
+        <value>14</value>
+      </code>
+    </items>
+    <items id="d3c53fdf-9030-4832-b86f-d4c1c8e7ba80">
+      <name>ПоступленияНаБанковскиеСчетаФизическихЛиц</name>
+      <description>Поступления на банковские счета физических лиц</description>
+      <code xsi:type="core:StringValue">
+        <value>31</value>
+      </code>
+    </items>
+    <items id="10715d71-549b-402f-aa7e-bab6465d22b3">
+      <name>ПоступленияНаСчетаИндивидуальныхПредпринимателей</name>
+      <description>Поступления на счета индивидуальных предпринимателей</description>
+      <code xsi:type="core:StringValue">
+        <value>19</value>
+      </code>
+    </items>
+    <items id="b0131279-48fb-4fb9-8a85-6e042b7fa54e">
+      <name>ПоступленияНаСчетаПоВкладамФизическихЛиц</name>
+      <description>Поступления на счета по вкладам физическических лиц</description>
+      <code xsi:type="core:StringValue">
+        <value>16</value>
+      </code>
+    </items>
+    <items id="ffb4768d-4f91-45e0-a712-2306acf7bb1a">
+      <name>ПоступленияНаличныхДенегИзОборотнойКассы</name>
+      <description>Поступления наличных денег из оборотной кассы</description>
+      <code xsi:type="core:StringValue">
+        <value>37</value>
+      </code>
+    </items>
+    <items id="c0ba048f-0bd8-40af-b0d7-573e9eb2fa0a">
+      <name>ПоступленияОтНалогов</name>
+      <description>Поступления от налогов</description>
+      <code xsi:type="core:StringValue">
+        <value>12</value>
+      </code>
+    </items>
+    <items id="781dd96d-89ef-43b1-8dce-58425186250d">
+      <name>ПоступленияОтОперацийИгорногоБизнеса</name>
+      <description>Поступления от операций игорного бизнеса</description>
+      <code xsi:type="core:StringValue">
+        <value>22</value>
+      </code>
+    </items>
+    <items id="d4096d6b-5f79-447e-b181-74179fdaa170">
+      <name>ПоступленияОтОперацийСВекселями</name>
+      <description>Поступления от операций с векселями</description>
+      <code xsi:type="core:StringValue">
+        <value>21</value>
+      </code>
+    </items>
+    <items id="5b81ac4d-b5fe-4dd7-955b-dd8bd35fe886">
+      <name>ПоступленияОтОперацийСНедвижимостью</name>
+      <description>Поступления от операций с недвижимостью</description>
+      <code xsi:type="core:StringValue">
+        <value>15</value>
+      </code>
+    </items>
+    <items id="02740da0-b162-41fa-8973-cccf633a61b0">
+      <name>ПоступленияОтОперацийСГосударственнымиИДругимиЦеннымиБумагами</name>
+      <description>Поступления от операций с ценными бумагами</description>
+      <code xsi:type="core:StringValue">
+        <value>20</value>
+      </code>
+    </items>
+    <items id="34b2afe1-8923-4a91-b724-3c00be0b41fb">
+      <name>ПоступленияОтОрганизацийФедеральногоАгенстваСвязи</name>
+      <description>Поступления от организаций федерального агенства связи</description>
+      <code xsi:type="core:StringValue">
+        <value>17</value>
+      </code>
+    </items>
+    <items id="0429f84e-3562-4628-ae1d-fcd64d02e6ff">
+      <name>ПоступленияОтПродажиФизическимиЛицамиИностраннойВалюты</name>
+      <description>Поступления от продажи физическими лицами ин. валюты</description>
+      <code xsi:type="core:StringValue">
+        <value>30</value>
+      </code>
+    </items>
+    <items id="00a6f2a3-d84b-4db3-994e-5ea35d6a07ee">
+      <name>ПоступленияОтРеализацииУслуг</name>
+      <description>Поступления от реализации услуг</description>
+      <code xsi:type="core:StringValue">
+        <value>11</value>
+      </code>
+    </items>
+    <items id="2b6c536b-92b3-4873-ab8c-ad4e4a599620">
+      <name>ПрочиеПоступления</name>
+      <description>Прочие поступления</description>
+      <code xsi:type="core:StringValue">
+        <value>32</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

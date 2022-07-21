@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50bb4c0a-9d39-4816-afe0-39e96cafcff8">
+  <name>ПФ_MXL_СчетФактура1137</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПФ MXL Счет фактура-1137</value>
+  </synonym>
+  <comment>Счет-фактура (Постановление №1137)</comment>
+</mdclass:CommonTemplate>

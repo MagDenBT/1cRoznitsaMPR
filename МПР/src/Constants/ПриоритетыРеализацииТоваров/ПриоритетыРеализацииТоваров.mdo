@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe867b8b-5cea-42fb-bdd1-437be70c6aae">
+  <producedTypes>
+    <managerType typeId="59bb53fb-fb55-4818-80ff-ce9410330fd8" valueTypeId="db74a564-db72-48da-972d-5f75fff1ee07"/>
+    <valueManagerType typeId="5ea36c3b-5821-4bbd-b3e4-9b1dffea0b40" valueTypeId="fbe0c8d3-4afa-427e-9278-965b1d008a9e"/>
+    <valueKeyType typeId="e86d79b6-978b-5f31-84b1-4dca6c4ae7cc" valueTypeId="ad098aa9-ab51-5176-8b14-68241f9f8f43"/>
+  </producedTypes>
+  <name>ПриоритетыРеализацииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты реализации товаров</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПриоритетыРеализацииТоваров</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

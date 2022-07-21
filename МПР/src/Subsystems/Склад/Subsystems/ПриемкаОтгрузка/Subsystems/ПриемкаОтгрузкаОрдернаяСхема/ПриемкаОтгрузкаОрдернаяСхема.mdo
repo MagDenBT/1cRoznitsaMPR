@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e40eecb-e606-4543-99ac-73d3d02d5817">
+  <name>ПриемкаОтгрузкаОрдернаяСхема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приемка и отгрузка (ордерная схема)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ТоварыКОтгрузке</content>
+  <content>Report.ТоварыКПриемке</content>
+  <content>Report.ОтклоненияПриПеремещенииТоваров</content>
+  <parentSubsystem>Subsystem.Склад.Subsystem.ПриемкаОтгрузка</parentSubsystem>
+</mdclass:Subsystem>

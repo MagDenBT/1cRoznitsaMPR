@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37d5fe2e-ff3a-436f-aa24-d4d425607575">
+  <producedTypes>
+    <objectType typeId="cddde44a-9169-495c-ab36-33b20123ca3a" valueTypeId="abe89f76-1022-46fc-bccb-95f286ac41dd"/>
+    <managerType typeId="5160c79b-b2b1-475a-9cad-cd9dba50e94f" valueTypeId="e543cab5-92e1-46d9-a9bf-fe555c07fad9"/>
+  </producedTypes>
+  <name>НаличиеСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие счетов-фактур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НаличиеСчетовФактур.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="4d1ffd67-2fd8-41bf-8638-f5f548e8eafe">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

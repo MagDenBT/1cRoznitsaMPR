@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9013881e-48ca-461f-affc-31bc6ab2f8d9">
+  <name>ПоступлениеОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление оплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ДвиженияДенежныхСредствПоБанковскимКредитам</content>
+  <content>Report.ДвиженияДенежныхСредствПоТипамОплаты</content>
+  <content>InformationRegister.СостояниеОплатыПоступления</content>
+  <content>Role.ЧтениеБезналичнойОплаты</content>
+  <content>Role.ЧтениеОплатОтПокупателяПлатежнойКартой</content>
+  <parentSubsystem>Subsystem.Финансы</parentSubsystem>
+</mdclass:Subsystem>

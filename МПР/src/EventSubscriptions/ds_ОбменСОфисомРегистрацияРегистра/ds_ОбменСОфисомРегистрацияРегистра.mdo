@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3edc7ec1-c985-4e51-bd7f-0bd4b97f3241">
+  <name>ds_ОбменСОфисомРегистрацияРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с офисом регистрация регистра</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.Штрихкоды</types>
+    <types>InformationRegisterRecordSet.НастройкиВариантовОтчетов</types>
+    <types>InformationRegisterRecordSet.СостоянияОднократныхСкидокИКупонов</types>
+    <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ОбменСОфисом.ОбменСОфисомРегистрацияРегистраПередЗаписью</handler>
+</mdclass:EventSubscription>

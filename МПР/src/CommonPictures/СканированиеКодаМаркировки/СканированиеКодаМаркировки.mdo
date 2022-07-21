@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf51a219-b36d-4a0b-8f6b-d72bc1c5477e">
+  <name>СканированиеКодаМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование кода маркировки</value>
+  </synonym>
+</mdclass:CommonPicture>

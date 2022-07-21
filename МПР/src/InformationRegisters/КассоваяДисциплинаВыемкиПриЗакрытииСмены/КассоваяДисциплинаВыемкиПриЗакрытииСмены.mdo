@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d9bc61e-8f26-47d1-80d6-84f2c667fcf2">
+  <producedTypes>
+    <selectionType typeId="0bb1212f-1267-4742-9519-d81eeaf28cb7" valueTypeId="abfa4628-de84-4382-8e6b-cfa7320adaa7"/>
+    <listType typeId="ce80d948-3863-4749-9009-7faaef61be8b" valueTypeId="67415533-4bd1-4522-931d-8ad1cc5399e9"/>
+    <managerType typeId="65fa4a19-b000-490d-b68f-77cd84aad558" valueTypeId="e97aaefb-1409-46a9-95dd-a5f24d9f5a66"/>
+    <recordSetType typeId="e6bfb72f-8c75-43a2-bcb2-e0601e301918" valueTypeId="09490712-cf14-44b7-b541-348eb8ba7013"/>
+    <recordKeyType typeId="dccbcbcf-75aa-471a-8de2-f7b5f9f28895" valueTypeId="d625dcb1-2d9a-4b76-9dfb-920a70ee8d87"/>
+    <recordType typeId="981aec91-2cab-48b3-88a8-cfa3d9f67c04" valueTypeId="25737d91-95f2-4e0e-a3cf-8a9d5d54ecff"/>
+    <recordManagerType typeId="ae4c1323-c097-415d-9e74-e2f01ce44dd3" valueTypeId="2d1396c7-feca-40d1-8170-928a22c2ef2e"/>
+  </producedTypes>
+  <name>КассоваяДисциплинаВыемкиПриЗакрытииСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовая дисциплина выемки при закрытии смены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КассоваяДисциплинаВыемкиПриЗакрытииСмены.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.КассоваяДисциплинаВыемкиПриЗакрытииСмены.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Тип выемки при закрытии смены</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы выемки при закрытии смены</value>
+  </listPresentation>
+  <resources uuid="a258b916-9d0f-4899-8f4c-4754a889b6ac">
+    <name>ТипВыемкиПриЗакрытииСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выемки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыВыемкиПриЗакрытииСмены</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбранный тип кассовой дисциплины выемки при закрытии смены</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыВыемкиПриЗакрытииСмены.EnumValue.ПроизводитьПолнуюВыемку</value>
+    </fillValue>
+  </resources>
+  <resources uuid="38ab549d-9719-4b10-8b76-0fc29a9bd501">
+    <name>МаксимальнаяСуммаРазмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сумма размена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер максимальной суммы размена</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="327b0dbb-36b2-4912-89ed-8e59277ea5da">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой определяется  кассовая дисциплина выемки при закрытии смены</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4b0082ae-1240-4664-8430-28477b0fe5c5">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Магазин, для которого устанавливаются кассовая дисциплина выемки при закрытии смены</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="994e43eb-31ac-4f2e-8515-f2a7c581576d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb3cc04a-7323-48e6-8350-65fa6c353ba7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

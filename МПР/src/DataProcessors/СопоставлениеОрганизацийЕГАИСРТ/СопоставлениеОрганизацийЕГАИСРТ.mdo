@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c80d33-aa2a-4b35-87b5-599250348848">
+  <producedTypes>
+    <objectType typeId="06909870-afb2-4a1b-9b2c-1fe724eba20a" valueTypeId="b20d4952-a26f-494b-b6a8-676d607cf959"/>
+    <managerType typeId="338ae6b7-1926-49b9-8af9-3a5108a231b3" valueTypeId="2e3fe338-202f-4822-a6bf-241be658393a"/>
+  </producedTypes>
+  <name>СопоставлениеОрганизацийЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление организаций ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СопоставлениеОрганизацийЕГАИСРТ.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="17805804-e99d-4add-9271-62607b2e3335">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7d7ba9b7-77c4-4040-b8f0-44e2e689faf1">
+    <name>ФормаСозданияКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания контрагентов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cc81edb-b423-4a37-a8fb-bc8f704e20e8">
+    <name>ФормаСопоставленияКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сопоставления контрагентов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

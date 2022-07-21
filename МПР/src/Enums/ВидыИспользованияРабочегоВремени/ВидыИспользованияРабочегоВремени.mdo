@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3558a60-8c79-47f1-9571-2363a7fabcd6">
+  <producedTypes>
+    <refType typeId="cf0c9a3b-dc2a-47bf-aeb6-fa2d17e60600" valueTypeId="de791b1e-3ded-4255-94f8-d0394c3ea53e"/>
+    <listType typeId="18135997-463f-4b18-b109-4913b7d04c19" valueTypeId="273c07dd-d795-4444-9791-29cd917e190b"/>
+    <managerType typeId="9c861c36-d6d2-4579-890c-f8d74197533b" valueTypeId="4a0e7b49-7213-4615-acaf-bdb2e1a725ea"/>
+  </producedTypes>
+  <name>ВидыИспользованияРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды использования рабочего времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ВидыИспользованияРабочегоВремени.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="daeb2b0a-500b-4ba8-a3c0-10c0b9f732de">
+    <name>Больничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac9510a3-b70d-4e07-b9fa-d39aa11cf516">
+    <name>НочныеЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ночные часы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ab9dd38-a498-44e3-9f94-23aecaa00552">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88d4fc4f-c0f6-40ba-9b29-40d47ac60e73">
+    <name>Явка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Явка</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="21099303-7ba8-45f7-87aa-90b3d3fb96b2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a9fca7b-5685-4d8c-ad0f-c27768524b59">
+  <producedTypes>
+    <refType typeId="eda5259e-c043-4e1b-a321-db91a790ddba" valueTypeId="c9c4a210-87d4-4f26-a175-8f8f07876ee0"/>
+    <listType typeId="24f45e75-b11d-4f2c-822f-c4ddd79eb0ab" valueTypeId="53ebeef6-d99c-40d9-97fd-3d6f0cd58a7b"/>
+    <managerType typeId="6a71ee3e-e4f4-487f-a474-cc812b06f73a" valueTypeId="21238b22-d18c-4f2e-98fe-0f7c87aa138e"/>
+  </producedTypes>
+  <name>ПравилаРаспределенияНаСебестоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила распределения на себестоимость товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="219472ef-9b82-49b1-8bd9-e5cf964b92ac">
+    <name>ПропорциональноКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально количеству товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd241df3-9fcc-4226-99f8-1f2c1437d545">
+    <name>ПропорциональноСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально стоимости товаров</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

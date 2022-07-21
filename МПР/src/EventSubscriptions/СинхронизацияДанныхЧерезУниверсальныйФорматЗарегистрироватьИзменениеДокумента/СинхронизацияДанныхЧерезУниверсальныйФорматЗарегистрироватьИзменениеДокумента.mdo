@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="649191eb-ceda-4a87-88f8-2812c02342b3">
+  <name>СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПередачаТоваровМеждуОрганизациями</types>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.ПересчетТоваров</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ОтчетКомитентуОСписании</types>
+    <types>DocumentObject.ОтчетКомитентуОПродажах</types>
+    <types>DocumentObject.ПриказНаПроведениеИнвентаризацииТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.СинхронизацияДанныхЧерезУниверсальныйФорматПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

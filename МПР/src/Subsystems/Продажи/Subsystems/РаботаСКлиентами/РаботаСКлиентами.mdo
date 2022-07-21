@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69431842-3a2d-43de-8d6d-96862a2b0897">
+  <name>РаботаСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с клиентами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.РасчетыСКлиентами</content>
+  <content>Role.ДобавлениеИзменениеВводаОстатковРасчетовСКлиентами</content>
+  <content>Role.ДобавлениеИзменениеРасчетовСКлиентами</content>
+  <content>Role.ЧтениеВводаОстатковРасчетовСКлиентами</content>
+  <content>Role.ЧтениеРасчетовСКлиентами</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d63434db-9bac-4d6a-95f3-5d87891cdaa7">
+  <name>ПроверитьНомерДокументаПоДатеИОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить номер документа по дате и организации</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>DocumentObject.ПередачаТоваровМеждуОрганизациями</types>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ЗарплатаКВыплатеОрганизаций</types>
+    <types>DocumentObject.КассоваяКнига</types>
+    <types>DocumentObject.ЗаказНаПеремещение</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ТТНВходящаяЕГАИС</types>
+    <types>DocumentObject.УдалитьВскрытиеТарыЕГАИС</types>
+    <types>DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств</types>
+    <types>DocumentObject.АктОРасхожденияхПриПриемкеТоваров</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ВыемкаДенежныхСредствИзКассыККМ</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.ОрдерНаОтражениеИзлишковТоваров</types>
+    <types>DocumentObject.ОстаткиЕГАИС</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ТТНИсходящаяЕГАИС</types>
+    <types>DocumentObject.ПеремаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.АктСписанияЕГАИС</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.СводныйОтчетПоКассовойСмене</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.ПересчетТоваров</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.УдалитьКассоваяСмена</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.ОрдерНаОтражениеРезультатовПересчетовТоваров</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.АктПостановкиНаБалансЕГАИС</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.РегистрацияБезналичнойОплаты</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.МаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.ОрдерНаОтражениеНедостачТоваров</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПриказНаПроведениеИнвентаризацииТоваров</types>
+    <types>DocumentObject.ВнесениеДенежныхСредствВКассуККМ</types>
+    <types>DocumentObject.ОрдерНаПеремещениеТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.ПроверитьНомерДокументаПоДатеИОрганизации</handler>
+</mdclass:EventSubscription>

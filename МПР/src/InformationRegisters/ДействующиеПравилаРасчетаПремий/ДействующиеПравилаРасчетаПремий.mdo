@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92dad42f-892a-45d1-9267-d390fbce5df8">
+  <producedTypes>
+    <selectionType typeId="64bef6e1-64f8-46b9-98d7-a710e3f5b7ae" valueTypeId="82ed0822-312e-43ca-9f45-84d1b39b542b"/>
+    <listType typeId="7f28f0b9-fb21-4368-a677-ca7c90a7056b" valueTypeId="6209c099-1be6-4445-93af-2a9f05550d83"/>
+    <managerType typeId="836867ab-4691-443d-be77-530d177c9823" valueTypeId="c92450b6-ed2e-41da-8981-7b75a9c8b889"/>
+    <recordSetType typeId="0e32c411-e214-40fd-9606-f1e62bbb93ad" valueTypeId="a35b6879-4ee7-4b62-98fa-15c0faa0fada"/>
+    <recordKeyType typeId="1d02fcb7-3dd4-40b7-a0c9-4c58f8f13527" valueTypeId="5e27115c-9c47-4683-9fbf-2fb76664fb45"/>
+    <recordType typeId="95683b93-ddb6-4490-9ba9-e8eb120ae5bb" valueTypeId="0a96c749-01ff-4f2f-9555-5ebba188d784"/>
+    <recordManagerType typeId="4d6a5bd5-8209-46e6-92b1-ce5b7b134c5c" valueTypeId="ed73d39d-717f-49a6-921b-fec0e9df0bfc"/>
+  </producedTypes>
+  <name>ДействующиеПравилаРасчетаПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действующие правила расчета премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала действия положения</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="52f06f7d-88a6-45f5-86bc-59d4e620208e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания действия положения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="89a4b0d9-27ea-4261-9750-e94f4d0a9fc0">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="13da7aac-a6a9-477c-af42-9dd64e3e8d36">
+    <name>ПравилоРасчетаПремий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило расчета премий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПравилаРасчетаПремий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

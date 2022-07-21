@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9735687a-ddc7-40c2-8884-82fe20031510">
+  <name>ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен розница управление небольшой фирмой зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ЛицензииПоставщиковАлкогольнойПродукции</types>
+    <types>CatalogObject.ВидыАлкогольнойПродукции</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектовИерархия</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменРозницаУправлениеНебольшойФирмойЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

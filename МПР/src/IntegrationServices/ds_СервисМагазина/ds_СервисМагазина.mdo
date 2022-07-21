@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:IntegrationService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="658a66b1-5e34-45f2-beec-98f08713d5d4">
+  <producedTypes>
+    <managerType typeId="5bfdf50a-ea7c-48dd-9023-779806e0f35d" valueTypeId="c6a734e7-8b52-4942-90c5-b103f3a16b5e"/>
+  </producedTypes>
+  <name>ds_СервисМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис магазина</value>
+  </synonym>
+  <externalIntegrationServiceAddress>http://77.79.133.235:9090/applications/StoreNetwork</externalIntegrationServiceAddress>
+  <integrationServiceChannels uuid="bcd8ab56-3c3f-4e79-b5b8-33233da20876">
+    <producedTypes>
+      <managerType typeId="d4167e99-7ee7-4f46-af2a-b4977e43d89d" valueTypeId="bc7e10f9-f75b-43bc-85da-430e2946c91b"/>
+    </producedTypes>
+    <name>СетьМагазинов_ВМагазин</name>
+    <externalIntegrationServiceChannelName>Основной::СетьМагазинов.ВМагазин</externalIntegrationServiceChannelName>
+    <messageDirection>Receive</messageDirection>
+    <receiveMessageProcessing>СетьМагазинов_ВМагазинОбработкаПолученияСообщения</receiveMessageProcessing>
+  </integrationServiceChannels>
+  <integrationServiceChannels uuid="b2736d44-da24-48b2-977c-f78f6b97f9d0">
+    <producedTypes>
+      <managerType typeId="692c5f99-945b-49c7-ab41-894d1bc0df25" valueTypeId="31086acb-7744-47d2-936b-11e95cc815a9"/>
+    </producedTypes>
+    <name>СетьМагазинов_ИзМагазина</name>
+    <externalIntegrationServiceChannelName>Основной::СетьМагазинов.ИзМагазина</externalIntegrationServiceChannelName>
+    <transactioned>true</transactioned>
+  </integrationServiceChannels>
+</mdclass:IntegrationService>

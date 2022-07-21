@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0811d1b9-f8a7-4657-8893-b050f8ab83b9">
+  <producedTypes>
+    <objectType typeId="03257977-d26d-43ce-8aa7-75da253cd10b" valueTypeId="ec32d17a-6f1d-4a80-b9f6-f450f729f090"/>
+    <managerType typeId="661eb9c0-cd78-4536-9d5e-f38c216f5f52" valueTypeId="832df86d-35e5-4f4d-a16f-2e6dcaca0c86"/>
+  </producedTypes>
+  <name>РасхожденияПриПриемкеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расхождения при приемке товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РасхожденияПриПриемкеТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6fd52deb-8c02-4a27-9fb7-60046be4e7b3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

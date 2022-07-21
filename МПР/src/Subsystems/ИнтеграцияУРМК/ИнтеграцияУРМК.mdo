@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f3a5385-39b8-4700-bcea-117b8a594150">
+  <name>ИнтеграцияУРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция УРМК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DefinedType.КассаККМУРМК</content>
+  <content>CommonModule.ИнтеграцияУРМКСлужебный</content>
+  <content>CommonModule.ИнтеграцияУРМКРТ</content>
+  <content>CommonModule.ИнтеграцияУРМКПереопределяемый</content>
+  <content>DataProcessor.ПомощникНастройкиОбменаУРМК</content>
+  <content>Catalog.УниверсальныеРабочиеМестаКассиров</content>
+  <content>DefinedType.ТорговыйОбъектУРМК</content>
+  <content>DefinedType.ОрганизацияУРМК</content>
+  <content>ExchangePlan.ОбменСУРМК</content>
+  <content>Constant.ИспользоватьРасширенныйРежимНастройкиУРМК</content>
+  <content>FunctionalOption.ИспользоватьРасширенныйРежимНастройкиУРМК</content>
+  <content>DefinedType.ВидЦенУРМК</content>
+  <content>EventSubscription.ОбменСУРМКЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменСУРМКЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.ОбменСУРМКЗарегистрироватьУдаление</content>
+  <content>EventSubscription.ОбменСУРМКРегистрацияНабораЗаписей</content>
+</mdclass:Subsystem>

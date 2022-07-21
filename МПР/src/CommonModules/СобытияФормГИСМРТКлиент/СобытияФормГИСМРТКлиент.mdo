@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cf35445-f684-4cfb-aa44-c58300199e88">
+  <name>СобытияФормГИСМРТКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>События форм ГИСМ РТ (клиент) </value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

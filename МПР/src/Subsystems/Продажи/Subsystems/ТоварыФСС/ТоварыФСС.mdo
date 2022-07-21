@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29f2d652-e8d3-4490-b00a-f741f163c1b2">
+  <name>ТоварыФСС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары ФСС</value>
+  </synonym>
+  <content>Constant.ИспользоватьУчетТоваровФСС</content>
+  <content>CommonModule.ЭлектронныеСертификатыНСПКРТ</content>
+  <content>CommonForm.ФормаОплатыЭСНСПК</content>
+  <content>CommonTemplate.ПФ_MXL_ДанныеПроверкиТоваровФСС</content>
+  <content>CommonPicture.НСПК_МИР</content>
+  <content>FunctionalOption.ИспользоватьУчетТоваровФСС</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9159fa56-f820-4909-99ac-66552397852f">
+  <name>ИспользоватьПодключаемоеОборудованиеРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подключаемое оборудование РТ</value>
+  </synonym>
+  <location>Constant.ИспользоватьПодключаемоеОборудование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЧекКоррекции</content>
+  <content>CommonCommand.ФискальныеОперации</content>
+  <content>DataProcessor.СозданиеЧековКоррекции</content>
+  <content>InformationRegister.СкорректированныеФискальныеОперации</content>
+</mdclass:FunctionalOption>

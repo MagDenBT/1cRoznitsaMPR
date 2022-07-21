@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6702dc74-5daa-440f-994a-5ff7037dc72b">
+  <name>ИспользоватьЛогированиеДействийКассираВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать логирование действий кассира в РМК</value>
+  </synonym>
+  <location>Constant.ИспользоватьЛогированиеДействийКассираВРМК</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ВидыДействийКассираВРМК</content>
+  <content>InformationRegister.НастройкиЛогированияПоВидамДействийКассираВРМК</content>
+  <content>Catalog.НастройкиРМК.Attribute.ЛогироватьДействияКассира</content>
+  <content>InformationRegister.ЛогДействийКассираВРМК</content>
+  <content>Report.СтатистикаПоДействиямКассировВРМК</content>
+  <content>Subsystem.Продажи.Subsystem.ЛогированиеДействийКассираВРМК</content>
+  <content>Report.ЖурналЛогированияДействийКассираВРМК</content>
+</mdclass:FunctionalOption>

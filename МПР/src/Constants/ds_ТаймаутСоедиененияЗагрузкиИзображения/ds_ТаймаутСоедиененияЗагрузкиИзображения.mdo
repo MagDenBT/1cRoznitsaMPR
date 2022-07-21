@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd6de86-9144-46b6-8d44-2a9f13ed58da">
+  <producedTypes>
+    <managerType typeId="dba0ef0f-93e9-43e5-9a4c-ac4ab3eec36d" valueTypeId="befe99a5-75bb-4f93-a51f-7f0ea856491a"/>
+    <valueManagerType typeId="a2176a83-f8d5-4568-ada0-19c275f9e329" valueTypeId="a2dc91c1-b578-4cb2-9044-1973d605ff2d"/>
+    <valueKeyType typeId="204cc596-b030-4a33-9e44-4d6ee57f3313" valueTypeId="ea3bfa52-41a2-4079-8962-a23570e5fb2f"/>
+  </producedTypes>
+  <name>ds_ТаймаутСоедиененияЗагрузкиИзображения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут соедиенения загрузки изображения</value>
+  </synonym>
+  <comment>Таймаут соединения ( в секундах ) загрузки изображения товаров гц</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

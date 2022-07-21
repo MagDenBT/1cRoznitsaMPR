@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fce11d2-580f-4b35-bcff-40b309d0eb82">
+  <producedTypes>
+    <objectType typeId="5e16c7dd-cd84-4c07-96b0-5cc74b2f2671" valueTypeId="d5dc0f07-0750-4db0-935e-540b08a1ee2a"/>
+    <managerType typeId="12e1180a-a7fe-401c-99f9-8ce9f2b1c22f" valueTypeId="f842135c-e32a-4118-852e-bc3357451b33"/>
+  </producedTypes>
+  <name>ОтчетОДвиженияхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о движениях сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетОДвиженияхСертификатов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="4481b2fe-e5e5-49ca-8ff6-ee8f20302770">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

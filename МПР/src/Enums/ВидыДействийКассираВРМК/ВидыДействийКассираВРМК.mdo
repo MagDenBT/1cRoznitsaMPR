@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d976c0a-a075-4d5e-8126-8e1ec4bb02fd">
+  <producedTypes>
+    <refType typeId="afb4a551-12c1-44d8-a641-d0997a4c6f18" valueTypeId="4f9b888f-54b1-43a7-b462-9632ab34168e"/>
+    <listType typeId="936d704a-0d87-4f84-985e-a41e7ed67f80" valueTypeId="812207b2-566f-4305-b9e5-756a95e5abc1"/>
+    <managerType typeId="e578892e-5522-4602-be87-d2f5af4d58b0" valueTypeId="b3d0470f-d0fd-4608-aad5-c1c42bc4db7e"/>
+  </producedTypes>
+  <name>ВидыДействийКассираВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий кассира в РМК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Виды действий совершаемых кассиром в РМК</value>
+  </explanation>
+  <enumValues uuid="8494ef79-f8d4-4b1f-b0e2-75f33df38817">
+    <name>ВведенКодДисконтнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен код дисконтной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2d4be55-bd72-4705-a799-9c5cde274662">
+    <name>ВведенКодКартыПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен код карты подарочного сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3fcfed2-d396-4901-a0a7-5201d5da36f0">
+    <name>ВведенКодКартыПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен код карты продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78abafbf-109f-4f4b-ab86-d76fb5d19aaa">
+    <name>ВведенКодНеизвестнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен код неизвестной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e0f6be8-517d-42e3-a301-b56d8bef1049">
+    <name>ВведенНеизвестныйШтрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен неизвестный штрихкод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8bfca87-5856-430a-8e6c-b736e9ea89ec">
+    <name>ВведенШтрихкодДисконтнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен штрихкод дисконтной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbfe56b6-0eda-4a36-956d-1ca0fa639366">
+    <name>ВведенШтрихкодКартыПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен штрихкод карты продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fa63cc1-c727-4ddf-aeca-62fef558c725">
+    <name>ВведенШтрихкодНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен штрихкод номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b584f53-fe62-453e-96eb-8fa904bb4afa">
+    <name>ВведенШтрихкодПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен штрихкод подарочного сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56b8a8ff-e762-4777-9727-8c295791a249">
+    <name>ВведенШтрихкодХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Введен штрихкод характеристики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6605fb12-9e4f-4a9c-920b-9b5356f72ddc">
+    <name>ВводРучнойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод ручной скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e41e1d26-befc-4fca-a22d-6776ac69c4f4">
+    <name>ВводЦеныТоварамСНулевойЦеной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод цены товарам с нулевой ценой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90beea78-8bf3-46fa-b5e6-c1440d9ae87d">
+    <name>ВнесениеДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внесение денег</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0bc1eb4-4c20-42c6-8bce-c2aab4a3cc8f">
+    <name>ВыбранаДисконтнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрана дисконтная карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d45e489-3b51-4904-9a81-54a783f58ea1">
+    <name>ВыбранаКартаПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрана карта продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="339436f2-ad44-4981-9dae-c13d3a76a5a5">
+    <name>ВыбранаСерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрана серия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1306735a-6ffe-4246-a73a-de1aaa56b967">
+    <name>ВыбранаУправляемаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрана управляемая скидка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2b40b4a-d685-4d65-9c63-2ece1a83c989">
+    <name>ВыбранПодарочныйСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбран подарочный сертификат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99654d9e-c7ae-4a60-bd63-f8855619cc1d">
+    <name>ВыбранПродавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбран продавец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f833d8b-706f-4714-b14b-cc1fa38fcfa4">
+    <name>ВыемкаДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выемка денег</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fbc1d44-ee0f-400b-a61d-604e70f62858">
+    <name>ЗаменаПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5769371-8320-4281-8a95-8fbe9726b769">
+    <name>ИзменениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d301ae9b-d47d-461d-8f75-294fc32b731c">
+    <name>ИзменениеПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2eaf5ba5-99c0-4385-aebe-a5315b197811">
+    <name>ИзменениеСуммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение суммы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe5bac61-b660-4ff0-9c80-51361c579431">
+    <name>ИзменениеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e93e2b4b-d5ca-4350-9751-9bd07565461b">
+    <name>ОплатаНаличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата наличными</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6afc06a7-f5d5-45df-8e1f-bb8a24ee4ec5">
+    <name>ОтменаУправляемойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена управляемой скидки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d531629f-8d5d-4020-ac9c-e63734ece701">
+    <name>ПоискИПодборНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск и подбор номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6204007c-d109-4a87-b8ea-373e94b2383c">
+    <name>РегистрацияНовойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация новой карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cec95dd-9e5d-4159-ab71-58f660001262">
+    <name>СложнаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложная оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9ace3f0-ae72-4dee-b8e9-537d6eec984f">
+    <name>СчитанКодДисконтнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан код дисконтной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70eaf03f-d755-4736-8464-1d95da27227d">
+    <name>СчитанКодКартыПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан код карты подарочного сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="493597c2-6aea-4844-8b8f-247975b3b96f">
+    <name>СчитанКодКартыПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан код карты продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c79ea241-79fa-47dd-9fd5-845b611b3604">
+    <name>СчитанКодНеизвестнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан код неизвестной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7aae87ff-371f-45c8-a384-862ae6cd67b1">
+    <name>СчитанНеизвестныйШтрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан неизвестный штрихкод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8d2d0a0-4a63-44b2-8b00-510b81fe3fb3">
+    <name>СчитанШтрихкодДисконтнойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан штрихкод дисконтной карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aefe3fff-a539-48c4-9506-5c7b85c932fd">
+    <name>СчитанШтрихкодКартыПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан штрихкод карты продавца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="510a869b-087d-41fb-b16b-5f0961de80a0">
+    <name>СчитанШтрихкодНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан штрихкод номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f80fa35-92c6-4e52-b335-e61dd7ebd55e">
+    <name>СчитанШтрихкодПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан штрихкод подарочного сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6d08ec5-d3c5-4097-82ea-638cf540e0aa">
+    <name>СчитанШтрихкодХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считан штрихкод характеристики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de78d406-d156-4557-829e-5add6a702fcd">
+    <name>УвеличениеКоличества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увеличение количества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d3dedb1-a3e3-49af-af16-b87f4e96c4a6">
+    <name>УдалениеВыбораПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление выбора подарочного сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb1de479-5de6-4c2e-920b-a4a1b07e0d89">
+    <name>УдалениеВыбораСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление выбора серии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="593142ce-0635-4f92-afd9-aa1e9cbec176">
+    <name>УдалениеСтрокиЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление строки чека</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="585096ce-981e-478f-a322-233f6f62b7cc">
+    <name>УменьшениеКоличества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уменьшение количества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bde7338-8cb8-4632-9593-df94dda2e45e">
+    <name>ФискализацияЧастичнойОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискализация частичной оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ceb446b-80dc-4088-969f-f4816b98675a">
+    <name>ЧекАннулирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек аннулирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b90bd5d6-0b16-4e27-bcfe-3905d1f6201a">
+    <name>ЧекНапечатан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек напечатан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ece5c9e-893e-4993-b5fc-a3cbf1633262">
+    <name>ЧекОтложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек отложен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b76a9065-818f-4e03-8733-1ea2a23178a9">
+    <name>ЧекПробит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек пробит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db6f3791-70d5-46cf-ba23-da03141d2777">
+    <name>ЧекПроведен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек проведен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a1eab6e-c048-4486-820e-dba71467d122">
+    <name>ЧекПродолжен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек продолжен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

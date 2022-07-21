@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de4d7ee9-57a8-4a76-9145-3fdb9e411ec0">
+  <name>ОбменСКонтрагентамиРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с контрагентами РТ</value>
+  </synonym>
+  <content>CommonModule.ОбменСКонтрагентамиРТ</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТВызовСервера</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТКлиентСервер</content>
+  <content>DataProcessor.ОбменСКонтрагентами</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТКлиент</content>
+  <content>CommonModule.ОрганизацииСлужебный</content>
+  <content>CommonForm.ПодборТоваровБЭД</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

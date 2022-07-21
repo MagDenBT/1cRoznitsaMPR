@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36cfa39c-01d9-4c3a-8c10-a3ead316525f">
+  <producedTypes>
+    <refType typeId="5647c4ea-0d6d-4d75-8261-5aa213fca033" valueTypeId="1babeca5-bc2d-4d4e-8392-d7f480121423"/>
+    <listType typeId="aca5da9a-a97e-492c-a31c-f7d61d26bc08" valueTypeId="c7e798e4-985c-4eb0-919f-dae86b927928"/>
+    <managerType typeId="93d7828c-3c31-4b45-ad89-5c5c774eaf08" valueTypeId="f7a557a7-8db4-42e0-920d-014ad7a4c67f"/>
+  </producedTypes>
+  <name>ОсобенностиУчетаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особенности учета номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="18beb79a-7168-4553-bf8b-d5feabee5519">
+    <name>АлкогольнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алкогольная (спиртосодержащая) продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa193fb0-1b10-4648-9555-36098c7cdebc">
+    <name>АльтернативныйТабак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8cc0bd9c-3c71-42d9-9e91-0e24c5f27eae">
+    <name>БезОсобенностейУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без особенностей учета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffd8621b-444e-4d7f-9fb5-6f5e9730c9cb">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68b3e21d-fc34-4f41-ba4b-8bf7c2d41fa7">
+    <name>Духи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духи и туалетная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df555a39-d642-448c-974c-5c3980d7c56c">
+    <name>КиЗГИСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольный (идентификационный) знак (КиЗ) ГИСМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cce2a1fb-cb90-47c4-9d2b-10859996f2d4">
+    <name>КреслаКоляски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кресла коляски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54d09480-fd0b-46b7-9600-1277ae9a3e9a">
+    <name>ЛегкаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары легкой промышленности и одежда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a584a97e-84af-43b5-bb1f-086add42187d">
+    <name>МолочнаяПродукцияПодконтрольнаяВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de7ca008-03fc-4856-b44f-47e1ac38355a">
+    <name>ОбувнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ece2ae7-2926-4d6a-9851-71fc7c8791b4">
+    <name>ПодконтрольнаяПродукцияВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подконтрольная продукция ВЕТИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e04e62d0-456b-4f6c-918d-34ece1e84a40">
+    <name>ПродукцияМаркируемаяДляГИСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция, маркируемая для ГИСМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a88cbb69-80ab-4c7c-b7f3-99b88349eb20">
+    <name>ТабачнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табачная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8eaf6829-3bf2-402b-9534-7f72d66ac36a">
+    <name>УпакованнаяВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5cade55-4b75-42bf-a83d-99de2256dd26">
+    <name>Фотоаппараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотоаппараты и лампы-вспышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07710d29-110c-4bb6-9336-c79563e7e050">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины и автопокрышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76410a4a-85ea-40c9-b011-2280db110646">
+    <name>МолочнаяПродукцияБезВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция (без ВетИС)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Milk and dairy products (without VetIS)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4218517-aca5-477e-9cd1-d2b0ea0c340f">
+    <name>Антисептики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Антисептики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbd5a278-7b1e-496b-a316-5379f1f5cdd0">
+    <name>БАДы</name>
+    <synonym>
+      <key>ru</key>
+      <value>БАДы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49a6ff6a-0c84-4c55-841f-29b703189bb5">
+    <name>НикотиносодержащаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никотиносодержащая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ae391e4-4858-417b-a18b-2f626a72da32">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

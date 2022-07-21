@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="268fe21d-bb6b-4715-a328-a2680054ad32">
+  <producedTypes>
+    <managerType typeId="8d24b25c-7522-4df3-b71f-b95abc5e7a87" valueTypeId="b7b4268f-f214-4087-87bb-fe0752f70500"/>
+    <valueManagerType typeId="b30193e5-0ac7-4f04-89c1-b4b6738e2900" valueTypeId="b9691515-51d7-45b3-9a4d-eab4080f5f4b"/>
+    <valueKeyType typeId="f011a1d8-6daa-49aa-854e-41c742066a95" valueTypeId="e00c0919-9310-47f0-9846-2cf47dad3376"/>
+  </producedTypes>
+  <name>ds_РазрешитьРМКВБазеМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить РМК в текущей базе (для базы магазина)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

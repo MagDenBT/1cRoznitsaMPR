@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ee4ffbe-aa21-4034-8839-a49e26104a7a">
+  <producedTypes>
+    <objectType typeId="c03b8b4e-68ac-4793-b941-6656cfd881bf" valueTypeId="a38ff546-1297-453d-9b7f-f9398de1fd0e"/>
+    <managerType typeId="0d53b7a8-28df-4b66-a19a-f1ca577367ec" valueTypeId="07e7c886-608d-402d-aa6c-1cfae4864b6d"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзФайлаExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из файла Excel</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхИзФайлаExcel.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="d0ef3c2e-2701-4b91-b3ad-91b6003d6183">
+    <producedTypes>
+      <objectType typeId="2bded596-d5f3-449c-adb2-e9f863ba1d89" valueTypeId="3c079b15-e08c-4b60-940b-758fe3eafecc"/>
+      <rowType typeId="46b1d73f-0f34-4c35-88fe-894cf3040545" valueTypeId="89a4957a-d39b-438d-a0bc-32d9d8f6e962"/>
+    </producedTypes>
+    <name>ТаблицаРеквизитовПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица реквизитов приемника</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e0c63231-6cf5-4fc4-8e61-9825e9b99e94">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5415703c-89ee-452b-b121-59b2dff67f59">
+      <name>ПредставлениеРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7e3c1f32-4e59-4b8f-bdb8-3954f91f3b4e">
+      <name>ПолеПоиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поле поиска</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="194528a5-6ae9-48ec-abad-becef89908ba">
+      <name>МожетБытьПолемПоиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Может быть полем поиска</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8f034be4-8a7c-4e81-820c-dc9c0666fab7">
+      <name>Сортировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сортировка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d701b9ac-20fc-4c15-9846-87b434b454c3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba1b288d-8833-4673-ab34-82de0e6bc017">
+    <name>ФормаСохраненияНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2b25fd8-82ba-49f9-9dda-308b8a2b73ae">
+    <name>ФормаВосстановленияНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма восстановления настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

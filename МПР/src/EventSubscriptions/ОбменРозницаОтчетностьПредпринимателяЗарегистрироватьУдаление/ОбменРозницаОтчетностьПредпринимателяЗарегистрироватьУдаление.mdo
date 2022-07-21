@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45847c1f-1943-4211-8a7d-b785b22938f8">
+  <name>ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен розница отчетность предпринимателя зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.РегистрацияБезналичнойОплаты</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменРозницаОтчетностьПредпринимателяЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

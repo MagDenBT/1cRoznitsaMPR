@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf742f94-e9fc-4116-841f-60188772dbe6">
+  <name>ds_ПоступлениеТоваровОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров обработка проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ds_ПодпискиНаСобытия.ПоступлениеТоваровОбработкаПроведения</handler>
+</mdclass:EventSubscription>

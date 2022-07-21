@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebfd2975-c5db-4669-af67-68b478c9b78e">
+  <producedTypes>
+    <objectType typeId="a73db46e-2bb9-4abd-a834-fd4202506d95" valueTypeId="7b8112a9-edf6-47ab-a07a-337da94d98cb"/>
+    <managerType typeId="eebb365c-5cb7-4046-b65f-9af2ea8ca989" valueTypeId="b631fffc-2e28-482e-8356-a45c5a8aea63"/>
+  </producedTypes>
+  <name>ПричиныСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины списания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПричиныСписания.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПричиныСписания.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ПричиныСписания.Form.ФормаНастроек</defaultSettingsForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="1cbad8ed-9174-48d4-8a96-0179e5927787">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78f1201e-e6e3-42c5-99aa-227704909cb1">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="54c7a7b0-431f-4d48-9624-153a28de96b8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

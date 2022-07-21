@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45a91ee-3d80-4180-a58a-14024d48405b">
+  <producedTypes>
+    <selectionType typeId="08bb775f-46e6-4d63-9211-7706bf916780" valueTypeId="cd7bafb3-1fa4-4383-9934-969e28949015"/>
+    <listType typeId="7f3971cb-b53a-43ee-b755-5b7f53ab420b" valueTypeId="4e8898e4-4297-4a91-abc4-473b4aa6398b"/>
+    <managerType typeId="1319aa02-11ea-4f80-b6fb-b2079d6cdd9e" valueTypeId="005ce76b-e370-4dda-86d2-dc76a7fea47d"/>
+    <recordSetType typeId="39fcfd1f-eb72-402f-b360-883357514af5" valueTypeId="3a0c3e9f-f819-49dc-ba2d-2919d5921185"/>
+    <recordKeyType typeId="71cc1a2a-73d5-4cff-b175-7256a2385b06" valueTypeId="7347a2e5-522d-43b3-9a5c-e83588e22f89"/>
+    <recordType typeId="c0dd21e9-d319-4abd-9fe4-08d14bd22e52" valueTypeId="fca2ddcc-9330-47cf-a805-f2e709a4f406"/>
+    <recordManagerType typeId="adde2949-df57-42b4-a928-d5cfaebc31dd" valueTypeId="3b5702df-cb09-4acf-bf83-091715c32acf"/>
+  </producedTypes>
+  <name>НастройкиВариантовРаспределенияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки вариантов распределения товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5762836a-7f19-4bff-9a10-6e48067ed11f">
+    <name>НастройкиВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки варианта</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f7760eb-a6ab-4089-acd1-71b7779d5e30">
+    <name>ПрименятьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применять автоматически</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c12d7914-e216-44ec-ac01-6c7ffd8208bf">
+    <name>ВариантРаспределенияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант распределения товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыРаспределенияТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f748f485-e1bd-4e30-a73b-6e61bbc647f7">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

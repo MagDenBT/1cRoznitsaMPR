@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97ed0822-c16c-4d3e-b2e8-e0ec2ae4a58b">
+  <name>ПриСозданииТТНВходящаяНаОснованииПеремещениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>При создании документа &quot;ТТН Входящая&quot; на основании документа &quot;Перемещение товаров&quot;</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ТТНВходящаяЕГАИС</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИнтеграцияЕГАИСРТ.ПриСозданииТТНВходящаяНаОснованииПеремещенеТоваровОбработчик</handler>
+</mdclass:EventSubscription>

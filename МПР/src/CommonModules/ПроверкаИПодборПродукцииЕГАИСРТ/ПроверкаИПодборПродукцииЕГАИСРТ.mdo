@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75e5fb2c-d78f-4a46-9f5d-a096fdd1127f">
+  <name>ПроверкаИПодборПродукцииЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка и подбор продукции ЕГАИС РТ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

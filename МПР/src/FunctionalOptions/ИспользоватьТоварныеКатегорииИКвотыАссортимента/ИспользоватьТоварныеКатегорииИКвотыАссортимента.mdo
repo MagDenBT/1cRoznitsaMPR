@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="075e115f-b822-4dfc-9126-88a3bf6dc2c6">
+  <name>ИспользоватьТоварныеКатегорииИКвотыАссортимента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать товарные категории и квоты ассортимента</value>
+  </synonym>
+  <location>Constant.ИспользоватьТоварныеКатегорииИКвотыАссортимента</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.УстановкаКвотАссортимента</content>
+  <content>Catalog.ТоварныеКатегории</content>
+  <content>InformationRegister.КвотыАссортимента</content>
+  <content>DataProcessor.ПодборПоТоварнымКатегориям</content>
+  <content>Report.АнализИсполненияАссортимента</content>
+  <content>Report.КвотыАссортимента</content>
+  <content>Subsystem.Маркетинг.Subsystem.Ассортимент.Subsystem.ДополнительныеОтчетыПоАнализуАссортимента</content>
+  <content>Catalog.Номенклатура.Attribute.ТоварнаяКатегория</content>
+</mdclass:FunctionalOption>

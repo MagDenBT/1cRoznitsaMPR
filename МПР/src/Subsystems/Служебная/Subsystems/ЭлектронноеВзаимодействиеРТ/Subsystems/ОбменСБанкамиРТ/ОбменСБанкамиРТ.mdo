@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59bef345-222b-4892-8152-f08da117df5a">
+  <name>ОбменСБанкамиРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с банками РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьТестовыйРежимDirectBank</content>
+  <content>CommonModule.ОбменСБанкамиРТ</content>
+  <content>CommonModule.ОбменСБанкамиРТКлиент</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

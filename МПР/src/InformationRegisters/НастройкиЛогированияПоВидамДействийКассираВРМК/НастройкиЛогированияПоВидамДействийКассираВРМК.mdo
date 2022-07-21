@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5438e260-f042-4b65-a4d6-55210700641f">
+  <producedTypes>
+    <selectionType typeId="61dd2adb-4d36-40bf-96ed-4db97e6c0788" valueTypeId="1832d3e7-a123-4806-b8d1-6d0c5be69d99"/>
+    <listType typeId="b474f740-ea6b-4b23-8ca1-fe5c9c748599" valueTypeId="55a625cf-8212-43bd-9726-4cf3cfc45e3b"/>
+    <managerType typeId="dc4a8614-0f2b-46be-a6c6-60f8d2725094" valueTypeId="35eb735f-c394-4fea-82aa-5f245c5c918b"/>
+    <recordSetType typeId="e0daa6bc-7559-446f-8d37-6aa18df3115b" valueTypeId="41c994d3-77b5-4854-b37b-58371d195fad"/>
+    <recordKeyType typeId="9099deb6-9831-4204-9824-4829cc2279e8" valueTypeId="7ab8bad7-1088-4703-b8ba-6f4346519067"/>
+    <recordType typeId="7b1da26b-b917-4dcd-bd3f-29095ff7bdf9" valueTypeId="d4fe5166-71a0-42fd-b843-a60b67729976"/>
+    <recordManagerType typeId="18c605c1-af21-4fed-ba19-f5e0d0120355" valueTypeId="e642c69c-30db-4c15-85f3-48c5b0514bc3"/>
+  </producedTypes>
+  <name>НастройкиЛогированияПоВидамДействийКассираВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки логирования по видам действий кассира в РМК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.НастройкиЛогированияПоВидамДействийКассираВРМК.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c90b74c2-1903-4bf4-a079-87a413fcf8bd">
+    <name>ДействиеПодПодозрением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие под подозрением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Действие кассира, которое возможно нужно расследовать</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0d4be80c-422b-4591-86c3-73aa547ed38b">
+    <name>ИсправляющееДействие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправляющее действие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Исправляющее действие кассира ранее введенной ошибочной информации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3926fa72-66b0-44cf-9b60-52fadadc3828">
+    <name>ВидДействияКассираВРМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид действия кассира в РМК</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДействийКассираВРМК</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включенный вид операции кассира в РМК</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c3aab3fa-4b62-4cb3-b457-0bcd123b376b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7445d44f-9179-4f9f-aa68-f07f060485bd">
+    <name>НастройкиДействийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки действий по умолчанию</value>
+    </synonym>
+  </templates>
+  <templates uuid="6665e5fb-0209-45d4-a38d-636daeabaaea">
+    <name>НастройкиДействийПоГруппам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки действий по группам</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

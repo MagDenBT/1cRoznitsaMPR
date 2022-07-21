@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33a4d226-f170-4efd-91c9-56703eb75dfd">
+  <producedTypes>
+    <refType typeId="3201dbd6-2219-412a-8b46-bc6c5854f1c7" valueTypeId="52ff08ac-c2a0-4787-b180-131d1bc22d0b"/>
+    <listType typeId="1c582d28-f066-4382-9529-81554f797ec9" valueTypeId="8f452b45-5793-40b2-9d8a-4e4e00c47442"/>
+    <managerType typeId="40ab33e8-7196-4528-8ef8-d445fb3cedaa" valueTypeId="66110749-8481-4950-ba20-d57f8f3610aa"/>
+  </producedTypes>
+  <name>УдалитьОбъектыНалогообложенияПоУСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не использовать) Объекты налогообложения по УСН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fcd394c0-4a2c-46f0-b4fa-3f46aa3d3492">
+    <name>Доходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf3a45b9-2930-452c-a61a-5a6f7d9be3e8">
+    <name>ДоходыМинусРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы, уменьшенные на величину расходов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

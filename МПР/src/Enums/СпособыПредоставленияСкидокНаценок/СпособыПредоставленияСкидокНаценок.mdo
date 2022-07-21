@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7257606-ced0-4ff4-8c80-719a2c77e559">
+  <producedTypes>
+    <refType typeId="ffd18a3d-5851-4ddb-8804-75d45663feb6" valueTypeId="5cb0bf43-423f-42c3-8e13-9a49929f9f6d"/>
+    <listType typeId="c8d47cac-2bbe-4731-acc8-0b6f3fce545b" valueTypeId="39036049-f756-4ea7-877b-d60577558ed6"/>
+    <managerType typeId="b5a8b2d1-8c72-4cc4-b4c0-f8005e12f682" valueTypeId="f6a466eb-b2bd-4ef1-81d8-d57c3440b01b"/>
+  </producedTypes>
+  <name>СпособыПредоставленияСкидокНаценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы предоставления скидок наценок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82faee7b-c96d-487c-9dbc-ef1600fd3f8c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c924740d-8ab4-4900-888a-979745322bd5">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9227f655-4f5e-4493-a383-65155c9c4dd5">
+    <name>ВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5ce2ab8-6a18-48b6-8b87-416adda9fa91">
+    <name>Подарок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подарок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90e20a88-4531-426e-bd35-307aa88c04ee">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55cbabf8-9598-4a7a-abe8-a2a99921bc7c">
+    <name>ЗапретРозничнойПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет розничной продажи алкоголя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12fb7c89-6919-475b-b32a-33cbd7388cbb">
+    <name>ПроцентОтСуммыПредыдущейПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от суммы предыдущей покупки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38696a19-2489-4b8c-8600-6d93c361af4a">
+    <name>КоличествоБонусныхБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество бонусных баллов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02374fe8-99b5-4080-81b2-bcb678496c26">
+    <name>ПроцентОтСуммыВВидеБонусныхБаллов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от суммы в виде бонусных баллов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b15ced0d-4488-4efb-8ad9-1e942bee75e5">
+    <name>ВнешняяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя обработка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

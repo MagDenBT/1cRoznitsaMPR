@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="765b480c-00b7-4e20-a544-a2e8b5d6e3dc">
+  <producedTypes>
+    <objectType typeId="639e4286-3e6f-4354-a96b-f938d8ae1486" valueTypeId="f7daf929-fcb8-4c92-97fc-97d4343bfe0c"/>
+    <managerType typeId="d52ac5fc-a4c9-40b3-a9c3-cfcec062b04a" valueTypeId="752aaf5f-244b-4f16-926c-6c6748f9f87d"/>
+  </producedTypes>
+  <name>ЖурналУчетаПродажиАлкогольнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал учета продажи алкогольной продукции</value>
+  </synonym>
+  <comment>Журнал учета объема розничной продажи алкогольной и спиртосодержащей продукции</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЖурналУчетаПродажиАлкогольнойПродукции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e3eb023d-ccb9-4102-b657-4d2d78349f45">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="d773b8fc-0ec3-4d55-a9b6-3074bc8fc9aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4c238ccb-d60a-4370-9421-dae29a92c117">
+    <name>ФормаЖурналаПоПриказуНомер164</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма журнала по приказу номер 164</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

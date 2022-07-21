@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65ce60a1-0aa1-4e7a-ba47-fcfd034e109e">
+  <producedTypes>
+    <managerType typeId="844af03a-c825-48d9-bfaa-d9dcc340003c" valueTypeId="dc96cc37-94f6-4770-8c4e-ee5201eb8b80"/>
+    <valueManagerType typeId="71e69d06-5188-4c69-a186-7057a2dc983b" valueTypeId="414be5df-d510-4457-8eee-fe72c504b1af"/>
+    <valueKeyType typeId="ca6a32b3-5666-4491-89df-d3dbb7a27e90" valueTypeId="32abe0d4-5e54-4d52-980b-e5e1c431c175"/>
+  </producedTypes>
+  <name>ИспользоватьПодборЗаказовПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подбор заказов поставщику</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

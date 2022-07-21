@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a2b433d-5c28-40f2-8621-90a2a0f389f4">
+  <producedTypes>
+    <objectType typeId="356321fe-1b3d-43ed-a0f1-e35bb9c51755" valueTypeId="68f02c7c-5d12-4c9b-a904-c16fb5868e5a"/>
+    <managerType typeId="a9b8c2c9-fcb9-4de9-8fd5-10eb35b32c5c" valueTypeId="c5da371d-c378-44d3-97a5-9776da36cc8b"/>
+  </producedTypes>
+  <name>ЗаполнениеДиапазонаСерийныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение диапазона серийных номеров</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗаполнениеДиапазонаСерийныхНомеров.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Заполнение диапазона номеров подарочных сертификатов</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Заполнение диапазона номеров подарочных сертификатов</value>
+  </explanation>
+  <attributes uuid="6b5bf7e0-e09f-443d-a081-0a3e0e95cb84">
+    <name>ВыборВДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор в документ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак выбора в документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec09164b-1f86-4879-8a07-89571382b83d">
+    <name>ЕстьМагнитныеКоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть магнитные коды</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования магнитных кодов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8da7b0c3-412a-4907-894c-16aa02488479">
+    <name>ЕстьШтрихкоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть штрихкоды</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования штрихкодов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86b446a6-0023-4dde-9daa-e30ab601afc5">
+    <name>ПервыйШтрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начальный штрихкод CODE-39, используемый при создании диапазона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ba2cb7aa-f9fc-41a4-bea9-ef42b34bf36f">
+    <name>ПервыйШтрихкодEAN13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начальный штрихкод EAN-13, используемый при создании диапазона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5376a9c9-2f94-4b07-97be-a94276ed0d0d">
+    <name>ПервыйШтрихкодEAN8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начальный штрихкод EAN-8, используемый при создании диапазона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ccd72050-2427-46c4-8b8d-605dd1cd48be">
+    <name>ТипШтрихкодаРТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип штрихкода РТ</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ТипыШтрихкодов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип штрихкода определяет правила генерации номеров в создаваемом диапазоне</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5c30ee44-0fa2-470a-9899-611df1a371b7">
+    <name>КоличествоСимволов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество символов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество символов, определяющее длину магнитного кода.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7dd80885-5f79-4959-adf3-3791ecbb1c01">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="872d72a9-2e26-4b29-9b3a-fba709252a70">
+    <name>ПроверкаИспользуемыхКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка используемых кодов</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

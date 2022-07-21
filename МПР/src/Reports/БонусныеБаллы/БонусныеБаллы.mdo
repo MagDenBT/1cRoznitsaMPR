@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d515035-3079-4551-a20e-4d497cae69ce">
+  <producedTypes>
+    <objectType typeId="6f3a4441-c8e3-4674-a1fe-342c81d7489e" valueTypeId="d5c07037-5b23-4629-94cc-38e6c28d5250"/>
+    <managerType typeId="071f80a8-b0f8-4153-9040-49352bc5f85d" valueTypeId="28421b9f-b97c-4b6b-9d17-83848e332c7e"/>
+  </producedTypes>
+  <name>БонусныеБаллы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусные баллы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.БонусныеБаллы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="56964693-7d6b-4680-be18-f49399c199a6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

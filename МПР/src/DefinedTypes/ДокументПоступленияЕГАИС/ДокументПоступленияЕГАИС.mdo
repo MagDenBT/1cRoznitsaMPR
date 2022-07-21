@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50046553-c598-4835-b4cf-777038cbd10a">
+  <producedTypes>
+    <containerType typeId="7d24da18-e13d-4b37-9916-db36329142fc" valueTypeId="7799a51d-d30f-4297-90ae-0b278dbef83d"/>
+  </producedTypes>
+  <name>ДокументПоступленияЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ поступления ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+  </type>
+</mdclass:DefinedType>

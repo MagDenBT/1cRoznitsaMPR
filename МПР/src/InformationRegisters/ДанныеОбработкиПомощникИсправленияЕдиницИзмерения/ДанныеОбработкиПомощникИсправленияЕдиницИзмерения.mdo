@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c54932b0-a17e-4121-be9e-668e0a710282">
+  <producedTypes>
+    <selectionType typeId="b156b391-932e-4ddb-b9a9-7620a6415814" valueTypeId="ada3dd7d-6cf5-4336-845e-e9c8fd8791d8"/>
+    <listType typeId="6c9e436e-d794-46ff-8f5d-cd6f04dbcfa3" valueTypeId="cd2771f6-e8c6-49a9-be27-e5623fca54e6"/>
+    <managerType typeId="ce5555d9-42ea-4366-88ce-2580ed13363e" valueTypeId="213b7790-468b-496c-91af-586db61c4698"/>
+    <recordSetType typeId="380f713e-7932-47b5-bc98-6d477532beae" valueTypeId="53773431-c161-4876-9585-248266b8c662"/>
+    <recordKeyType typeId="0c4f7a8c-4121-4d24-a46d-e4c4a047697b" valueTypeId="c788dd95-c6aa-4e34-a7b9-d7e3d52f1c1d"/>
+    <recordType typeId="89316f0e-c7a8-420f-a1f2-68e7101a6bf4" valueTypeId="d869b9ae-997a-48a9-b0dd-8ec63bae8c3d"/>
+    <recordManagerType typeId="e2b82a98-98e6-433c-b969-7c8bffdf8d1a" valueTypeId="c1d96f5c-2c03-41f0-9a92-00cb1baf9242"/>
+  </producedTypes>
+  <name>ДанныеОбработкиПомощникИсправленияЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные обработки помощник исправления единиц измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="545662b2-ae34-4cf0-b7fb-6a950ef34f18">
+    <name>ЕдиницыИзмеренияИсправлены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единицы измерения исправлены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5a7d7e54-d7b2-4d32-bb61-fe5ee6668a2a">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+      <types>DocumentRef.ТТНИсходящаяЕГАИС</types>
+      <types>DocumentRef.АктПостановкиНаБалансЕГАИС</types>
+      <types>DocumentRef.АктСписанияЕГАИС</types>
+      <types>DocumentRef.ПередачаВРегистр2ЕГАИС</types>
+      <types>DocumentRef.ВозвратИзРегистра2ЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

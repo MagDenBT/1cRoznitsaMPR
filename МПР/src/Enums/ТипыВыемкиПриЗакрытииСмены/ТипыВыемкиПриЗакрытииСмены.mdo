@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48d1fc4e-4707-419e-9826-b9d16f2e41c2">
+  <producedTypes>
+    <refType typeId="a9466754-a8e9-4330-9006-251716628cbd" valueTypeId="f193d298-7bbe-48f6-9de8-10cbd975492c"/>
+    <listType typeId="c7d0f720-05a5-42d6-831f-1ec57b08bb91" valueTypeId="fe38fa0e-e5c8-4fce-8626-3ff6b49ac275"/>
+    <managerType typeId="d26b6939-d7cc-42b2-adab-7455a955ec47" valueTypeId="9c02cc2f-59d5-4c4a-a947-52a064085659"/>
+  </producedTypes>
+  <name>ТипыВыемкиПриЗакрытииСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выемки при закрытии смены</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3be58a0-d208-49f8-a605-3d636deaac9e">
+    <name>ПроизводитьПолнуюВыемку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная выемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de573b7c-b06a-4695-97b6-d63f24cd6859">
+    <name>ОставитьСуммуРазменаВКассеККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неполная выемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1184c45b-334d-4172-8449-d8b62c47b0a4">
+    <name>ВыемкуНеПроизводить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выемку не производить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

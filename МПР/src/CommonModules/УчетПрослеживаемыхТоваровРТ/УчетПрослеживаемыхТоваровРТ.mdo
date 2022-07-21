@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8461a71-e491-40f4-ba10-ce62f30c44bd">
+  <name>УчетПрослеживаемыхТоваровРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет прослеживаемых товаров РТ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

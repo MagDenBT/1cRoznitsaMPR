@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="671bfa35-80ca-4456-a65d-1153634fa933">
+  <name>РаботаСПравиламиИменованияПараметрПравила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметр правила именования</value>
+  </synonym>
+</mdclass:CommonPicture>

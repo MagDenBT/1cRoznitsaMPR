@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b27739f-96c5-4e5a-952c-3a0ca0ea9fc9">
+  <producedTypes>
+    <selectionType typeId="8db609ec-ac96-444b-b528-284eb11269ef" valueTypeId="599ad43b-cfcc-4698-9ebc-472ee53d4c80"/>
+    <listType typeId="aabc6f93-3626-4f5b-8463-039a8bdde4e0" valueTypeId="2ef31f42-40de-4a0e-9394-0463df9f43e0"/>
+    <managerType typeId="bffd9345-62f1-40bb-8fd6-e424aeed417e" valueTypeId="c7086909-0e51-4e76-8c56-b979207e59ed"/>
+    <recordSetType typeId="79db4859-498e-45f1-a199-e95f39750994" valueTypeId="cf19f70e-c37f-43b0-adb7-4d9f933ee1ad"/>
+    <recordKeyType typeId="a207cc2a-e031-4449-b0a8-0d8a52f0bf4a" valueTypeId="cee692f7-ae46-4c05-87ee-b1161d47a5f0"/>
+    <recordType typeId="a31f5632-2dc4-455b-8cc0-27474a4ab72c" valueTypeId="8069c49e-6ca5-47b2-acce-71cfcebb1117"/>
+    <recordManagerType typeId="e23180df-cebe-42cc-bfb2-aaae82041e39" valueTypeId="95404ee1-de5f-4cc6-b83f-97e15531e3f2"/>
+  </producedTypes>
+  <name>ПоставщикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="256cfe93-6e57-4648-b54a-3c1022c615cc">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Поставщик</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

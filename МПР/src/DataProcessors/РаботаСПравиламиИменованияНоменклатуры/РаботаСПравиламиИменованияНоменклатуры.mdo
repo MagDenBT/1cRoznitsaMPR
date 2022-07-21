@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89461704-56b3-46ad-ae2e-a8c93c908fd7">
+  <producedTypes>
+    <objectType typeId="7e7c3ed5-0acc-444f-8419-411805adc3b3" valueTypeId="a76ab6b3-6972-44d6-9920-6127bd213803"/>
+    <managerType typeId="c5c2d420-c84f-4772-94b2-e8c1bb34deb9" valueTypeId="23084fb3-be1c-4f42-af7d-ab82507258f9"/>
+  </producedTypes>
+  <name>РаботаСПравиламиИменованияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с правилами именования номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаСПравиламиИменованияНоменклатуры.Form.ПереименованиеПозицийНоменклатуры</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a157597c-d34a-48a6-8925-05eff1b8f012">
+    <name>ПереименованиеПозицийНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переименование позиций номенклатуры</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d4db1a9-f49c-4fd2-916a-8c5f3b462f7b">
+    <name>ПоискНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="05a82553-c68f-4c4d-8275-db6e4bc2c72a">
+    <name>РедактированиеНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование наименования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8a3b7968-a82a-44a5-b265-6856871f54e5">
+    <name>ПереименованиеПозицийНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переименование позиций номенклатуры</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

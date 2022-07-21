@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1de6b3cd-ef61-4878-8855-99372c10148b">
+  <name>ИнтеграцияРМКРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция РМКРТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбщегоНазначенияРМКРТКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияРМКРТ</content>
+  <content>CommonModule.ОбщегоНазначенияРМКРТВызовСервера</content>
+  <content>CommonModule.ШтрихкодированиеРМКРТ</content>
+  <content>CommonModule.ОбщегоНазначенияРМКРТКлиентСервер</content>
+  <content>FunctionalOption.ИспользоватьЗаменуТоваров</content>
+  <content>Constant.ИспользоватьЗаменуТоваров</content>
+</mdclass:Subsystem>

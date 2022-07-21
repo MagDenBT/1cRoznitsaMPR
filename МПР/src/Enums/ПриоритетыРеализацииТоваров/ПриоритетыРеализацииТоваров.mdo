@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc5497a-d1a7-43b9-ad92-21a8588fac27">
+  <producedTypes>
+    <refType typeId="aa76fbe2-9191-4b06-b8bf-3ea9ba2d3a93" valueTypeId="14f7942e-55c8-49bb-8146-188c3d3db474"/>
+    <listType typeId="610358af-9ce4-4b2c-b515-174effe2f368" valueTypeId="bd5e89f2-3072-489d-aa42-9b918eb2b921"/>
+    <managerType typeId="92131ca6-981a-4a89-87a9-0834b8c1b78e" valueTypeId="929f8bd6-3b67-4543-a7e7-e1a5ab8d9e78"/>
+  </producedTypes>
+  <name>ПриоритетыРеализацииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты реализации товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba154ddf-2764-4ea2-80ad-90169481ccc0">
+    <name>Собственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет собственного товара</value>
+    </synonym>
+    <comment>При продажи товаров приоритет у собственных товаров</comment>
+  </enumValues>
+  <enumValues uuid="96aa0488-65ec-48d3-8ab6-6e7fb2857d12">
+    <name>Комиссионный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет комиссионного товара</value>
+    </synonym>
+    <comment>При продажи товаров приоритет у комиссионных товаров</comment>
+  </enumValues>
+</mdclass:Enum>

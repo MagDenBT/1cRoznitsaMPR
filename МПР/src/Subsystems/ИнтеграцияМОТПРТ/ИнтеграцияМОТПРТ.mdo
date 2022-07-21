@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e13cf61-c44e-499b-aa44-3bafe9432145">
+  <name>ИнтеграцияМОТПРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция МОТПРТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>c4eaa110-f521-4304-a073-a72740e507a9</content>
+  <content>CommonModule.ИнтеграцияИСМПРТКлиентСервер</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииМОТППереопределяемый</content>
+  <content>e6225a5c-d364-495f-8b82-34f1bfe927be</content>
+  <content>CommonModule.СобытияФормИСРТ</content>
+  <content>CommonModule.СобытияФормИСРТКлиент</content>
+  <content>CommonModule.СобытияФормИСМПКлиентПереопределяемый</content>
+  <content>CommonModule.СобытияФормИСМППереопределяемый</content>
+  <content>CommonModule.ШтрихкодированиеИСРТ</content>
+  <content>CommonModule.ШтрихкодированиеИСРТКлиент</content>
+  <content>CommonModule.ЭлектронноеВзаимодействиеИСМППереопределяемый</content>
+  <content>CommonModule.ЭлектронноеВзаимодействиеМОТПРТ</content>
+</mdclass:Subsystem>

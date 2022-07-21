@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88f99f72-fd50-4cd9-a8fd-7b84aa0a6823">
+  <name>ИспользоватьНесколькоОрганизацийРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько организаций РТ</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоОрганизаций</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Command.ДобавитьОрганизацию</content>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.Организация</content>
+  <content>Document.ВозвратТоваровПоставщику.Attribute.Организация</content>
+  <content>Document.ЗаказНаПеремещение.Attribute.Организация</content>
+  <content>Document.ЗаказПокупателя.Attribute.Организация</content>
+  <content>Document.ЗаказПоставщику.Attribute.Организация</content>
+  <content>Document.ЗарплатаКВыплатеОрганизаций.Attribute.Организация</content>
+  <content>Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.Организация</content>
+  <content>Document.КассоваяКнига.Attribute.Организация</content>
+  <content>Document.УдалитьКассоваяСмена.Attribute.Организация</content>
+  <content>Document.ОплатаОтПокупателяПлатежнойКартой.Attribute.Организация</content>
+  <content>Document.ОприходованиеТоваров.Attribute.Организация</content>
+  <content>Document.ОрдерНаОтражениеИзлишковТоваров.Attribute.Организация</content>
+  <content>Document.ОрдерНаОтражениеНедостачТоваров.Attribute.Организация</content>
+  <content>Document.ОрдерНаОтражениеРезультатовПересчетовТоваров.Attribute.Организация</content>
+  <content>Document.ОрдерНаПеремещениеТоваров.Attribute.Организация</content>
+  <content>Document.ОтчетОРозничныхПродажах.Attribute.Организация</content>
+  <content>Document.ПеремещениеТоваров.Attribute.Организация</content>
+  <content>Document.ПересортицаТоваров.Attribute.Организация</content>
+  <content>Document.ПересчетТоваров.Attribute.Организация</content>
+  <content>Document.ПоступлениеТоваров.Attribute.Организация</content>
+  <content>Document.ПриказНаПроведениеИнвентаризацииТоваров.Attribute.Организация</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.Организация</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.Организация</content>
+  <content>Document.РеализацияТоваров.Attribute.Организация</content>
+  <content>Document.РегистрацияБезналичнойОплаты.Attribute.Организация</content>
+  <content>Document.СборкаТоваров.Attribute.Организация</content>
+  <content>Document.СводныйОтчетПоКассовойСмене.Attribute.Организация</content>
+  <content>Document.СписаниеТоваров.Attribute.Организация</content>
+  <content>Document.СчетФактураВыданный.Attribute.Организация</content>
+  <content>Document.СчетФактураПолученный.Attribute.Организация</content>
+  <content>Document.ЧекККМ.Attribute.Организация</content>
+  <content>Catalog.Склады.Attribute.Организация</content>
+  <content>Catalog.УдалитьДоговорыЭквайринга.Attribute.Организация</content>
+  <content>Catalog.ЭквайринговыеТерминалы.Attribute.Организация</content>
+  <content>InformationRegister.КассоваяДисциплинаВыемкиПриЗакрытииСмены.Dimension.Организация</content>
+  <content>Document.АктОРасхожденияхПриПриемкеТоваров.Attribute.Организация</content>
+  <content>Document.ПеремещениеТоваров.Attribute.ОрганизацияПолучатель</content>
+</mdclass:FunctionalOption>

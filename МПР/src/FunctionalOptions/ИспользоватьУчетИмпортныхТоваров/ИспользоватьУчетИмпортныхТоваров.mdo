@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33976718-1ccd-4f5b-9358-d6734bba2324">
+  <name>ИспользоватьУчетИмпортныхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет импортных товаров</value>
+  </synonym>
+  <location>Constant.ИспользоватьУчетИмпортныхТоваров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>Document.ВводНачальныхОстатковУзла.TabularSection.ТоварыОрганизаций.Attribute.НомерГТД</content>
+  <content>Document.ОприходованиеТоваров.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>Document.ОтчетКомитентуОПродажах.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>Document.ОтчетКомитентуОСписании.TabularSection.Товары.Attribute.НомерГТД</content>
+  <content>AccumulationRegister.ТоварыКОформлениюОтчетовКомитенту.Dimension.НомерГТД</content>
+  <content>AccumulationRegister.ТоварыОрганизаций.Dimension.НомерГТД</content>
+</mdclass:FunctionalOption>

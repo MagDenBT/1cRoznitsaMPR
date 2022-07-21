@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fdbfc9a-0452-4fee-9a60-c7576622f60c">
+  <name>КонтролироватьАссортиментВЗаказеПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать ассортимент в заказе покупателя</value>
+  </synonym>
+  <location>Catalog.Магазины.Attribute.КонтролироватьАссортиментВЗаказеПокупателя</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

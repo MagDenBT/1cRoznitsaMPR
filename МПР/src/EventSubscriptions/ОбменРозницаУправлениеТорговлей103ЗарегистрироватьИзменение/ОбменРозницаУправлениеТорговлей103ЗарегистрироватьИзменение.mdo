@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c2258db-e625-45a9-b771-afb37eaec67c">
+  <name>ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен розница управление торговлей 10.3 зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ВидыАлкогольнойПродукции</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ДолжностиОрганизаций</types>
+    <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>ChartOfCharacteristicTypesObject.ТипыШтрихкодов</types>
+    <types>CatalogObject.ТоварныеГруппы</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьИзменение</handler>
+</mdclass:EventSubscription>

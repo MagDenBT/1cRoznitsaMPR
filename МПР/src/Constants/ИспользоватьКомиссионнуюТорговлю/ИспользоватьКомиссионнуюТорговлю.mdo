@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="275d5acf-0323-4a64-8c4c-5ff52582d4f2">
+  <producedTypes>
+    <managerType typeId="5b018726-c72c-4555-a53f-87c2f00ec9d1" valueTypeId="3678bdab-7db1-4af8-bb02-ea802d6dccc2"/>
+    <valueManagerType typeId="e94139de-ded8-4348-8c67-785fb90518d0" valueTypeId="cb266741-261d-4084-9369-3966e4efdaca"/>
+    <valueKeyType typeId="2fdee7f4-b9ad-51d6-9674-86e34e06a793" valueTypeId="12339069-e778-588a-acf9-8ae1d58297ca"/>
+  </producedTypes>
+  <name>ИспользоватьКомиссионнуюТорговлю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионная торговля</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

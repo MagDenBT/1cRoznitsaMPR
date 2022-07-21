@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="805132eb-d724-4715-956e-9d0c43af38b8">
+  <producedTypes>
+    <refType typeId="ad519bce-164b-498b-b669-965a895510c5" valueTypeId="c906e0fd-5ff3-4a24-930e-8ed9633a8531"/>
+    <listType typeId="63a1ec0c-cad5-4b5a-96ca-1a9d3c32fc4a" valueTypeId="3d38c9ba-b4f8-4d02-8ab3-12a2a403acae"/>
+    <managerType typeId="4f75326c-5eae-4acb-9754-e16bf22da324" valueTypeId="6c7a6d1c-6c80-4207-a014-d853a951222d"/>
+  </producedTypes>
+  <name>ВидыПравилНачисленияБонусныхБаллов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды правил начисления бонусных баллов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d61d07f0-f01a-4bf5-808f-cdb682af0d22">
+    <name>Начисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5dec7ea-8bc7-45cd-97d3-2620de4b188e">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

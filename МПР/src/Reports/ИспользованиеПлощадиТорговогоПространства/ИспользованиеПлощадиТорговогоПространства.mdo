@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30b8d09a-1101-4a03-a793-94efc60d0b63">
+  <producedTypes>
+    <objectType typeId="a93eee62-e248-4ffb-a180-1f24e29dc3bf" valueTypeId="636e9bba-8a56-451e-a223-9ebb8abc5232"/>
+    <managerType typeId="1710f78d-5116-4658-93c1-94a6cd8df77f" valueTypeId="b54f08d4-4d5b-4536-b08c-333017c0df8d"/>
+  </producedTypes>
+  <name>ИспользованиеПлощадиТорговогоПространства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование площади торгового пространства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИспользованиеПлощадиТорговогоПространства.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="99bbb4ab-5907-4ac2-81a4-dac9636b7872">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

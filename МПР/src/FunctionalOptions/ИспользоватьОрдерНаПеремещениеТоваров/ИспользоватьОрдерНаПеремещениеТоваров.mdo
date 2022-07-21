@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="716d8ce4-0401-47d0-868a-d66d73be14b1">
+  <name>ИспользоватьОрдерНаПеремещениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ордер на перемещение товаров</value>
+  </synonym>
+  <location>Constant.ИспользоватьОрдерНаПеремещениеТоваров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОрдерНаПеремещениеТоваров</content>
+</mdclass:FunctionalOption>

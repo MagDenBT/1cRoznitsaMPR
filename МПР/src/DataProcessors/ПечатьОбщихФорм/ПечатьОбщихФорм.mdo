@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d14b89d-29b3-4fdc-a1b8-0b03627442df">
+  <producedTypes>
+    <objectType typeId="501a7321-70dd-4d67-97c0-2cf2b54a7ab4" valueTypeId="4943a688-8472-4a33-800d-db04f18d73ba"/>
+    <managerType typeId="f4f77875-c23c-4e56-8a86-9032921c2fff" valueTypeId="3353f7f2-25e6-493d-9a4f-874bbc86a092"/>
+  </producedTypes>
+  <name>ПечатьОбщихФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать общих форм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="4143537f-3ac6-43b4-b4f8-51b40830c14c">
+    <name>ПФ_MXL_СчетФактура1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Счет Фактура 1137</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №1137 от 26.12.2011 г.</comment>
+  </templates>
+  <templates uuid="25550a2d-0150-4eab-b97c-6a4701b7b6a3">
+    <name>ПФ_MXL_СчетФактура451</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Счет Фактура 451</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №451 от 26.05.2009 г.</comment>
+  </templates>
+  <templates uuid="3dbbdd06-acfc-42bb-88d9-661887bd8bbb">
+    <name>ПФ_MXL_СчетФактура981</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Счет Фактура 981</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №1137 от 26.12.2011 г.</comment>
+  </templates>
+  <templates uuid="d7d2e22c-e7b8-4959-b6bf-c6f96abe4940">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Универсальный передаточный документ</value>
+    </synonym>
+  </templates>
+  <templates uuid="09bbfb1c-afc1-4cd4-97ae-fea199956a8c">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент981</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL Универсальный передаточный документ 981</value>
+    </synonym>
+  </templates>
+  <templates uuid="57a12d66-a140-445f-8a5f-c2f33c71a386">
+    <name>ПФ_MXL_СчетФактура534_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции Постановления № 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="bf1cd163-f2ae-4f4e-bfa9-d8f2a3c428b0">
+    <name>ПФ_MXL_СчетФактура534Прослеж_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции Постановления № 534) (прослеж.)</value>
+    </synonym>
+  </templates>
+  <templates uuid="5e933d8a-65a5-4da2-9476-ed6f6ef9f760">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 534) </value>
+    </synonym>
+  </templates>
+  <templates uuid="0c47d4a6-8b1a-439c-b196-1542c2481dfa">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534Прослеж_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ (в редакции Постановления № 534) (прослеж.) </value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

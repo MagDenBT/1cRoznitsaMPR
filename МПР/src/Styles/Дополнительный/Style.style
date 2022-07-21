@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>240</red>
+      <green>240</green>
+      <blue>240</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormTextColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>70</red>
+      <green>70</green>
+      <blue>70</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonTextColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>22</red>
+      <green>22</green>
+      <blue>22</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldTextColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>50</red>
+      <green>50</green>
+      <blue>50</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectionBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>55</red>
+      <green>55</green>
+      <blue>55</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectedTextColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldAlternativeBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>248</red>
+      <green>248</green>
+      <blue>248</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipBackColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>253</red>
+      <green>228</green>
+      <blue>182</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipTextColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>55</red>
+      <green>55</green>
+      <blue>55</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>SpecialTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.SpecialTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NegativeTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.NegativeTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>BorderColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>48</red>
+      <green>48</green>
+      <blue>48</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportHeaderBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportHeaderBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup1BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup1BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup2BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup2BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportLineColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportLineColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:BorderStyleItem">
+    <name>ControlBorder</name>
+    <border xsi:type="core:BorderDef">
+      <style>Single</style>
+      <width>1</width>
+    </border>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>TextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>SmallTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.SmallTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>NormalTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>LargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.LargeTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>ExtraLargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ExtraLargeTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ВыборСтандартногоПериодаФонКнопки</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ВыборСтандартногоПериодаФонКнопки</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ВыборСтандартногоПериодаФонКнопокСНачалаГода</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ВыборСтандартногоПериодаФонКнопокСНачалаГода</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ВыполненнаяЗадача</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ВыполненнаяЗадача</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ГиперссылкаЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ГиперссылкаЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ГруппаВариантовОтчетовЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ГруппаВариантовОтчетовЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ГруппаВариантовОтчетовЦвет82</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ГруппаВариантовОтчетовЦвет82</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ДобавленныйРеквизитФон</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ДобавленныйРеквизитФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЗаблокированныйРеквизитЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЗаблокированныйРеквизитЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЗавершенныйБизнесПроцесс</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЗавершенныйБизнесПроцесс</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЗаголовокУдаленногоРеквизитаФон</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЗаголовокУдаленногоРеквизитаФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ЗаголовокУдаленногоРеквизитаШрифт</font>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЗапрещенноеПравоДоступаЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЗапрещенноеПравоДоступаЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ИзмененноеЗначениеРеквизитаФон</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ИзмененноеЗначениеРеквизитаФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ИзмененноеЗначениеРеквизитаЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ИтогиФонГруппы</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ИтогиФонГруппы</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ИтоговыеПоказателиДокументовЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ИтоговыеПоказателиДокументовЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.КолонкаЦенЗаполнятьПоДаннымИБ</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.КолонкаЦенЗаполнятьПоДаннымИБ</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.КолонкаЦенРассчитыватьПоДругимВидамЦен</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.КолонкаЦенРассчитыватьПоДругимВидамЦен</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.МоиВариантыОтчетовЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.МоиВариантыОтчетовЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.НепринятаяВерсия</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.НепринятаяВерсия</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.НеПринятыеКИсполнениюЗадачи</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.НеПринятыеКИсполнениюЗадачи</font>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.НеСтартованныйБизнесПроцесс</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.НеСтартованныйБизнесПроцесс</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПользовательВыбранный</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ПользовательВыбранный</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПоясняющийОшибкуТекст</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ПоясняющийОшибкуТекст</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПоясняющийТекст</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ПоясняющийТекст</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ПросроченныеДанныеЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ПросроченныеДанныеЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.РезультатУспехЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.РезультатУспехЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.РольБезИсполнителей</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.РольБезИсполнителей</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.СкрытыйВариантОтчетаЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.СкрытыйВариантОтчетаЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ТекстВторостепеннойНадписи</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ТекстВторостепеннойНадписи</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ТекстЗапрещеннойЯчейкиЦвет</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ТекстИнформационнойНадписи</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ТекстИнформационнойНадписи</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ТекстПоясняющейНадписи</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ТекстПоясняющейНадписи</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ТекстПредупреждающейНадписи</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ТекстПредупреждающейНадписи</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.УдаленныйРеквизитФон</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.УдаленныйРеквизитФон</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФайлЗанятыйТекущимПользователем</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФайлЗанятыйТекущимПользователем</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонГруппировкиВерхнегоУровня</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФонГруппировкиВерхнегоУровня</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонГруппировкиПромежуточногоУровня</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФонГруппировкиПромежуточногоУровня</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонУправляющегоПоля</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ФонУправляющегоПоля</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветГиперссылки</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветГиперссылки</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветНепроведенногоДокумента</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветНепроведенногоДокумента</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветПроведенногоДокумента</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветПроведенногоДокумента</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаКонтрагентаДействующего</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветТекстаКонтрагентаДействующего</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаКонтрагентаПрекратившегоДеятельность</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветТекстаКонтрагентаПрекратившегоДеятельность</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаНекорректногоКонтрагента</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветТекстаНекорректногоКонтрагента</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветТекстаОтмененнойСтрокиДокумента</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветТекстаОтмененнойСтрокиДокумента</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаДокументаСНекорректнымиКонтрагентамиВСпискеДокументов</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветФонаДокументаСНекорректнымиКонтрагентамиВСпискеДокументов</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаКорректногоЗначенияБИП</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветФонаКорректногоЗначенияБИП</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаНекорректногоЗначенияБИП</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветФонаНекорректногоЗначенияБИП</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаПоясненияОшибкиБИП</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветФонаПоясненияОшибкиБИП</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаЧередованияСтрокТабличнойЧасти</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ЦветФонаЧередованияСтрокТабличнойЧасти</color>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтВажнойНадписи</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ШрифтВажнойНадписи</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтЗаголовка</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ШрифтЗаголовка</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.ШрифтЗаголовкаТаблицы</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ШрифтЗаголовкаТаблицы</font>
+    </font>
+  </items>
+</style:Style>

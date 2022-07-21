@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="646e563c-d7b1-448d-9f63-7e8de5251d79">
+  <name>ПлатежнаяКарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежная карта</value>
+  </synonym>
+</mdclass:CommonPicture>

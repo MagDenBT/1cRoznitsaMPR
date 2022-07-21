@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca6a9c24-e4a7-4ca2-bad3-2954f156ecd5">
+  <name>ИспользоватьОбменССайтомРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с сайтом РТ</value>
+  </synonym>
+  <comment>Опция использования подсистемы ОбменССайтом в пользовательском интерфейсе</comment>
+  <location>Constant.ИспользоватьОбменССайтом</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаказПокупателя.Attribute.НомерЗаказаНаСайте</content>
+  <content>Document.ЗаказПокупателя.Attribute.ДатаЗаказаНаСайте</content>
+  <content>Document.ЗаказПокупателя.Attribute.ИнтернетЗаказ</content>
+</mdclass:FunctionalOption>

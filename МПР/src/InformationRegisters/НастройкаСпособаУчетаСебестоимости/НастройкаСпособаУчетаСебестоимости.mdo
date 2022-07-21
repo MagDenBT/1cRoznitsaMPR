@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d568af53-7955-444a-ab07-586d0f3f5fa8">
+  <producedTypes>
+    <selectionType typeId="a06c532b-cd34-4e96-9975-c042c4bdcc40" valueTypeId="2e3643fd-5506-4c73-b78d-8a1277d0728c"/>
+    <listType typeId="9565ac39-30b6-4521-8e65-f881311afe9d" valueTypeId="bcb6e788-d576-4739-94a9-5fbc1967d618"/>
+    <managerType typeId="eb10d867-16e7-4ce6-88e0-ca37bc9ac0fa" valueTypeId="0be5fc26-c0da-4769-8568-593df51b0da6"/>
+    <recordSetType typeId="7363ab8b-7bfb-448e-a424-4a3c7895c350" valueTypeId="8c0d98d8-cd39-409d-94d0-fa353e982c0b"/>
+    <recordKeyType typeId="8d0cdf45-c000-4166-8f23-3300b89b3d2d" valueTypeId="d867877e-6846-49f1-bf35-2eee4bdc5b8f"/>
+    <recordType typeId="07374ebc-65e6-4035-bb6c-c496663b7a16" valueTypeId="88df5b7d-1d43-437f-9779-fac0138b9538"/>
+    <recordManagerType typeId="d7f5a76d-d954-458b-ae3c-028dcf5c7ed0" valueTypeId="7033647f-48d7-41f2-b4aa-1e3b027958dd"/>
+  </producedTypes>
+  <name>НастройкаСпособаУчетаСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка способа учета себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.НастройкаСпособаУчетаСебестоимости.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкаСпособаУчетаСебестоимости.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало действия</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала действия способа учета</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка способа учета себестоимости</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учет себестоимости</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Настройка способа учета себестоимости товаров</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка способа учета себестоимости</value>
+  </explanation>
+  <resources uuid="c40c5ba8-c990-4fdd-873e-0fd9e474c9c7">
+    <name>СпособУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ учета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыУчетаСебестоимости</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ учета себестоимости товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9f4ec1e2-3c27-4d99-b8af-1cc0f20ef41b">
+    <name>РассчитыватьСебестоимостьРегламентнымЗаданием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывать регламентным заданием</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флаге себестоимость рассчитывается автоматически по расписанию регламентного задания.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8e8704dc-d2a9-4900-9871-99e3b4dbfd20">
+    <name>РаспределятьСтоимостьУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределять стоимость услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак распределения услуг на себестоимость товаров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2df538e-f72a-49c5-ac75-41d33523b361">
+    <name>ПравилоРаспределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило распределения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПравилаРаспределенияНаСебестоимостьТоваров</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правило распределения стоимости услуг</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>РаспределятьСтоимостьУслуг</name>
+      <field>InformationRegister.НастройкаСпособаУчетаСебестоимости.Resource.РаспределятьСтоимостьУслуг</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="595a814b-0ea3-4388-b040-9df9d26badf7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e17ecdf-9781-41e7-b142-0995ad176497">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7559223e-a010-4e78-b365-f431493a45a4">
+  <producedTypes>
+    <objectType typeId="c7f84d66-b95a-495b-998e-94d9049be42f" valueTypeId="cc797f81-feec-477f-83c7-081294da3aff"/>
+    <refType typeId="3d377a77-defd-4c11-8dec-8cba63d79ee7" valueTypeId="46724e54-0b48-4bc5-92f9-09299c3725ac"/>
+    <selectionType typeId="9298e544-6ca9-4c67-8275-3967ebda5485" valueTypeId="88fc66d8-7098-4d81-9698-f8f7a17daf67"/>
+    <listType typeId="6a173262-4dd2-4289-90e5-75435f51606d" valueTypeId="0c260a34-3629-4491-a851-5a2315c1d5f8"/>
+    <managerType typeId="0fab43ab-951d-4ea8-8777-d35227aa8562" valueTypeId="272f07a1-9bc3-4a9b-9e68-f5242f223b6a"/>
+  </producedTypes>
+  <name>ПризнакиПредметовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки предметов расчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПризнакиПредметовРасчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПризнакиПредметовРасчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение реквизита</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Признак предмета расчета</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bcd49bd3-3377-448a-8d59-a08b859c562a">
+      <name>ВыигрышАзартнойИгры</name>
+      <description>Выигрыш азартной игры</description>
+      <code xsi:type="core:NumberValue">
+        <value>6</value>
+      </code>
+    </items>
+    <items id="7d843ad3-ff0c-4235-8c58-8f522805fc53">
+      <name>ВыигрышЛотереи</name>
+      <description>Выигрыш лотереи</description>
+      <code xsi:type="core:NumberValue">
+        <value>8</value>
+      </code>
+    </items>
+    <items id="cef05740-b705-435d-8574-3d1c6856a5a1">
+      <name>ИнойПредметРасчета</name>
+      <description>Иной предмет расчета</description>
+      <code xsi:type="core:NumberValue">
+        <value>12</value>
+      </code>
+    </items>
+    <items id="90293cd7-00e0-4119-8fa2-6281956d7f59">
+      <name>ЛотерейныйБилет</name>
+      <description>Лотерейный билет</description>
+      <code xsi:type="core:NumberValue">
+        <value>7</value>
+      </code>
+    </items>
+    <items id="fdfb9baf-8ea4-40c4-8e6f-ba18d72aff84">
+      <name>Платеж</name>
+      <description>Платеж</description>
+      <code xsi:type="core:NumberValue">
+        <value>10</value>
+      </code>
+    </items>
+    <items id="5ad5006e-861c-4d63-8680-f0bd5bde77cd">
+      <name>ПодакцизныйТовар</name>
+      <description>Подакцизный товар</description>
+      <code xsi:type="core:NumberValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="ba7d95db-10aa-448f-9362-2dc92aa3ac4e">
+      <name>ПодакцизныйТоварМаркируемыйСИИмеющийКМ</name>
+      <description>Подакцизный товар, подлежащий маркировке средством идентификации, имеющий код маркировки</description>
+      <code xsi:type="core:NumberValue">
+        <value>31</value>
+      </code>
+    </items>
+    <items id="f068008c-d375-4d1f-8535-3694e33bb2fa">
+      <name>ПодакцизныйТоварМаркируемыйСИНеИмеющийКМ</name>
+      <description>Подакцизный товар, подлежащий маркировке средством идентификации, не имеющий кода маркировки</description>
+      <code xsi:type="core:NumberValue">
+        <value>30</value>
+      </code>
+    </items>
+    <items id="0895f566-6359-4bd7-bbb6-349c0bb55217">
+      <name>ПредставлениеРИД</name>
+      <description>Представление РИД</description>
+      <code xsi:type="core:NumberValue">
+        <value>9</value>
+      </code>
+    </items>
+    <items id="8cc27366-e513-4a42-9f03-392d6357708a">
+      <name>Работа</name>
+      <description>Работа</description>
+      <code xsi:type="core:NumberValue">
+        <value>3</value>
+      </code>
+    </items>
+    <items id="93c4b086-3fd3-498d-a4ed-7a0e18d1ec8c">
+      <name>СоставнойПредметРасчета</name>
+      <description>Составной предмет расчета</description>
+      <code xsi:type="core:NumberValue">
+        <value>11</value>
+      </code>
+    </items>
+    <items id="967803bf-9352-432c-8c04-eee93242fa4a">
+      <name>СтавкаАзартнойИгры</name>
+      <description>Ставка азартной игры</description>
+      <code xsi:type="core:NumberValue">
+        <value>5</value>
+      </code>
+    </items>
+    <items id="77f5a4ae-3639-40db-8249-1f67bf851eb4">
+      <name>Товар</name>
+      <description>Товар</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="d3d89048-4fdd-4255-9008-5a80c4d2f866">
+      <name>ТоварМаркируемыйСИИмеющийКМ</name>
+      <description>Товар, подлежащий маркировке средством идентификации, имеющий код маркировки, за исключением подакцизного товара</description>
+      <code xsi:type="core:NumberValue">
+        <value>33</value>
+      </code>
+    </items>
+    <items id="80b5a8e7-fc5d-4e6e-8741-3092882bf7d7">
+      <name>ТоварМаркируемыйСИНеИмеющийКМ</name>
+      <description>Товар, подлежащий маркировке средством идентификации, не имеющий кода маркировки, за исключением подакцизного товара</description>
+      <code xsi:type="core:NumberValue">
+        <value>32</value>
+      </code>
+    </items>
+    <items id="3a439f65-726c-4652-86e7-c9940600fa28">
+      <name>Услуга</name>
+      <description>Услуга</description>
+      <code xsi:type="core:NumberValue">
+        <value>4</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПризнакиПредметовРасчета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПризнакиПредметовРасчета.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e0a07ef1-5c4d-491d-b9a5-f4fc5e098e41">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03eb33e9-4dca-4897-ae7e-880970eb93d4">
+    <name>ФорматПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат ПФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Атрибут, указывающий содержание и формат заголовка реквизита фискального документа в печатной форме</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="053f5ef2-55ee-4f90-986d-2db08180a33a">
+    <name>ТипПризнакаПредметаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип признака предмета расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПризнакиПредметаРасчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="57291345-bc07-4d1b-a908-ef37b2578610">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0263176-2fdc-483a-ae38-192d25c3fa1e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

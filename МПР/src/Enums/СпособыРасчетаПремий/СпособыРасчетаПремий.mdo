@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="916c053d-bb14-42a0-99ed-d6599a689116">
+  <producedTypes>
+    <refType typeId="6454aa2a-e64c-4145-972e-bc7eb201c797" valueTypeId="d04f0eb2-f5ee-4bdb-8fb8-56d8e605f6cc"/>
+    <listType typeId="619f742e-44b9-4330-9edb-2865e8fe5c73" valueTypeId="7e5145f5-ff53-4fc1-ab2a-7b4d911c3f1f"/>
+    <managerType typeId="8f7d0c4e-8afd-4374-a975-9297980bfbcf" valueTypeId="28be7b92-8431-4837-827c-1d4594dbbff8"/>
+  </producedTypes>
+  <name>СпособыРасчетаПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета премий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="847f3f3a-cdf6-4563-a3ef-fdb6677d1d03">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c38f3213-47e1-4f7c-bd86-2306c2688c6b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="605e15db-b0fd-48e1-bf2a-bb27ec1eddfb">
+  <name>СопоставлениеНоменклатурыКонтрагентовРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление номенклатуры контрагентов РТ</value>
+  </synonym>
+  <content>CommonModule.ОбменСКонтрагентамиРТ</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТВызовСервера</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТКлиентСервер</content>
+  <content>DataProcessor.ОбменСКонтрагентами</content>
+  <content>CommonModule.ОбменСКонтрагентамиРТКлиент</content>
+  <content>CommonModule.ОрганизацииСлужебный</content>
+  <content>CommonForm.ПодборТоваровБЭД</content>
+  <content>CommonModule.СопоставлениеНоменклатурыКонтрагентовРТ</content>
+  <content>CommonModule.СопоставлениеНоменклатурыКонтрагентовРТКлиент</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

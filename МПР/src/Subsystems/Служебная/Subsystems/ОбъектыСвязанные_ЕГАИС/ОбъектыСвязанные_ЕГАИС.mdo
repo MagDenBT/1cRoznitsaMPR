@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b42255a4-81d9-478b-8414-aa507998a33d">
+  <name>ОбъектыСвязанные_ЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты связанные (ЕГАИС)</value>
+  </synonym>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиент</content>
+  <content>Role.СопоставлениеНоменклатурыЕГАИС</content>
+  <content>Role.СопоставлениеОрганизацийЕГАИС</content>
+  <content>DataProcessor.СопоставлениеНоменклатурыЕГАИСРТ</content>
+  <content>DataProcessor.СопоставлениеОрганизацийЕГАИСРТ</content>
+  <content>InformationRegister.УдалитьСоответствиеНоменклатурыЕГАИС</content>
+  <content>InformationRegister.УдалитьСоответствиеОрганизацийЕГАИС</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТ</content>
+  <content>Enum.СтатусыОбработкиВскрытияТарыЕГАИС</content>
+  <content>Document.УдалитьВскрытиеТарыЕГАИС</content>
+  <content>FunctionalOption.ВестиСведенияДляДекларацийПоАлкогольнойПродукцииРТ</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТПовтИсп</content>
+  <content>Constant.ПроверятьНеобходимостьСозданияДокументовЕГАИС</content>
+  <content>InformationRegister.ДанныеОбработкиПомощникИсправленияЕдиницИзмерения</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТВызовСервера</content>
+  <content>12d0ade9-8768-4ebf-82ec-3133a155ab38</content>
+  <content>Constant.ДатаНачалаРегистрацииРозничныхПродажВЕГАИСВСельскойМестности</content>
+  <content>Catalog.УдалитьВидыОбъектовЕГАИС</content>
+  <content>InformationRegister.УдалитьФорматыОбменаЕГАИС</content>
+  <content>CommonForm.ФормаВводаАкцизнойМарки</content>
+  <content>CommonForm.ФормаВводаАкцизныхМарок</content>
+  <parentSubsystem>Subsystem.Служебная</parentSubsystem>
+</mdclass:Subsystem>

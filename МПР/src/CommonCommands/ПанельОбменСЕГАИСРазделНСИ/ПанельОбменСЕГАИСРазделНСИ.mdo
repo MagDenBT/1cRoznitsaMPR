@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c1323b1-41d3-4fe6-8c19-18a6d3fec39a">
+  <name>ПанельОбменСЕГАИСРазделНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с ЕГАИС</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

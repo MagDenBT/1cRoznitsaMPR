@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99b09071-0620-45d4-90b0-0819439672d2">
+  <producedTypes>
+    <managerType typeId="59215f77-772d-4536-95e7-9f8322ea70fd" valueTypeId="79337b82-47d6-4d26-a1bf-bdc33417c452"/>
+    <valueManagerType typeId="90113a25-4ee8-4709-b645-d84d279647be" valueTypeId="6e15a624-fbd1-48f1-a52d-c13e66e23c71"/>
+    <valueKeyType typeId="65a14fd1-f6e9-56f7-b0d8-ff1aa52e2958" valueTypeId="ee5e4887-a903-5dba-9b23-d764a4a0cce4"/>
+  </producedTypes>
+  <name>ДатаНачалаПримененияПриказа164</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала применения приказа 164</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Дата начала применения приказа ФСРАР №164</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

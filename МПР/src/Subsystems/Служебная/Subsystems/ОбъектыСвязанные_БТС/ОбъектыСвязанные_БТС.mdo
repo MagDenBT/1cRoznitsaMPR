@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2788c780-b0bf-490f-9793-56490f178c7e">
+  <name>ОбъектыСвязанные_БТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты связанные (БТС)</value>
+  </synonym>
+  <content>CommonModule.ВыгрузкаЗагрузкаДанныхРТ</content>
+  <content>FunctionalOption.ТехнологияСервисаВМоделиСервисаРТ</content>
+  <content>FunctionalOption.ТехнологияСервисаВЛокальномРежимеРТ</content>
+  <content>CommonForm.ВыгрузкаДанныхДляПереходаВСервис</content>
+  <content>CommonForm.ИнструкцияПоПереходуВСервис</content>
+  <content>CommonTemplate.ИнструкцияПоПереходуВСервис</content>
+  <content>EventSubscription.КонтрольНеразделенныхНаборовЗаписейПриЗаписиРТ</content>
+  <content>CommonModule.ОчередьЗаданийРТ</content>
+  <parentSubsystem>Subsystem.Служебная</parentSubsystem>
+</mdclass:Subsystem>

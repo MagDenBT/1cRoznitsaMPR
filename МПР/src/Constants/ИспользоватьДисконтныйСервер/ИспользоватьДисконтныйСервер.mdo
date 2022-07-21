@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fc100b9-bc71-4cf6-a243-5a7c92a50755">
+  <producedTypes>
+    <managerType typeId="580f7185-cf7f-40f0-89fd-fdc1bb7eb153" valueTypeId="ad6e080d-7ca1-4209-9400-e21a9ac489c0"/>
+    <valueManagerType typeId="b838300c-8535-4100-a43f-1817e244147a" valueTypeId="c7613261-a16c-479b-9b38-767a285fe8ed"/>
+    <valueKeyType typeId="408c6c79-33ac-5fb0-9145-e0ef94f4c563" valueTypeId="1090c298-ae28-5b1a-ba02-b408156c299f"/>
+  </producedTypes>
+  <name>ИспользоватьДисконтныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дисконтный сервер</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

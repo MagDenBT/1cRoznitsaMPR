@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="898405a6-f6a4-4975-abbf-9bd2ce52ca7f">
+  <producedTypes>
+    <managerType typeId="3c5facf4-1961-42ef-8d22-0ad3680fc04f" valueTypeId="a58ee800-e8ee-4cbd-9b35-71956ef3c6da"/>
+    <valueManagerType typeId="9251475d-21cb-4100-b07d-394fe2b828e6" valueTypeId="ec0a57b2-073f-4856-954f-41e80d2eb5a2"/>
+    <valueKeyType typeId="4e55ee46-1841-4e1d-b32e-adf93e5160cd" valueTypeId="376117c4-9176-4a82-84ab-a04ab63373fa"/>
+  </producedTypes>
+  <name>ИспользоватьРаспределеннуюФискализацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать распределенную фискализацию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

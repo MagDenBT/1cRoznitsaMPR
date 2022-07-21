@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98da2798-f44b-424d-ab82-b988df090afa">
+  <producedTypes>
+    <refType typeId="c11506b1-a72c-4146-b42d-bc31b3eabdbd" valueTypeId="1878406c-30a5-415d-8f29-667e6c56938d"/>
+    <listType typeId="89fe0a5a-50b3-4480-afb5-2133ac18c9b0" valueTypeId="8b25e47c-aef6-4289-9fd4-286b6abd362c"/>
+    <managerType typeId="41770b72-bfb4-4553-af84-dcce9c0c4b2f" valueTypeId="5c0498a9-73a4-42fd-9620-b4295ec3c672"/>
+  </producedTypes>
+  <name>ТипыДоговоровПлатежныхАгентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы договоров платежных агентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9294b00c-9ae7-4129-bcb3-acad6d2c04db">
+    <name>Прямой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямой</value>
+    </synonym>
+    <comment>Прямой агентский договор</comment>
+  </enumValues>
+  <enumValues uuid="7076b0f1-716c-4c53-a750-af4c42652344">
+    <name>Субагентский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субагентский</value>
+    </synonym>
+    <comment>Субагентский договор</comment>
+  </enumValues>
+</mdclass:Enum>

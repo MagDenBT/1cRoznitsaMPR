@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160d9e23-d765-4092-a183-a3ee193d2b08">
+  <name>ЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГАИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ИнтеграцияЕГАИСРТ</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТВызовСервера</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТПовтИсп</content>
+  <content>CommonModule.ИнтеграцияИСРТ</content>
+  <content>CommonModule.ИнтеграцияИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияИСРТКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияИСМПРТКлиентСервер</content>
+  <content>CommonModule.СобытияФормИСРТ</content>
+  <content>CommonModule.СобытияФормИСРТКлиент</content>
+  <content>CommonModule.ШтрихкодированиеИСРТ</content>
+  <content>CommonModule.ШтрихкодированиеИСРТКлиент</content>
+  <content>CommonModule.СобытияФормЕГАИСРТКлиент</content>
+  <content>CommonModule.АкцизныеМаркиЕГАИСРТ</content>
+  <content>CommonModule.ШтрихкодированиеНоменклатурыЕГАИСРТ</content>
+  <content>CommonModule.СобытияФормЕГАИСРТ</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииЕГАИСРТВызовСервера</content>
+  <content>CommonModule.ПроверкаИПодборПродукцииЕГАИСРТ</content>
+  <content>Constant.ВыгружатьПродажиНемаркируемойПродукцииВЕГАИСРТ</content>
+  <content>Constant.ИспользоватьЕдиныйШтриховойКодДляККТИЕГАИС</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ОбъектыСвязанные_ГосИС</parentSubsystem>
+</mdclass:Subsystem>

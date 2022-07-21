@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34584397-dbee-436e-8ed3-72fe3167d65a">
+  <producedTypes>
+    <refType typeId="9538a3f6-e06a-4a8d-bd27-84c09adefc6c" valueTypeId="9da2de5a-3ee5-4adc-938f-c3da3fc8d3a5"/>
+    <listType typeId="82ae7c3c-55bd-4737-8099-25358446fb62" valueTypeId="5ec20f98-ae0b-4f6a-b60c-bf6e06b78aa4"/>
+    <managerType typeId="42cb288c-f95a-478b-8749-10862ad2dab9" valueTypeId="f12e3f07-906e-4642-9d7e-0bb3d38696d1"/>
+  </producedTypes>
+  <name>ds_ВидыДенежныхЗнаков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды денежных знаков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3095358b-d579-459d-99b8-f2f0cdfd5dfc">
+    <name>Купюра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купюра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b8b4914-8274-4b93-8ad2-6344e2e4e06a">
+    <name>Монета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

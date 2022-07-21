@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c645b318-20ea-4d8d-a5b6-d858b0c0ae22">
+  <producedTypes>
+    <managerType typeId="f297d36f-8f11-4de2-a1e5-6918f847bdea" valueTypeId="b9200766-eb6f-42a5-82ec-a53a5dcf5ddd"/>
+    <valueManagerType typeId="48651062-e725-4972-8775-5677956fa80b" valueTypeId="7378ba0f-92c9-476d-b8a5-c938f729f459"/>
+    <valueKeyType typeId="014deed5-3f24-4804-b146-dfb326aefaa5" valueTypeId="bf1a5f3a-c9bb-4f78-9a5f-3b8fa9f8d7f3"/>
+  </producedTypes>
+  <name>ДатаНачалаУчетаБезналичныхДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала учета безналичных денежных средств</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

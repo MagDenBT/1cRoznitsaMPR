@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44fc8ec9-18a2-40d6-ad88-aca82e473acb">
+  <name>ДисконтныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисконтный сервер</value>
+  </synonym>
+  <namespace>http://localhost/rt2discountservice</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.ДисконтныйСервер</value>
+  </xdtoPackages>
+  <descriptorFileName>DiscountService.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="b35abc57-2288-4b32-93f6-02b926a80858">
+    <name>ПолучитьСуммуНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить сумму накопления</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>РезультатЗапросаОНакоплениях</name>
+      <nsUri>http://localhost/rt2discountservice</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьСуммуНакопления</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d1557525-82ff-4b43-96db-b57693e178f9">
+      <name>ИдентификаторКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор карты</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="522537e7-a7a4-41c9-8278-6f7aad907eeb">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f9b2b0cd-d036-4857-8eef-02ea6d762c74">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="25643ec8-47ad-4aad-a2fb-36d6c761af60">
+      <name>ИдентификаторСегмента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор сегмента</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="9548f2c0-0999-438f-87b5-de038ca9ecd8">
+      <name>ИдентификаторИсключаемогоДокументта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор исключаемого документта</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3487e355-de62-40bd-9252-5325452d4eb7">
+    <name>ПолучитьДанныеПоследнейПокупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить данные последней покупки</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьДанныеПоследнейПокупки</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="42e18eee-a70c-4775-b1d7-a102ac2810ac">
+      <name>ИдентификаторКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор карты</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="60c48bb2-02d0-4818-bb61-97073365e6b7">
+      <name>ДатаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата расчета</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="0e3ada05-a5fe-454d-a9ef-b8062d95cd09">
+      <name>ИдентификаторСегмента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор сегмента</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="29da2205-0316-4efd-a4ef-70b5418831d1">
+      <name>ИдентификаторИсключаемогоДокументта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор исключаемого документта</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="68551417-1b4c-47d7-9723-d19f50036a54">
+    <name>ПолучитьОстатокБонусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить остаток бонусов</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>РезультатЗапросаОНакоплениях</name>
+      <nsUri>http://localhost/rt2discountservice</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьОстатокБонусов</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="74cfbc1b-05ac-4fbc-97e0-fc8e70949324">
+      <name>ИдентификаторКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор карты</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1ca870dc-18f4-4eb0-8058-25b77050f7df">
+      <name>ДатаЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="20cde77f-1902-478a-919b-cecae15d81f8">
+    <name>ПолучитьОстатокБонусовРасширенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить остаток бонусов расширенный</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>РезультатЗапросаОНакоплениях</name>
+      <nsUri>http://localhost/rt2discountservice</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ПолучитьОстатокБонусовРасширенный</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="fd6b7ea9-523b-4cdf-b7ee-e2de72e4c336">
+      <name>ИдентификаторКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор карты</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="c0235b9f-6780-425a-918f-ad071f91a2ff">
+      <name>ДатаЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="fc15f060-fd83-42de-b8c3-d08d5e16e6f3">
+    <name>ОбновитьДанныеОПродажах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить данные о продажах</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ОбновитьДанныеОПродажах</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0e92dee4-e790-4f2b-86ec-41bf552e2b07">
+      <name>ТипДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="8a99e49c-355d-4116-9c6d-5d22a0d1ee88">
+      <name>ИдентификаторДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="ca6c0cf7-23e7-407e-a306-da6904853c89">
+      <name>ТаблицаТоваров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таблица товаров</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ТаблицаПродаж</name>
+        <nsUri>http://localhost/rt2discountservice</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="09566121-9427-49b9-a017-c850c9eb2ca9">
+    <name>ОбновитьДанныеОБонусах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить данные о бонусах</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ОбновитьДанныеОБонусах</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="5892be71-8aaa-4c76-a3fa-acfa3719cf3c">
+      <name>ТипДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="1a862e6a-9547-44c9-92d9-94fa96e6aee0">
+      <name>ИдентификаторДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="478d5729-5663-44dd-b824-a73fc0c78b61">
+      <name>ТаблицаБонусов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таблица бонусов</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ТаблицаБонусов</name>
+        <nsUri>http://localhost/rt2discountservice</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="6a0d6ae0-948b-4741-af73-f271bb3d3614">
+    <name>ОбновитьДанныеОКупонах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить данные о купонах</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>ОбновитьДанныеОКупонах</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="03d0b69c-84c6-411d-acd8-aed01e3ef22a">
+      <name>ТипДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e5178ba9-830b-4acb-ad87-02a57d0b05c9">
+      <name>ИдентификаторДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор документа</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="335f472c-12c0-42e3-ada6-43454900fac4">
+      <name>ТаблицаКупонов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таблица купонов</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ТаблицаКупонов</name>
+        <nsUri>http://localhost/rt2discountservice</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="b80039eb-161a-4a72-afb9-af8dd3fee9ea">
+    <name>ПолучитьСкидкиПоКупону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить скидки по купону</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ТаблицаКупонов</name>
+      <nsUri>http://localhost/rt2discountservice</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьСкидкиПоКупону</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0286f83a-76af-4f98-a1f1-1993062e1161">
+      <name>КодКупона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код купона</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="d14243e1-6712-451b-bd83-c19c891619bb">
+      <name>ДатаЗапроса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата запроса</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

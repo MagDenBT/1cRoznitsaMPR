@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html;charset=utf-8" http-equiv="content-type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<h1><font face="Verdana">  Обмен «Розница, редакция 2.3 в сервисе»</font></h1>
+<h2><font face="Verdana">  Назначение</font></h2><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div><font face="Verdana"><font size="2">Обмен предназначен для синхронизации данных с конфигурацией "1С:Розница" в сервисе.</font></font></div></blockquote>
+<h2 style="font-size: 15.680000305175781px;"><font face="Verdana">  Ограничения</font></h2><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><span style="font-family: Verdana; font-size: small;">Синхронизация возможна только между конфигурациями одной версии с идентичной структурой метаданных.</span></blockquote><font face="Verdana">
+<h2><font face="Verdana">  Общее описание</font></h2></font><font face="Verdana"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font size="2" face="Verdana">В процессе синхронизации отправляются только данные.</font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font size="2" face="Verdana">В отличие от РИБ информационные базы остаются независимыми друг от друга и </font><span style="font-size: small;">изменения конфигурации</span><span style="font-size: small;"> не передаются.</span></blockquote></font><font face="Verdana"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font size="2" face="Verdana">Важно отметить, что сопоставление объектов информационных баз выполняется по ссылке (уникальному идентификатору). </font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana"><font size="2"><br></font></font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana"><font size="2">Для условного разделения узлов на Главный - Подчиненный используется понятие "Тип корреспондента":</font></font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana" size="2"><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap; font-weight: bold;">Консолидирующий узел </span><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap;">- служит для обобщения информации, в него</span></font><span style="caret-color: rgb(51, 51, 51); white-space: pre-wrap; color: rgb(51, 51, 51); font-size: small;"> передаются все данные без наложением фильтров.</span></blockquote></font><font face="Verdana"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana" size="2"><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap; font-weight: bold;">Подчиненный узел</span><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap;"> - служит источником информации, в него передаются данные с учетом фильтров.</span></font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana" size="2"><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap;"><br></span></font></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><font face="Verdana" size="2"><span data-fdnt="8" data-fdff="" style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); white-space: pre-wrap;">Состав отправляемых данных зависит от варианта настройки.</span></font></blockquote></font><font face="Verdana">
+<h2 style="font-size: 15.680000305175781px;"><font face="Verdana">  Вариант настройки "По магазину"</font></h2><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><p:colorscheme colors="#ffffff,#5f0000,#808080,#cc3300,#f9e383,#369900,#0033cc,#cc3300"><font face="Verdana">
+<div><font size="2" face="Verdana">Вариант настройки следует использовать при необходимости синхронизировать данные в разрезе магазинов, учет по которым ведется в раздельных информационных базах.</font></div>
+<div><font size="2" face="Verdana">При этом в каждой информационной базе предполагается полноценное ведение учета и контроль товарных остатков.</font></div>
+<div><font size="2" face="Verdana"><br></font></div>
+<div><font size="2" face="Verdana">Состав передаваемых данных:</font></div>
+<div v:shape="_x0000_s1026" class="O">
+<ul><li><font size="2">нормативно-справочная информация;</font></li>
+<li><font size="2">документы (с отбором по магазину);</font></li>
+<li><font size="2">движения по регистрам (с отбором по магазину);</font></li>
+<li><font size="2">информативные остатки по другим магазинам (опционально);</font></li></ul></div></font></p:colorscheme></blockquote>
+<h3><font face="Verdana" size="2">  <strong>Настройка обмена с "Консолидирующим узлом"</strong></font></h3><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<font face="Verdana"><font size="2">В "Консолидирующий узел" выгружается вся регистрируемая информация без наложения фильтров. </font>
+</font>
+<div><font size="2" face="Verdana">В связи с этим при настройке обмена с "Консолидирующим узлом" достаточно задать параметры подключения и установить тип корреспондента, никаких дополнительных настроек задавать не требуется.</font></div></blockquote>
+<h3><font face="Verdana" size="2">  <strong>Настройка обмена с "Подчиненным узлом"</strong></font></h3><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div><font size="2" face="Verdana">В "Подчиненный узел" информация выгружается с учетом отборов по "Дате начала синхронизации" и "Магазину".</font></div>
+<div><font size="2" face="Verdana">Если "Дата начала синхронизации" не соответствует дате начала ведения учета по магазину, рекомендуется устанавливать флаг "Сформировать документ ввода начальных остатков для узла".</font></div>
+<div><font size="2" face="Verdana">При формировании документа ввода остатков для всех документов ранее "Даты начала синхронизации" будет выгружен признак удаления.</font></div>
+<div><font size="2" face="Verdana"><br></font></div>
+<div><font size="2" face="Verdana">Если в подчиненном узле необходимо дополнительно видеть остатки по другим магазинам, следует настроить выгрузку информативных остатков по магазинам.</font></div>
+<div><font size="2" face="Verdana"><br></font></div></blockquote>
+<h2 style="font-size: 15.680000305175781px;"><font face="Verdana">  Вариант настройки "По рабочему месту"</font></h2><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div><font size="2" face="Verdana">Вариант настройки следует использовать при необходимости выделить рабочее место регистрации продаж в отдельную информационную базу.</font></div>
+<div><font size="2" face="Verdana">Данный подход может использоваться для:</font></div>
+<div>
+<ul><li><font face="Verdana" size="2">обеспечения возможности беспрерывного функционирования базы «Розница» с приемлемой производительностью в магазинах с большим количеством рабочих мест; </font></li></ul><ul><li><font face="Verdana" size="2">обеспечения независимости функционирования рабочего места от средств связи с сервером;</font></li></ul></div>
+<div><font size="2" face="Verdana"><br></font></div>
+<div><font size="2" face="Verdana">При этом на рабочем месте не предполагается полноценное ведение учета и контроль остатков.</font></div>
+<div><font size="2" face="Verdana">Передаются только данные, необходимые для регистрации продаж.</font></div>
+<div><font size="2" face="Verdana"><br></font></div>
+<div><font size="2" face="Verdana">Состав передаваемых данных:</font></div>
+<div>
+<ul><li><font size="2" face="Verdana">нормативно-справочная информация;</font></li>
+<li><font face="Verdana" size="2">цены номенклатуры; </font></li>
+<li><font face="Verdana" size="2">маркетинговые акции; </font></li>
+<li><font face="Verdana" size="2">дисконтные карты; </font></li>
+<li><font face="Verdana" size="2">продажи по дисконтным картам; </font></li>
+<li><font face="Verdana" size="2">продажи по платежным картам; </font></li>
+<li><font face="Verdana" size="2">движение денежных средств (с отбором по рабочему месту); </font></li>
+<li><font face="Verdana" size="2">чеки (с отбором по рабочему месту);</font></li>
+<li><font face="Verdana" size="2">отчеты о розничных продажах (с отбором по рабочему месту);</font></li>
+<li><font size="2" face="Verdana">информативные остатки по другим магазинам (опционально);</font></li>
+<li><font size="2" face="Verdana">информативные остатки по складам текущего магазина (опционально);</font></li></ul></div></blockquote>
+<h3><font face="Verdana" size="2"><span style="font-weight: bold;">  </span><strong>Настройка обмена с "Консолидирующим узлом"</strong></font></h3><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"></blockquote>
+<font size="2" face="Verdana">В "Консолидирующий узел" регистрируемая информация передается с отбором по текущему "Рабочему месту". </font><span style="font-size: small;">Его необходимо задать на этапе настройки синхронизации.</span>
+<div><span style="font-size: small;">Выбранное рабочее место </span><span style="font-size: small;">также </span><span style="font-size: small;">автоматически будет использоваться при фильтрации отправляемых из "Консолидирующего узла" в текущую информационную базу. Отбор по рабочему месту на стороне "Консолидирующего узла" заполняется автоматически при получении данных.</span></div></blockquote>
+<h3><font face="Verdana" size="2">  <strong>Настройка обмена с "Подчиненным узлом"</strong></font></h3><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;">
+<div><font face="Verdana"><font size="2">В "Подчиненный узел" информация выгружается с учетом отборов по "Дате начала синхронизации", "Магазину" и </font><span style="font-size: small;">"Рабочему месту"</span><span style="font-size: small;">.</span></font></div>
+<div><font size="2" face="Verdana">Товарные остатки по умолчанию не передаются. При необходимости анализировать остатки на рабочем месте по текущему магазину, следует включить опцию "Выгружать информативные остатки по складам магазина". Также дополнительно можно включить передачу информативных остатков по другим магазинам.</font></div></blockquote><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+<div><br></div></blockquote></font></body></html>

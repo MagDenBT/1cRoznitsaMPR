@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e09a4960-834c-4c97-9374-d8c13c9a6b5c">
+  <name>ОбменУправлениеТорговлейРозницаЗарегистрироватьИзменениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен управление торговлей розница зарегистрировать изменение документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПередачаТоваровМеждуОрганизациями</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.УведомлениеОПоступленииМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.ЗаказНаПеремещение</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ТТНВходящаяЕГАИС</types>
+    <types>DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств</types>
+    <types>DocumentObject.УведомлениеОбИмпортеМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.УстановкаКвотАссортимента</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ВыемкаДенежныхСредствИзКассыККМ</types>
+    <types>DocumentObject.НачислениеИСписаниеБонусныхБаллов</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.ds_УстановкаКатегорийНоменклатуры</types>
+    <types>DocumentObject.ОрдерНаОтражениеИзлишковТоваров</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.УведомлениеОСписанииКиЗГИСМ</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ПеремаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.ИзменениеАссортимента</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.ПересчетТоваров</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.УдалитьКассоваяСмена</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.МаркетинговаяАкция</types>
+    <types>DocumentObject.МаркировкаТоваровГИСМ</types>
+    <types>DocumentObject.ОрдерНаОтражениеНедостачТоваров</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ОтчетКомитентуОСписании</types>
+    <types>DocumentObject.ЗаявкаНаВыпускКиЗГИСМ</types>
+    <types>DocumentObject.ОтчетКомитентуОПродажах</types>
+    <types>DocumentObject.УведомлениеОВвозеМаркированныхТоваровИзЕАЭСГИСМ</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменДаннымиОбменУправлениеТорговлейРозницаПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

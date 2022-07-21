@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3bb33af-5485-4f9d-90dd-84ab8fc99ccb">
+  <name>СопоставлениеОрганизацийЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление организаций ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

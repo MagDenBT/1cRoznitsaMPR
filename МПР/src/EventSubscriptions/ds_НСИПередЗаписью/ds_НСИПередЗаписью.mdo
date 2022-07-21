@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="337181bb-00c2-4423-a09e-c0dd3b244195">
+  <name>ds_НСИПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ds) НСИ перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ПодпискиНаСобытия.НСИПередЗаписью</handler>
+</mdclass:EventSubscription>

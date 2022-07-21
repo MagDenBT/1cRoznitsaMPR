@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7cc31f1-7229-440e-a962-fcad76c70a36">
+  <producedTypes>
+    <managerType typeId="fc247735-0143-4ffa-b8eb-4723f85f4dce" valueTypeId="4de71ed3-f82e-4a0c-bf88-edf216425081"/>
+    <valueManagerType typeId="87e3eeaf-c3b5-4157-8d43-7045b6c27a39" valueTypeId="f07248bf-19f2-4097-ac27-aa07ed3873ce"/>
+    <valueKeyType typeId="dadeb6ce-bf41-411a-85cc-b10568d8fd34" valueTypeId="533f9ccf-b1ee-4698-bf34-752713045c89"/>
+  </producedTypes>
+  <name>ds_ИнтервалАвтосохраненияАктаПриемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал автосохранения акта приемки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

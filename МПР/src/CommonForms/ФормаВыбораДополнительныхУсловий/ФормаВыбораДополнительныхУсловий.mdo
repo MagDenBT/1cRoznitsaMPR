@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f977909-0fe6-454f-b388-92c5db6b2ad6">
+  <name>ФормаВыбораДополнительныхУсловий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора дополнительных условий</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

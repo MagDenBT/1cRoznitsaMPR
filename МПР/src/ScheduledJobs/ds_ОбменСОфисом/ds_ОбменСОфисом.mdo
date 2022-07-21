@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="872f79bd-c41f-426f-bce0-2bd722b96a69">
+  <name>ds_ОбменСОфисом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с офисом</value>
+  </synonym>
+  <methodName>CommonModule.ds_ОбменСОфисом.ds_ОбменСОфисом</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

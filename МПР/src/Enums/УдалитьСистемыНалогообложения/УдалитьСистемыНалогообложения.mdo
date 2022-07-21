@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14edd835-48d7-4891-b655-8822890c28ad">
+  <producedTypes>
+    <refType typeId="0fb091de-c1c7-4507-a134-70e7a1a568ff" valueTypeId="91ece714-d757-40be-9cd8-098c0fd1c927"/>
+    <listType typeId="ef344cb8-5673-42e4-8883-f26372c43dcb" valueTypeId="c8e5585d-ac54-4f22-b95b-08f516e4df9d"/>
+    <managerType typeId="9fda55f9-78e6-4d0d-aeb8-c73813934a6d" valueTypeId="401626cc-cebe-4086-b5c6-1f412764fd14"/>
+  </producedTypes>
+  <name>УдалитьСистемыНалогообложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не использовать) Системы налогообложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0aa95199-7910-4f8f-abef-07b79491716b">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая система налогообложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1188d60c-e2cd-42ad-9455-ff760ae5324e">
+    <name>Упрощенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная система налогообложения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

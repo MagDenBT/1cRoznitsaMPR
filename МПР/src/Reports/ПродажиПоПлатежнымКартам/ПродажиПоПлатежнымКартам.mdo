@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879315cd-e934-47ae-b98c-b4aad9f81902">
+  <producedTypes>
+    <objectType typeId="d2c1396d-a9a0-4a9d-81ae-40b3937f575c" valueTypeId="42404d1f-7103-48f8-9d20-8c2359e10e92"/>
+    <managerType typeId="12704c4f-cf42-4df3-a0c9-e086c4b545b4" valueTypeId="c41fa5ca-762f-42d5-80ab-96c1ea2be317"/>
+  </producedTypes>
+  <name>ПродажиПоПлатежнымКартам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи по платежным картам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПродажиПоПлатежнымКартам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="20260685-2bf5-4500-9660-37f10e82e7eb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

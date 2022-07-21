@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1b85380-8ff6-4fe3-84b2-e3f9d98774c7">
+  <producedTypes>
+    <objectType typeId="3f0f7e7c-17f5-40db-8c7a-1e890979e0c7" valueTypeId="260e7065-c5b4-41ab-ab64-1d257823a6c1"/>
+    <managerType typeId="6b640439-c823-4e4d-8126-63c88e90877b" valueTypeId="13fd9854-de6a-4a8f-8936-4c3d9916f634"/>
+  </producedTypes>
+  <name>ЖурналУчетаВыданныхПокупателюДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал учета выданных покупателю документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЖурналУчетаВыданныхПокупателюДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="39c1d17b-3233-4272-8fa6-b634edb6f665">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

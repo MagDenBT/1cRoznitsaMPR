@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="018b17af-bd78-492b-9ee0-520b76ba7628">
+  <producedTypes>
+    <selectionType typeId="c97fc17d-4594-472e-98f7-40878463ed30" valueTypeId="b432ec66-7397-4bdf-9b0a-0a5c4c3ac8b7"/>
+    <listType typeId="c204bdff-2fd6-4eec-a665-85b39965a3e3" valueTypeId="ea63f1b2-6747-48a4-93a8-18c674b34848"/>
+    <managerType typeId="d6d6ea7d-ca46-456e-b43b-4e39981d20f6" valueTypeId="2b111472-8027-4299-b6aa-acd17de41c6e"/>
+    <recordSetType typeId="c1ff06bb-9adb-4bee-aafe-f8094080eb6e" valueTypeId="8ccd7949-5f6d-4278-8377-fd0305f5e710"/>
+    <recordKeyType typeId="a236a81c-934a-4483-aacd-9e2912287d8f" valueTypeId="2ce7e630-450f-444d-8359-0b2fd61acc3c"/>
+    <recordType typeId="ec825560-8a00-4a70-91d6-d44cd5de3aef" valueTypeId="8e76508e-baa0-46ea-a40d-d2a5016a3f0d"/>
+  </producedTypes>
+  <name>БонусныеБаллы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусные баллы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата операции начисления или списания бонусных баллов</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2f9ded9e-b028-4fb6-9c8a-a858ad541e2d">
+    <name>Начислено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество баллов, доступных для оплаты</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f317ac3d-a94c-46b2-8a34-8283e21785ab">
+    <name>КСписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>К списанию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество баллов, подлежащих списанию, уменьшающее доступное для оплаты количество</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="b4146948-d89a-416d-aeff-268a20e509bf">
+    <name>ДатаПервоначальногоНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата первоначального начисления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата первоначального начисления заполняется только для движений по ресурсу &quot;К списанию&quot; при начислении бонусных баллов</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="4b4bd994-2b8a-42ea-b50c-ae422040fbb4">
+    <name>ДисконтнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная карта</value>
+    </synonym>
+    <type>
+      <types>DefinedType.КартаЛояльностиСервисЛояльности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дисконтная карта, по которой накапливаются баллы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0a1c6bcd-b245-468d-b6df-278a16d5f6e7">
+    <name>БонуснаяПрограммаЛояльности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонусная программа лояльности</value>
+    </synonym>
+    <type>
+      <types>DefinedType.БонуснаяПрограммаСервисЛояльности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Бонусная программа, по которой накапливаются баллы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

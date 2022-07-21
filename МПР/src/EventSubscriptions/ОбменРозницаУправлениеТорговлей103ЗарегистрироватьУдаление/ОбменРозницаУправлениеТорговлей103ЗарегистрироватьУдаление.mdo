@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a88dc5e-ebad-42ce-841b-0c282ef96689">
+  <name>ОбменРозницаУправлениеТорговлей103ЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен розница управление торговлей 10.3 зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ЗаказНаПеремещение</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>CatalogObject.ВидыАлкогольнойПродукции</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ДолжностиОрганизаций</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>CatalogObject.Магазины</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>CatalogObject.НаборыДополнительныхРеквизитовИСведений</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>CatalogObject.ТоварныеГруппы</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменРозницаУправлениеТорговлей103ЗарегистрироватьУдаление</handler>
+</mdclass:EventSubscription>

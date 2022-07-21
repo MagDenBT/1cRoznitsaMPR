@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a225a313-bf7a-44df-b66e-8bad32b0ffa6">
+  <producedTypes>
+    <containerType typeId="3baf3859-0676-4e85-93d4-4743c6c2a27b" valueTypeId="03e1b93f-9e78-404f-a099-646baf06db61"/>
+  </producedTypes>
+  <name>ОснованияЭлектронныхДокументовЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания электронных документов ЭДО</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РеализацияТоваров</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ЭлектронныйДокументВходящийЭДО</types>
+    <types>DocumentRef.ЭлектронныйДокументИсходящийЭДО</types>
+    <types>DocumentRef.СчетФактураВыданный</types>
+    <types>DocumentRef.УдалитьПроизвольныйЭД</types>
+    <types>DocumentRef.ОтчетКомитентуОСписании</types>
+    <types>DocumentRef.ТранспортныйКонтейнерЭДО</types>
+    <types>CatalogRef.ОснованияЭлектронныхДокументовПоЗапросамКоммерческихПредложений</types>
+    <types>DocumentRef.ЗапросКоммерческихПредложенийПоставщиков</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.КоммерческоеПредложениеПоставщика</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.СчетФактураПолученный</types>
+    <types>CatalogRef.УдалитьСоглашенияОбИспользованииЭД</types>
+    <types>DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.ОтчетКомитентуОПродажах</types>
+    <types>CatalogRef.НастройкиЭДО</types>
+  </type>
+</mdclass:DefinedType>

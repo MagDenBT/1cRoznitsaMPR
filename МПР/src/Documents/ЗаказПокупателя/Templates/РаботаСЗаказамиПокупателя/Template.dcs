@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставки</dataPath>
+			<field>АдресДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВладелецДисконтнойКарты</dataPath>
+			<field>ВладелецДисконтнойКарты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействиеЗакрытие</dataPath>
+			<field>ДействиеЗакрытие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие закрытие</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействиеОтмена</dataPath>
+			<field>ДействиеОтмена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие отмена</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействиеПродажа</dataPath>
+			<field>ДействиеПродажа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие продажа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействиеРезерв</dataPath>
+			<field>ДействиеРезерв</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие резерв</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействиеСогласование</dataPath>
+			<field>ДействиеСогласование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действие согласование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДисконтнаяКарта</dataPath>
+			<field>ДисконтнаяКарта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументПродажи</dataPath>
+			<field>ДокументПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЖелаемаяДатаПродажи</dataPath>
+			<field>ЖелаемаяДатаПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказПокупателя</dataPath>
+			<field>ЗаказПокупателя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодСтроки</dataPath>
+			<field>КодСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Магазин</dataPath>
+			<field>Магазин</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаксимальныйКодСтроки</dataPath>
+			<field>МаксимальныйКодСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаличиеНезарезервированныхСтрок</dataPath>
+			<field>НаличиеНезарезервированныхСтрок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отменено</dataPath>
+			<field>Отменено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продавец</dataPath>
+			<field>Продавец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СкидкиРассчитаны</dataPath>
+			<field>СкидкиРассчитаны</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДокумента</dataPath>
+			<field>СуммаДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчитыватьНДС</dataPath>
+			<field>УчитыватьНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>СвязиПараметровВыбора</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:ChoiceParameterLinks">
+						<dcscor:item>
+							<dcscor:choiceParameter>Номенклатура</dcscor:choiceParameter>
+							<dcscor:value>Номенклатура</dcscor:value>
+							<dcscor:mode xmlns:d8p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d8p1:LinkedValueChangeMode">Clear</dcscor:mode>
+						</dcscor:item>
+					</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаВключаетНДС</dataPath>
+			<field>ЦенаВключаетНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаказыПокупателейОстатки.Заказ КАК Заказ,
+	ЗаказыПокупателейОстатки.КодСтроки КАК КодСтроки,
+	ЗаказыПокупателейОстатки.Номенклатура КАК Номенклатура,
+	ЗаказыПокупателейОстатки.Характеристика КАК Характеристика,
+	ЗаказыПокупателейОстатки.ЗаказаноОстаток КАК ЗаказаноОстаток,
+	ЗаказыПокупателейОстатки.Заказ.Склад КАК Склад
+ПОМЕСТИТЬ ОстаткиНоменклатурыПоЗаказам
+ИЗ
+	РегистрНакопления.ЗаказыПокупателей.Остатки КАК ЗаказыПокупателейОстатки
+ГДЕ
+	ЗаказыПокупателейОстатки.ЗаказаноОстаток &gt; 0
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ОстаткиНоменклатурыПоЗаказам.Заказ КАК Заказ
+ПОМЕСТИТЬ ЗаказыСОстатками
+ИЗ
+	ОстаткиНоменклатурыПоЗаказам КАК ОстаткиНоменклатурыПоЗаказам
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиНоменклатурыПоЗаказам.Заказ КАК Заказ,
+	ОстаткиНоменклатурыПоЗаказам.КодСтроки КАК КодСтроки,
+	ОстаткиНоменклатурыПоЗаказам.Номенклатура КАК Номенклатура,
+	ОстаткиНоменклатурыПоЗаказам.Характеристика КАК Характеристика,
+	ОстаткиНоменклатурыПоЗаказам.ЗаказаноОстаток КАК ЗаказаноОстаток,
+	ОстаткиНоменклатурыПоЗаказам.Склад КАК Склад,
+	ВЫБОР
+		КОГДА ЗаказПокупателяТовары.Номенклатура.ТипНоменклатуры = ЗНАЧЕНИЕ(Перечисление.ТипыНоменклатуры.Услуга)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЭтоУслуга,
+	ЗаказПокупателяТовары.Резервировать КАК Резервировать
+ПОМЕСТИТЬ ОстаткиПоЗаказамДополненная
+ИЗ
+	ОстаткиНоменклатурыПоЗаказам КАК ОстаткиНоменклатурыПоЗаказам
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя.Товары КАК ЗаказПокупателяТовары
+		ПО ОстаткиНоменклатурыПоЗаказам.Заказ = ЗаказПокупателяТовары.Ссылка
+			И ОстаткиНоменклатурыПоЗаказам.КодСтроки = ЗаказПокупателяТовары.КодСтроки
+
+ИНДЕКСИРОВАТЬ ПО
+	Склад,
+	Номенклатура,
+	Характеристика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиПоЗаказамДополненная.Заказ КАК Заказ,
+	ОстаткиПоЗаказамДополненная.КодСтроки КАК КодСтроки,
+	ОстаткиПоЗаказамДополненная.Номенклатура КАК Номенклатура,
+	ОстаткиПоЗаказамДополненная.Характеристика КАК Характеристика,
+	ОстаткиПоЗаказамДополненная.ЗаказаноОстаток КАК ЗаказаноОстаток,
+	ОстаткиПоЗаказамДополненная.Склад КАК Склад,
+	ОстаткиПоЗаказамДополненная.ЭтоУслуга КАК ЭтоУслуга
+ПОМЕСТИТЬ ОстаткиПоЗаказамДополненнаяДляРезерва
+ИЗ
+	ОстаткиПоЗаказамДополненная КАК ОстаткиПоЗаказамДополненная
+ГДЕ
+	НЕ ОстаткиПоЗаказамДополненная.Резервировать
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТоварыНаСкладахОстатки.Склад КАК Склад,
+	ТоварыНаСкладахОстатки.Номенклатура КАК Номенклатура,
+	ТоварыНаСкладахОстатки.Характеристика КАК Характеристика,
+	ТоварыНаСкладахОстатки.КоличествоОстаток - ВЫБОР
+		КОГДА &amp;ИспользоватьРезервированиеПоЗаказамПокупателей
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ * ТоварыНаСкладахОстатки.РезервОстаток КАК СвободныйОстаток
+ПОМЕСТИТЬ ОстаткиНаСкладе
+ИЗ
+	РегистрНакопления.ТоварыНаСкладах.Остатки(
+			,
+			(Склад, Номенклатура, Характеристика) В
+				(ВЫБРАТЬ
+					ОстаткиПоЗаказамДополненная.Склад,
+					ОстаткиПоЗаказамДополненная.Номенклатура,
+					ОстаткиПоЗаказамДополненная.Характеристика
+				ИЗ
+					ОстаткиПоЗаказамДополненная КАК ОстаткиПоЗаказамДополненная)) КАК ТоварыНаСкладахОстатки
+ГДЕ
+	ТоварыНаСкладахОстатки.КоличествоОстаток - ТоварыНаСкладахОстатки.РезервОстаток &gt; 0
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиПоЗаказамДополненная.Заказ КАК Заказ,
+	ОстаткиПоЗаказамДополненная.КодСтроки КАК КодСтроки,
+	ВЫБОР
+		КОГДА ОстаткиПоЗаказамДополненная.ЗаказаноОстаток &lt;= ЕСТЬNULL(ОстаткиНаСкладе.СвободныйОстаток, 0)
+				ИЛИ ОстаткиПоЗаказамДополненная.ЭтоУслуга
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПолнаяПродажа,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ОстаткиНаСкладе.СвободныйОстаток, 0) = 0
+				И НЕ ОстаткиПоЗаказамДополненная.ЭтоУслуга
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК ВозможностьПродажи
+ПОМЕСТИТЬ ТаблицаПодготовкиКАнализуПродажи
+ИЗ
+	ОстаткиПоЗаказамДополненная КАК ОстаткиПоЗаказамДополненная
+		ЛЕВОЕ СОЕДИНЕНИЕ ОстаткиНаСкладе КАК ОстаткиНаСкладе
+		ПО ОстаткиПоЗаказамДополненная.Номенклатура = ОстаткиНаСкладе.Номенклатура
+			И ОстаткиПоЗаказамДополненная.Характеристика = ОстаткиНаСкладе.Характеристика
+			И ОстаткиПоЗаказамДополненная.Склад = ОстаткиНаСкладе.Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТаблицаПодготовкиКАнализуПродажи.Заказ КАК Заказ,
+	МАКСИМУМ(ТаблицаПодготовкиКАнализуПродажи.ВозможностьПродажи) КАК ВозможностьПродажи,
+	МИНИМУМ(ТаблицаПодготовкиКАнализуПродажи.ПолнаяПродажа) КАК ПолнаяПродажа
+ПОМЕСТИТЬ ЗаказыВозможностьПродажи
+ИЗ
+	ТаблицаПодготовкиКАнализуПродажи КАК ТаблицаПодготовкиКАнализуПродажи
+
+СГРУППИРОВАТЬ ПО
+	ТаблицаПодготовкиКАнализуПродажи.Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиПоЗаказамДополненнаяДляРезерва.Заказ КАК Заказ,
+	ОстаткиПоЗаказамДополненнаяДляРезерва.КодСтроки КАК КодСтроки,
+	ВЫБОР
+		КОГДА ОстаткиПоЗаказамДополненнаяДляРезерва.ЗаказаноОстаток &lt;= ЕСТЬNULL(ОстаткиНаСкладе.СвободныйОстаток, 0)
+				ИЛИ ОстаткиПоЗаказамДополненнаяДляРезерва.ЭтоУслуга
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ПолноеРезервирование,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ОстаткиНаСкладе.СвободныйОстаток, 0) = 0
+				И НЕ ОстаткиПоЗаказамДополненнаяДляРезерва.ЭтоУслуга
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК ВозможностьРезервирования
+ПОМЕСТИТЬ ТаблицаПодготовкиКАнализуРезерва
+ИЗ
+	ОстаткиПоЗаказамДополненнаяДляРезерва КАК ОстаткиПоЗаказамДополненнаяДляРезерва
+		ЛЕВОЕ СОЕДИНЕНИЕ ОстаткиНаСкладе КАК ОстаткиНаСкладе
+		ПО ОстаткиПоЗаказамДополненнаяДляРезерва.Номенклатура = ОстаткиНаСкладе.Номенклатура
+			И ОстаткиПоЗаказамДополненнаяДляРезерва.Характеристика = ОстаткиНаСкладе.Характеристика
+			И ОстаткиПоЗаказамДополненнаяДляРезерва.Склад = ОстаткиНаСкладе.Склад
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ТаблицаПодготовкиКАнализуРезерва.Заказ КАК Заказ,
+	МАКСИМУМ(ТаблицаПодготовкиКАнализуРезерва.ВозможностьРезервирования) КАК ВозможностьРезервирования,
+	МИНИМУМ(ТаблицаПодготовкиКАнализуРезерва.ПолноеРезервирование) КАК ПолноеРезервирование
+ПОМЕСТИТЬ ЗаказыВозможностьРезервирования
+ИЗ
+	ТаблицаПодготовкиКАнализуРезерва КАК ТаблицаПодготовкиКАнализуРезерва
+
+СГРУППИРОВАТЬ ПО
+	ТаблицаПодготовкиКАнализуРезерва.Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗаказПокупателяТовары.Ссылка КАК Заказ
+ПОМЕСТИТЬ ЗаказыСОтменой
+ИЗ
+	Документ.ЗаказПокупателя.Товары КАК ЗаказПокупателяТовары
+ГДЕ
+	ЗаказПокупателяТовары.Отменено
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ПродажиОбороты.ЗаказПокупателя КАК ЗаказПокупателя
+ПОМЕСТИТЬ ЗаказыСПродажами
+ИЗ
+	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты
+ГДЕ
+	ПродажиОбороты.КоличествоОборот &gt; 0
+
+ИНДЕКСИРОВАТЬ ПО
+	ЗаказПокупателя
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.НеСогласован)
+					ТОГДА 1
+				ИНАЧЕ 4
+			КОНЕЦ
+	КОНЕЦ КАК ДействиеСогласование,
+	ВЫБОР
+		КОГДА ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.НеСогласован)
+				ИЛИ НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА ДокументЗаказПокупателя.НаличиеНезарезервированныхСтрок
+						И НЕ ЗаказыСОстатками.Заказ ЕСТЬ NULL
+					ТОГДА ВЫБОР
+							КОГДА ЕСТЬNULL(ЗаказыВозможностьРезервирования.ПолноеРезервирование, ЛОЖЬ)
+								ТОГДА 1
+							ИНАЧЕ ВЫБОР
+									КОГДА ЕСТЬNULL(ЗаказыВозможностьРезервирования.ВозможностьРезервирования, ЛОЖЬ)
+										ТОГДА 2
+									ИНАЧЕ 3
+								КОНЕЦ
+						КОНЕЦ
+				ИНАЧЕ ВЫБОР
+						КОГДА ДокументЗаказПокупателя.НаличиеНезарезервированныхСтрок
+								ИЛИ ДокументЗаказПокупателя.Отменено
+							ТОГДА 0
+						ИНАЧЕ 4
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК ДействиеРезерв,
+	ВЫБОР
+		КОГДА ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.НеСогласован)
+				ИЛИ НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА НЕ ЗаказыСОстатками.Заказ ЕСТЬ NULL
+					ТОГДА ВЫБОР
+							КОГДА ЕСТЬNULL(ЗаказыВозможностьПродажи.ПолнаяПродажа, ЛОЖЬ)
+								ТОГДА 1
+							ИНАЧЕ ВЫБОР
+									КОГДА ЕСТЬNULL(ЗаказыВозможностьПродажи.ВозможностьПродажи, ЛОЖЬ)
+										ТОГДА 2
+									ИНАЧЕ 3
+								КОНЕЦ
+						КОНЕЦ
+				ИНАЧЕ ВЫБОР
+						КОГДА ЗаказыСПродажами.ЗаказПокупателя ЕСТЬ NULL
+							ТОГДА 0
+						ИНАЧЕ 4
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК ДействиеПродажа,
+	ВЫБОР
+		КОГДА НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА НЕ ЗаказыСОстатками.Заказ ЕСТЬ NULL
+					ТОГДА 1
+				ИНАЧЕ ВЫБОР
+						КОГДА НЕ ЗаказыСОтменой.Заказ ЕСТЬ NULL
+							ТОГДА 4
+						ИНАЧЕ 0
+					КОНЕЦ
+			КОНЕЦ
+	КОНЕЦ КАК ДействиеОтмена,
+	ВЫБОР
+		КОГДА НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА НЕ ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.Закрыт)
+					ТОГДА 1
+				ИНАЧЕ 4
+			КОНЕЦ
+	КОНЕЦ КАК ДействиеЗакрытие,
+	ДокументЗаказПокупателя.ЖелаемаяДатаПродажи КАК ЖелаемаяДатаПродажи,
+	ДокументЗаказПокупателя.Ссылка КАК Ссылка,
+	ДокументЗаказПокупателя.ВерсияДанных КАК ВерсияДанных,
+	ДокументЗаказПокупателя.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументЗаказПокупателя.Номер КАК Номер,
+	ДокументЗаказПокупателя.Дата КАК Дата,
+	ДокументЗаказПокупателя.Проведен КАК Проведен,
+	ДокументЗаказПокупателя.Склад КАК Склад,
+	ДокументЗаказПокупателя.Магазин КАК Магазин,
+	ДокументЗаказПокупателя.Комментарий КАК Комментарий,
+	ДокументЗаказПокупателя.СуммаДокумента КАК СуммаДокумента,
+	ДокументЗаказПокупателя.ДисконтнаяКарта КАК ДисконтнаяКарта,
+	ДокументЗаказПокупателя.Ответственный КАК Ответственный,
+	ДокументЗаказПокупателя.УчитыватьНДС КАК УчитыватьНДС,
+	ДокументЗаказПокупателя.ЦенаВключаетНДС КАК ЦенаВключаетНДС,
+	ДокументЗаказПокупателя.АдресДоставки КАК АдресДоставки,
+	ДокументЗаказПокупателя.ВладелецДисконтнойКарты КАК ВладелецДисконтнойКарты,
+	ДокументЗаказПокупателя.Продавец КАК Продавец,
+	ДокументЗаказПокупателя.Организация КАК Организация,
+	ДокументЗаказПокупателя.СкидкиРассчитаны КАК СкидкиРассчитаны,
+	ДокументЗаказПокупателя.МаксимальныйКодСтроки КАК МаксимальныйКодСтроки,
+	ДокументЗаказПокупателя.Статус КАК Статус,
+	ДокументЗаказПокупателя.НаличиеНезарезервированныхСтрок КАК НаличиеНезарезервированныхСтрок,
+	ДокументЗаказПокупателя.Отменено КАК Отменено,
+	ВЫБОР
+		КОГДА НЕ ДокументЗаказПокупателя.Проведен
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ПустаяСсылка)
+		КОГДА ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.НеСогласован)
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ОжидаетсяСогласование)
+		КОГДА ДокументЗаказПокупателя.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказовПокупателей.Закрыт)
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.Закрыт)
+		КОГДА ДокументЗаказПокупателя.Отменено
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ГотовКЗакрытию)
+		КОГДА НЕ ЗаказыСОстатками.Заказ ЕСТЬ NULL
+			ТОГДА ВЫБОР
+					КОГДА ДокументЗаказПокупателя.НаличиеНезарезервированныхСтрок
+						ТОГДА ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ОжидаетсяРезервирование)
+					ИНАЧЕ ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ОжидаетсяПродажа)
+				КОНЕЦ
+		ИНАЧЕ ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПокупателей.ГотовКЗакрытию)
+	КОНЕЦ КАК Состояние,
+	ДокументЗаказПокупателя.Контрагент КАК Контрагент
+ИЗ
+	Документ.ЗаказПокупателя КАК ДокументЗаказПокупателя
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказыСОстатками КАК ЗаказыСОстатками
+		ПО ДокументЗаказПокупателя.Ссылка = ЗаказыСОстатками.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказыВозможностьПродажи КАК ЗаказыВозможностьПродажи
+		ПО ДокументЗаказПокупателя.Ссылка = ЗаказыВозможностьПродажи.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказыВозможностьРезервирования КАК ЗаказыВозможностьРезервирования
+		ПО ДокументЗаказПокупателя.Ссылка = ЗаказыВозможностьРезервирования.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказыСПродажами КАК ЗаказыСПродажами
+		ПО ДокументЗаказПокупателя.Ссылка = ЗаказыСПродажами.ЗаказПокупателя
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказыСОтменой КАК ЗаказыСОтменой
+		ПО ДокументЗаказПокупателя.Ссылка = ЗаказыСОтменой.Заказ
+
+УПОРЯДОЧИТЬ ПО
+	ЖелаемаяДатаПродажи,
+	Дата,
+	Номер</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ИспользоватьРезервированиеПоЗаказамПокупателей</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Использовать резервирование по заказам покупателей</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействиеСогласование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействиеРезерв</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействиеПродажа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействиеОтмена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДействиеЗакрытие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЖелаемаяДатаПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПометкаУдаления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Проведен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Склад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Магазин</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДисконтнаяКарта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Продавец</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаличиеНезарезервированныхСтрок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отменено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ЖелаемаяДатаПродажи</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

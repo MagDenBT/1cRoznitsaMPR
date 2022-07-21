@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13941038-22ac-4fc2-bd5d-8f75633284be">
+  <name>ПроверкаИПодборПродукцииИСМПРТВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка и подбор продукции МОТП РТ вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

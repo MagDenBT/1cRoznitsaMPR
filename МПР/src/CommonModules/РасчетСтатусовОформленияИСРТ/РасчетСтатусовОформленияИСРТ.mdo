@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="789c0a05-7716-4000-842a-fa6f625206ee">
+  <name>РасчетСтатусовОформленияИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет статусов оформления ИСМП РТ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

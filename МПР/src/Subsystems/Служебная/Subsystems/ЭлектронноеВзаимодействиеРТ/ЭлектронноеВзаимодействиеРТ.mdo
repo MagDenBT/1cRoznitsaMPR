@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9983f35b-28f3-40ac-a629-7f226b075770">
+  <name>ЭлектронноеВзаимодействиеРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное взаимодействие РТ</value>
+  </synonym>
+  <content>CommonModule.ЭлектронноеВзаимодействиеРТ</content>
+  <content>CommonModule.ЭлектронноеВзаимодействиеРТКлиент</content>
+  <content>CommonModule.ЭлектронноеВзаимодействиеРТПовтИсп</content>
+  <subsystems>БизнесСетьРТ</subsystems>
+  <subsystems>ИнтеграцияСЯндексКассойРТ</subsystems>
+  <subsystems>ОбменСБанкамиРТ</subsystems>
+  <subsystems>ОбменСКонтрагентамиРТ</subsystems>
+  <subsystems>ОбменССайтамиРТ</subsystems>
+  <subsystems>РаботаСНоменклатуройРТ</subsystems>
+  <subsystems>СервисДоставкиРТ</subsystems>
+  <subsystems>ТорговыеПредложенияРТ</subsystems>
+  <subsystems>СопоставлениеНоменклатурыКонтрагентовРТ</subsystems>
+  <parentSubsystem>Subsystem.Служебная</parentSubsystem>
+</mdclass:Subsystem>

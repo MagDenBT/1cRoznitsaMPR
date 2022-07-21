@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aefa4e5-7e9f-4434-8ea2-26433d8e37fc">
+  <name>ОбновлениеПродажВДисконтномСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление продаж в дисконтном сервере</value>
+  </synonym>
+  <methodName>CommonModule.ДисконтныйСервер.ВыгрузитьЗаданияНаОбновлениеПродаж</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

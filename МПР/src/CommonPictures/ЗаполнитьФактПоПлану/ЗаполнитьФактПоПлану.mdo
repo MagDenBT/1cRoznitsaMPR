@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd7f8e4-3552-4875-84fd-4870658c6d6a">
+  <name>ЗаполнитьФактПоПлану</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить факт по плану</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="441263cd-9924-4705-992a-68f64e3cf41b">
+  <producedTypes>
+    <objectType typeId="f8254b65-748f-4337-b44a-2826f88a6ee1" valueTypeId="2c2b4be3-ce18-4c1c-86af-a672a3b23bfd"/>
+    <managerType typeId="c50f8fc2-6454-4672-b8c7-38cbecb26329" valueTypeId="8e97ee14-037a-425a-8706-c235a361ae22"/>
+  </producedTypes>
+  <name>ОстаткиИДвиженияДенежныхСредствПоВидамВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки и движения денежных средств по видам выручки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиИДвиженияДенежныхСредствПоВидамВыручки.Template.Макет</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="d183456f-7263-4039-8c4e-b15eb37131c3">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

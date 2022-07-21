@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ca5058e-65a5-435a-8797-eeacd6bd9b05">
+  <name>МаркируемаяАлкогольнаяПродукцияШапкаТЧ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркируемая алкогольная продукция шапка ТЧ</value>
+  </synonym>
+</mdclass:CommonPicture>

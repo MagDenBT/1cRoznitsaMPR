@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7bb89f3-1ca4-4946-922f-f54c9cab2fc8">
+  <name>СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат зарегистрировать удаление</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>DocumentObject.ПередачаТоваровМеждуОрганизациями</types>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.КассоваяСмена</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>CatalogObject.КлассификаторТНВЭД</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>CatalogObject.СтатьиДвиженияДенежныхСредств</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.ПересчетТоваров</types>
+    <types>CatalogObject.Склады</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>CatalogObject.СерииНоменклатуры</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ОтчетКомитентуОСписании</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>DocumentObject.ОтчетКомитентуОПродажах</types>
+    <types>CatalogObject.Организации</types>
+    <types>DocumentObject.ПриказНаПроведениеИнвентаризацииТоваров</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.СинхронизацияДанныхЧерезУниверсальныйФорматПередУдалением</handler>
+</mdclass:EventSubscription>

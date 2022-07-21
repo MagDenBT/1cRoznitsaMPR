@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43f3829b-f728-4d9d-9edf-da0532e5b0fc">
+  <name>КомиссионнаяТорговля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комиссионная торговля</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.ДобавлениеИзменениеОтчетовКомитентуОСписании</content>
+  <content>DocumentJournal.ОтчетыКомитенту</content>
+  <content>Report.ТоварыПринятыеНаКомиссию</content>
+  <content>Role.ЧтениеОтчетовКомитентуОСписании</content>
+  <content>Constant.ИспользоватьКомиссионнуюТорговлю</content>
+  <content>Role.ДобавлениеИзменениеОтчетовКомитентуОПродажах</content>
+  <content>FunctionalOption.ИспользоватьКомиссионнуюТорговлю</content>
+  <content>Role.ЧтениеОтчетовКомитентуОПродажах</content>
+  <content>Constant.ПриоритетыРеализацииТоваров</content>
+  <content>Document.ОтчетКомитентуОПродажах</content>
+  <content>Document.ОтчетКомитентуОСписании</content>
+  <content>Enum.СпособыРасчетаКомиссионногоВознаграждения</content>
+  <content>Enum.ПриоритетыРеализацииТоваров</content>
+  <content>AccumulationRegister.ТоварыКОформлениюОтчетовКомитенту</content>
+  <content>Enum.УчетНДСУКомитента</content>
+  <content>Report.ВедомостьПоТоварамПринятымНаКомиссию</content>
+  <content>Report.ВзаимодействиеСКомитентами</content>
+  <parentSubsystem>Subsystem.ЗапасыИЗакупки</parentSubsystem>
+</mdclass:Subsystem>

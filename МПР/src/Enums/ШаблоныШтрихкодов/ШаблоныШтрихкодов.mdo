@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97ec5eae-450c-4ba3-964a-b0ac106d7f82">
+  <producedTypes>
+    <refType typeId="b01d8c5d-9cec-4f43-8c46-f9e336481314" valueTypeId="2b1b4960-b959-4d0b-9122-bb9dab7ac16b"/>
+    <listType typeId="8b9f086a-4c45-4a65-902a-560b92dd0bf1" valueTypeId="21c97feb-f402-454a-be47-6bb1136c9689"/>
+    <managerType typeId="d31f563c-a0d7-45b1-80a4-8fce717fe295" valueTypeId="4c98a7ae-cf11-44c5-ae3b-2a10dec0d5aa"/>
+  </producedTypes>
+  <name>ШаблоныШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны штрихкодов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d7cfcb6c-f1ba-40e3-ac3d-898b1079712f">
+    <name>НоменклатураШтучный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура штучный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a42b8266-4ad1-4719-ac85-ea84409ef231">
+    <name>НоменклатураВесовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура весовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00aee46f-ab02-4555-9c0f-58068293e4be">
+    <name>НоменклатураФасованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура фасованный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bcb2886-63bf-4eb3-8309-9b9558a5e964">
+    <name>СерийныйНомерСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер сертификата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92adec2f-96b4-4810-b2f5-cd9746f064e6">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49333ab6-4124-41c7-b17c-e951347b01a4">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3044616f-a656-417d-8acc-b0cdea57ffa5">
+    <name>АдресЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ЭП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38377741-2ed7-43b8-8258-af90c2c86c0a">
+    <name>НоменклатураСИЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура средства индивидуальной защиты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

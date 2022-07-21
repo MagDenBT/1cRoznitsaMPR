@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2589b09-4401-4324-a88f-0b0a397361fc">
+  <producedTypes>
+    <refType typeId="2d4a8f60-588b-4200-b318-e67b943b71e4" valueTypeId="bd30339e-fc4f-45a3-ad54-10efab7fbfd1"/>
+    <listType typeId="bf582e7b-3103-4d69-9bae-fb8cd8eb3e09" valueTypeId="f9686124-477e-47cf-993d-fe376bae62fd"/>
+    <managerType typeId="de6da6c0-2077-4268-b3f4-81dd54f86676" valueTypeId="7ca6af5c-cfa7-471f-b25f-d355dda4304d"/>
+  </producedTypes>
+  <name>СостоянияОплатыЗаказаПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния оплаты заказа покупателя</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="497ae0ea-a72a-4762-8b46-945f4bf967a0">
+    <name>НеОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a49dc700-74e8-4ec7-99f1-b6ce1ce572e8">
+    <name>ОплаченЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea86be62-c090-4b1a-9917-62f36c70880b">
+    <name>ОплаченПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен полностью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bff85e6-d894-4f43-a87e-38d7028cd11d">
+    <name>Фискализирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискализирована оплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

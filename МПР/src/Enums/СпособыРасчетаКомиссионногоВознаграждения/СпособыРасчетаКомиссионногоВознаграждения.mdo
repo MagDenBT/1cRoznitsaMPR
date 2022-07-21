@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebfb017a-1a00-4464-bb7e-00599b08aa80">
+  <producedTypes>
+    <refType typeId="a9a8893d-6afa-453f-9291-35dc5ad81231" valueTypeId="c7101168-86e1-48f8-8a57-27614e2dc0af"/>
+    <listType typeId="98b892bc-d4bb-4c93-bb09-4e8615100107" valueTypeId="b9e2fac0-4c30-441e-9c34-d4ed9c13bece"/>
+    <managerType typeId="df708578-6f7d-4fbf-a12b-6f4c5825bead" valueTypeId="fbb293ab-57d1-45f7-9436-1eb08af7fa61"/>
+  </producedTypes>
+  <name>СпособыРасчетаКомиссионногоВознаграждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета комиссионного вознаграждения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a119a832-7219-4899-b81b-e7ced1a8cccf">
+    <name>НеРассчитывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не рассчитывается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40b34e1d-12af-42a1-968f-4b4db2fbd2ec">
+    <name>ПроцентОтРазностиСуммыПродажиИСуммыКомитента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от разности суммы продажи и суммы комитента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19661a4f-5984-4063-a544-d51e54804be3">
+    <name>ПроцентОтСуммыПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от суммы продажи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

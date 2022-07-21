@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9413813-e9f8-4ce5-a1ad-57447c0bf300">
+  <name>СервисДоставкиРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис доставки РТ</value>
+  </synonym>
+  <content>CommonModule.СервисДоставкиРТ</content>
+  <content>CommonModule.СервисДоставкиРТКлиент</content>
+  <content>Constant.ИспользоватьСервисДоставкиКлиентам</content>
+  <content>EventSubscription.СервисДоставкиКлиентамПриЗаписи</content>
+  <content>InformationRegister.СостояниеДоставкиЗаказаПокупателя</content>
+  <content>Enum.СостоянияДоставкиЗаказаПокупателя</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ЭлектронноеВзаимодействиеРТ</parentSubsystem>
+</mdclass:Subsystem>

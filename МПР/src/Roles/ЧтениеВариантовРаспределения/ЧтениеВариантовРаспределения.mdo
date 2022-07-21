@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d3278f4-5cc1-45ec-bec3-6dbfd6f4899d">
+  <name>ЧтениеВариантовРаспределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение вариантов распределения</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b539bb1-8c2d-49ed-bb63-7ab74cbc0a2d">
+  <name>ДисконтныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дисконтный сервер</value>
+  </synonym>
+  <namespace>http://localhost/rt2discountservice</namespace>
+</mdclass:XDTOPackage>

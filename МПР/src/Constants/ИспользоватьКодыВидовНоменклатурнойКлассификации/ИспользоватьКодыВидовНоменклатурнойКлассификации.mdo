@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ab37bda-9c69-4efe-8758-540d68725811">
+  <producedTypes>
+    <managerType typeId="9e065f56-2a99-4942-93a7-3a3b77534cd3" valueTypeId="cd984aeb-85e3-481f-9e8d-b57ab3b473ff"/>
+    <valueManagerType typeId="ba9da9e9-ea50-473c-8825-a4fa055faa43" valueTypeId="eac45a2d-a363-40c9-a58e-c519fb85b071"/>
+    <valueKeyType typeId="d7bab917-c2d8-468e-b8a0-4971b2218f97" valueTypeId="b1f9a42a-320d-4230-a5f3-dcf37fec0153"/>
+  </producedTypes>
+  <name>ИспользоватьКодыВидовНоменклатурнойКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать коды видов номенклатурной классификации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

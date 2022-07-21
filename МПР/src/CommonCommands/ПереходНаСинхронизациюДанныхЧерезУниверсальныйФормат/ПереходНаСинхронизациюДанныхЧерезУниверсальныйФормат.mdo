@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae79faad-9e7a-40f0-b4f9-f909a1863ec6">
+  <name>ПереходНаСинхронизациюДанныхЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход на синхронизацию данных через универсальный формат</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.ОбменУправлениеТорговлейРозница</types>
+    <types>ExchangePlanRef.ОбменРозницаУправлениеНебольшойФирмой</types>
+    <types>ExchangePlanRef.ОбменРозницаБухгалтерияПредприятия30</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Переход с текущей настройки на синхронизацию данных через универсальный формат.</value>
+  </toolTip>
+</mdclass:CommonCommand>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f81803a-47e7-428e-9696-ab49d8a32c65">
+  <producedTypes>
+    <refType typeId="a753c487-3bc7-4489-b516-060ac0027a53" valueTypeId="49079643-9305-4625-b858-ffeffb6f01e9"/>
+    <listType typeId="3d46113a-0ad6-41c4-9a76-28cd5ddc9cce" valueTypeId="2fedd7a3-d782-40b3-aefb-de3e4cbfd6a1"/>
+    <managerType typeId="64fad18e-303f-4a18-98c3-2c14143259bf" valueTypeId="997061b0-fb80-46cb-91cf-10b6936b334e"/>
+  </producedTypes>
+  <name>ВидыАнализаМонитора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды анализа монитора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42ed3ff2-d3f6-4af0-b88f-478c86a3b92f">
+    <name>КоличествоЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество чеков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04894b0a-a82d-4982-a8be-c7f2ea3f9f62">
+    <name>СреднийЧек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средний чек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e024c673-2407-4751-aa46-169aca5ab732">
+    <name>СуммаПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма продаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="944667cd-c2de-41ba-8748-473664d12b22">
+    <name>ОстаткиДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2efd18b-f2ed-4f2a-aa53-1af7bc2e81a5">
+    <name>ОстаткиДСККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки денежных средств в кассах ККМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b988c268-5028-42ff-a097-8b0ea73e5a20">
+    <name>ДвиженияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения денежных средств по типам оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="720528ac-9847-4244-8723-e28f103e3526">
+    <name>ПродажиПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи по контрагентам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="339cb011-4c86-470e-9218-8a0c37446a8d">
+    <name>ЗадолженностьПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность поставщикам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

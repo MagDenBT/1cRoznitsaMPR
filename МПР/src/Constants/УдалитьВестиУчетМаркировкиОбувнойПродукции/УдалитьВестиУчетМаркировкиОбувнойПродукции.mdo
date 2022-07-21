@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a211167-95d0-498e-939e-bda293d3f1c8">
+  <producedTypes>
+    <managerType typeId="70b9418b-f60e-40ad-bbd4-696ce2bd3427" valueTypeId="c8f7769a-eb35-438b-8001-159a9554faba"/>
+    <valueManagerType typeId="a7cb32e9-b147-401b-b71c-737a5e0778f6" valueTypeId="0073fe90-a516-40bc-827f-649ccf87b483"/>
+    <valueKeyType typeId="960e7e83-aeef-420a-9c57-dd73e8c40342" valueTypeId="dad94892-6e52-469d-8259-74a8c2053a09"/>
+  </producedTypes>
+  <name>УдалитьВестиУчетМаркировкиОбувнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Удалить вести учет маркировки обувной продукции</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

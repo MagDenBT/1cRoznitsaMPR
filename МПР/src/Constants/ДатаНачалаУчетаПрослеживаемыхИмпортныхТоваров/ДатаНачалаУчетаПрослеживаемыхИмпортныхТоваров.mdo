@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76d314d4-ab32-4b54-8573-770eb14f5d77">
+  <producedTypes>
+    <managerType typeId="184bc6e2-9454-41b9-b5a8-6628f837b551" valueTypeId="30bbb915-84a9-4497-9296-7efb424b5e20"/>
+    <valueManagerType typeId="4c354af1-39ff-4cee-b38c-49499a3cd566" valueTypeId="804d77c4-583c-48a8-a66d-e23228a86dcf"/>
+    <valueKeyType typeId="16417c88-0cf0-4b7f-b9be-206bb04a0dbc" valueTypeId="2c2f85cb-3564-4509-a0b8-e81a0e3623ea"/>
+  </producedTypes>
+  <name>ДатаНачалаУчетаПрослеживаемыхИмпортныхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала учета прослеживаемых импортных товаров</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

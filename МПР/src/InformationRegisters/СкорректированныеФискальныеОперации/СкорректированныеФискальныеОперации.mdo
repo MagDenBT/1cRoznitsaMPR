@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409b21f2-3340-4772-9f2d-2168848a345f">
+  <producedTypes>
+    <selectionType typeId="5d43a01c-4abb-4975-adc1-1075d29c6750" valueTypeId="c483bfd4-5671-48a8-8eab-5a997e77d9a7"/>
+    <listType typeId="84b1187f-9546-42e0-9d06-27c519d1396c" valueTypeId="30b9dfc5-4158-4086-a5a8-1f265cd7f44a"/>
+    <managerType typeId="a6d4abaf-fc13-4a64-81dc-41efe2b383e6" valueTypeId="131cd879-2d2c-4367-a171-7aaf8d2a9682"/>
+    <recordSetType typeId="d12f76ee-5f1c-4989-b2fb-b9ab7af7b887" valueTypeId="f3f2d1b4-fcd3-47df-9fd2-1a3597c9a800"/>
+    <recordKeyType typeId="3c518c65-d67d-4559-9651-83f5a3deb9d5" valueTypeId="1436a1cc-ae4a-40d4-975d-cf4194c33eae"/>
+    <recordType typeId="ba8490a4-1884-42e8-80b6-904be500e7d5" valueTypeId="13b417d0-efd4-42b9-9b1a-9394d6159b53"/>
+    <recordManagerType typeId="3645cb73-a819-4b77-9717-4852a8040df0" valueTypeId="970094ba-0a81-4adb-9ca3-b6b98851f170"/>
+  </producedTypes>
+  <name>СкорректированныеФискальныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скорректированные фискальные операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="04a08e4d-fd6b-47c2-8159-aab0cc7ccd0f">
+    <name>ПредставлениеКорректирующегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление корректирующего документа</value>
+    </synonym>
+    <comment>Хранит представление документ создавшего корректировка. Используется для корректного вывода сообщений пользователю использующих обмен с отбором по магазинам.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="672c52b8-00f4-4294-98a7-07df9a7cce9e">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Магазины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e16d5d2f-d50f-48e0-9c78-847e231ecb39">
+    <name>СкорректированныеДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорректированные документ</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОснованиеФискальнойОперацииБПО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd465742-35b0-4567-b875-f654dc62ab51">
+  <name>ds_ОбменСОфисомРегистрацияСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с офисом регистрация справочника</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ds_ВидыКатегорийНоменклатуры</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ПрофилиГруппДоступа</types>
+    <types>CatalogObject.ds_КатегорииНоменклатуры</types>
+    <types>CatalogObject.НастройкиРМК</types>
+    <types>CatalogObject.ds_ДенежныеЗнаки</types>
+    <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogObject.ВариантыОтчетов</types>
+    <types>CatalogObject.СкидкиНаценки</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ОбменСОфисом.ОбменСОфисомРегистрацияСправочникаПередЗаписью</handler>
+</mdclass:EventSubscription>

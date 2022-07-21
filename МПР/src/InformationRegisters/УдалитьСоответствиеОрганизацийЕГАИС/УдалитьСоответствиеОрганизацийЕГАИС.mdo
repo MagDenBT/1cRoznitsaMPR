@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48744e62-1db5-4937-8dc0-457206f09612">
+  <producedTypes>
+    <selectionType typeId="518902ef-0f6e-4226-94c5-1065e49fa2ae" valueTypeId="7ffcd1a9-f09f-4fa1-ad4a-d30d8b901d78"/>
+    <listType typeId="1879506f-b61a-4a18-a436-81076cc6ac65" valueTypeId="49684ba6-8747-41a1-ae93-3fba9fa3bb24"/>
+    <managerType typeId="5b8c4390-f54b-4956-96da-b76c28feca30" valueTypeId="de2fe99e-6b8e-4922-b4dd-288e19f61778"/>
+    <recordSetType typeId="d022939b-eec1-415e-85c0-2104b32faf56" valueTypeId="99458af7-c13f-4e13-953d-ea818d91d14b"/>
+    <recordKeyType typeId="a4ac5001-e108-493a-920d-b045ddab0d0d" valueTypeId="fc771759-534d-44e4-a10f-b86fd2b5fc9e"/>
+    <recordType typeId="5e884a34-a1eb-456d-a9e5-253088118031" valueTypeId="0fdcaf9d-c3c9-47d6-81b2-56a16205feb7"/>
+    <recordManagerType typeId="3ce1ebe9-4b07-4f2b-bf63-b069d01ca678" valueTypeId="6f942738-2a11-4494-9a57-be5b150a01e7"/>
+  </producedTypes>
+  <name>УдалитьСоответствиеОрганизацийЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Соответствие организаций ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fd5b0e35-988e-4e82-843a-691896e23388">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="56e2f23e-62b6-470e-82b7-d8b0ad90b131">
+    <name>ОрганизацияЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация ЕГАИС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторОрганизацийЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

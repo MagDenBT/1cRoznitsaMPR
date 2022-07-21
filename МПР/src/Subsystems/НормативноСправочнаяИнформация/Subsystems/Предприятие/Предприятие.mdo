@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abc937f3-e9ff-4fc4-bc5c-0831fd2bc0e7">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КассыККМ</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Магазины</content>
+  <content>Enum.СпособыОценкиТоваровВРознице</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Кассы</content>
+  <content>InformationRegister.ОтветственныеЛицаОрганизаций</content>
+  <content>Catalog.ДолжностиОрганизаций</content>
+  <content>SessionParameter.ТекущийМагазин</content>
+  <content>Role.ЧтениеИнформацииПоМагазинам</content>
+  <content>Enum.ОтветственныеЛицаОрганизаций</content>
+  <content>Role.ДобавлениеИзменениеИнформацииПоКонтрагентам</content>
+  <content>Role.ДобавлениеИзменениеОрганизацийИБанковскихСчетовОрганизаций</content>
+  <content>Role.ЧтениеИнформацииПоКонтрагентам</content>
+  <content>Role.ЧтениеОрганизацийИБанковскихСчетовОрганизаций</content>
+  <content>Catalog.Контрагенты</content>
+  <content>FunctionalOption.ИспользоватьНесколькоОрганизацийРТ</content>
+  <content>DataProcessor.СверткаИнформационнойБазы</content>
+  <content>Constant.ПараметрыСверткиИБ</content>
+  <content>Catalog.КлассификаторОрганизацийЕГАИС</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>InformationRegister.ПрименениеСистемНалогообложения</content>
+  <content>EventSubscription.ПроверитьЗначениеОпцииИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOption.ИспользоватьНесколькоОрганизаций</content>
+  <content>Constant.НеИспользоватьНесколькоОрганизаций</content>
+  <content>FunctionalOptionsParameter.Организация</content>
+  <content>Constant.ИспользоватьНесколькоОрганизаций</content>
+  <content>DataProcessor.УдалитьНастройкаРаспределенияТоваровПоСкладамИОрганизациям</content>
+  <content>Constant.ЕНВДВОрганизациях</content>
+  <content>Enum.СтатусыДействияДоговоров</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

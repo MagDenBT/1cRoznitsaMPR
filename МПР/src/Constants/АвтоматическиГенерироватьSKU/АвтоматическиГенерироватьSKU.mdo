@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2455b4c-a7a1-4e55-b726-068ba03e138c">
+  <producedTypes>
+    <managerType typeId="956e608f-dc40-4c96-935f-1dc41dd7c327" valueTypeId="43b9937c-8886-413a-a742-e700218b9ef9"/>
+    <valueManagerType typeId="06d382f8-2067-4212-99ad-1bb228cfadd7" valueTypeId="98a3f3e1-62e3-4637-b783-4425750da35a"/>
+    <valueKeyType typeId="7d1093c5-089a-59c6-80f6-0438edfa7157" valueTypeId="88d9fc30-6362-55ce-aadd-c028b0a720cd"/>
+  </producedTypes>
+  <name>АвтоматическиГенерироватьSKU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически генерировать SKU</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

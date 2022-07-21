@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63c7d0cb-21d3-49a7-9b3d-dbb45e12ee3b">
+  <name>УдалитьДобавлениеИзменениеМаркировокТоваровГИСМРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Добавление изменение маркировок товаров ГИСМ РТ</value>
+  </synonym>
+</mdclass:Role>

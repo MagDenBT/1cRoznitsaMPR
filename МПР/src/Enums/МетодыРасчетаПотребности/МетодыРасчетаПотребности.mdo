@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3cf46a7-9b04-4dbc-bdbf-201ceb1655ea">
+  <producedTypes>
+    <refType typeId="7bcd62e8-1d89-49df-b561-97ccd9ebd4f5" valueTypeId="9fa6fe5a-85bd-451e-80e3-21b8cbfa7172"/>
+    <listType typeId="28d9aaec-5c4a-4d9e-81d6-cf9a4134eed7" valueTypeId="b76ce9fd-53fc-40c2-a143-fdbb14b8be9c"/>
+    <managerType typeId="93892a7e-26f7-4276-9f2a-e585ae315f1d" valueTypeId="0490d4b5-c9a1-46fd-83b6-b291ca2bd90d"/>
+  </producedTypes>
+  <name>МетодыРасчетаПотребности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы расчета потребности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Методы расчета потребности номенклатуры при формировании заказов поставщикам</value>
+  </explanation>
+  <enumValues uuid="0b1f321b-d7d3-4f4e-8316-7af258cf2294">
+    <name>ПоЗаказамПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заказам покупателей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc29fea7-4762-4a12-a971-8c416a5b3ae9">
+    <name>ПоСтатистикеПродажТорговогоЗала</name>
+    <synonym>
+      <key>ru</key>
+      <value>По статистике продаж торгового зала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78e00ff5-52df-47c2-af1d-f384d6fb95a6">
+    <name>ПоСтатистикеВсехПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>По статистике всех продаж</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b12fcf-1d8e-4155-b159-d76b1ad94b21">
+  <name>УдалитьДобавлениеИзменениеПередачВРегистр2ЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Добавление изменение передач в регистр 2 ЕГАИС РТ</value>
+  </synonym>
+</mdclass:Role>

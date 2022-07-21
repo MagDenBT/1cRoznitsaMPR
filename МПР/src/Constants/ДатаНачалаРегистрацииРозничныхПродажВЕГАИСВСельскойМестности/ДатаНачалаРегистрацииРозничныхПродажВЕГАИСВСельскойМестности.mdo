@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea29e2af-dd8a-4dbd-8d59-00810ff9f17a">
+  <producedTypes>
+    <managerType typeId="318dd914-0e07-4651-a5ff-4acf5aa8b339" valueTypeId="9c97dba7-9504-4f49-b46a-cee962a4d693"/>
+    <valueManagerType typeId="4aba7102-2551-4002-b9e8-bcc9b52e969b" valueTypeId="cb6f1675-4064-4720-b170-5f78475aa588"/>
+    <valueKeyType typeId="941781c5-3d8f-590d-88f0-94685630450f" valueTypeId="3310c17d-2eb8-5df8-833b-5eeaf210e5d1"/>
+  </producedTypes>
+  <name>ДатаНачалаРегистрацииРозничныхПродажВЕГАИСВСельскойМестности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала регистрации розничных продаж в ЕГАИС в сельской местности</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

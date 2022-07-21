@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b94b2d7-1b36-4057-930a-023fae2e12f5">
+  <producedTypes>
+    <managerType typeId="c04c62a8-9c16-4377-9f07-812ecb438357" valueTypeId="bad0d658-b7f0-47a5-8c79-9f78be314b66"/>
+    <valueManagerType typeId="9f53d804-48ca-40bf-8fbc-1a4643002041" valueTypeId="6d3526e5-bd40-4791-90f9-5d36c1ea26c4"/>
+    <valueKeyType typeId="f62a01ec-f5cb-5d23-83f0-0d732492b6bd" valueTypeId="cab1865b-1e07-5bd9-98b5-a04f6ead46db"/>
+  </producedTypes>
+  <name>УдалитьВестиУчетМаркировкиТабачнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Вести учет маркировки табачной продукции</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

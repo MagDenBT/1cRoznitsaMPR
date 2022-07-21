@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ab69f82-edf6-416f-baef-0819b7ff5c95">
+  <producedTypes>
+    <managerType typeId="95714f1b-ac24-40a4-af01-59abb1c17a7b" valueTypeId="79d1656b-64a8-47e5-98f6-d3bfa927c420"/>
+    <valueManagerType typeId="21107e41-d06c-4b47-a208-cbab011a0984" valueTypeId="66f49b4a-311b-487b-8831-077fad563176"/>
+    <valueKeyType typeId="4b774cc9-1ad0-5629-a610-c36e7efa3bb9" valueTypeId="157f18c6-f22d-583b-90a2-e3fba2663186"/>
+  </producedTypes>
+  <name>ИспользоватьТоварныеКатегорииИКвотыАссортимента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать товарные категории и квоты ассортимента</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

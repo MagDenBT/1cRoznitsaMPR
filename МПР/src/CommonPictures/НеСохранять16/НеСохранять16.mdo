@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f3f3ebe-283c-478d-8c01-28de4def6097">
+  <name>НеСохранять16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не сохранять16</value>
+  </synonym>
+</mdclass:CommonPicture>

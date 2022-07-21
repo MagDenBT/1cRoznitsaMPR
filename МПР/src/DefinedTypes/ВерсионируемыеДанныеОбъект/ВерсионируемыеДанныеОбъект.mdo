@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91d2d798-1498-4c52-aa7b-99db4b992876">
+  <producedTypes>
+    <containerType typeId="e7accf99-1514-4798-903b-880155ad161c" valueTypeId="80526102-d297-4100-9c16-ddc788bc55b9"/>
+  </producedTypes>
+  <name>ВерсионируемыеДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.СерийныеНомера</types>
+    <types>CatalogObject.ПравилаРасчетаПремий</types>
+    <types>CatalogObject.ВидыДисконтныхКарт</types>
+    <types>CatalogObject.Марки</types>
+    <types>CatalogObject.УсловияНачисленияПремийПоЛичнымПродажам</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.СчетчикиПодсчетаПосетителей</types>
+    <types>CatalogObject.ПалитраБыстрыхТоваров</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>CatalogObject.СегментыНоменклатуры</types>
+    <types>CatalogObject.ПолитикиУчетаСерий</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ФорматыМагазинов</types>
+    <types>CatalogObject.ИнтервалыРаботыМагазинов</types>
+    <types>CatalogObject.ТоварныеКатегории</types>
+    <types>CatalogObject.АналитикаХозяйственныхОпераций</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ГруппыПолучателейСкидки</types>
+    <types>CatalogObject.УдалитьБанковскиеСчетаОрганизаций</types>
+    <types>CatalogObject.НастройкиРМК</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.ПравилаНачисленияБонусныхБаллов</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ПравилаОтбораТоваров</types>
+    <types>CatalogObject.НаборыУпаковок</types>
+    <types>CatalogObject.СтатьиДвиженияДенежныхСредств</types>
+    <types>CatalogObject.ПравилаЦенообразования</types>
+    <types>CatalogObject.ДолжностиОрганизаций</types>
+    <types>CatalogObject.УдалитьБанки</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.ПравилаОбменаСПодключаемымОборудованием</types>
+    <types>CatalogObject.БонусныеПрограммыЛояльности</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.ПричиныОтменыЗаказовПокупателей</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>CatalogObject.УсловияПредоставленияСкидокНаценок</types>
+    <types>CatalogObject.УдалитьДоговорыЭквайринга</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogObject.ИнформационныеКарты</types>
+    <types>CatalogObject.РаботаВыполняемаяСотрудниками</types>
+    <types>CatalogObject.ТоварныеГруппы</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ЦеновыеГруппы</types>
+    <types>CatalogObject.СкидкиНаценки</types>
+  </type>
+</mdclass:DefinedType>

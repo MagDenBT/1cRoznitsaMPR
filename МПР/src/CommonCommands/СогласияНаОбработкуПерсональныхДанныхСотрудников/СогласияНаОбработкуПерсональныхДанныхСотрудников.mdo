@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5862feb3-0cc8-43b9-bdd1-67cee1b82564">
+  <name>СогласияНаОбработкуПерсональныхДанныхСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласия на обработку ПДн</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

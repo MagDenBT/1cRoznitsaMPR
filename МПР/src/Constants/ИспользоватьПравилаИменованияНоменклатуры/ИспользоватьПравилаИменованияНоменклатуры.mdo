@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2276dfb2-a199-4b9c-92e6-a624c3345362">
+  <producedTypes>
+    <managerType typeId="9b1b3538-451f-4923-a935-909d63879c3b" valueTypeId="5a7f3388-29a7-41ba-ba99-3a830ca00d32"/>
+    <valueManagerType typeId="bb27d818-9882-4bb9-9b5d-4a1cccd5bdfb" valueTypeId="1c245d7f-5607-41b6-bf8a-1e9d24dfbced"/>
+    <valueKeyType typeId="283be5a6-3d97-50f4-94ce-5cbc8f3bc3c7" valueTypeId="c01fe970-ec4c-59cd-8aef-6e8d1f432abb"/>
+  </producedTypes>
+  <name>ИспользоватьПравилаИменованияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать правила именования номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

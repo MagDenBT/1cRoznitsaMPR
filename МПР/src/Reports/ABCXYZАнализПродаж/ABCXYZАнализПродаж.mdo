@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2292ce1-896f-4491-8016-21d790e6ca15">
+  <producedTypes>
+    <objectType typeId="a279079e-2bfe-48e3-990b-5960366cd92f" valueTypeId="1b3f7c0d-8eb2-4e35-8efa-6e9013e1ba92"/>
+    <managerType typeId="d10a9736-a55b-4ca6-8b5a-76b4b9758de4" valueTypeId="b8a13fd5-7292-4a35-967b-227534840532"/>
+  </producedTypes>
+  <name>ABCXYZАнализПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>ABC-XYZ анализ продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ABCXYZАнализПродаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="4761f7d6-5248-41ac-af8f-dace3de53448">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала анализируемого периода</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5a92ef72-c4b0-44e0-87d4-18866a20cfdf">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания анализируемого периода</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98e1a562-6ad1-4abf-b4b6-334eebb1b0f3">
+    <name>ПроцентГруппы_A</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент группы A</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа &quot;А&quot; - товары повышенного спроса, совокупный объем продаж которых составляет максимальный % от общего объема продаж (по умолчанию - 80%)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9208260a-1c06-4c35-a309-ce2f066b66a0">
+    <name>ПроцентГруппы_B</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент группы B</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа &quot;В&quot; - товары, совокупный объем продаж которых составляет большую часть от оставшегося % общего объема продаж (по умолчанию - 15%)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="adf22854-9933-4dba-80f9-bc3d60050232">
+    <name>ПроцентГруппы_X</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент группы X</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа &quot;X&quot; - товары, у которых коэффициент вариации не превышает указанный процент (по умолчанию - 10%)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="45240d8c-da50-4a24-8033-5722098f0b12">
+    <name>ПроцентГруппы_Y</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент группы Y</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа &quot;Y&quot; - товары, у которых коэффициент вариации находится в диапазоне от процента X до следующего значения (по умолчанию 25%)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="04d25c86-f960-4326-af62-76eefec9feaa">
+    <name>РежимСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим сортировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сортировка осуществляется по одному, выбранному показателю.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2d6bd0a6-bfa0-468d-8fdc-a4a4b0f99226">
+    <name>НаправлениеСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление сортировки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предоставляет возможность обратной сортировки, когда сначала отображаются товары группы С, потом - В и только в конце - А</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="61545976-69ab-4d44-8a68-25a244527784">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="0ad66c70-e822-48a5-a1f6-ac3e1c9dc8c2">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

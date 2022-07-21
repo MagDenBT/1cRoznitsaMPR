@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879bcd34-e16e-434a-aaff-050a2fbebd42">
+  <name>БонусныеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бонусные программы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DefinedType.СегментНоменклатурыСервисЛояльности</content>
+  <content>DefinedType.ВидОплатыСервисЛояльности</content>
+  <content>Enum.ВидыПравилНачисленияБонусныхБаллов</content>
+  <content>AccumulationRegister.БонусныеБаллы</content>
+  <content>InformationRegister.СостояниеБонусовСервисЛояльности</content>
+  <content>EventSubscription.СервисЛояльностиРазблокироватьБонусыСертификаты</content>
+  <content>ScheduledJob.СервисЛояльностиОбработкаСостоянияБонусовПодарочныхСертификатов</content>
+  <content>DefinedType.БонуснаяПрограммаСервисЛояльности</content>
+  <content>DefinedType.ПравилаНачисленияБонусныхБалловСервисЛояльности</content>
+  <content>DefinedType.КартаЛояльностиСервисЛояльности</content>
+  <content>InformationRegister.БонусныеБаллыКСписанию</content>
+  <parentSubsystem>Subsystem.СервисЛояльности</parentSubsystem>
+</mdclass:Subsystem>

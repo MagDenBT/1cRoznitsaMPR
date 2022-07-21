@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.ПанельОбменЕГАИС.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.ДобавлениеИзменениеДокументовЕГАИСРТ</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

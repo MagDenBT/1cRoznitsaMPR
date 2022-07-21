@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a50c388-d79c-4463-84c3-69810156d280">
+  <name>ИспользоватьЗаказыПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заказы покупателей</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗаказыПокупателей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.ЗаказПокупателя</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.КодСтроки</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.КодСтроки</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.Товары.Attribute.ЗаказПокупателя</content>
+  <content>AccumulationRegister.ЗаказыПокупателей</content>
+  <content>Document.ЧекККМ.Attribute.ЗаказПокупателя</content>
+  <content>Enum.МетодыРасчетаПотребности</content>
+  <content>Catalog.Магазины.Attribute.МетодРасчетаПотребности</content>
+  <content>Document.ЗаказНаПеремещение.Attribute.ЗаказПокупателя</content>
+  <content>Document.ЗаказПоставщику.Attribute.ЗаказПокупателя</content>
+  <content>Document.ОрдерНаПеремещениеТоваров.Attribute.ЗаказПокупателя</content>
+  <content>Report.ОстаткиПоЗаказу</content>
+  <content>AccumulationRegister.Продажи.Dimension.ЗаказПокупателя</content>
+  <content>Report.ЗаказыПокупателей</content>
+  <content>ExchangePlan.ОбменССайтом.Attribute.ОбменЗаказами</content>
+  <content>CommonCommand.ЗаказыПокупателей</content>
+  <content>Catalog.Магазины.Attribute.КонтролироватьАссортиментВЗаказеПокупателя</content>
+</mdclass:FunctionalOption>

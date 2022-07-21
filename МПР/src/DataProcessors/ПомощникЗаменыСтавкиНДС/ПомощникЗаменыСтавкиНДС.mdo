@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="606e6ef8-f8ff-447b-8fe4-5a25e3e8caa9">
+  <producedTypes>
+    <objectType typeId="ec0b9a2f-1a73-42b3-9d71-6642e0d706cf" valueTypeId="db0917be-cbd6-4f49-a5c0-14a487b1f970"/>
+    <managerType typeId="762bd404-a45f-4f07-b783-8b4a4da3da45" valueTypeId="18a68e36-84b8-4811-8656-83e4de8f2640"/>
+  </producedTypes>
+  <name>ПомощникЗаменыСтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник замены ставки НДС на 20%</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникЗаменыСтавкиНДС.Form.Форма</defaultForm>
+  <attributes uuid="680ae70e-afbb-4a2b-9851-ff07c5c9437f">
+    <name>ИзменятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять в транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При невозможности изменения элементов в транзакции, все изменения будут отменены.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9e97a5a6-c906-455e-b7fb-e6940f92fd41">
+    <name>ПрерыватьПриОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прерывать при ошибке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предупреждать, если во время изменения элементов возникнут ошибки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="18577d6c-dbd0-43a8-ad8f-d12479ede7fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bdef926b-e65e-4342-8d64-71c3e617af11">
+    <name>ВыбранныеЭлементы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранные элементы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

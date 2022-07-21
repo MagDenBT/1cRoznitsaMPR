@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2b5d211-3b99-4851-bd60-13f06a187d48">
+  <producedTypes>
+    <managerType typeId="c243cdd0-2abb-4155-b864-d6260126ced5" valueTypeId="eb0cb946-324e-43a1-85eb-e13cea2eb401"/>
+    <valueManagerType typeId="27315a7a-b30d-4edf-95ec-a07791428e1c" valueTypeId="39506bd5-43b0-45ae-bb3c-0e89d1bbb3b0"/>
+    <valueKeyType typeId="b019d88a-070c-5a4a-9f58-f3796dba41dc" valueTypeId="f663d404-a589-57de-afda-9ddb850eb96e"/>
+  </producedTypes>
+  <name>ПроверятьНеобходимостьСозданияДокументовЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять необходимость создания документов ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

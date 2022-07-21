@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19debaf3-5a82-499c-a82d-a871c45c0d31">
+  <name>РедакторЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор этикеток</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>8af7d2d4-6d24-4eac-96f8-cb4873d1077d</content>
+  <content>0eb3a215-9c42-4e9d-b3c8-2ac057833482</content>
+  <content>4419d2ca-b93a-4193-9cf2-1a7bdcae11d6</content>
+  <content>c2280cdf-7620-4c63-8516-1d0f1d9e69f4</content>
+  <content>CommonPicture.ПолужирноеНачертание</content>
+  <content>CommonPicture.Подчеркивание</content>
+  <content>CommonPicture.НетГраницы</content>
+  <content>CommonPicture.КурсивноеНачертание</content>
+  <content>CommonPicture.ГраницаСправа</content>
+  <content>CommonPicture.ГраницаСнизу</content>
+  <content>CommonPicture.ГраницаСлева</content>
+  <content>CommonPicture.ГраницаСверху</content>
+  <content>CommonPicture.ГраницаВокруг</content>
+  <content>CommonPicture.ВыравниваниеПоЦентру</content>
+  <content>CommonPicture.ВыравниваниеПоПравомуКраю</content>
+  <content>CommonPicture.ВыравниваниеПоЛевомуКраю</content>
+  <content>CommonPicture.ВыравниваниеВертикальноеЦентр</content>
+  <content>CommonPicture.ВыравниваниеВертикальноеНиз</content>
+  <content>CommonPicture.ВыравниваниеВертикальноеВерх</content>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование.Subsystem.ПринтерыЭтикеток</parentSubsystem>
+</mdclass:Subsystem>

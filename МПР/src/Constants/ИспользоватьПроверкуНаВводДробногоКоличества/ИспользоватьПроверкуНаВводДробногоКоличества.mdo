@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd48b4fe-3b3d-4ff5-9585-7a1ebf873d76">
+  <producedTypes>
+    <managerType typeId="4cc677cd-7fbb-46b8-959a-59b23aa2a75d" valueTypeId="c7bfbc42-e9c8-43c6-b8e9-b82ed7f05431"/>
+    <valueManagerType typeId="e682c517-0b44-4add-82fc-bade6a1ef1de" valueTypeId="938f3f37-d72c-4231-9dc4-f81455561e13"/>
+    <valueKeyType typeId="43470d07-c571-5b85-9928-6f6c5a6d8c43" valueTypeId="c8e2511c-5c2d-5cb4-8822-5330e408f997"/>
+  </producedTypes>
+  <name>ИспользоватьПроверкуНаВводДробногоКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать проверку на ввод дробного количества</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

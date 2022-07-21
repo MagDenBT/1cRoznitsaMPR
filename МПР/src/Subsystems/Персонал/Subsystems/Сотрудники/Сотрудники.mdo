@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5c8c22c-18d3-4195-b868-e0499d2fe39a">
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.ЕжедневныйОтчет</content>
+  <content>Catalog.ИнформационныеКарты</content>
+  <content>Document.ЗарплатаКВыплатеОрганизаций</content>
+  <content>InformationRegister.ВыплаченнаяЗарплата</content>
+  <content>Constant.ВыплачиватьЗарплатуВМагазинах</content>
+  <content>FunctionalOption.ВыплачиватьЗарплатуВМагазинах</content>
+  <content>Enum.ВариантыОтметокОВыплатеЗарплаты</content>
+  <content>Role.ДобавлениеИзменениеЕжедневныхОтчетов</content>
+  <content>Role.ДобавлениеИзменениеИнформацииПоПерсоналу</content>
+  <content>Role.ПодсистемаПерсоналСотрудники</content>
+  <content>Role.ЧтениеЕжедневныхОтчетов</content>
+  <content>Role.ЧтениеИнформацииПоПерсоналу</content>
+  <content>Report.ИспользованиеРабочегоВремени</content>
+  <content>Document.ТабельУчетаРабочегоВремени</content>
+  <content>Role.ЧтениеТабельУчетаРабочегоВремени</content>
+  <content>AccumulationRegister.ФактическоеРабочееВремяСотрудников</content>
+  <content>Role.ДобавлениеИзменениеЧтениеТабельУчетаРабочегоВремени</content>
+  <content>Report.ГрафикРаботыСотрудников</content>
+  <content>Report.ПланФактПоРабочемуВремениСотрудников</content>
+  <content>CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13</content>
+  <content>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>CommonCommand.СогласияНаОбработкуПерсональныхДанныхСотрудников</content>
+  <subsystems>Премирование</subsystems>
+  <parentSubsystem>Subsystem.Персонал</parentSubsystem>
+</mdclass:Subsystem>

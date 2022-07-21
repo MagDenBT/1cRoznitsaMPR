@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d63c924a-9134-4e65-9b51-9f108255909a">
+  <producedTypes>
+    <refType typeId="fd56ef44-923e-419d-bb1f-bf11a3d04bb5" valueTypeId="e7356a20-0505-453d-9872-ac354fbab6d7"/>
+    <listType typeId="e0557519-cd65-40d1-a6f0-e78ea92cde8b" valueTypeId="3219a8a6-0a4c-4176-8747-a0b6b575ab7b"/>
+    <managerType typeId="1c6c1fcd-e157-401b-8234-8f682b023624" valueTypeId="8434e139-47ed-4379-a06d-fbdc7bdbbe83"/>
+  </producedTypes>
+  <name>РеквизитыСопоставленияНоменклатурыБизнесСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты сопоставления номенклатуры 1С:Бизнес-сеть</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9bd8e021-05f6-40f9-b890-013349ffda6b">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="381612ab-db57-4de4-ab98-8f49ad3728d2">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd96d449-0adc-4ffe-a771-f252e04f09e8">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="574f85aa-e3a6-4eae-a310-2a01b1e241f8">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

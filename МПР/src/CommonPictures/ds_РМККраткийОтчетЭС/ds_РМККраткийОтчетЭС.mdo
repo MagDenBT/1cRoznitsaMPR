@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89d6013-1308-400c-b249-3f807de25a60">
+  <name>ds_РМККраткийОтчетЭС</name>
+  <synonym>
+    <key>ru</key>
+    <value>РМК краткий отчет ЭС</value>
+  </synonym>
+</mdclass:CommonPicture>

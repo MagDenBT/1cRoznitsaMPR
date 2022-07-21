@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ea102bc-ca30-4cfe-b098-863a907634fa">
+  <name>ИспользоватьОчередьДляПередачиДокументовДисконтномуСерверу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать очередь для передачи документов дисконтному серверу</value>
+  </synonym>
+  <location>Constant.ИспользоватьОчередьДляПередачиДокументовДисконтномуСерверу</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ПротоколПередачиДокументовДисконтномуСерверу</content>
+</mdclass:FunctionalOption>

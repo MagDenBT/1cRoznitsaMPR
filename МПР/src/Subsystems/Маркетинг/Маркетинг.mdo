@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b55d762-fa76-4b5b-8866-c73657d86127">
+  <name>Маркетинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделМаркетинг</picture>
+  </picture>
+  <content>CommonCommand.ОтчетыПоМаркетингу</content>
+  <content>CommonCommand.ДополнительныеОбработкиМаркетинг</content>
+  <content>CommonCommand.ДополнительныеОтчетыМаркетинг</content>
+  <content>Role.ПодсистемаМаркетинг</content>
+  <content>CommonPicture.ПодсистемаМаркетинг</content>
+  <content>CommonModule.КомпоновкаДанныхСервер</content>
+  <content>CommonModule.КомпоновкаДанныхКлиентСервер</content>
+  <content>Role.ОтчетыИОбработкиМаркетолога</content>
+  <content>Role.ОтчетыПоЭффективности</content>
+  <content>Role.ПодсистемаМаркетингПосетители</content>
+  <content>Report.ABCXYZАнализПродаж</content>
+  <content>CommonPicture.РазделМаркетинг</content>
+  <subsystems>Ассортимент</subsystems>
+  <subsystems>МаркетинговыеАкции</subsystems>
+  <subsystems>Мерчандайзинг</subsystems>
+  <subsystems>ПодарочныеСертификаты</subsystems>
+  <subsystems>Посетители</subsystems>
+  <subsystems>ПрименениеЦен</subsystems>
+  <subsystems>Сегментация</subsystems>
+  <subsystems>Ценообразование</subsystems>
+</mdclass:Subsystem>

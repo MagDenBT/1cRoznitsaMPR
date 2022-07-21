@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea40906f-77a0-4de2-acf3-1aceaf68aedc">
+  <name>ИспользоватьОплатуПлатежнымиКартами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату платежными картами</value>
+  </synonym>
+  <location>Constant.ИспользоватьОплатуПлатежнымиКартами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОплатаОтПокупателяПлатежнойКартой</content>
+  <content>Catalog.УдалитьДоговорыЭквайринга</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.ОплатаПлатежнымиКартами</content>
+  <content>Document.ЧекККМ.TabularSection.Оплата.Attribute.ПроцентКомиссии</content>
+  <content>Document.ЧекККМ.TabularSection.Оплата.Attribute.СуммаКомиссии</content>
+  <content>Document.ЧекККМ.TabularSection.Оплата.Attribute.ЭквайринговыйТерминал</content>
+  <content>Report.ПродажиПоПлатежнымКартам</content>
+  <content>Catalog.ЭквайринговыеТерминалы</content>
+</mdclass:FunctionalOption>

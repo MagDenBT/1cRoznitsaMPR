@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce5a8c3f-b8f6-425f-97ee-1f80e7f4a001">
+  <producedTypes>
+    <managerType typeId="a378d2db-8126-48d1-9600-8a0bab7e6aa5" valueTypeId="54ce023c-d61e-408e-8964-c3dea6bdf5fb"/>
+    <valueManagerType typeId="9b0a40b2-1afb-47e0-9fe1-a22d9480df0e" valueTypeId="2063490b-e012-4852-aa8f-e32b532ce4a6"/>
+    <valueKeyType typeId="4fd5da9a-3f27-4671-b2dc-c5d5936e8db4" valueTypeId="ccd46199-584f-48e3-9af8-6ba15930dc78"/>
+  </producedTypes>
+  <name>ПолныйСлипЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный слип чек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

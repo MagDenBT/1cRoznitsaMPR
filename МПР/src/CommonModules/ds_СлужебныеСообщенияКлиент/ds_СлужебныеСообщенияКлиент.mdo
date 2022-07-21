@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e5da8ff-1ab6-46f5-a4cf-2607de4cb439">
+  <name>ds_СлужебныеСообщенияКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ds) Служебные сообщения клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

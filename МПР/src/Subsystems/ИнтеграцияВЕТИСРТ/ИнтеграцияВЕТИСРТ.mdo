@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b91d46f4-4c59-4dc9-b323-38b4f9d2ac5d">
+  <name>ИнтеграцияВЕТИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ВЕТИС РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияВЕТИСРТКлиентСервер</content>
+  <content>CommonModule.ИнтеграцияВЕТИСРТ</content>
+  <content>Role.ПодсистемыВЕТИС</content>
+  <content>CommonModule.ИнтеграцияВЕТИСРТВызовСервера</content>
+  <content>Report.АнализРасхожденийПриПоступленииПродукцииВЕТИС</content>
+</mdclass:Subsystem>

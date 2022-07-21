@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0921932-a2e4-4eb1-95d6-4ca4536623de">
+  <producedTypes>
+    <managerType typeId="9fc4c467-a516-411e-8098-656297b88142" valueTypeId="b3eb8b76-67e7-4bb3-9228-143fc8497c2a"/>
+    <valueManagerType typeId="4cc5f28c-f553-49a7-93f9-5ea7f2f13a8e" valueTypeId="bdc4fc2e-e6f9-459b-b1a1-81643076df5c"/>
+    <valueKeyType typeId="295c266f-b18f-5837-89f7-c4f1de34c8d3" valueTypeId="3a0b211d-c2b7-5d79-a1e3-181ee8aacf21"/>
+  </producedTypes>
+  <name>ТаймаутПодключенияКДисконтномуСерверу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут подключения к дисконтному серверу</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

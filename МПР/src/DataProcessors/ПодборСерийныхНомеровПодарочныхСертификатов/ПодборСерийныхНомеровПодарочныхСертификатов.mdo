@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbd2111d-e07a-4d5f-83ae-18ffa569770c">
+  <producedTypes>
+    <objectType typeId="4fdeaef1-b801-49bd-9fb1-d7d602bc1a44" valueTypeId="4a9ba38a-2844-492a-b03c-db0c24a2a750"/>
+    <managerType typeId="59dd36ad-c2bc-4a35-ae53-f010ba93cee9" valueTypeId="8d4e939b-a5e9-4655-b420-6021b187f7f1"/>
+  </producedTypes>
+  <name>ПодборСерийныхНомеровПодарочныхСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор серийных номеров подарочных сертификатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5aa4b35a-7e70-43cd-ad2e-0f403d0a7f95">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подарочный сертификат, номера которого выбираются</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыНоменклатуры.EnumValue.ПодарочныйСертификат</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <tabularSections uuid="c4d33ce1-c0a3-437b-ac9b-a47adb248691">
+    <producedTypes>
+      <objectType typeId="ba0adec8-c056-4e6d-bc98-5a7ad21bac35" valueTypeId="f32ab1b8-4e7d-46ea-8efe-f6b8f898941a"/>
+      <rowType typeId="a23207a6-4f19-4665-8192-a8588ec58769" valueTypeId="b4e0a3a8-bf00-484e-844c-6d8c310377b8"/>
+    </producedTypes>
+    <name>СерийныеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийные номера</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Номера подарочных сертификатов</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2dae50a1-b789-4174-a2a6-4f2b82fd4958">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерийныеНомера</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер подарочного сертификата</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f995a63d-1d49-4c62-8f4b-51d62fcc5c71">
+    <name>ФормаВводаСерийныхНомеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода серийных номеров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

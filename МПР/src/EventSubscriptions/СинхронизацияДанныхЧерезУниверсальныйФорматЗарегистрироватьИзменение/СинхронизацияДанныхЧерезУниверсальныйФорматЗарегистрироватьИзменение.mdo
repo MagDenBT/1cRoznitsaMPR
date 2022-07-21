@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6e50c17-d014-416b-b15f-207c375b8dae">
+  <name>СинхронизацияДанныхЧерезУниверсальныйФорматЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных через универсальный формат зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СтраныМира</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.КлассификаторТНВЭД</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject.СтатьиДвиженияДенежныхСредств</types>
+    <types>CatalogObject.ПравилаЦенообразования</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.СерииНоменклатуры</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.СинхронизацияДанныхЧерезУниверсальныйФорматПередЗаписью</handler>
+</mdclass:EventSubscription>

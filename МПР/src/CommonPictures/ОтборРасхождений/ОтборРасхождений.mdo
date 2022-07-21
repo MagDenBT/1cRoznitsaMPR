@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="647836c1-1ac5-4dca-850f-a9430b97779c">
+  <name>ОтборРасхождений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отбор расхождений</value>
+  </synonym>
+  <transparentPixel>
+    <x>2</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

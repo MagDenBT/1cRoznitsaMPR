@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6ab2ed6-0dd8-4aec-96a6-99b2cd32d9c4">
+  <name>УдалитьУзелОбменаСПодключаемымОборудованиемOffline</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить узел обмена с подключаемым оборудованием offline</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ПодключаемоеОборудование</types>
+    <types>CatalogObject.ОфлайнОборудование</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ОбменДаннымиПодключаемоеОборудованиеOfflineСобытия.УдалитьУзелОбменаСПодключаемымОборудованиемOffline</handler>
+</mdclass:EventSubscription>

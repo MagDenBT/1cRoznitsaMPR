@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="797257a2-0d43-4205-9589-cab851b11361">
+  <producedTypes>
+    <objectType typeId="213fb24a-50fe-42be-9558-f3ff62a7734d" valueTypeId="0d9e3fa4-455a-4eea-bc78-2327e66e36e8"/>
+    <managerType typeId="c2df26fb-5940-4105-b1ba-8b06545d4d13" valueTypeId="14fca81f-c74f-4732-b9c2-1856ff437f03"/>
+  </producedTypes>
+  <name>МониторПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор показателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.МониторПоказателей.Form.ФормаОтчета</defaultForm>
+  <defaultSettingsForm>Report.МониторПоказателей.Form.ФормаНастроекМонитора</defaultSettingsForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="edf92cf6-cb01-4605-a2f4-3b35bc9d4271">
+    <name>ФормаНастроекМонитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек монитора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62a460e1-e738-4a1a-a9eb-5e2ca9e7f6ee">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8bcf12fc-a249-4fff-b43b-89b8f9c5b7bd">
+    <name>ФормаПодбораФорматовМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора форматов магазина</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb295385-e2d3-4868-9a42-cfdc5fcebafe">
+    <name>ФормаПодбораМагазинов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора магазинов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

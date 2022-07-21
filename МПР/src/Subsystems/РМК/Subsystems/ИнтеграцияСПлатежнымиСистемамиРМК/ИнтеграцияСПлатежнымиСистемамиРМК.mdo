@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d606755-148d-4871-8584-3d8a0a4058d1">
+  <name>ИнтеграцияСПлатежнымиСистемамиРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с платежными системами РМК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКПереопределяемый</content>
+  <content>InformationRegister.СоответствиеНастроекИнтеграции</content>
+  <content>DefinedType.ВидОплатыРМК</content>
+  <content>DefinedType.ОрганизацияРМК</content>
+  <content>DefinedType.ТорговыйОбъектРМК</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиентСервер</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМККлиент</content>
+  <content>CommonModule.ИнтеграцияСПлатежнымиСистемамиРМКВызовСервера</content>
+  <content>DefinedType.СпособОплатыПлатежныхСистемРМК</content>
+  <parentSubsystem>Subsystem.РМК</parentSubsystem>
+</mdclass:Subsystem>

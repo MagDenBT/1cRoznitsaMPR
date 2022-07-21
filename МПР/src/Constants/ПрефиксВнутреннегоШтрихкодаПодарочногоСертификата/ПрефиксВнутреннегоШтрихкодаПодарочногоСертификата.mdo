@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="405f361b-7f11-4976-8bf1-d1aab9bc1d61">
+  <producedTypes>
+    <managerType typeId="f14459ad-86f2-4dd8-bc0c-d44138854b62" valueTypeId="50cee540-c47a-4485-acf8-6bb59adcd48d"/>
+    <valueManagerType typeId="3e50e00e-44b7-45c9-b451-84f0415d4c90" valueTypeId="8da0c639-400f-43d2-b655-14053faaf572"/>
+    <valueKeyType typeId="c7e290bc-a724-41c5-9568-4fcb0fbf74a0" valueTypeId="c7a298fa-a5c9-4f06-8fa4-0ef01a9fd2c4"/>
+  </producedTypes>
+  <name>ПрефиксВнутреннегоШтрихкодаПодарочногоСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс внутреннего штрихкода подарочного сертификата</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

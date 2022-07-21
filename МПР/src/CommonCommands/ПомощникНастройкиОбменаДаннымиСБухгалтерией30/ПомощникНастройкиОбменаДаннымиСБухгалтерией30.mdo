@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36d40db1-1b08-4ced-9c8b-e45c7320b570">
+  <name>ПомощникНастройкиОбменаДаннымиСБухгалтерией30</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник настройки обмена данными с бухгалтерией 3.0</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

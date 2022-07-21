@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68e3f647-60fd-4aa1-9bc2-3d3550487d35">
+  <name>egais_QueryFilter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Egais query filter</value>
+  </synonym>
+  <namespace>http://fsrar.ru/WEGAIS/QueryFilter</namespace>
+</mdclass:XDTOPackage>

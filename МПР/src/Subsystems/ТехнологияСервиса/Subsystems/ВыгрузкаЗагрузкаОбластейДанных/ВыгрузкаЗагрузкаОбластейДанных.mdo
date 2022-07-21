@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42ebbcf1-308f-4b86-ba33-3c32036dffa6">
+  <name>ВыгрузкаЗагрузкаОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка областей данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ВыгрузкаЗагрузкаОбластейДанных</content>
+  <content>CommonCommand.ПереносДанныхПриложения</content>
+  <content>CommonCommand.ПерейтиВОблачныйСервис</content>
+  <content>CommonForm.ЗагрузкаДанныхИзСервиса</content>
+  <content>CommonModule.ВыгрузкаОбластейДанныхДляТехническойПоддержки</content>
+  <content>CommonModule.ВыгрузкаОбластейДанныхДляТехническойПоддержкиПовтИсп</content>
+  <content>CommonModule.ОбработкаТиповИсключаемыхИзВыгрузки</content>
+  <content>CommonModule.ОбработкаТиповИсключаемыхИзВыгрузкиПовтИсп</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

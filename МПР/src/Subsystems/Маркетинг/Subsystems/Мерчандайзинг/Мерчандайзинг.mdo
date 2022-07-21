@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea7f0e29-4499-4763-9710-e176831269db">
+  <name>Мерчандайзинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мерчандайзинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УстановкаПлощадиВыкладки</content>
+  <content>Report.ВыручкаНаКвадратныйМетрТорговойПлощади</content>
+  <content>Report.ИспользованиеПлощадиТорговогоПространства</content>
+  <content>Role.ПодсистемаМаркетингМерчандайзинг</content>
+  <parentSubsystem>Subsystem.Маркетинг</parentSubsystem>
+</mdclass:Subsystem>

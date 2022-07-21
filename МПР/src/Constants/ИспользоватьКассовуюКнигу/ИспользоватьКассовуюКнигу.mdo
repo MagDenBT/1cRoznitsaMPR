@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09805eb-9975-470c-808d-071247561b63">
+  <producedTypes>
+    <managerType typeId="95530c6a-cff0-4f33-b756-3722a3db3e59" valueTypeId="abee437f-3adb-42ce-842e-1b36d6708f76"/>
+    <valueManagerType typeId="905f534a-706b-492d-a8a1-48501564e5d2" valueTypeId="bcf8fae6-c1d5-41b2-86a9-78c1209a7eae"/>
+    <valueKeyType typeId="6deea4d7-6363-510e-80cc-52f3ce862940" valueTypeId="3e6d3c20-8b28-5906-aac4-abeb82b6f37d"/>
+  </producedTypes>
+  <name>ИспользоватьКассовуюКнигу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кассовую книгу</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb8468b-4d90-4f23-9809-bf46a9c7ca21">
+  <name>КоллекцияВидыПринтеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция виды принтеров</value>
+  </synonym>
+</mdclass:CommonPicture>

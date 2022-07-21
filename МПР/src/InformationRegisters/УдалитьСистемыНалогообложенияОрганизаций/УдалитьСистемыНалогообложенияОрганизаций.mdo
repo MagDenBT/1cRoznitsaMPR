@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02b2c48d-b451-472c-8286-da33818157be">
+  <producedTypes>
+    <selectionType typeId="876827ec-356d-4500-a7de-840589999799" valueTypeId="b4b9493a-05c7-48e8-a53a-0508cb890565"/>
+    <listType typeId="5ebdc843-6d0a-4769-8f75-cea965e27b6e" valueTypeId="7989c9b1-2225-40bf-890a-9a99c35d23b9"/>
+    <managerType typeId="d99323d7-b53e-4775-bc10-3eedd257bd4b" valueTypeId="8ad1e469-6ac5-4862-b618-aa2ea7d9148a"/>
+    <recordSetType typeId="51e49166-2191-42ff-8885-c88881c7bfd5" valueTypeId="c6c456fb-99ef-43c4-b01e-f5672d1d14be"/>
+    <recordKeyType typeId="5efd1573-15ed-4008-ab65-cae240d7d10f" valueTypeId="edf3ce10-f7bb-4ba7-a9a2-634c96d6c196"/>
+    <recordType typeId="d5f05c28-a2af-4ec7-bbc0-ba7f18a9fa00" valueTypeId="eb8b73bc-3f09-4640-9835-f83ac1e7c5d8"/>
+    <recordManagerType typeId="39fa36b2-f3b9-4f19-9ff4-a97c214cca99" valueTypeId="75bf6673-31d6-45af-a9d6-d4dd05845faa"/>
+  </producedTypes>
+  <name>УдалитьСистемыНалогообложенияОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не использовать) Системы налогообложения организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.УдалитьСистемыНалогообложенияОрганизаций.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата регистрации организации или дата перехода на новую систему налогообложения</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Система налогообложения организации</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Системы налогообложения</value>
+  </listPresentation>
+  <resources uuid="75ef954b-cda7-4244-a4c9-b474d7e9dfac">
+    <name>СистемаНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система налогообложения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УдалитьСистемыНалогообложения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Система налогообложения согласно законодательства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.УдалитьСистемыНалогообложения.EnumValue.Общая</value>
+    </fillValue>
+  </resources>
+  <resources uuid="4db82c43-613c-41ee-922f-bde96b5b8e2e">
+    <name>ОбъектНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект налогообложения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УдалитьОбъектыНалогообложенияПоУСН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="66c1fd52-1462-4cca-8aa2-518a97e5f0e0">
+    <name>НеЯвляетсяПлательщикомНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не является плательщиком НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="75d1fb40-9fe1-4c18-b13a-73a1d35e6a8e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой задается система налогообложения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="327cddba-003c-49ee-8e4e-7672f751564c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec7d5e5b-9096-4940-9b30-0460d6f9287b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

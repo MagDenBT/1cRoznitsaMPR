@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b55dae58-23bd-40e9-a205-806f7b7a1db7">
+  <name>СторнироватьБонусныеБаллыПоДокументу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сторнировать бонусные баллы по документу</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.БонусныеБаллыСервер.СторнироватьБонусныеБаллыПоДокументуПередЗаписью</handler>
+</mdclass:EventSubscription>

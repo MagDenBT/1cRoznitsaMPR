@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efef7928-8039-41ba-9dbe-01891ee884d1">
+  <name>ИспользоватьБонусныеПрограммыЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бонусные программы лояльности</value>
+  </synonym>
+  <location>Constant.ИспользоватьБонусныеПрограммыЛояльности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.НачислениеИСписаниеБонусныхБаллов</content>
+  <content>Catalog.ПравилаНачисленияБонусныхБаллов</content>
+  <content>Catalog.БонусныеПрограммыЛояльности</content>
+  <content>AccumulationRegister.БонусныеБаллы</content>
+  <content>Report.БонусныеБаллы</content>
+  <content>Catalog.ИнформационныеКарты.Attribute.БонуснаяПрограммаЛояльности</content>
+  <content>Catalog.ИнформационныеКарты.Attribute.КартаДляНакоплений</content>
+  <content>Subsystem.Маркетинг.Subsystem.МаркетинговыеАкции.Subsystem.БонусныеПрограммы</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.БонусныеБаллыКНачислению</content>
+  <content>Document.ОтчетОРозничныхПродажах.TabularSection.ОплатаБонуснымиБаллами</content>
+  <content>Document.ВозвратТоваровОтПокупателя.TabularSection.БонусныеБаллыКНачислению</content>
+  <content>Document.ВозвратТоваровОтПокупателя.TabularSection.Товары.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>Document.РеализацияТоваров.TabularSection.БонусныеБаллыКНачислению</content>
+  <content>Document.ЧекККМ.TabularSection.БонусныеБаллыКНачислению</content>
+  <content>Document.ЧекККМ.TabularSection.Товары.Attribute.СуммаСкидкиОплатыБонусом</content>
+  <content>InformationRegister.ШаблоныРегистрацииНовыхКарт.Resource.БонуснаяПрограммаЛояльности</content>
+  <content>Catalog.НастройкиРМК.Attribute.КопироватьПараметрыБонусовПриЗаменеКарты</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4ad818d-fcf8-4261-90c0-71f2a3065105">
+  <producedTypes>
+    <selectionType typeId="ee5d0e86-84a8-4347-a436-ad8d138fbd2a" valueTypeId="a3a9ce98-301a-4dba-8d36-89fd5d46ec60"/>
+    <listType typeId="e90e1b57-bcf5-419b-b154-06f026411f0d" valueTypeId="eeaf748f-75ac-4064-a578-968f375c16d8"/>
+    <managerType typeId="e457e4cb-21b1-4352-86d9-ad858254e61e" valueTypeId="33b65223-2f20-42da-9d6c-9c0d168b8ddc"/>
+    <recordSetType typeId="3bb1bb7f-22f7-409d-aa15-ff6356134af7" valueTypeId="6ea4c0e8-935c-4c5f-909b-42e416a91274"/>
+    <recordKeyType typeId="25cf068a-a5f1-4ed0-b198-dfc849d1a531" valueTypeId="e79a284d-f173-45e7-8c08-fae2f46ae81d"/>
+    <recordType typeId="787bec96-32f9-4411-be1b-c6fcbe46d34d" valueTypeId="a61893f8-dec4-4f8b-a6de-6d761741b50a"/>
+    <recordManagerType typeId="0e1011b2-aa7a-4e51-9079-0dfadff9dd07" valueTypeId="a9ad2d5d-9103-4185-b6ae-5a560c41f96b"/>
+  </producedTypes>
+  <name>ds_ДанныеЗаполненияКассовыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные заполнения кассовых документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0b205bc6-0d3a-4868-8863-b021c994ceb5">
+    <name>Выдать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ds_ИсточникЗаполненияПечатныхФормКассовыхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кому выданы денежные средства (используется для печатной формы)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2106f9a-5e57-47de-8612-0e088a076318">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ds_ИсточникЗаполненияПечатныхФормКассовыхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержание хозяйственной операции (используется для печатной формы)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="874c885f-d232-46c0-8525-a7beb81a7b47">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ds_ИсточникЗаполненияПечатныхФормКассовыхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перечисляются прилагаемые первичные и другие документы с указанием номеров и дат их составления (используется для формирования печатной формы)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d8af2718-859f-4bcd-9fc5-4554c601aca8">
+    <name>ПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По документу</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ds_ИсточникЗаполненияПечатныхФормКассовыхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Паспортные данные физ. лица, которому выдаются денежные средства (используется для печатной формы)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dd2dd6b2-9c09-4511-8895-8a63e6bdacb3">
+    <name>ХозяйственнаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозяйственная операция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ХозяйственныеОперации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хозяйственная операция расходного кассового ордера</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ХозяйственныеОперации.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f0bcf42f-2b27-4808-b964-854789fd139d">
+    <name>СтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья движения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья движения ДС операции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ХозяйственнаяОперация</name>
+      <field>0:b7e8db54-dfd4-4feb-8ee7-6fba741fd852</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

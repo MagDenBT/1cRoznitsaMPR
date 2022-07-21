@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f427ae9a-e783-4357-bc54-813fb1b708f7">
+  <name>ds_ОбменСОфисомРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с офисом регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.УстановкаСебестоимости</types>
+    <types>DocumentObject.СборкаТоваров</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.ПоступлениеТоваров</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РеализацияТоваров</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ds_ОбменСОфисом.ОбменСОфисомРегистрацияДокументаПередЗаписью</handler>
+</mdclass:EventSubscription>

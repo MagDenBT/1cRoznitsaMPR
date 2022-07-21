@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88101275-142b-45ee-a985-ab40512ac78e">
+  <producedTypes>
+    <objectType typeId="0afea942-5084-46e2-b88a-15e91158b0b0" valueTypeId="adeb5c18-1f40-49ed-98e0-526c83db7815"/>
+    <managerType typeId="70cde4ad-eac9-4f77-8760-6ae4c9fc4a37" valueTypeId="bbc18f55-7e27-4914-a079-80a680d093a4"/>
+  </producedTypes>
+  <name>ПланФактПоРабочемуВремениСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>План факт по рабочему времени сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПланФактПоРабочемуВремениСотрудников.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПланФактПоРабочемуВремениСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="1f38a7fd-4afa-4c97-8f0a-818f1ba10b59">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ab081be3-8fa3-42d4-8ad6-60f5fe41134d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

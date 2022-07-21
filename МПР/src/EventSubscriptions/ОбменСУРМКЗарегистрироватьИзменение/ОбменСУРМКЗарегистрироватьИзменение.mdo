@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="629b637a-bcad-4bbc-aab4-13421a480e88">
+  <name>ОбменСУРМКЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с УРМК зарегистрировать изменение</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СерийныеНомера</types>
+    <types>CatalogObject.ХарактеристикиНоменклатуры</types>
+    <types>CatalogObject.БазовыеЕдиницыИзмерения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>CatalogObject.ЭквайринговыеТерминалы</types>
+    <types>CatalogObject.УпаковкиНоменклатуры</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Магазины</types>
+    <types>CatalogObject.СерииНоменклатуры</types>
+    <types>CatalogObject.ВидыЦен</types>
+    <types>CatalogObject.ИнформационныеКарты</types>
+    <types>CatalogObject.ВидыНоменклатуры</types>
+    <types>CatalogObject.Организации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияРТ.ОбменСУРМКПередЗаписью</handler>
+</mdclass:EventSubscription>

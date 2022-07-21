@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c363822f-5de1-4665-95b5-59a71acd4240">
+  <producedTypes>
+    <managerType typeId="bf4b4702-fd82-4444-854e-22e5318ca7ec" valueTypeId="0f1ff5fd-b6fa-466b-a1c8-5c8c77b0c7c6"/>
+    <valueManagerType typeId="517e2be7-e1d3-4808-9496-3bea435ab73d" valueTypeId="b4511f6a-ecea-419d-b5af-9c9333bc616f"/>
+    <valueKeyType typeId="01b9f030-d6db-4b6d-84d6-43e9ae337622" valueTypeId="f7c5dba8-5084-4ec5-9959-b9ed1129e4b8"/>
+  </producedTypes>
+  <name>ИспользоватьТестовыйРежимDirectBank</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать тестовый режим DirectBank</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

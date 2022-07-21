@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee69d90f-8121-4397-9766-d8e0ceb82f6a">
+  <name>ПодарочныеСертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подарочные сертификаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.АнализПогашенияСертификатов</content>
+  <content>Report.ВедомостьДвиженияПодарочныхСертификатов</content>
+  <content>Report.ОтчетЭмитентуПоПодарочнымСертификатам</content>
+  <content>Report.ОтчетОДвиженияхСертификатов</content>
+  <content>Role.ПодсистемаФинансыПодарочныеСертификаты</content>
+  <parentSubsystem>Subsystem.Финансы</parentSubsystem>
+</mdclass:Subsystem>

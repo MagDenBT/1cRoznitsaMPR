@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77d93c36-cb1c-4ab9-a655-a3eaba11cdba">
+  <name>ИнструкцияПоПереходуВСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструкция по переходу в сервис 1cfresh.com</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

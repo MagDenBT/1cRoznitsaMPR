@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6642110-fdef-420e-a0f9-35e0a905558c">
+  <producedTypes>
+    <objectType typeId="03782fb6-f396-41e9-90fc-3c7279c69b98" valueTypeId="62c367e7-2ed3-49af-907b-f6bf5311c104"/>
+    <managerType typeId="847eaf52-398f-42de-93db-259a3e01b4ae" valueTypeId="2bf2b163-6142-4517-abec-435a7a81388d"/>
+  </producedTypes>
+  <name>ПремииПоЛичнымПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премии по личным продажам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПремииПоЛичнымПродажам.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПремииПоЛичнымПродажам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d4533a43-a647-4ddc-bc08-75d9fdbe6559">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6517a8ff-904f-4a35-9103-8fa1d323edcb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

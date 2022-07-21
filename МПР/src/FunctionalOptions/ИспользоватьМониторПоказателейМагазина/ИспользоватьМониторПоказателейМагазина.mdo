@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18b8838b-8530-4448-b6ee-a0d84260c647">
+  <name>ИспользоватьМониторПоказателейМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать монитор показателей магазина</value>
+  </synonym>
+  <location>Constant.ИспользоватьМониторПоказателейМагазина</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.МониторПоказателей</content>
+</mdclass:FunctionalOption>

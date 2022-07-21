@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.НастройкиОбменаЕГАИС.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.ПанельАдминистрированияВЕТИС.Command.ПанельАдминистрированияВЕТИС</commands>
+      <commands>DataProcessor.ПанельАдминистрированияИСМП.Command.ПанельАдминистрированияИСМП</commands>
+      <commands>DataProcessor.ПанельАдминистрированияГИСМ.Command.ПанельАдминистрированияГИСМ</commands>
+      <commands>DataProcessor.ПанельАдминистрированияЕГАИС.Command.ПанельАдминистрированияЕГАИС</commands>
+      <commands>InformationRegister.НастройкиОбменаЕГАИС.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

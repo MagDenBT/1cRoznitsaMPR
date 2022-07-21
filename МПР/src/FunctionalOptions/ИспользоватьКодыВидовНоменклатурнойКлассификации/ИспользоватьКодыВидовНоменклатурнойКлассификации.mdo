@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5dcbb88-4cbc-4dd2-925e-18bf37f48bc2">
+  <name>ИспользоватьКодыВидовНоменклатурнойКлассификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать коды видов номенклатурной классификации</value>
+  </synonym>
+  <location>Constant.ИспользоватьКодыВидовНоменклатурнойКлассификации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.КодВидаНоменклатурнойКлассификации</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f0d9961-86c2-40f5-b4e0-bdc583d556b9">
+  <name>ИнтеграцияЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЕГАИС РТ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.УдалитьСоответствиеНоменклатурыЕГАИС</content>
+  <content>DataProcessor.СопоставлениеОрганизацийЕГАИСРТ</content>
+  <content>DataProcessor.СопоставлениеНоменклатурыЕГАИСРТ</content>
+  <content>Document.УдалитьВскрытиеТарыЕГАИС</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТ</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТВызовСервера</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТПовтИсп</content>
+  <content>Role.СопоставлениеНоменклатурыЕГАИС</content>
+  <content>Role.СопоставлениеОрганизацийЕГАИС</content>
+  <content>FunctionalOption.ВестиСведенияДляДекларацийПоАлкогольнойПродукцииРТ</content>
+  <content>CommonForm.ФормаВводаАкцизнойМарки</content>
+  <content>CommonForm.ФормаВводаАкцизныхМарок</content>
+  <content>Constant.ПроверятьНеобходимостьСозданияДокументовЕГАИС</content>
+  <content>Enum.СтатусыОбработкиВскрытияТарыЕГАИС</content>
+  <content>InformationRegister.ДанныеОбработкиПомощникИсправленияЕдиницИзмерения</content>
+  <content>InformationRegister.УдалитьСоответствиеОрганизацийЕГАИС</content>
+  <content>CommonModule.ИнтеграцияЕГАИСРТКлиентСервер</content>
+  <content>Role.ЧтениеДокументовЕГАИСРТ</content>
+  <content>Role.УдалитьДобавлениеИзменениеПередачВРегистр2ЕГАИСРТ</content>
+  <content>Role.ДобавлениеИзменениеДокументовЕГАИСРТ</content>
+  <content>Role.ДобавлениеИзменениеАктовЕГАИСРТ</content>
+  <content>Role.ДобавлениеИзменениеЧековЕГАИСРТ</content>
+  <content>97d93a1a-5f8e-4754-b9fb-fb245598f915</content>
+  <content>CommonModule.КорректировкаОстатковЕГАИСКлиентПереопределяемый</content>
+  <content>CommonModule.КорректировкаОстатковЕГАИСПереопределяемый</content>
+  <content>EventSubscription.ПриСозданииТТНВходящаяНаОснованииПеремещениеТоваров</content>
+  <content>DefinedType.ДокументПоступленияЕГАИС</content>
+  <content>CommonPicture.МаркируемаяАлкогольнаяПродукцияШапкаТЧ</content>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9259b9ad-5afa-4cf0-9af2-f2ea2f49cab8">
+  <name>egais_ReplyFilter</name>
+  <synonym>
+    <key>ru</key>
+    <value>Egais reply filter</value>
+  </synonym>
+  <namespace>http://fsrar.ru/WEGAIS/ReplyFilter</namespace>
+</mdclass:XDTOPackage>

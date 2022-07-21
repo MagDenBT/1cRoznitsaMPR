@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcee41d2-9e27-4aec-8115-7cdc2280f102">
+  <name>ПолучениеОбновленийПрограммыРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение обновлений программы РТ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

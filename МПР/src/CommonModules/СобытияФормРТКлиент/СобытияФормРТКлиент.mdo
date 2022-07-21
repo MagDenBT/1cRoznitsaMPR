@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="737a4996-dbc8-46d1-a0e7-fac8bc297ab6">
+  <name>СобытияФормРТКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>События форм клиент РТ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Form events client localization</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c5417da-e4cd-44b3-849b-9e03654ed2b1">
+  <producedTypes>
+    <managerType typeId="59d432e2-1428-404f-9583-685f98c40022" valueTypeId="672f4629-0089-4c23-89db-57ba1cbcf722"/>
+    <valueManagerType typeId="83ce943b-41d1-45dc-93c6-5e6e61876839" valueTypeId="102c8328-c2e6-4fc7-935f-0fea6d7ff82f"/>
+    <valueKeyType typeId="dc424d76-8a75-5899-b5d1-9662b5745059" valueTypeId="74428d33-bdd6-5279-b4f8-64017c92eb80"/>
+  </producedTypes>
+  <name>ИспользоватьЛогированиеДействийКассираВРМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать логирование действий кассира в РМК</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>При включении константы необходимо настроить виды логируемых операций и элементы справочника «Настройки РМК»</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

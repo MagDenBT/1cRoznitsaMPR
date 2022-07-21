@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4b4cd6-96af-4b67-9a01-064c2795fad6">
+  <producedTypes>
+    <managerType typeId="70665ccf-ce8f-4324-bf8f-dbd4be44d32b" valueTypeId="fed4525a-0c11-49c7-9053-d87b0a762330"/>
+    <valueManagerType typeId="f21ab0b6-5a24-4d18-972b-15123dd57c49" valueTypeId="695acc3c-10fe-4d81-ba60-c599e788920a"/>
+    <valueKeyType typeId="447bdf19-e690-4261-9f47-fc57d1b9f066" valueTypeId="84ef240a-3f28-4358-8ec4-163475ab5770"/>
+  </producedTypes>
+  <name>ЕНВДВОрганизациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации с ЕНВД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

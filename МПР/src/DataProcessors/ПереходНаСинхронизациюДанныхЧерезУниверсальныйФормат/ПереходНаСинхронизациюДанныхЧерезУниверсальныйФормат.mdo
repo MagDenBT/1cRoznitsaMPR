@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69cc2c1e-9a97-4e6c-8a53-ba2301d3f61f">
+  <producedTypes>
+    <objectType typeId="30bb92c2-06e2-4660-ad43-e4cdb12dc0c4" valueTypeId="b6ba9461-4eb5-4775-8def-b01c0d7f3c32"/>
+    <managerType typeId="960da2f4-5afc-4115-a428-92ab310a41c6" valueTypeId="0c7295c7-a3fa-4dc1-890d-d61fc94380eb"/>
+  </producedTypes>
+  <name>ПереходНаСинхронизациюДанныхЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход на синхронизацию данных через универсальный формат</value>
+  </synonym>
+  <comment>Переход на синхронизацию данных через универсальный формат EnterpriseData</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереходНаСинхронизациюДанныхЧерезУниверсальныйФормат.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e49bd278-3c5e-4d03-a5e9-07e66b53f5cf">
+    <name>НастройкаСинхронизацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка синхронизации данных</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ed18006b-a169-4489-86c0-e45eee64bb5f">
+    <name>НастройкаСинхронизацииЧерезУниверсальныйФормат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка синхронизации через универсальный формат</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияДанныхЧерезУниверсальныйФормат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e8126e59-963b-4e59-b4d3-c90d076a05a0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

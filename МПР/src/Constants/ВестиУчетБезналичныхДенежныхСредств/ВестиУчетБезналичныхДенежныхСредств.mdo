@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="580a83fd-7062-4cd5-92de-c03bf67590c3">
+  <producedTypes>
+    <managerType typeId="ebcdaf28-a71e-4b7f-aecf-cf63cdfeae19" valueTypeId="ec050209-3b45-49a1-979b-37fd59b4635a"/>
+    <valueManagerType typeId="0b44d201-217d-4753-9dc6-e30b513fcacb" valueTypeId="eb0be68c-262c-4384-9385-c46e195e1eff"/>
+    <valueKeyType typeId="547e866f-4c7b-4586-ab82-8077b182ee5c" valueTypeId="3df78fe2-a55e-4853-92d9-01b7d6a3f45a"/>
+  </producedTypes>
+  <name>ВестиУчетБезналичныхДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет безналичных денежных средств</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07392695-ab3c-429a-896e-8de7fca09433">
+  <name>СервисЛояльности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис лояльности</value>
+  </synonym>
+  <rootURL>loyaltyservice</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e0c5bdf0-f740-4f5f-8163-33df54ae0af2">
+    <name>ПолучитьБонусыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить бонусы клиента</value>
+    </synonym>
+    <template>/getclientbonuses/</template>
+    <methods uuid="49263947-3a82-42d6-84c4-048d629e17f4">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьБонусыКлиентаGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a052e13f-4aef-45c9-97b4-d6c18317fa88">
+    <name>РазблокироватьБонусыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокировать бонусы клиента</value>
+    </synonym>
+    <template>/unlockclientbonuses/</template>
+    <methods uuid="857ffed1-377a-471c-9b3b-a3d415e3dcaf">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>РазблокироватьБонусыКлиентаPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="805e97e2-200d-4ba2-b020-a917f3f2315b">
+    <name>СписатьБонусыКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списать бонусы клиента</value>
+    </synonym>
+    <template>/writeoffclientbonuses/</template>
+    <methods uuid="b4c7074c-18cf-434d-9dd0-ef76c43653cc">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СписатьБонусыКлиентаPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="416f8e2b-ad66-4111-a6a8-d8eb598f80e2">
+    <name>ВыдатьКартуКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдать карту клиенту</value>
+    </synonym>
+    <template>/issueclientcard/</template>
+    <methods uuid="0d7c9d62-7f80-4518-8bb0-78634c186ec9">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыдатьКартуКлиентуPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5ae83dba-8d2d-4b15-9c24-063fe13104e6">
+    <name>ИнформацияОЗапретахПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о запретах продаж</value>
+    </synonym>
+    <template>/salesrestrictionsinfo/</template>
+    <methods uuid="d62ee234-bba0-4b57-9798-71942bf909e1">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ИнфомацияОЗапретахПродажGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ad85cafe-bd8e-4c6b-95a2-5d7e2f277ca2">
+    <name>ПолучитьДанныеПодарочногоСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить данные подарочного сертификата</value>
+    </synonym>
+    <template>/getgiftcardinfo/</template>
+    <methods uuid="789c8900-e5e6-49ff-a1ec-16acbb178701">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ПолучитьДанныеПодарочногоСертификатаGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="201f8e7d-1351-41f8-992b-e416c3895374">
+    <name>РазблокироватьПодарочныйСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокировать подарочный сертификат</value>
+    </synonym>
+    <template>/unlockgiftcard/</template>
+    <methods uuid="e5b4f307-fa29-4b0f-b371-9835b7642be4">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>РазблокироватьПодарочныйСертификатPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5fe290bb-d2f7-4c67-b619-159751be6089">
+    <name>СписатьПодарочныйСертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списать подарочный сертификат</value>
+    </synonym>
+    <template>/writeoffgiftcard/</template>
+    <methods uuid="cde0732a-f573-4235-8cfa-6523db56c733">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СписатьПодарочныйСертификатPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="99faea2f-eac1-4cee-aa00-67951b6270c9">
+    <name>ИспользоватьАвтоматическиеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автоматические скидки</value>
+    </synonym>
+    <template>/useautomaticdiscounts/</template>
+    <methods uuid="4a967be5-9229-47f4-8eea-f18123864fcb">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ИспользоватьАвтоматическиеСкидкиGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="9234fb54-50c1-4940-87c9-9e56f7cbfbdd">
+    <name>РассчитатьАвтоматическиеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитать автоматические скидки</value>
+    </synonym>
+    <template>/calculatediscounts/</template>
+    <methods uuid="c9af0002-f71e-44d0-9c80-79db3005fd92">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>РассчитатьАвтоматическиеСкидкиGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

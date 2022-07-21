@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1adcf740-a705-4cb1-b11f-adfc16cab299">
+  <producedTypes>
+    <objectType typeId="0ca0e412-7390-4124-8a25-c2632a5c1ba5" valueTypeId="d7614d1d-264a-48bc-8d94-cfcfd9c0a2aa"/>
+    <managerType typeId="116892bd-82e4-4af9-b051-7b909f4b51a4" valueTypeId="2e784b4b-a22a-455a-9134-0e9e96a59181"/>
+  </producedTypes>
+  <name>СтатистикаКлючевыхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика ключевых операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтатистикаКлючевыхОпераций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="760b9d23-6992-468b-a9b8-712ac0a06767">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

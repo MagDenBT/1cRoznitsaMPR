@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ad9e536-1680-40c1-bb76-aa857ae5122d">
+  <name>ds_API</name>
+  <synonym>
+    <key>ru</key>
+    <value>API</value>
+  </synonym>
+  <rootURL>api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="376026df-82b8-4c58-bfc3-0913513db806">
+    <name>QueryV1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Query V1</value>
+    </synonym>
+    <template>/v1/</template>
+    <methods uuid="8210cb6e-ae95-43de-b631-43df902a38ca">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>QueryV1POST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

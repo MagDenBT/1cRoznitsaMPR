@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de3f0f8c-9d67-431d-b3a4-87f00ee2cee3">
+  <producedTypes>
+    <managerType typeId="cdf3024d-ebc2-4d26-b3ae-4b4bf07d8077" valueTypeId="05408ced-7d29-47e9-aea1-11b7fce8f749"/>
+    <valueManagerType typeId="6f9c9941-3ce1-42b1-b082-25073e434309" valueTypeId="58f8b371-b757-4e20-b754-ab09f69a207d"/>
+    <valueKeyType typeId="3dbac796-a1ef-4253-a445-6204b7d3b7bc" valueTypeId="6984a403-2bf9-436c-8624-a761e8fc7a18"/>
+  </producedTypes>
+  <name>ИспользоватьМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать машиночитаемые доверенности</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

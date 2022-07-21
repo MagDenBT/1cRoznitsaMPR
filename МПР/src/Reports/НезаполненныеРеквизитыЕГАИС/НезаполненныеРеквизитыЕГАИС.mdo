@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcaeba7e-da25-4d52-a8f8-301134852777">
+  <producedTypes>
+    <objectType typeId="a4857196-3644-48af-8cdd-161b5d21a0bb" valueTypeId="6fa624e7-3cb6-4345-bdc2-ae27661710a0"/>
+    <managerType typeId="ef22acea-27d8-4348-b185-fcbe10c22cc0" valueTypeId="58a7cf5b-284e-4ac6-90e5-92bc5d8554b4"/>
+  </producedTypes>
+  <name>НезаполненныеРеквизитыЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Незаполненные реквизиты ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НезаполненныеРеквизитыЕГАИС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="124f30ea-2f51-40bd-ab1b-c13f69e9951f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

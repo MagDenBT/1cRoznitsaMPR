@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="623b9efb-c015-4a43-9e11-219c6107da87">
+  <name>ВетИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вет ИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ИнтеграцияВЕТИСРТВызовСервера</content>
+  <content>CommonModule.СобытияФормВЕТИСРТ</content>
+  <content>CommonModule.СобытияФормВЕТИСРТКлиент</content>
+  <content>CommonModule.ИнтеграцияВЕТИСРТКлиент</content>
+  <parentSubsystem>Subsystem.Служебная.Subsystem.ОбъектыСвязанные_ГосИС</parentSubsystem>
+</mdclass:Subsystem>

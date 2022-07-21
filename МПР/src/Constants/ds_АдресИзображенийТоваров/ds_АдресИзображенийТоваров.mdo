@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f76eae7-461b-4c28-8de2-23c17b13a8a0">
+  <producedTypes>
+    <managerType typeId="1a2c7e4e-9877-4ec9-ac26-582b2fb16dfd" valueTypeId="54154ddc-e074-4e05-8dde-db74e2e651c9"/>
+    <valueManagerType typeId="7fbe6e4b-b53d-42b4-b49d-dae638d3c2c3" valueTypeId="7e78a6ff-4493-478c-bc3a-eb03f516fba0"/>
+    <valueKeyType typeId="45ea7684-245c-409e-8a39-d5163e1ffd90" valueTypeId="b3d58e94-bdf8-44ae-82c9-9717ae8d06c1"/>
+  </producedTypes>
+  <name>ds_АдресИзображенийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес изображений товаров (web)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

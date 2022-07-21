@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c61332f-0cfd-445e-8269-9f894bb98af7">
+  <name>ДобавлениеИзменениеЧековЕГАИСРТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение чеков ЕГАИС РТ</value>
+  </synonym>
+</mdclass:Role>
