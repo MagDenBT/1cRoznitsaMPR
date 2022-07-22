@@ -11,10 +11,10 @@
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3810c4c1-8568-469c-9924-56e98c186246"/>
   <defaultForm>ExternalDataProcessor.ОбменВБ.Form.Форма</defaultForm>
   <attributes uuid="9244b343-039e-4bbf-bb1c-bd5b0fe18195">
-    <name>АдресСервиса</name>
+    <name>АдресСервисаAPI2</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес сервера</value>
+      <value>Адрес сервера для нового API</value>
     </synonym>
     <type>
       <types>String</types>
@@ -26,10 +26,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="b3003db3-bef7-40a8-93ed-58acbece7d3f">
-    <name>Токен</name>
+    <name>ТокенAPI2</name>
     <synonym>
       <key>ru</key>
-      <value>Токен</value>
+      <value>Токен для нового API</value>
     </synonym>
     <type>
       <types>String</types>
@@ -65,6 +65,36 @@
       <key>ru</key>
       <value>Не учитывать последний символ артикула с WB</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d3aaf4e-131f-43ca-a894-da950b692600">
+    <name>АдресСервисаAPI1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера для старого API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fd9fe794-5031-4cf5-bf7b-fa5e2933e82d">
+    <name>ТокенAPI1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен для старого API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
