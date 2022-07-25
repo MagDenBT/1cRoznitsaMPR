@@ -7083,6 +7083,7 @@
   <dataProcessors>DataProcessor.УчетныеЗаписиЭДО</dataProcessors>
   <dataProcessors>DataProcessor.ФайлыБТС</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектронноеВзаимодействие</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменВБ</dataProcessors>
   <informationRegisters>InformationRegister.АбонентыЭДО</informationRegisters>
   <informationRegisters>InformationRegister.АвторизацияВСервисе1СФреш</informationRegisters>
   <informationRegisters>InformationRegister.АдресаЗонОтветственностиВЕТИС</informationRegisters>

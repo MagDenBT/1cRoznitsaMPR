@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f0a4001-2d23-4fcd-97a7-2ab9824e3360">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a3b25a-3eec-4f94-a23b-4fb1f16d18ad">
   <producedTypes>
-    <objectType typeId="470921df-7e08-4e1f-b5f8-0ca4af18e9f5" valueTypeId="52023cb9-dab2-4159-8664-d0fa189b08a6"/>
+    <objectType typeId="e273f655-6662-4587-b63f-3f883a231ee8" valueTypeId="848664cf-ed56-45fa-8eeb-61664255d91b"/>
+    <managerType typeId="bfc332fe-6139-42a2-8443-837278445701" valueTypeId="6008a750-8375-4190-92a3-70c6248b6f5c"/>
   </producedTypes>
   <name>ОбменВБ</name>
   <synonym>
     <key>ru</key>
     <value>Обмен ВБ</value>
   </synonym>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="3810c4c1-8568-469c-9924-56e98c186246"/>
-  <defaultForm>ExternalDataProcessor.ОбменВБ.Form.Форма</defaultForm>
-  <attributes uuid="9244b343-039e-4bbf-bb1c-bd5b0fe18195">
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменВБ.Form.Форма</defaultForm>
+  <attributes uuid="5b997559-31b2-4d30-b9db-7910f1d3da4a">
     <name>АдресСервисаAPIv2</name>
     <synonym>
       <key>ru</key>
@@ -25,7 +26,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="b3003db3-bef7-40a8-93ed-58acbece7d3f">
+  <attributes uuid="e188a9c2-f2da-4e3a-bdda-250ae81db61e">
     <name>ТокенAPIv2</name>
     <synonym>
       <key>ru</key>
@@ -40,7 +41,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="3fe950dd-a2e9-4283-82c0-71934769682b">
+  <attributes uuid="27dde912-1c8f-4d22-ad2a-d3770f7f8764">
     <name>КонтрагентДляПривязкиТоваров</name>
     <synonym>
       <key>ru</key>
@@ -52,7 +53,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="2bc70c63-ef27-4f69-81a4-562c17a96d51">
+  <attributes uuid="4be0c63e-5e36-4835-983a-a9bf09d665b3">
     <name>НеУчитыватьПоследнийСимволАртикулаWB</name>
     <synonym>
       <key>ru</key>
@@ -68,7 +69,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="4d3aaf4e-131f-43ca-a894-da950b692600">
+  <attributes uuid="78bf7bd0-4781-452a-a88d-10be3b88e318">
     <name>АдресСервисаAPIv1</name>
     <synonym>
       <key>ru</key>
@@ -83,7 +84,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="fd9fe794-5031-4cf5-bf7b-fa5e2933e82d">
+  <attributes uuid="76d72020-68cd-448b-b49c-54299a356c30">
     <name>ТокенAPIv1</name>
     <type>
       <types>String</types>
@@ -94,7 +95,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="3a15cbd2-76ff-42b5-bfec-7574c922f7e6">
+  <attributes uuid="348a5e77-75ea-46e6-95b5-eaaa7fe809c6">
     <name>ТоварыПоЗаказуWB</name>
     <synonym>
       <key>ru</key>
@@ -106,22 +107,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="485cd205-8665-4702-95cf-093992835848">
-    <name>ПериодЗаказов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Период заказов</value>
-    </synonym>
-    <type>
-      <types>StandardPeriod</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <tabularSections uuid="6e55e9c4-1912-4825-b139-203e28c2df08">
+  <tabularSections uuid="09ce56b3-9183-4d70-9d5f-b4fef36144b2">
     <producedTypes>
-      <objectType typeId="0b15ebf8-1380-4b1b-bd44-003bcc689e40" valueTypeId="fbcb1709-7679-4b02-86b0-701cc66abfd7"/>
-      <rowType typeId="9cda267e-c406-4100-9a0b-cd04797f5e65" valueTypeId="dd2eb097-c040-4fbe-a0f8-fa025445e438"/>
+      <objectType typeId="260a07ec-ac07-417c-b80f-4de9f9b60417" valueTypeId="1d273aeb-aba4-40b7-857c-2875232272a3"/>
+      <rowType typeId="b260a418-d2a4-4801-8279-c01378cb70eb" valueTypeId="388cfa5f-5a34-4509-8be5-1e9c336e6199"/>
     </producedTypes>
     <name>СопоставлениеНоменклатуры</name>
     <synonym>
@@ -136,7 +125,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="ecf53a82-eb74-467f-af3a-b00226375cc9">
+    <attributes uuid="8b6b2e61-182f-422f-b0f3-2c0c8c284087">
       <name>Артикул1с</name>
       <synonym>
         <key>ru</key>
@@ -152,7 +141,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="bbddd52a-4e5a-46a5-9ed4-e08cb35ca712">
+    <attributes uuid="054591ac-af9e-4f20-b176-cf7f7c1dbd91">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -165,7 +154,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="a8c4bf9a-e685-4fbf-8a9e-e72ac45b2633">
+    <attributes uuid="e751c4f3-7aaa-49f3-a58c-7e3c5c8543ae">
       <name>НаименованиеWB</name>
       <synonym>
         <key>ru</key>
@@ -183,7 +172,7 @@
         <value></value>
       </fillValue>
     </attributes>
-    <attributes uuid="69f833b7-9364-4048-84f9-f21da300d44c">
+    <attributes uuid="14d079ba-3bcb-48c4-b1ef-b61b59b35dc4">
       <name>АртикулWB</name>
       <synonym>
         <key>ru</key>
@@ -199,7 +188,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="8368d948-117d-4500-90fe-57c019435d1a">
+    <attributes uuid="0ebef414-8c7c-4369-948a-7a2ceaa4afc4">
       <name>ШтрихкодWB</name>
       <synonym>
         <key>ru</key>
@@ -217,7 +206,7 @@
         <value></value>
       </fillValue>
     </attributes>
-    <attributes uuid="3d91e95d-a628-4d27-b7ff-1a5b1b67a13e">
+    <attributes uuid="976e8155-27c3-4711-a000-16cda176ff4b">
       <name>БрендWB</name>
       <synonym>
         <key>ru</key>
@@ -235,7 +224,7 @@
         <value></value>
       </fillValue>
     </attributes>
-    <attributes uuid="dcbe2d87-f64c-4512-b8df-58157dde66aa">
+    <attributes uuid="fbf15d73-2541-442e-96be-1446c91f4dd7">
       <name>КатегорияWB</name>
       <synonym>
         <key>ru</key>
@@ -253,7 +242,7 @@
         <value></value>
       </fillValue>
     </attributes>
-    <attributes uuid="0cd87eb1-f244-4b6d-871b-bb8968ef1b55">
+    <attributes uuid="fce635cc-9ee1-4955-997a-af39cd73d1f6">
       <name>Привязано</name>
       <synonym>
         <key>ru</key>
@@ -266,7 +255,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="86053397-cb6c-4dd2-ab5c-6edbbda04e73">
+    <attributes uuid="3c9c03ed-2e41-4a2b-9e05-632d48e8e030">
       <name>IDНоменклатурыWB</name>
       <synonym>
         <key>ru</key>
@@ -283,10 +272,10 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="af0bf9b6-4305-481b-9b21-2684a560c0f3">
+  <tabularSections uuid="f588cfc5-c7c4-42ea-be17-823f404c1825">
     <producedTypes>
-      <objectType typeId="2870ee4a-575b-45ee-ac19-1e06b671b219" valueTypeId="e3150a1e-9495-468d-9ae0-8f28bf4dc48b"/>
-      <rowType typeId="90905622-c6a3-4e1d-b8aa-c5d8f0b1841a" valueTypeId="f6665374-1c60-4df8-a4c9-ced0d1ac1107"/>
+      <objectType typeId="11b43b0c-68d7-4cc3-b7f6-26166a8667e9" valueTypeId="f472e9eb-46ab-4f02-bf8e-19f159abc62f"/>
+      <rowType typeId="d50c809d-4f43-4721-96c7-615be1148b3f" valueTypeId="c1aa0eb2-1b18-4d69-bc8b-88ec5c314c6a"/>
     </producedTypes>
     <name>ЗаказыWB</name>
     <synonym>
@@ -301,7 +290,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="924c34a4-d876-4ace-8db2-916f04b44344">
+    <attributes uuid="807faca2-c04a-424e-a07d-292e3bf9a43f">
       <name>Заказ1с</name>
       <synonym>
         <key>ru</key>
@@ -312,9 +301,8 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="b4f3b854-5401-4cc7-805f-af8ddf0cc528">
+    <attributes uuid="d06ad784-20cc-4234-beb3-056806946ee0">
       <name>СуммаЗаказа1с</name>
       <synonym>
         <key>ru</key>
@@ -332,7 +320,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="d0573f2a-6f24-477d-ba99-75a90fd58f5d">
+    <attributes uuid="1d2631b6-af71-4ac5-a28c-65d525a488ae">
       <name>ДатаЗаказаWB</name>
       <synonym>
         <key>ru</key>
@@ -344,9 +332,8 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="123a6708-aed7-48a0-bb8d-9dd75eaa781a">
+    <attributes uuid="3483960d-cb62-4d02-91e0-23ff590290d3">
       <name>СуммаЗаказаWB</name>
       <synonym>
         <key>ru</key>
@@ -362,9 +349,8 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="89aecbbb-000b-4705-a7c1-e1939908d203">
+    <attributes uuid="4b648cf6-5911-413a-8730-9cbd5115795e">
       <name>ТипДоставки</name>
       <synonym>
         <key>ru</key>
@@ -381,7 +367,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="26106e9c-417f-47b2-a8c8-2b15144ea674">
+    <attributes uuid="2009f184-c388-46c2-806e-e1ca6d1132e0">
       <name>СтатусЗаказаWB</name>
       <synonym>
         <key>ru</key>
@@ -399,7 +385,7 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
-  <forms uuid="847142b0-3f01-49fb-8cd4-73ec28dec252">
+  <forms uuid="adbdd224-fbae-4a56-b7ab-2f3da939bbed">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
@@ -408,4 +394,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-</mdclass:ExternalDataProcessor>
+</mdclass:DataProcessor>
