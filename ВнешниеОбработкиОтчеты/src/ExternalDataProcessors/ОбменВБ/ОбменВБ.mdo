@@ -107,13 +107,43 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="485cd205-8665-4702-95cf-093992835848">
-    <name>ПериодЗаказов</name>
+    <name>НачальнаяДата</name>
     <synonym>
       <key>ru</key>
-      <value>Период заказов</value>
+      <value>Начальная дата</value>
     </synonym>
     <type>
-      <types>StandardPeriod</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dba04f08-4025-416b-8492-41900fcc2041">
+    <name>КартаСтатусовWB_1с</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта статусов w b 1с</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da75d7ac-18af-4006-9373-d79dfbab8eb8">
+    <name>ГлубинаОтбораДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина отбора дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -314,24 +344,6 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="b4f3b854-5401-4cc7-805f-af8ddf0cc528">
-      <name>СуммаЗаказа1с</name>
-      <synonym>
-        <key>ru</key>
-        <value>Сумма заказа1с</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:UndefinedValue"/>
-    </attributes>
     <attributes uuid="d0573f2a-6f24-477d-ba99-75a90fd58f5d">
       <name>ДатаЗаказаWB</name>
       <synonym>
@@ -347,10 +359,10 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="123a6708-aed7-48a0-bb8d-9dd75eaa781a">
-      <name>СуммаЗаказаWB</name>
+      <name>СуммаТовараWB</name>
       <synonym>
         <key>ru</key>
-        <value>Сумма заказа WB</value>
+        <value>Сумма товара WB</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -364,39 +376,112 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="89aecbbb-000b-4705-a7c1-e1939908d203">
-      <name>ТипДоставки</name>
+    <attributes uuid="82e689c0-7b4b-4316-8d7b-a3537020cbc8">
+      <name>IdЗаказаWB</name>
       <synonym>
         <key>ru</key>
-        <value>Тип доставки</value>
+        <value>Id заказа WB</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>3</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e9ce0cb0-9667-4822-991b-02be6a213903">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="26106e9c-417f-47b2-a8c8-2b15144ea674">
-      <name>СтатусЗаказаWB</name>
+    <attributes uuid="8e4e3b58-d3b9-4a42-b88a-e75c1c8be716">
+      <name>СкладWB</name>
       <synonym>
         <key>ru</key>
-        <value>Статус заказа WB</value>
+        <value>Склад WB</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>3</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="be76f82f-aab9-4302-b53f-a5ce42f14b90">
+      <name>СтикерТовараWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стикер товара WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5577ebdc-d647-4b48-ac37-6d4fbd822cca">
+      <name>ТоварWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c38a531b-349b-4ed1-868f-97acdc2a3fb1">
+      <name>АртикулWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Артикул WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="80f9c1c4-e8c6-4d0b-9da4-7704d96be38c">
+      <name>ШтрихкодWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="847142b0-3f01-49fb-8cd4-73ec28dec252">
