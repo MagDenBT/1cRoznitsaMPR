@@ -1028,16 +1028,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ЗаказыWBСуммаЗаказа1с</name>
-          <id>98</id>
+          <name>ЗаказыWBНоменклатура</name>
+          <id>136</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.Номенклатура</segments>
+          </dataPath>
           <extendedTooltip>
-            <name>ЗаказыWBСуммаЗаказа1сРасширеннаяПодсказка</name>
-            <id>100</id>
+            <name>ЗаказыWBНоменклатураРасширеннаяПодсказка</name>
+            <id>138</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1051,8 +1054,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗаказыWBСуммаЗаказа1сКонтекстноеМеню</name>
-            <id>99</id>
+            <name>ЗаказыWBНоменклатураКонтекстноеМеню</name>
+            <id>137</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1060,10 +1063,69 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ЗаказыWBСуммаТовараWB</name>
+          <id>142</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.СуммаТовараWB</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ЗаказыWBСуммаТовараWBРасширеннаяПодсказка</name>
+            <id>144</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЗаказыWBСуммаТовараWBКонтекстноеМеню</name>
+            <id>143</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЗаказыWBДатаЗаказаWB</name>
@@ -1116,19 +1178,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ЗаказыWBСуммаЗаказаWB</name>
-          <id>104</id>
+          <name>ЗаказыWBТоварWB</name>
+          <id>145</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЗаказыWB.СуммаТовараWB</segments>
+            <segments>Объект.ЗаказыWB.ТоварWB</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ЗаказыWBСуммаЗаказаWBРасширеннаяПодсказка</name>
-            <id>106</id>
+            <name>ЗаказыWBТоварWBРасширеннаяПодсказка</name>
+            <id>147</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1142,8 +1204,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗаказыWBСуммаЗаказаWBКонтекстноеМеню</name>
-            <id>105</id>
+            <name>ЗаказыWBТоварWBКонтекстноеМеню</name>
+            <id>146</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1166,16 +1228,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ЗаказыWBСтатусЗаказаWB</name>
-          <id>112</id>
+          <name>ЗаказыWBАртикулWB</name>
+          <id>130</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.АртикулWB</segments>
+          </dataPath>
           <extendedTooltip>
-            <name>ЗаказыWBСтатусЗаказаWBРасширеннаяПодсказка</name>
-            <id>114</id>
+            <name>ЗаказыWBАртикулWBРасширеннаяПодсказка</name>
+            <id>132</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1189,8 +1254,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗаказыWBСтатусЗаказаWBКонтекстноеМеню</name>
-            <id>113</id>
+            <name>ЗаказыWBАртикулWBКонтекстноеМеню</name>
+            <id>131</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1198,23 +1263,34 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ЗаказыWBТипДоставки</name>
-          <id>107</id>
+          <name>ЗаказыWBIdЗаказаWB</name>
+          <id>127</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <shortcut>Ctrl+S</shortcut>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.IdЗаказаWB</segments>
+          </dataPath>
           <extendedTooltip>
-            <name>ЗаказыWBТипДоставкиРасширеннаяПодсказка</name>
-            <id>109</id>
+            <name>ЗаказыWBIdЗаказаWBРасширеннаяПодсказка</name>
+            <id>129</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1228,8 +1304,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗаказыWBТипДоставкиКонтекстноеМеню</name>
-            <id>108</id>
+            <name>ЗаказыWBIdЗаказаWBКонтекстноеМеню</name>
+            <id>128</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1237,10 +1313,119 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ЗаказыWBШтрихкодWB</name>
+          <id>148</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.ШтрихкодWB</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ЗаказыWBШтрихкодWBРасширеннаяПодсказка</name>
+            <id>150</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЗаказыWBШтрихкодWBКонтекстноеМеню</name>
+            <id>149</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ЗаказыWBСтикерТовараWB</name>
+          <id>139</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЗаказыWB.СтикерТовараWB</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ЗаказыWBСтикерТовараWBРасширеннаяПодсказка</name>
+            <id>141</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ЗаказыWBСтикерТовараWBКонтекстноеМеню</name>
+            <id>140</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
         </items>
         <autoCommandBar>
           <name>ЗаказыWBКоманднаяПанель</name>
