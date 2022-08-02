@@ -1276,10 +1276,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="4fdfb21b-cb92-4040-9430-2a3d94509b4e">
-      <name>СтикерWB</name>
+      <name>IDПозицииWB</name>
       <synonym>
         <key>ru</key>
-        <value>Стикер WB</value>
+        <value>IDПозиции WB</value>
       </synonym>
       <type>
         <types>String</types>

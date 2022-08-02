@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea437b95-80ed-43f3-9c0e-ac1e4c3ef1f3">
+  <producedTypes>
+    <refType typeId="53d00f0f-50ea-4934-a324-6ec61951543d" valueTypeId="1c6fd8df-f59e-4819-9374-6ec90b89b644"/>
+    <listType typeId="464cafbc-e631-4e89-bc70-8f3549d73b13" valueTypeId="dabc67db-3911-4d39-ac98-112cbf3e833d"/>
+    <managerType typeId="729ee7f8-5a65-4f5e-bee0-6acb59dc6589" valueTypeId="6370985d-3347-41ea-b8fb-7e18a0bf5449"/>
+  </producedTypes>
+  <name>ds_СтатусыПоставокWB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поставок WB</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6311cf39-ba2c-47fe-ad51-8ee2a1a243d2">
+    <name>НеСогласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fb52ff5-cd52-4711-9180-b4b68f277f5d">
+    <name>Собирается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8937279-6cd8-478b-89ae-59de2fcccbb9">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

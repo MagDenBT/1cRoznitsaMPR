@@ -6108,6 +6108,7 @@
   <catalogs>Catalog.ds_КатегорииНоменклатуры</catalogs>
   <catalogs>Catalog.ds_НастройкиGMB</catalogs>
   <catalogs>Catalog.ds_НастройкиUDS</catalogs>
+  <catalogs>Catalog.ds_СкладыWB</catalogs>
   <documents>Document.АктОРасхожденияхПриПриемкеТоваров</documents>
   <documents>Document.АктПостановкиНаБалансЕГАИС</documents>
   <documents>Document.АктСписанияЕГАИС</documents>
@@ -6224,6 +6225,7 @@
   <documents>Document.ds_АктПриемкиТоваров</documents>
   <documents>Document.ds_СверкаДенежныхСредств</documents>
   <documents>Document.ds_УстановкаКатегорийНоменклатуры</documents>
+  <documents>Document.ds_ПоставкаWB</documents>
   <documentJournals>DocumentJournal.ДокументыЕГАИС</documentJournals>
   <documentJournals>DocumentJournal.ОтчетыКомитенту</documentJournals>
   <documentJournals>DocumentJournal.СкладскиеОрдераНаИзлишкиНедостачи</documentJournals>
@@ -6708,6 +6710,7 @@
   <enums>Enum.ЮрФизЛицо</enums>
   <enums>Enum.ds_РежимыОбъединенияСкидок</enums>
   <enums>Enum.ds_СтатусыИнтернетЗаказов</enums>
+  <enums>Enum.ds_СтатусыПоставокWB</enums>
   <reports>Report.ABCXYZАнализПродаж</reports>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализДвиженийНоменклатуры</reports>

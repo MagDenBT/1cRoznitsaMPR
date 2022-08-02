@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd6ee5c3-8ac4-4002-afde-1267f9914a00">
+  <producedTypes>
+    <objectType typeId="14867eef-78f3-4e44-9577-77e6cf42d23e" valueTypeId="dbb61aff-a6b4-4748-a3f1-25bef5b2bde5"/>
+    <refType typeId="4f3c45da-6b31-42a5-ba7c-21ce42464b88" valueTypeId="b2156d98-3e90-4c1b-8cb6-7b52774b7db3"/>
+    <selectionType typeId="934b3b5c-9ed8-4285-b62c-adc64f073b40" valueTypeId="d2b2d7f2-fe41-4f8c-8bf1-48bbe25b7fdd"/>
+    <listType typeId="a288d3cf-553c-4370-9ff3-e3039c18ab1b" valueTypeId="8728c813-d8c7-4dc4-80ed-ad4bb8f2fdee"/>
+    <managerType typeId="636dfd78-5de8-4a0d-ada8-e44b3ec69071" valueTypeId="9d58b1f7-1abe-4808-bdbc-cdd400ea861f"/>
+  </producedTypes>
+  <name>ds_СкладыWB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады WB</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ds_СкладыWB.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ds_СкладыWB.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
