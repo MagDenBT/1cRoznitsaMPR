@@ -134,6 +134,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="02d54349-7af0-4c8f-86e7-19b77045f4c6">
+    <name>ФормаПодбораЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора заказов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="a38c6e63-03f4-4928-8f3b-f1dc374e19a5">
     <producedTypes>
       <objectType typeId="46c444f6-b6be-46d2-a85a-87d9a146f355" valueTypeId="2155fdf1-de86-46e4-b9c6-1b5087494356"/>
@@ -152,20 +161,6 @@
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6af87459-5a2c-4041-9c83-c1f7d7067908">
-      <name>Заказ</name>
-      <synonym>
-        <key>ru</key>
-        <value>Заказ</value>
-      </synonym>
-      <type>
-        <types>DocumentRef.ЗаказПокупателя</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -226,6 +221,64 @@
         <stringQualifiers>
           <length>100</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c40834e5-9f7d-4913-85ae-0192d2c36ab9">
+    <producedTypes>
+      <objectType typeId="fad8ba6c-285b-4ea7-a01d-790812cb495d" valueTypeId="88346249-5e98-47cb-8dbe-69bcc1162e4d"/>
+      <rowType typeId="20517181-e4d3-4526-9fbe-09304dfd99fc" valueTypeId="d5b19c6e-aa59-45cf-baba-29f359c68ed4"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <attributes uuid="1e39c2bf-7850-4f4c-a123-181c6306fd03">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказПокупателя</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7db97656-0c7d-4482-9c76-7aeaf5d8fe75">
+      <name>ДатаМаркетплейса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата маркетплейса</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3df8a51a-4bec-41ec-a792-2432a1c3a5e3">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
