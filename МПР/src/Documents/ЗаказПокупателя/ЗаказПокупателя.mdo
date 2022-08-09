@@ -738,6 +738,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ccce10c5-21d5-47ec-aa2c-bfc05a7d99f4">
+    <name>ds_ЗаказСWildberries</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ds заказ с wildberries</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="abcdb990-ddee-4547-8e08-eeaa6ae57d78">
     <name>ФормаДокумента</name>
     <synonym>
@@ -1275,17 +1290,49 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="4fdfb21b-cb92-4040-9430-2a3d94509b4e">
-      <name>IDПозицииWB</name>
+    <attributes uuid="dc7cf780-937b-4d14-9dfb-4b8ee1eeb559">
+      <name>ds_Стикер</name>
       <synonym>
         <key>ru</key>
-        <value>IDПозиции WB</value>
+        <value>Ds стикер</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>150</length>
+          <length>64</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e670ace-36e9-49af-9eea-f8e6a2b9c595">
+      <name>ds_ИдентификаторЗаказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор заказа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d8ed9211-9dc5-40d2-9fc7-7fb971713d96">
+      <name>ds_ДатаЗаказаНаWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата заказа на WB</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

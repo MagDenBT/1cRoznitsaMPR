@@ -1889,6 +1889,77 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="edff8982-e495-4842-9bb5-d9540aa03e24">
+    <producedTypes>
+      <objectType typeId="f8029c2c-2822-4d0f-8593-3f1b0e004036" valueTypeId="968ab69a-63b2-4681-9ffc-4959f5ac0abe"/>
+      <rowType typeId="d2ead4f8-1de9-48d5-b3d0-a5773a5b3a96" valueTypeId="c10445ce-67ed-4845-8ee5-915d430b2f0b"/>
+    </producedTypes>
+    <name>ds_ПоставкаWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка WB</value>
+    </synonym>
+    <attributes uuid="8b352c84-cea7-455e-a131-237a2a0a0af2">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование номенклатурной позиции</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2cb0329-4aa8-43f1-be5f-1910d76bdd91">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5dab46e7-3809-44a5-bea4-b12f8d7dd2fc">
+      <name>ШтрикодКоробкиWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрикод коробки WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>32</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <templates uuid="6cdaa6d3-d8d9-47cb-9494-8a827503ebc2">
     <name>ПФ_MXL_Накладная</name>
     <synonym>

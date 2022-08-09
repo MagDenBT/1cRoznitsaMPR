@@ -44,5 +44,4 @@
   <content>Catalog.ds_НастройкиGMB</content>
   <content>Enum.ds_СтатусыПоставокWB</content>
   <content>Catalog.ds_СкладыWB</content>
-  <content>Document.ds_ПоставкаWB</content>
 </mdclass:Subsystem>

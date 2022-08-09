@@ -140,6 +140,5 @@
   <content>CommonTemplate.ПФ_MXL_ФискализированныеДанные</content>
   <content>FunctionalOption.ИспользоватьУчетТоваровФСС</content>
   <content>Catalog.СоответствиеВидовОплатыСККМOffline</content>
-  <content>Document.ds_ПоставкаWB</content>
   <parentSubsystem>Subsystem.Продажи</parentSubsystem>
 </mdclass:Subsystem>
