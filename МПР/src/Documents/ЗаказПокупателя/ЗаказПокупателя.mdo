@@ -1290,23 +1290,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="dc7cf780-937b-4d14-9dfb-4b8ee1eeb559">
-      <name>ds_Стикер</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ds стикер</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>64</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="3e670ace-36e9-49af-9eea-f8e6a2b9c595">
       <name>ds_ИдентификаторЗаказа</name>
       <synonym>
@@ -1333,6 +1316,23 @@
       <type>
         <types>Date</types>
         <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1790c367-c198-4d4d-8ece-330bbe0e0525">
+      <name>ds_IdПозицииWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ds id позиции WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>64</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

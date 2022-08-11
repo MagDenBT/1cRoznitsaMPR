@@ -830,6 +830,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="28b755d0-8752-475c-93a5-bba4173789ba">
+    <name>ds_ШтрихкодПоставкиWBBase64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод поставки WB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73c3aefa-2cc3-46f8-84d2-93386b0a36a5">
+    <name>ds_IdПоставкиWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор поставки WB</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="dc4f1790-6bbc-4bcb-8cde-6a42fda79c5e">
     <name>ФормаДокумента</name>
     <synonym>
@@ -910,30 +944,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="f15b5e4c-1471-4023-a133-b325b3e30958">
-      <name>Количество</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>3</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="28003dde-ed13-44f9-be8f-88404e73915a">
       <name>Упаковка</name>
       <synonym>
@@ -955,6 +965,30 @@
       </choiceParameterLinks>
       <quickChoice>DontUse</quickChoice>
       <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f15b5e4c-1471-4023-a133-b325b3e30958">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц рассчитывается автоматически. Если для номенклатуры указана упаковка, то количество единиц можно отредактировать с автоматическим пересчетом количества упаковок</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1380,6 +1414,21 @@
         <key>ru</key>
         <value>Договор, заключенный с платежным агентом (субагентом), о приеме выручки за оказанные услуги.</value>
       </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="330b71da-e1b6-4c96-9502-58a0c34e7b99">
+      <name>ds_СтикерWBBase64</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стикер WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

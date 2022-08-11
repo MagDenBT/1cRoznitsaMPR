@@ -1243,6 +1243,59 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>ТоварыАдресСтикера</name>
+          <id>697</id>
+          <title>
+            <key>ru</key>
+            <value>Стикер WB</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.АдресСтикера</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ТоварыАдресСтикераРасширеннаяПодсказка</name>
+            <id>699</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТоварыАдресСтикераКонтекстноеМеню</name>
+            <id>698</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>PictureField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:ImageFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <fileDragMode>AsFileRef</fileDragMode>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ТоварыНоменклатураАртикул</name>
           <id>200</id>
           <visible>true</visible>
@@ -3922,6 +3975,36 @@
         <autoCommandBar>
           <name>ds_ПоставкаWBКоманднаяПанель</name>
           <id>673</id>
+          <items xsi:type="form:Button">
+            <name>ds_ПоставкаWBds_ПерезаполнитьПоставку</name>
+            <id>702</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ds_ПоставкаWBds_ПерезаполнитьПоставкуРасширеннаяПодсказка</name>
+              <id>703</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ds_ПерезаполнитьПоставку</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -8680,6 +8763,24 @@
           <common>true</common>
         </edit>
       </columns>
+      <columns>
+        <name>АдресСтикера</name>
+        <title>
+          <key>ru</key>
+          <value>Стикер WB</value>
+        </title>
+        <id>49</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
     </additionalColumns>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
@@ -10167,6 +10268,23 @@
     </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ds_ПерезаполнитьПоставку</name>
+    <title>
+      <key>ru</key>
+      <value>Перезаполнить поставку</value>
+    </title>
+    <id>31</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ds_ПерезаполнитьПоставку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel>
