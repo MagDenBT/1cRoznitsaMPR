@@ -864,6 +864,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e1177476-2cdb-4c98-a76a-ea0866f9876a">
+    <name>ds_СтатусПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сатус поставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ds_СтатусыПоставокWB</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ds_СтатусыПоставокWB.EnumValue.Собирается</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="dc4f1790-6bbc-4bcb-8cde-6a42fda79c5e">
     <name>ФормаДокумента</name>
     <synonym>
