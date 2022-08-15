@@ -6,53 +6,6 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаСопоставление</name>
       <id>36</id>
-      <items xsi:type="form:FormField">
-        <name>НеУчитыватьПоследнийСимволАртикулаWB</name>
-        <id>54</id>
-        <title>
-          <key>ru</key>
-          <value>Нормализация артикула</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.НеУчитыватьПоследнийСимволАртикулаWB</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>НеУчитыватьПоследнийСимволАртикулаWBРасширеннаяПодсказка</name>
-          <id>56</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>НеУчитыватьПоследнийСимволАртикулаWBКонтекстноеМеню</name>
-          <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>CheckBoxField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-      </items>
       <items xsi:type="form:Table">
         <name>СопоставлениеНоменклатуры</name>
         <id>1</id>
@@ -2050,6 +2003,55 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>ПоставкиШтрихкодПоставки</name>
+          <id>211</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Поставки.ШтрихкодПоставки</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПоставкиШтрихкодПоставкиРасширеннаяПодсказка</name>
+            <id>213</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПоставкиШтрихкодПоставкиКонтекстноеМеню</name>
+            <id>212</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>PictureField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:ImageFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <fileDragMode>AsFileRef</fileDragMode>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>ПоставкиIdПоставки</name>
           <id>196</id>
           <visible>true</visible>
@@ -2078,56 +2080,6 @@
           <contextMenu>
             <name>ПоставкиIdПоставкиКонтекстноеМеню</name>
             <id>197</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ПоставкиШтрихкодПоставкиWBBase64</name>
-          <id>199</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Поставки.ШтрихкодПоставкиWBBase64</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ПоставкиШтрихкодПоставкиWBBase64РасширеннаяПодсказка</name>
-            <id>201</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПоставкиШтрихкодПоставкиWBBase64КонтекстноеМеню</name>
-            <id>200</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2270,6 +2222,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПоставкиПриИзменении</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2591,6 +2547,29 @@
       <common>true</common>
     </edit>
     <main>true</main>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.Поставки</segments>
+      </tablePath>
+      <columns>
+        <name>ШтрихкодПоставки</name>
+        <title>
+          <key>ru</key>
+          <value>Штрихкод поставки</value>
+        </title>
+        <id>4</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+    </additionalColumns>
   </attributes>
   <formCommands>
     <name>ОтобразитьТоварыWB</name>
@@ -2676,7 +2655,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗагрузитьПоставки</name>
+        <name>ОтобразитьПоставкиWB</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -2708,6 +2687,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СоздатьПоставкиВ1с</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

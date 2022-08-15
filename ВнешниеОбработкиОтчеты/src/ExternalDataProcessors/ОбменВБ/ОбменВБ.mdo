@@ -52,22 +52,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="2bc70c63-ef27-4f69-81a4-562c17a96d51">
-    <name>НеУчитыватьПоследнийСимволАртикулаWB</name>
-    <synonym>
-      <key>ru</key>
-      <value>Не учитывать последний символ артикула WB</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Не учитывать последний символ артикула с WB</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="4d3aaf4e-131f-43ca-a894-da950b692600">
     <name>АдресСервисаAPIv1</name>
     <synonym>
