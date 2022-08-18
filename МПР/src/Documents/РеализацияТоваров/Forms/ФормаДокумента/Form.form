@@ -1063,20 +1063,118 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <items xsi:type="form:FormField">
-        <name>ds_IdПоставкиWB</name>
-        <id>704</id>
+      <items xsi:type="form:FormGroup">
+        <name>Группа3</name>
+        <id>716</id>
+        <items xsi:type="form:FormField">
+          <name>ds_IdПоставкиWB</name>
+          <id>704</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ds_IdПоставкиWB</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ds_IdПоставкиWBРасширеннаяПодсказка</name>
+            <id>706</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ds_IdПоставкиWBКонтекстноеМеню</name>
+            <id>705</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ds_ЭтоПоставкаWB</name>
+          <id>718</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ds_ЭтоПоставкаWB</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ds_ЭтоПоставкаWBПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ds_ЭтоПоставкаWBРасширеннаяПодсказка</name>
+            <id>720</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ds_ЭтоПоставкаWBКонтекстноеМеню</name>
+            <id>719</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ds_IdПоставкиWB</segments>
-        </dataPath>
+        <title>
+          <key>ru</key>
+          <value>Группа3</value>
+        </title>
         <extendedTooltip>
-          <name>ds_IdПоставкиWBРасширеннаяПодсказка</name>
-          <id>706</id>
+          <name>Группа3РасширеннаяПодсказка</name>
+          <id>717</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1089,28 +1187,14 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ds_IdПоставкиWBКонтекстноеМеню</name>
-          <id>705</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>

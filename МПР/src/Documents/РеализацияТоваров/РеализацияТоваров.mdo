@@ -881,6 +881,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9ec67674-4872-4764-9966-06dfe6bc2988">
+    <name>ds_ЭтоПоставкаWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это поставка WB</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="dc4f1790-6bbc-4bcb-8cde-6a42fda79c5e">
     <name>ФормаДокумента</name>
     <synonym>
