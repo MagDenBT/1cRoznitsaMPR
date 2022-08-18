@@ -2383,7 +2383,6 @@
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
       </items>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -2447,7 +2446,6 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
