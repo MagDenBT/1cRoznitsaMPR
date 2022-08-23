@@ -3980,6 +3980,7 @@
   <commonModules>CommonModule.ds_СлужебныеСообщения</commonModules>
   <commonModules>CommonModule.ЭлектронныеСертификатыНСПКРТ</commonModules>
   <commonModules>CommonModule.ds_СлужебныеСообщенияКлиент</commonModules>
+  <commonModules>CommonModule.ds_РозничныеПродажиСервер</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ds_БезАвтоматическихСкидок</commonAttributes>

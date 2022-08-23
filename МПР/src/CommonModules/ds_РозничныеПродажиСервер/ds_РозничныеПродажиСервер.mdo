@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06d698b5-9526-41af-9101-96aa180c5de2">
+  <name>ds_РозничныеПродажиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ds розничные продажи сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

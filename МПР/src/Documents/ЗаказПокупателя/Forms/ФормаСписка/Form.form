@@ -567,19 +567,16 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ФормаДокументРеализацияТоваровСоздатьНаОсновании</name>
-        <id>104</id>
+        <name>ds_СоздатьНаОснованииРеализацияТоваров</name>
+        <id>144</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Items.Список.CurrentData.Ссылка</segments>
-        </dataPath>
         <extendedTooltip>
-          <name>ФормаДокументРеализацияТоваровСоздатьНаОснованииРасширеннаяПодсказка</name>
-          <id>105</id>
+          <name>ds_СоздатьНаОснованииРеализацияТоваровРасширеннаяПодсказка</name>
+          <id>145</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -592,7 +589,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Document.РеализацияТоваров.StandardCommand.CreateBasedOn</commandName>
+        <commandName>Form.Command.ds_СоздатьНаОснованииРеализацияТоваров</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2143,6 +2140,23 @@
       </handler>
     </action>
     <functionalOptions>FunctionalOption.ИспользоватьСервис1СДоставка</functionalOptions>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ds_СоздатьНаОснованииРеализацияТоваров</name>
+    <title>
+      <key>ru</key>
+      <value>Реализация товаров</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ds_СоздатьНаОснованииРеализацияТоваров</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

@@ -9836,6 +9836,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СписокЗаказов</name>
+    <title>
+      <key>ru</key>
+      <value>Список заказов</value>
+    </title>
+    <id>50</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
   <formCommands>
     <name>НазначитьАвтоматическиеСкидки</name>
     <title>

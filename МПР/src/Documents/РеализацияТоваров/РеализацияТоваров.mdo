@@ -896,6 +896,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c68077b7-f03b-4600-a881-7ed714d62ffc">
+    <name>ds_РеализацияПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ds реализация по заказам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="dc4f1790-6bbc-4bcb-8cde-6a42fda79c5e">
     <name>ФормаДокумента</name>
     <synonym>
