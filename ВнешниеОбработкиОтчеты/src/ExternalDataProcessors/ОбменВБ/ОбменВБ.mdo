@@ -568,6 +568,21 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="41addfae-7993-4f78-b6ad-f81b05af926f">
+      <name>ШтрихкодПоставкиWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод поставки WB</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>32</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="8a30b1de-9139-4fc3-9906-c03f9b0d60cd">
     <producedTypes>
@@ -691,4 +706,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="87f7a430-ef78-4f0a-9a82-a908e529998c">
+    <name>ЭтикеткаСборкаВБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка сборка ВБ</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
