@@ -831,14 +831,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="28b755d0-8752-475c-93a5-bba4173789ba">
-    <name>ds_ШтрихкодПоставкиWBBase64</name>
+    <name>ds_ШтрихкодПоставкиWB</name>
     <synonym>
       <key>ru</key>
       <value>Штрихкод поставки WB</value>
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -1461,21 +1463,6 @@
         <key>ru</key>
         <value>Договор, заключенный с платежным агентом (субагентом), о приеме выручки за оказанные услуги.</value>
       </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="330b71da-e1b6-4c96-9502-58a0c34e7b99">
-      <name>ds_СтикерWBBase64</name>
-      <synonym>
-        <key>ru</key>
-        <value>Стикер WB</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

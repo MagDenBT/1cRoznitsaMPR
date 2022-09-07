@@ -1339,6 +1339,41 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="f8d5613b-62e2-49d4-be49-c65b0c4df0f7">
+      <name>ds_idСтикера</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID Стикера</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="949e5e8c-d09f-4d0e-9b99-a6e0f210f332">
+      <name>ds_ШтрикходСтикера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрикход стикера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>32</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="b657e69b-4c17-4594-8d1e-103c932716c8">
     <producedTypes>

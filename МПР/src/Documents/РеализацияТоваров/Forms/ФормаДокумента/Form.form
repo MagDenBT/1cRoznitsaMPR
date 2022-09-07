@@ -1377,23 +1377,19 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ТоварыАдресСтикера</name>
-          <id>697</id>
-          <title>
-            <key>ru</key>
-            <value>Стикер WB</value>
-          </title>
+          <name>ТоварыСтикерWBЗагружен</name>
+          <id>724</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Товары.АдресСтикера</segments>
+            <segments>Объект.Товары.СтикерWBЗагружен</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ТоварыАдресСтикераРасширеннаяПодсказка</name>
-            <id>699</id>
+            <name>ТоварыСтикерWBЗагруженРасширеннаяПодсказка</name>
+            <id>726</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1407,8 +1403,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТоварыАдресСтикераКонтекстноеМеню</name>
-            <id>698</id>
+            <name>ТоварыСтикерWBЗагруженКонтекстноеМеню</name>
+            <id>725</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1416,18 +1412,12 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>PictureField</type>
+          <type>CheckBoxField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:ImageFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>true</horizontalStretch>
-            <verticalStretch>true</verticalStretch>
-            <fileDragMode>AsFileRef</fileDragMode>
-          </extInfo>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыНоменклатураАртикул</name>
@@ -8332,6 +8322,36 @@
     <items xsi:type="form:FormGroup">
       <name>ПодменюПечать</name>
       <id>54</id>
+      <items xsi:type="form:Button">
+        <name>Формаds_ПечатьЭтикеток</name>
+        <id>727</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Формаds_ПечатьЭтикетокРасширеннаяПодсказка</name>
+          <id>728</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ds_ПечатьЭтикеток</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -9075,6 +9095,23 @@
         <valueType>
           <types>String</types>
           <stringQualifiers/>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>СтикерWBЗагружен</name>
+        <title>
+          <key>ru</key>
+          <value>Стикер WB</value>
+        </title>
+        <id>52</id>
+        <valueType>
+          <types>Boolean</types>
         </valueType>
         <view>
           <common>true</common>
@@ -10604,6 +10641,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ds_ПерезаполнитьПоставку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ds_ПечатьЭтикеток</name>
+    <title>
+      <key>ru</key>
+      <value>Этикетки WB</value>
+    </title>
+    <id>33</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ds_ПечатьЭтикеток</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
